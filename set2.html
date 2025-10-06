@@ -1,0 +1,1385 @@
+<!doctype html>
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+
+        <html lang="en">
+
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <script type="text/javascript" src="file:///android_asset/js/p_sc.js">
+
+                </script>
+
+                <link rel="stylesheet" type="text/css" href="file:///android_asset/css/p_st.css">
+
+
+        </head>
+
+        <body id="TheBody" onload="StartUp()">
+
+
+                <div class="StdDiv" id="InstructionsDiv">
+                        <div id="Instructions">
+                                Click on <button> ? </button> to check Your Answer.
+                        </div>
+                </div>
+                <div id="ContainerDiv">
+
+                        <div class="ExerciseContainer">
+
+
+
+
+                                <div class="QuestionNavigation" id="QNav">
+
+                                        <div style="text-align: center;">
+
+
+                                                <button class="FuncButton" id="ShowMethodButton"
+                                                        onclick="ShowHideQuestions(); return false;">All
+                                                        questions</button>
+
+
+                                        </div>
+                                        <hr>
+                                        <div id="OneByOneReadout">
+                                                <button class="FuncButton" id="PrevQButton"
+                                                        onclick="ChangeQ(-1); return false;">PREV</button>
+
+                                                <span class="QNum" id="QNumReadout">&nbsp;</span>
+
+                                                <button class="FuncButton" id="NextQButton"
+                                                        onclick="ChangeQ(1); return false;">NEXT</button>
+                                                <br />
+                                        </div>
+
+                                </div>
+                                <ol class="QuizQuestions" id="Questions">
+                                        <li class="QuizQuestion" id="Q_0" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="01.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_0_0"><button class="FuncButton" id="Q_0_0_Btn"
+                                                                        onclick="CheckMCAnswer(0,0,this)">?</button>&nbsp;&nbsp;못입니다.
+                                                        </li>
+                                                        <li id="Q_0_1"><button class="FuncButton" id="Q_0_1_Btn"
+                                                                        onclick="CheckMCAnswer(0,1,this)">?</button>&nbsp;&nbsp;삽입니다.
+                                                        </li>
+                                                        <li id="Q_0_2"><button class="FuncButton" id="Q_0_2_Btn"
+                                                                        onclick="CheckMCAnswer(0,2,this)">?</button>&nbsp;&nbsp;낫입니다.
+                                                        </li>
+                                                        <li id="Q_0_3"><button class="FuncButton" id="Q_0_3_Btn"
+                                                                        onclick="CheckMCAnswer(0,3,this)">?</button>&nbsp;&nbsp;칼입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_1" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="02.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_1_0"><button class="FuncButton" id="Q_1_0_Btn"
+                                                                        onclick="CheckMCAnswer(1,0,this)">?</button>&nbsp;&nbsp;망치입니다.
+                                                        </li>
+                                                        <li id="Q_1_1"><button class="FuncButton" id="Q_1_1_Btn"
+                                                                        onclick="CheckMCAnswer(1,1,this)">?</button>&nbsp;&nbsp;철사입니다.
+                                                        </li>
+                                                        <li id="Q_1_2"><button class="FuncButton" id="Q_1_2_Btn"
+                                                                        onclick="CheckMCAnswer(1,2,this)">?</button>&nbsp;&nbsp;송곳입니다.
+                                                        </li>
+                                                        <li id="Q_1_3"><button class="FuncButton" id="Q_1_3_Btn"
+                                                                        onclick="CheckMCAnswer(1,3,this)">?</button>&nbsp;&nbsp;나사입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_2" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="03.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_2_0"><button class="FuncButton" id="Q_2_0_Btn"
+                                                                        onclick="CheckMCAnswer(2,0,this)">?</button>&nbsp;&nbsp;낫입니다. 
+                                                        </li>
+                                                        <li id="Q_2_1"><button class="FuncButton" id="Q_2_1_Btn"
+                                                                        onclick="CheckMCAnswer(2,1,this)">?</button>&nbsp;&nbsp;자입니다.
+                                                        </li>
+                                                        <li id="Q_2_2"><button class="FuncButton" id="Q_2_2_Btn"
+                                                                        onclick="CheckMCAnswer(2,2,this)">?</button>&nbsp;&nbsp;줄입니다.
+                                                        </li>
+                                                        <li id="Q_2_3"><button class="FuncButton" id="Q_2_3_Btn"
+                                                                        onclick="CheckMCAnswer(2,3,this)">?</button>&nbsp;&nbsp;끈입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_3" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="04.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_3_0"><button class="FuncButton" id="Q_3_0_Btn"
+                                                                        onclick="CheckMCAnswer(3,0,this)">?</button>&nbsp;&nbsp;마스크입니다.   
+                                                        </li>
+                                                        <li id="Q_3_1"><button class="FuncButton" id="Q_3_1_Btn"
+                                                                        onclick="CheckMCAnswer(3,1,this)">?</button>&nbsp;&nbsp;테이프입니다.
+                                                        </li>
+                                                        <li id="Q_3_2"><button class="FuncButton" id="Q_3_2_Btn"
+                                                                        onclick="CheckMCAnswer(3,2,this)">?</button>&nbsp;&nbsp;주머니입니다.
+                                                        </li>
+                                                        <li id="Q_3_3"><button class="FuncButton" id="Q_3_3_Btn"
+                                                                        onclick="CheckMCAnswer(3,3,this)">?</button>&nbsp;&nbsp;스티커입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_4" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="05.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_4_0"><button class="FuncButton" id="Q_4_0_Btn"
+                                                                        onclick="CheckMCAnswer(4,0,this)">?</button>&nbsp;&nbsp;그릇입니다.
+                                                        </li>
+                                                        <li id="Q_4_1"><button class="FuncButton" id="Q_4_1_Btn"
+                                                                        onclick="CheckMCAnswer(4,1,this)">?</button>&nbsp;&nbsp;상자입니다.
+                                                        </li>
+                                                        <li id="Q_4_2"><button class="FuncButton" id="Q_4_2_Btn"
+                                                                        onclick="CheckMCAnswer(4,2,this)">?</button>&nbsp;&nbsp;농약입니다.
+                                                        </li>
+                                                        <li id="Q_4_3"><button class="FuncButton" id="Q_4_3_Btn"
+                                                                        onclick="CheckMCAnswer(4,3,this)">?</button>&nbsp;&nbsp;의자입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_5" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="06.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_5_0"><button class="FuncButton" id="Q_5_0_Btn"
+                                                                        onclick="CheckMCAnswer(5,0,this)">?</button>&nbsp;&nbsp;고리입니다.
+                                                        </li>
+                                                        <li id="Q_5_1"><button class="FuncButton" id="Q_5_1_Btn"
+                                                                        onclick="CheckMCAnswer(5,1,this)">?</button>&nbsp;&nbsp;봉지입니다.
+                                                        </li>
+                                                        <li id="Q_5_2"><button class="FuncButton" id="Q_5_2_Btn"
+                                                                        onclick="CheckMCAnswer(5,2,this)">?</button>&nbsp;&nbsp;지게입니다.
+                                                        </li>
+                                                        <li id="Q_5_3"><button class="FuncButton" id="Q_5_3_Btn"
+                                                                        onclick="CheckMCAnswer(5,3,this)">?</button>&nbsp;&nbsp;압정입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_6" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="07.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_6_0"><button class="FuncButton" id="Q_6_0_Btn"
+                                                                        onclick="CheckMCAnswer(6,0,this)">?</button>&nbsp;&nbsp;붓입니다.
+                                                        </li>
+                                                        <li id="Q_6_1"><button class="FuncButton" id="Q_6_1_Btn"
+                                                                        onclick="CheckMCAnswer(6,1,this)">?</button>&nbsp;&nbsp;끈입니다.
+                                                        </li>
+                                                        <li id="Q_6_2"><button class="FuncButton" id="Q_6_2_Btn"
+                                                                        onclick="CheckMCAnswer(6,2,this)">?</button>&nbsp;&nbsp;등입니다.
+                                                        </li>
+                                                        <li id="Q_6_3"><button class="FuncButton" id="Q_6_3_Btn"
+                                                                        onclick="CheckMCAnswer(6,3,this)">?</button>&nbsp;&nbsp;자입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_7" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="08.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_7_0"><button class="FuncButton" id="Q_7_0_Btn"
+                                                                        onclick="CheckMCAnswer(7,0,this)">?</button>&nbsp;&nbsp;앞치마입니다.
+                                                        </li>
+                                                        <li id="Q_7_1"><button class="FuncButton" id="Q_7_1_Btn"
+                                                                        onclick="CheckMCAnswer(7,1,this)">?</button>&nbsp;&nbsp;갈고리입니다.
+                                                        </li>
+                                                        <li id="Q_7_2"><button class="FuncButton" id="Q_7_2_Btn"
+                                                                        onclick="CheckMCAnswer(7,2,this)">?</button>&nbsp;&nbsp;마스크입니다.
+                                                        </li>
+                                                        <li id="Q_7_3"><button class="FuncButton" id="Q_7_3_Btn"
+                                                                        onclick="CheckMCAnswer(7,3,this)">?</button>&nbsp;&nbsp;테이프입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_8" style="display: none;" style = "max-width: 80%;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="09.webp">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_8_0"><button class="FuncButton" id="Q_8_0_Btn"
+                                                                        onclick="CheckMCAnswer(8,0,this)">?</button>&nbsp;&nbsp;베개입니다.
+                                                        </li>
+                                                        <li id="Q_8_1"><button class="FuncButton" id="Q_8_1_Btn"
+                                                                        onclick="CheckMCAnswer(8,1,this)">?</button>&nbsp;&nbsp;전등입니다.
+                                                        </li>
+                                                        <li id="Q_8_2"><button class="FuncButton" id="Q_8_2_Btn"
+                                                                        onclick="CheckMCAnswer(8,2,this)">?</button>&nbsp;&nbsp;모자입니다.
+                                                        </li>
+                                                        <li id="Q_8_3"><button class="FuncButton" id="Q_8_3_Btn"
+                                                                        onclick="CheckMCAnswer(8,3,this)">?</button>&nbsp;&nbsp;장화입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_9" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="10.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_9_0"><button class="FuncButton" id="Q_9_0_Btn"
+                                                                        onclick="CheckMCAnswer(9,0,this)">?</button>&nbsp;&nbsp;작업복입니다.
+                                                        </li>
+                                                        <li id="Q_9_1"><button class="FuncButton" id="Q_9_1_Btn"
+                                                                        onclick="CheckMCAnswer(9,1,this)">?</button>&nbsp;&nbsp;옷걸이입니다.
+                                                        </li>
+                                                        <li id="Q_9_2"><button class="FuncButton" id="Q_9_2_Btn"
+                                                                        onclick="CheckMCAnswer(9,2,this)">?</button>&nbsp;&nbsp;귀마개입니다.
+                                                        </li>
+                                                        <li id="Q_9_3"><button class="FuncButton" id="Q_9_3_Btn"
+                                                                        onclick="CheckMCAnswer(9,3,this)">?</button>&nbsp;&nbsp;면장갑입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_10" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="11.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_10_0"><button class="FuncButton" id="Q_10_0_Btn"
+                                                                        onclick="CheckMCAnswer(10,0,this)">?</button>&nbsp;&nbsp;철근입니다.
+                                                        </li>
+                                                        <li id="Q_10_1"><button class="FuncButton" id="Q_10_1_Btn"
+                                                                        onclick="CheckMCAnswer(10,1,this)">?</button>&nbsp;&nbsp;열쇠입니다.
+                                                        </li>
+                                                        <li id="Q_10_2"><button class="FuncButton" id="Q_10_2_Btn"
+                                                                        onclick="CheckMCAnswer(10,2,this)">?</button>&nbsp;&nbsp;볼트입니다.
+                                                        </li>
+                                                        <li id="Q_10_3"><button class="FuncButton" id="Q_10_3_Btn"
+                                                                        onclick="CheckMCAnswer(10,3,this)">?</button>&nbsp;&nbsp;집게입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_11" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="12.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_11_0"><button class="FuncButton" id="Q_11_0_Btn"
+                                                                        onclick="CheckMCAnswer(11,0,this)">?</button>&nbsp;&nbsp;철근입니다.
+                                                        </li>
+                                                        <li id="Q_11_1"><button class="FuncButton" id="Q_11_1_Btn"
+                                                                        onclick="CheckMCAnswer(11,1,this)">?</button>&nbsp;&nbsp;호미입니다.
+                                                        </li>
+                                                        <li id="Q_11_2"><button class="FuncButton" id="Q_11_2_Btn"
+                                                                        onclick="CheckMCAnswer(11,2,this)">?</button>&nbsp;&nbsp;사료입니다.
+                                                        </li>
+                                                        <li id="Q_11_3"><button class="FuncButton" id="Q_11_3_Btn"
+                                                                        onclick="CheckMCAnswer(11,3,this)">?</button>&nbsp;&nbsp;목초입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_12" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="13.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_12_0"><button class="FuncButton" id="Q_12_0_Btn"
+                                                                        onclick="CheckMCAnswer(12,0,this)">?</button>&nbsp;&nbsp;갈고리입니다.
+                                                        </li>
+                                                        <li id="Q_12_1"><button class="FuncButton" id="Q_12_1_Btn"
+                                                                        onclick="CheckMCAnswer(12,1,this)">?</button>&nbsp;&nbsp;나사못입니다.
+                                                        </li>
+                                                        <li id="Q_12_2"><button class="FuncButton" id="Q_12_2_Btn"
+                                                                        onclick="CheckMCAnswer(12,2,this)">?</button>&nbsp;&nbsp;스패너입니다.
+                                                        </li>
+                                                        <li id="Q_12_3"><button class="FuncButton" id="Q_12_3_Btn"
+                                                                        onclick="CheckMCAnswer(12,3,this)">?</button>&nbsp;&nbsp;주사기입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_13" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="14.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_13_0"><button class="FuncButton" id="Q_13_0_Btn"
+                                                                        onclick="CheckMCAnswer(13,0,this)">?</button>&nbsp;&nbsp;비닐입니다.
+                                                        </li>
+                                                        <li id="Q_13_1"><button class="FuncButton" id="Q_13_1_Btn"
+                                                                        onclick="CheckMCAnswer(13,1,this)">?</button>&nbsp;&nbsp;비료입니다.
+                                                        </li>
+                                                        <li id="Q_13_2"><button class="FuncButton" id="Q_13_2_Btn"
+                                                                        onclick="CheckMCAnswer(13,2,this)">?</button>&nbsp;&nbsp;그물입니다.
+                                                        </li>
+                                                        <li id="Q_13_3"><button class="FuncButton" id="Q_13_3_Btn"
+                                                                        onclick="CheckMCAnswer(13,3,this)">?</button>&nbsp;&nbsp;쟁반입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_14" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="15.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_14_0"><button class="FuncButton" id="Q_14_0_Btn"
+                                                                        onclick="CheckMCAnswer(14,0,this)">?</button>&nbsp;&nbsp;우편함입니다.
+                                                        </li>
+                                                        <li id="Q_14_1"><button class="FuncButton" id="Q_14_1_Btn"
+                                                                        onclick="CheckMCAnswer(14,1,this)">?</button>&nbsp;&nbsp;구급함입니다.
+                                                        </li>
+                                                        <li id="Q_14_2"><button class="FuncButton" id="Q_14_2_Btn"
+                                                                        onclick="CheckMCAnswer(14,2,this)">?</button>&nbsp;&nbsp;공구함입니다.
+                                                        </li>
+                                                        <li id="Q_14_3"><button class="FuncButton" id="Q_14_3_Btn"
+                                                                        onclick="CheckMCAnswer(14,3,this)">?</button>&nbsp;&nbsp;서류함입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_15" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="16.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_15_0"><button class="FuncButton" id="Q_15_0_Btn"
+                                                                        onclick="CheckMCAnswer(15,0,this)">?</button>&nbsp;&nbsp;주유기입니다.
+                                                        </li>
+                                                        <li id="Q_15_1"><button class="FuncButton" id="Q_15_1_Btn"
+                                                                        onclick="CheckMCAnswer(15,1,this)">?</button>&nbsp;&nbsp;분무기입니다.
+                                                        </li>
+                                                        <li id="Q_15_2"><button class="FuncButton" id="Q_15_2_Btn"
+                                                                        onclick="CheckMCAnswer(15,2,this)">?</button>&nbsp;&nbsp;기중기입니다.
+                                                        </li>
+                                                        <li id="Q_15_3"><button class="FuncButton" id="Q_15_3_Btn"
+                                                                        onclick="CheckMCAnswer(15,3,this)">?</button>&nbsp;&nbsp;경운기입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_16" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="17.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_16_0"><button class="FuncButton" id="Q_16_0_Btn"
+                                                                        onclick="CheckMCAnswer(16,0,this)">?</button>&nbsp;&nbsp;선반입니다.
+                                                        </li>
+                                                        <li id="Q_16_1"><button class="FuncButton" id="Q_16_1_Btn"
+                                                                        onclick="CheckMCAnswer(16,1,this)">?</button>&nbsp;&nbsp;철사입니다.
+                                                        </li>
+                                                        <li id="Q_16_2"><button class="FuncButton" id="Q_16_2_Btn"
+                                                                        onclick="CheckMCAnswer(16,2,this)">?</button>&nbsp;&nbsp;고무입니다.
+                                                        </li>
+                                                        <li id="Q_16_3"><button class="FuncButton" id="Q_16_3_Btn"
+                                                                        onclick="CheckMCAnswer(16,3,this)">?</button>&nbsp;&nbsp;벽돌입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_17" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="18.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_17_0"><button class="FuncButton" id="Q_17_0_Btn"
+                                                                        onclick="CheckMCAnswer(17,0,this)">?</button>&nbsp;&nbsp;비닐입니다.
+                                                        </li>
+                                                        <li id="Q_17_1"><button class="FuncButton" id="Q_17_1_Btn"
+                                                                        onclick="CheckMCAnswer(17,1,this)">?</button>&nbsp;&nbsp;엔진입니다.
+                                                        </li>
+                                                        <li id="Q_17_2"><button class="FuncButton" id="Q_17_2_Btn"
+                                                                        onclick="CheckMCAnswer(17,2,this)">?</button>&nbsp;&nbsp;끌개입니다.
+                                                        </li>
+                                                        <li id="Q_17_3"><button class="FuncButton" id="Q_17_3_Btn"
+                                                                        onclick="CheckMCAnswer(17,3,this)">?</button>&nbsp;&nbsp;밧줄입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_18" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="19.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_18_0"><button class="FuncButton" id="Q_18_0_Btn"
+                                                                        onclick="CheckMCAnswer(18,0,this)">?</button>&nbsp;&nbsp;부추입니다.
+                                                        </li>
+                                                        <li id="Q_18_1"><button class="FuncButton" id="Q_18_1_Btn"
+                                                                        onclick="CheckMCAnswer(18,1,this)">?</button>&nbsp;&nbsp;수레입니다.
+                                                        </li>
+                                                        <li id="Q_18_2"><button class="FuncButton" id="Q_18_2_Btn"
+                                                                        onclick="CheckMCAnswer(18,2,this)">?</button>&nbsp;&nbsp;끌개입니다.
+                                                        </li>
+                                                        <li id="Q_18_3"><button class="FuncButton" id="Q_18_3_Btn"
+                                                                        onclick="CheckMCAnswer(18,3,this)">?</button>&nbsp;&nbsp;합판입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_19" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="20.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_19_0"><button class="FuncButton" id="Q_19_0_Btn"
+                                                                        onclick="CheckMCAnswer(19,0,this)">?</button>&nbsp;&nbsp;승강기입니다.
+                                                        </li>
+                                                        <li id="Q_19_1"><button class="FuncButton" id="Q_19_1_Btn"
+                                                                        onclick="CheckMCAnswer(19,1,this)">?</button>&nbsp;&nbsp;절단기입니다.
+                                                        </li>
+                                                        <li id="Q_19_2"><button class="FuncButton" id="Q_19_2_Btn"
+                                                                        onclick="CheckMCAnswer(19,2,this)">?</button>&nbsp;&nbsp;용접기입니다.
+                                                        </li>
+                                                        <li id="Q_19_3"><button class="FuncButton" id="Q_19_3_Btn"
+                                                                        onclick="CheckMCAnswer(19,3,this)">?</button>&nbsp;&nbsp;급수기입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_20" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="21.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_20_0"><button class="FuncButton" id="Q_20_0_Btn"
+                                                                        onclick="CheckMCAnswer(20,0,this)">?</button>&nbsp;&nbsp;작업대입니다.
+                                                        </li>
+                                                        <li id="Q_20_1"><button class="FuncButton" id="Q_20_1_Btn"
+                                                                        onclick="CheckMCAnswer(20,1,this)">?</button>&nbsp;&nbsp;조상기입니다.
+                                                        </li>
+                                                        <li id="Q_20_2"><button class="FuncButton" id="Q_20_2_Btn"
+                                                                        onclick="CheckMCAnswer(20,2,this)">?</button>&nbsp;&nbsp;콘센트입니다.
+                                                        </li>
+                                                        <li id="Q_20_3"><button class="FuncButton" id="Q_20_3_Btn"
+                                                                        onclick="CheckMCAnswer(20,3,this)">?</button>&nbsp;&nbsp;주머니입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_21" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="22.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_21_0"><button class="FuncButton" id="Q_21_0_Btn"
+                                                                        onclick="CheckMCAnswer(21,0,this)">?</button>&nbsp;&nbsp;철판입니다.
+                                                        </li>
+                                                        <li id="Q_21_1"><button class="FuncButton" id="Q_21_1_Btn"
+                                                                        onclick="CheckMCAnswer(21,1,this)">?</button>&nbsp;&nbsp;목초입니다.
+                                                        </li>
+                                                        <li id="Q_21_2"><button class="FuncButton" id="Q_21_2_Btn"
+                                                                        onclick="CheckMCAnswer(21,2,this)">?</button>&nbsp;&nbsp;전선입니다.
+                                                        </li>
+                                                        <li id="Q_21_3"><button class="FuncButton" id="Q_21_3_Btn"
+                                                                        onclick="CheckMCAnswer(21,3,this)">?</button>&nbsp;&nbsp;얼음입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_22" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="23.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_22_0"><button class="FuncButton" id="Q_22_0_Btn"
+                                                                        onclick="CheckMCAnswer(22,0,this)">?</button>&nbsp;&nbsp;분전반입니다.
+                                                        </li>
+                                                        <li id="Q_22_1"><button class="FuncButton" id="Q_22_1_Btn"
+                                                                        onclick="CheckMCAnswer(22,1,this)">?</button>&nbsp;&nbsp;위생복입니다.
+                                                        </li>
+                                                        <li id="Q_22_2"><button class="FuncButton" id="Q_22_2_Btn"
+                                                                        onclick="CheckMCAnswer(22,2,this)">?</button>&nbsp;&nbsp;쌀자루입니다.
+                                                        </li>
+                                                        <li id="Q_22_3"><button class="FuncButton" id="Q_22_3_Btn"
+                                                                        onclick="CheckMCAnswer(22,3,this)">?</button>&nbsp;&nbsp;포장지입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_23" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="24.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_23_0"><button class="FuncButton" id="Q_23_0_Btn"
+                                                                        onclick="CheckMCAnswer(23,0,this)">?</button>&nbsp;&nbsp;도마입니다.
+                                                        </li>
+                                                        <li id="Q_23_1"><button class="FuncButton" id="Q_23_1_Btn"
+                                                                        onclick="CheckMCAnswer(23,1,this)">?</button>&nbsp;&nbsp;바가지입니다.
+                                                        </li>
+                                                        <li id="Q_23_2"><button class="FuncButton" id="Q_23_2_Btn"
+                                                                        onclick="CheckMCAnswer(23,2,this)">?</button>&nbsp;&nbsp;주전자입니다.
+                                                        </li>
+                                                        <li id="Q_23_3"><button class="FuncButton" id="Q_23_3_Btn"
+                                                                        onclick="CheckMCAnswer(23,3,this)">?</button>&nbsp;&nbsp;물뿌리개입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_24" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="25.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_24_0"><button class="FuncButton" id="Q_24_0_Btn"
+                                                                        onclick="CheckMCAnswer(24,0,this)">?</button>&nbsp;&nbsp;화물차입니다.
+                                                        </li>
+                                                        <li id="Q_24_1"><button class="FuncButton" id="Q_24_1_Btn"
+                                                                        onclick="CheckMCAnswer(24,1,this)">?</button>&nbsp;&nbsp;지게차입니다.
+                                                        </li>
+                                                        <li id="Q_24_2"><button class="FuncButton" id="Q_24_2_Btn"
+                                                                        onclick="CheckMCAnswer(24,2,this)">?</button>&nbsp;&nbsp;승합차입니다.
+                                                        </li>
+                                                        <li id="Q_24_3"><button class="FuncButton" id="Q_24_3_Btn"
+                                                                        onclick="CheckMCAnswer(24,3,this)">?</button>&nbsp;&nbsp;구급차입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_25" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="26.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_25_0"><button class="FuncButton" id="Q_25_0_Btn"
+                                                                        onclick="CheckMCAnswer(25,0,this)">?</button>&nbsp;&nbsp;기차입니다.
+                                                        </li>
+                                                        <li id="Q_25_1"><button class="FuncButton" id="Q_25_1_Btn"
+                                                                        onclick="CheckMCAnswer(25,1,this)">?</button>&nbsp;&nbsp;비행기입니다.
+                                                        </li>
+                                                        <li id="Q_25_2"><button class="FuncButton" id="Q_25_2_Btn"
+                                                                        onclick="CheckMCAnswer(25,2,this)">?</button>&nbsp;&nbsp;굴삭기입니다.
+                                                        </li>
+                                                        <li id="Q_25_3"><button class="FuncButton" id="Q_25_3_Btn"
+                                                                        onclick="CheckMCAnswer(25,3,this)">?</button>&nbsp;&nbsp;사다리차입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_26" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="27.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_26_0"><button class="FuncButton" id="Q_26_0_Btn"
+                                                                        onclick="CheckMCAnswer(26,0,this)">?</button>&nbsp;&nbsp;집게입니다.
+                                                        </li>
+                                                        <li id="Q_26_1"><button class="FuncButton" id="Q_26_1_Btn"
+                                                                        onclick="CheckMCAnswer(26,1,this)">?</button>&nbsp;&nbsp;스패너입니다.
+                                                        </li>
+                                                        <li id="Q_26_2"><button class="FuncButton" id="Q_26_2_Btn"
+                                                                        onclick="CheckMCAnswer(26,2,this)">?</button>&nbsp;&nbsp;마스크입니다.
+                                                        </li>
+                                                        <li id="Q_26_3"><button class="FuncButton" id="Q_26_3_Btn"
+                                                                        onclick="CheckMCAnswer(26,3,this)">?</button>&nbsp;&nbsp;고무장갑입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_27" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="28.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_27_0"><button class="FuncButton" id="Q_27_0_Btn"
+                                                                        onclick="CheckMCAnswer(27,0,this)">?</button>&nbsp;&nbsp;봉지입니다.
+                                                        </li>
+                                                        <li id="Q_27_1"><button class="FuncButton" id="Q_27_1_Btn"
+                                                                        onclick="CheckMCAnswer(27,1,this)">?</button>&nbsp;&nbsp;전표입니다.
+                                                        </li>
+                                                        <li id="Q_27_2"><button class="FuncButton" id="Q_27_2_Btn"
+                                                                        onclick="CheckMCAnswer(27,2,this)">?</button>&nbsp;&nbsp;페인트입니다.
+                                                        </li>
+                                                        <li id="Q_27_3"><button class="FuncButton" id="Q_27_3_Btn"
+                                                                        onclick="CheckMCAnswer(27,3,this)">?</button>&nbsp;&nbsp;드라이버입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_28" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="29.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_28_0"><button class="FuncButton" id="Q_28_0_Btn"
+                                                                        onclick="CheckMCAnswer(28,0,this)">?</button>&nbsp;&nbsp;주유소입니다.
+                                                        </li>
+                                                        <li id="Q_28_1"><button class="FuncButton" id="Q_28_1_Btn"
+                                                                        onclick="CheckMCAnswer(28,1,this)">?</button>&nbsp;&nbsp;기숙사입니다.
+                                                        </li>
+                                                        <li id="Q_28_2"><button class="FuncButton" id="Q_28_2_Btn"
+                                                                        onclick="CheckMCAnswer(28,2,this)">?</button>&nbsp;&nbsp;작업실입니다.
+                                                        </li>
+                                                        <li id="Q_28_3"><button class="FuncButton" id="Q_28_3_Btn"
+                                                                        onclick="CheckMCAnswer(28,3,this)">?</button>&nbsp;&nbsp;양식장입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_29" style="display: webp;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="30.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_29_0"><button class="FuncButton" id="Q_29_0_Btn"
+                                                                        onclick="CheckMCAnswer(29,0,this)">?</button>&nbsp;&nbsp;돈사입니다.
+                                                        </li>
+                                                        <li id="Q_29_1"><button class="FuncButton" id="Q_29_1_Btn"
+                                                                        onclick="CheckMCAnswer(29,1,this)">?</button>&nbsp;&nbsp;창고입니다.
+                                                        </li>
+                                                        <li id="Q_29_2"><button class="FuncButton" id="Q_29_2_Btn"
+                                                                        onclick="CheckMCAnswer(29,2,this)">?</button>&nbsp;&nbsp;휴게실입니다.
+                                                        </li>
+                                                        <li id="Q_29_3"><button class="FuncButton" id="Q_29_3_Btn"
+                                                                        onclick="CheckMCAnswer(29,3,this)">?</button>&nbsp;&nbsp;공사장입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_30" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="31.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_30_0"><button class="FuncButton" id="Q_30_0_Btn"
+                                                                        onclick="CheckMCAnswer(30,0,this)">?</button>&nbsp;&nbsp;나사못입니다.
+                                                        </li>
+                                                        <li id="Q_30_1"><button class="FuncButton" id="Q_30_1_Btn"
+                                                                        onclick="CheckMCAnswer(30,1,this)">?</button>&nbsp;&nbsp;곡괭이입니다.
+                                                        </li>
+                                                        <li id="Q_30_2"><button class="FuncButton" id="Q_30_2_Btn"
+                                                                        onclick="CheckMCAnswer(30,2,this)">?</button>&nbsp;&nbsp;장도리입니다.
+                                                        </li>
+                                                        <li id="Q_30_3"><button class="FuncButton" id="Q_30_3_Btn"
+                                                                        onclick="CheckMCAnswer(30,3,this)">?</button>&nbsp;&nbsp;빗자루입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_31" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="32.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_31_0"><button class="FuncButton" id="Q_31_0_Btn"
+                                                                        onclick="CheckMCAnswer(31,0,this)">?</button>&nbsp;&nbsp;대패입니다.
+                                                        </li>
+                                                        <li id="Q_31_1"><button class="FuncButton" id="Q_31_1_Btn"
+                                                                        onclick="CheckMCAnswer(31,1,this)">?</button>&nbsp;&nbsp;사포입니다.
+                                                        </li>
+                                                        <li id="Q_31_2"><button class="FuncButton" id="Q_31_2_Btn"
+                                                                        onclick="CheckMCAnswer(31,2,this)">?</button>&nbsp;&nbsp;쇠톱입니다.
+                                                        </li>
+                                                        <li id="Q_31_3"><button class="FuncButton" id="Q_31_3_Btn"
+                                                                        onclick="CheckMCAnswer(31,3,this)">?</button>&nbsp;&nbsp;가위입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_32" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="33.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_32_0"><button class="FuncButton" id="Q_32_0_Btn"
+                                                                        onclick="CheckMCAnswer(32,0,this)">?</button>&nbsp;&nbsp;바가지입니다.
+                                                        </li>
+                                                        <li id="Q_32_1"><button class="FuncButton" id="Q_32_1_Btn"
+                                                                        onclick="CheckMCAnswer(32,1,this)">?</button>&nbsp;&nbsp;빗자루입니다.
+                                                        </li>
+                                                        <li id="Q_32_2"><button class="FuncButton" id="Q_32_2_Btn"
+                                                                        onclick="CheckMCAnswer(32,2,this)">?</button>&nbsp;&nbsp;소화기입니다.
+                                                        </li>
+                                                        <li id="Q_32_3"><button class="FuncButton" id="Q_32_3_Btn"
+                                                                        onclick="CheckMCAnswer(32,3,this)">?</button>&nbsp;&nbsp;쇠스랑입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_33" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="34.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_33_0"><button class="FuncButton" id="Q_33_0_Btn"
+                                                                        onclick="CheckMCAnswer(33,0,this)">?</button>&nbsp;&nbsp;컨테이너입니다.
+                                                        </li>
+                                                        <li id="Q_33_1"><button class="FuncButton" id="Q_33_1_Btn"
+                                                                        onclick="CheckMCAnswer(33,1,this)">?</button>&nbsp;&nbsp;전자저울입니다.
+                                                        </li>
+                                                        <li id="Q_33_2"><button class="FuncButton" id="Q_33_2_Btn"
+                                                                        onclick="CheckMCAnswer(33,2,this)">?</button>&nbsp;&nbsp;전기 드릴입니다.
+                                                        </li>
+                                                        <li id="Q_33_3"><button class="FuncButton" id="Q_33_3_Btn"
+                                                                        onclick="CheckMCAnswer(33,3,this)">?</button>&nbsp;&nbsp;배합 사료입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_34" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="35.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_34_0"><button class="FuncButton" id="Q_34_0_Btn"
+                                                                        onclick="CheckMCAnswer(34,0,this)">?</button>&nbsp;&nbsp;전기톱입니다.
+                                                        </li>
+                                                        <li id="Q_34_1"><button class="FuncButton" id="Q_34_1_Btn"
+                                                                        onclick="CheckMCAnswer(34,1,this)">?</button>&nbsp;&nbsp;차광막입니다.
+                                                        </li>
+                                                        <li id="Q_34_2"><button class="FuncButton" id="Q_34_2_Btn"
+                                                                        onclick="CheckMCAnswer(34,2,this)">?</button>&nbsp;&nbsp;자전거입니다.
+                                                        </li>
+                                                        <li id="Q_34_3"><button class="FuncButton" id="Q_34_3_Btn"
+                                                                        onclick="CheckMCAnswer(34,3,this)">?</button>&nbsp;&nbsp;개폐기입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_35" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="36.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_35_0"><button class="FuncButton" id="Q_35_0_Btn"
+                                                                        onclick="CheckMCAnswer(35,0,this)">?</button>&nbsp;&nbsp;손수레입니다.
+                                                        </li>
+                                                        <li id="Q_35_1"><button class="FuncButton" id="Q_35_1_Btn"
+                                                                        onclick="CheckMCAnswer(35,1,this)">?</button>&nbsp;&nbsp;배수구입니다.
+                                                        </li>
+                                                        <li id="Q_35_2"><button class="FuncButton" id="Q_35_2_Btn"
+                                                                        onclick="CheckMCAnswer(35,2,this)">?</button>&nbsp;&nbsp;용접봉입니다.
+                                                        </li>
+                                                        <li id="Q_35_3"><button class="FuncButton" id="Q_35_3_Btn"
+                                                                        onclick="CheckMCAnswer(35,3,this)">?</button>&nbsp;&nbsp;보호구입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_36" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="37.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_36_0"><button class="FuncButton" id="Q_36_0_Btn"
+                                                                        onclick="CheckMCAnswer(36,0,this)">?</button>&nbsp;&nbsp;수레입니다.
+                                                        </li>
+                                                        <li id="Q_36_1"><button class="FuncButton" id="Q_36_1_Btn"
+                                                                        onclick="CheckMCAnswer(36,1,this)">?</button>&nbsp;&nbsp;전선입니다.
+                                                        </li>
+                                                        <li id="Q_36_2"><button class="FuncButton" id="Q_36_2_Btn"
+                                                                        onclick="CheckMCAnswer(36,2,this)">?</button>&nbsp;&nbsp;비계입니다.
+                                                        </li>
+                                                        <li id="Q_36_3"><button class="FuncButton" id="Q_36_3_Btn"
+                                                                        onclick="CheckMCAnswer(36,3,this)">?</button>&nbsp;&nbsp;난로입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_37" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="38.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_37_0"><button class="FuncButton" id="Q_37_0_Btn"
+                                                                        onclick="CheckMCAnswer(37,0,this)">?</button>&nbsp;&nbsp;경운기입니다.
+                                                        </li>
+                                                        <li id="Q_37_1"><button class="FuncButton" id="Q_37_1_Btn"
+                                                                        onclick="CheckMCAnswer(37,1,this)">?</button>&nbsp;&nbsp;세척기입니다.
+                                                        </li>
+                                                        <li id="Q_37_2"><button class="FuncButton" id="Q_37_2_Btn"
+                                                                        onclick="CheckMCAnswer(37,2,this)">?</button>&nbsp;&nbsp;유압기입니다.
+                                                        </li>
+                                                        <li id="Q_37_3"><button class="FuncButton" id="Q_37_3_Btn"
+                                                                        onclick="CheckMCAnswer(37,3,this)">?</button>&nbsp;&nbsp;분무기입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_38" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="39.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_38_0"><button class="FuncButton" id="Q_38_0_Btn"
+                                                                        onclick="CheckMCAnswer(38,0,this)">?</button>&nbsp;&nbsp;불도저입니다.
+                                                        </li>
+                                                        <li id="Q_38_1"><button class="FuncButton" id="Q_38_1_Btn"
+                                                                        onclick="CheckMCAnswer(38,1,this)">?</button>&nbsp;&nbsp;이앙기입니다.
+                                                        </li>
+                                                        <li id="Q_38_2"><button class="FuncButton" id="Q_38_2_Btn"
+                                                                        onclick="CheckMCAnswer(38,2,this)">?</button>&nbsp;&nbsp;지하철입니다.
+                                                        </li>
+                                                        <li id="Q_38_3"><button class="FuncButton" id="Q_38_3_Btn"
+                                                                        onclick="CheckMCAnswer(38,3,this)">?</button>&nbsp;&nbsp;냉동차입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_39" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 그림을 보고 맞는 단어나 문장을 고르십시오.</h4>
+                                                        <br />
+
+                                                        <img src="40.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_39_0"><button class="FuncButton" id="Q_39_0_Btn"
+                                                                        onclick="CheckMCAnswer(39,0,this)">?</button>&nbsp;&nbsp;기중기입니다.
+                                                        </li>
+                                                        <li id="Q_39_1"><button class="FuncButton" id="Q_39_1_Btn"
+                                                                        onclick="CheckMCAnswer(39,1,this)">?</button>&nbsp;&nbsp;화물선입니다.
+                                                        </li>
+                                                        <li id="Q_39_2"><button class="FuncButton" id="Q_39_2_Btn"
+                                                                        onclick="CheckMCAnswer(39,2,this)">?</button>&nbsp;&nbsp;컨베이어입니다.
+                                                        </li>
+                                                        <li id="Q_39_3"><button class="FuncButton" id="Q_39_3_Btn"
+                                                                        onclick="CheckMCAnswer(39,3,this)">?</button>&nbsp;&nbsp;포클레인입니다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                </ol>
+                        </div>
+                </div>
+
+                <script>
+
+                        var I = new Array();
+                        I[0] = new Array(); I[0][0] = 100;
+                        I[0][1] = '';
+                        I[0][2] = '0';
+                        I[0][3] = new Array();
+                        I[0][3][0] = new Array('', '', 1, 100, 1);
+                        I[0][3][1] = new Array('', '', 0, 0, 1);
+                        I[0][3][2] = new Array('', '', 0, 0, 1);
+                        I[0][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[1] = new Array(); I[1][0] = 100;
+                        I[1][1] = '';
+                        I[1][2] = '0';
+                        I[1][3] = new Array();
+                        I[1][3][0] = new Array('', '', 1, 100, 1);
+                        I[1][3][1] = new Array('', '', 0, 0, 1);
+                        I[1][3][2] = new Array('', '', 0, 0, 1);
+                        I[1][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[2] = new Array(); I[2][0] = 100;
+                        I[2][1] = '';
+                        I[2][2] = '0';
+                        I[2][3] = new Array();
+                        I[2][3][0] = new Array('', '', 1, 100, 1);
+                        I[2][3][1] = new Array('', '', 0, 0, 1);
+                        I[2][3][2] = new Array('', '', 0, 0, 1);
+                        I[2][3][3] = new Array('', '', 0, 0, 1);
+                        I[3] = new Array(); I[3][0] = 100;
+
+                        I[3][1] = '';
+                        I[3][2] = '0';
+                        I[3][3] = new Array();
+                        I[3][3][0] = new Array('', '', 0, 0, 1);
+                        I[3][3][1] = new Array('', '', 1, 100, 1);
+                        I[3][3][2] = new Array('', '', 0, 0, 1);
+                        I[3][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[4] = new Array(); I[4][0] = 100;
+                        I[4][1] = '';
+                        I[4][2] = '0';
+                        I[4][3] = new Array();
+                        I[4][3][0] = new Array('', '', 0, 0, 1);
+                        I[4][3][1] = new Array('', '', 1, 100, 1);
+                        I[4][3][2] = new Array('', '', 0, 0, 1);
+                        I[4][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[5] = new Array(); I[5][0] = 100;
+                        I[5][1] = '';
+                        I[5][2] = '0';
+                        I[5][3] = new Array();
+                        I[5][3][0] = new Array('', '', 0, 0, 1);
+                        I[5][3][1] = new Array('', '', 1, 100, 1);
+                        I[5][3][2] = new Array('', '', 0, 0, 1);
+                        I[5][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[6] = new Array(); I[6][0] = 100;
+                        I[6][1] = '';
+                        I[6][2] = '0';
+                        I[6][3] = new Array();
+                        I[6][3][0] = new Array('', '', 0, 0, 1);
+                        I[6][3][1] = new Array('', '', 1, 100, 1);
+                        I[6][3][2] = new Array('', '', 0, 0, 1);
+                        I[6][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[7] = new Array(); I[7][0] = 100;
+                        I[7][1] = '';
+                        I[7][2] = '0';
+                        I[7][3] = new Array();
+                        I[7][3][0] = new Array('', '', 0, 0, 1);
+                        I[7][3][1] = new Array('', '', 0, 0, 1);
+                        I[7][3][2] = new Array('', '', 1, 100, 1);
+                        I[7][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[8] = new Array(); I[8][0] = 100;
+                        I[8][1] = '';
+                        I[8][2] = '0';
+                        I[8][3] = new Array();
+                        I[8][3][0] = new Array('', '', 0, 0, 1);
+                        I[8][3][1] = new Array('', '', 0, 0, 1);
+                        I[8][3][2] = new Array('', '', 0, 0, 1);
+                        I[8][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[9] = new Array(); I[9][0] = 100;
+                        I[9][1] = '';
+                        I[9][2] = '0';
+                        I[9][3] = new Array();
+                        I[9][3][0] = new Array('', '', 0, 0, 1);
+                        I[9][3][1] = new Array('', '', 0, 0, 1);
+                        I[9][3][2] = new Array('', '', 0, 0, 1);
+                        I[9][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[10] = new Array(); I[10][0] = 100;
+                        I[10][1] = '';
+                        I[10][2] = '0';
+                        I[10][3] = new Array();
+                        I[10][3][0] = new Array('', '', 1, 100, 1);
+                        I[10][3][1] = new Array('', '', 0, 0, 1);
+                        I[10][3][2] = new Array('', '', 0, 0, 1);
+                        I[10][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[11] = new Array(); I[11][0] = 100;
+                        I[11][1] = '';
+                        I[11][2] = '0';
+                        I[11][3] = new Array();
+                        I[11][3][0] = new Array('', '', 0, 0, 1);
+                        I[11][3][1] = new Array('', '', 1, 100, 1);
+                        I[11][3][2] = new Array('', '', 0, 0, 1);
+                        I[11][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[12] = new Array(); I[12][0] = 100;
+                        I[12][1] = '';
+                        I[12][2] = '0';
+                        I[12][3] = new Array();
+                        I[12][3][0] = new Array('', '', 0, 0, 1);
+                        I[12][3][1] = new Array('', '', 1, 100, 1);
+                        I[12][3][2] = new Array('', '', 0, 0, 1);
+                        I[12][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[13] = new Array(); I[13][0] = 100;
+                        I[13][1] = '';
+                        I[13][2] = '0';
+                        I[13][3] = new Array();
+                        I[13][3][0] = new Array('', '', 0, 0, 1);
+                        I[13][3][1] = new Array('', '', 0, 0, 1);
+                        I[13][3][2] = new Array('', '', 1, 100, 1);
+                        I[13][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[14] = new Array(); I[14][0] = 100;
+                        I[14][1] = '';
+                        I[14][2] = '0';
+                        I[14][3] = new Array();
+                        I[14][3][0] = new Array('', '', 0, 0, 1);
+                        I[14][3][1] = new Array('', '', 0, 0, 1);
+                        I[14][3][2] = new Array('', '', 1, 100, 1);
+                        I[14][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[15] = new Array(); I[15][0] = 100;
+                        I[15][1] = '';
+                        I[15][2] = '0';
+                        I[15][3] = new Array();
+                        I[15][3][0] = new Array('', '', 0, 0, 1);
+                        I[15][3][1] = new Array('', '', 0, 0, 1);
+                        I[15][3][2] = new Array('', '', 0, 0, 1);
+                        I[15][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[16] = new Array(); I[16][0] = 100;
+                        I[16][1] = '';
+                        I[16][2] = '0';
+                        I[16][3] = new Array();
+                        I[16][3][0] = new Array('', '', 0, 0, 1);
+                        I[16][3][1] = new Array('', '', 0, 0, 1);
+                        I[16][3][2] = new Array('', '', 0, 0, 1);
+                        I[16][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[17] = new Array(); I[17][0] = 100;
+                        I[17][1] = '';
+                        I[17][2] = '0';
+                        I[17][3] = new Array();
+                        I[17][3][0] = new Array('', '', 0, 0, 1);
+                        I[17][3][1] = new Array('', '', 0, 0, 1);
+                        I[17][3][2] = new Array('', '', 0, 0, 1);
+                        I[17][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[18] = new Array(); I[18][0] = 100;
+                        I[18][1] = '';
+                        I[18][2] = '0';
+                        I[18][3] = new Array();
+                        I[18][3][0] = new Array('', '', 0, 0, 1);
+                        I[18][3][1] = new Array('', '', 0, 0, 1);
+                        I[18][3][2] = new Array('', '', 0, 0, 1);
+                        I[18][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[19] = new Array(); I[19][0] = 100;
+                        I[19][1] = '';
+                        I[19][2] = '0';
+                        I[19][3] = new Array();
+                        I[19][3][0] = new Array('', '', 1, 100, 1);
+                        I[19][3][1] = new Array('', '', 1, 0, 1);
+                        I[19][3][2] = new Array('', '', 0, 0, 1);
+                        I[19][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[20] = new Array(); I[20][0] = 100;
+                        I[20][1] = '';
+                        I[20][2] = '0';
+                        I[20][3] = new Array();
+                        I[20][3][0] = new Array('', '', 0, 0, 1);
+                        I[20][3][1] = new Array('', '', 0, 0, 1);
+                        I[20][3][2] = new Array('', '', 1, 100, 1);
+                        I[20][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[21] = new Array(); I[21][0] = 100;
+                        I[21][1] = '';
+                        I[21][2] = '0';
+                        I[21][3] = new Array();
+                        I[21][3][0] = new Array('', '', 0, 0, 1);
+                        I[21][3][1] = new Array('', '', 0, 0, 1);
+                        I[21][3][2] = new Array('', '', 1, 100, 1);
+                        I[21][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[22] = new Array(); I[22][0] = 100;
+                        I[22][1] = '';
+                        I[22][2] = '0';
+                        I[22][3] = new Array();
+                        I[22][3][0] = new Array('', '', 0, 0, 1);
+                        I[22][3][1] = new Array('', '', 0, 0, 1);
+                        I[22][3][2] = new Array('', '', 1, 100, 1);
+                        I[22][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[23] = new Array(); I[23][0] = 100;
+                        I[23][1] = '';
+                        I[23][2] = '0';
+                        I[23][3] = new Array();
+                        I[23][3][0] = new Array('', '', 0, 0, 1);
+                        I[23][3][1] = new Array('', '', 0, 0, 1);
+                        I[23][3][2] = new Array('', '', 0, 0, 1);
+                        I[23][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[24] = new Array(); I[24][0] = 100;
+                        I[24][1] = '';
+                        I[24][2] = '0';
+                        I[24][3] = new Array();
+                        I[24][3][0] = new Array('', '', 1, 100, 1);
+                        I[24][3][1] = new Array('', '', 0, 0, 1);
+                        I[24][3][2] = new Array('', '', 0, 0, 1);
+                        I[24][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[25] = new Array(); I[25][0] = 100;
+                        I[25][1] = '';
+                        I[25][2] = '0';
+                        I[25][3] = new Array();
+                        I[25][3][0] = new Array('', '', 0, 0, 1);
+                        I[25][3][1] = new Array('', '', 0, 0, 1);
+                        I[25][3][2] = new Array('', '', 0, 0, 1);
+                        I[25][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[26] = new Array(); I[26][0] = 100;
+                        I[26][1] = '';
+                        I[26][2] = '0';
+                        I[26][3] = new Array();
+                        I[26][3][0] = new Array('', '', 0, 0, 1);
+                        I[26][3][1] = new Array('', '', 0, 0, 1);
+                        I[26][3][2] = new Array('', '', 0, 0, 1);
+                        I[26][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[27] = new Array(); I[27][0] = 100;
+                        I[27][1] = '';
+                        I[27][2] = '0';
+                        I[27][3] = new Array();
+                        I[27][3][0] = new Array('', '', 0, 0, 1);
+                        I[27][3][1] = new Array('', '', 0, 0, 1);
+                        I[27][3][2] = new Array('', '', 1, 100, 1);
+                        I[27][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[28] = new Array(); I[28][0] = 100;
+                        I[28][1] = '';
+                        I[28][2] = '0';
+                        I[28][3] = new Array();
+                        I[28][3][0] = new Array('', '', 0, 0, 1);
+                        I[28][3][1] = new Array('', '', 0, 0, 1);
+                        I[28][3][2] = new Array('', '', 0, 0, 1);
+                        I[28][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[29] = new Array(); I[29][0] = 100;
+                        I[29][1] = '';
+                        I[29][2] = '0';
+                        I[29][3] = new Array();
+                        I[29][3][0] = new Array('', '', 1, 100, 1);
+                        I[29][3][1] = new Array('', '', 0, 0, 1);
+                        I[29][3][2] = new Array('', '', 0, 0, 1);
+                        I[29][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[30] = new Array(); I[30][0] = 100;
+                        I[30][1] = '';
+                        I[30][2] = '0';
+                        I[30][3] = new Array();
+                        I[30][3][0] = new Array('', '', 0, 0, 1);
+                        I[30][3][1] = new Array('', '', 1, 100, 1);
+                        I[30][3][2] = new Array('', '', 0, 0, 1);
+                        I[30][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[31] = new Array(); I[31][0] = 100;
+                        I[31][1] = '';
+                        I[31][2] = '0';
+                        I[31][3] = new Array();
+                        I[31][3][0] = new Array('', '', 0, 0, 1);
+                        I[31][3][1] = new Array('', '', 1, 100, 1);
+                        I[31][3][2] = new Array('', '', 0, 0, 1);
+                        I[31][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[32] = new Array(); I[32][0] = 100;
+                        I[32][1] = '';
+                        I[32][2] = '0';
+                        I[32][3] = new Array();
+                        I[32][3][0] = new Array('', '', 0, 0, 1);
+                        I[32][3][1] = new Array('', '', 0, 0, 1);
+                        I[32][3][2] = new Array('', '', 0, 0, 1);
+                        I[32][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[33] = new Array(); I[33][0] = 100;
+                        I[33][1] = '';
+                        I[33][2] = '0';
+                        I[33][3] = new Array();
+                        I[33][3][0] = new Array('', '', 1, 100, 1);
+                        I[33][3][1] = new Array('', '', 0, 0, 1);
+                        I[33][3][2] = new Array('', '', 0, 0, 1);
+                        I[33][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[34] = new Array(); I[34][0] = 100;
+                        I[34][1] = '';
+                        I[34][2] = '0';
+                        I[34][3] = new Array();
+                        I[34][3][0] = new Array('', '', 1, 100, 1);
+                        I[34][3][1] = new Array('', '', 0, 0, 1);
+                        I[34][3][2] = new Array('', '', 0, 0, 1);
+                        I[34][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[35] = new Array(); I[35][0] = 100;
+                        I[35][1] = '';
+                        I[35][2] = '0';
+                        I[35][3] = new Array();
+                        I[35][3][0] = new Array('', '', 1, 100, 1);
+                        I[35][3][1] = new Array('', '', 0, 0, 1);
+                        I[35][3][2] = new Array('', '', 0, 0, 1);
+                        I[35][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[36] = new Array(); I[36][0] = 100;
+                        I[36][1] = '';
+                        I[36][2] = '0';
+                        I[36][3] = new Array();
+                        I[36][3][0] = new Array('', '', 0, 0, 1);
+                        I[36][3][1] = new Array('', '', 0, 0, 1);
+                        I[36][3][2] = new Array('', '', 1, 100, 1);
+                        I[36][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[37] = new Array(); I[37][0] = 100;
+                        I[37][1] = '';
+                        I[37][2] = '0';
+                        I[37][3] = new Array();
+                        I[37][3][0] = new Array('', '', 0, 0, 1);
+                        I[37][3][1] = new Array('', '', 0, 0, 1);
+                        I[37][3][2] = new Array('', '', 0, 0, 1);
+                        I[37][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[38] = new Array(); I[38][0] = 100;
+                        I[38][1] = '';
+                        I[38][2] = '0';
+                        I[38][3] = new Array();
+                        I[38][3][0] = new Array('', '', 1, 100, 1);
+                        I[38][3][1] = new Array('', '', 0, 0, 1);
+                        I[38][3][2] = new Array('', '', 0, 0, 1);
+                        I[38][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[39] = new Array(); I[39][0] = 100;
+                        I[39][1] = '';
+                        I[39][2] = '0';
+                        I[39][3] = new Array();
+                        I[39][3][0] = new Array('', '', 0, 0, 1);
+                        I[39][3][1] = new Array('', '', 0, 0, 1);
+                        I[39][3][2] = new Array('', '', 0, 0, 1);
+                        I[39][3][3] = new Array('', '', 1, 100, 1);
+
+                </script>
+
+
+        </body>
+
+        </html>
+
+</div>
