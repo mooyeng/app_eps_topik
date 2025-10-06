@@ -1,0 +1,2097 @@
+<!doctype html>
+
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+        <html lang="en">
+
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <script type="text/javascript" src="file:///android_asset/js/p_sc.js">
+
+                </script>
+
+                <link rel="stylesheet" type="text/css" href="file:///android_asset/css/p_st.css">
+
+
+        </head>
+
+        <body id="TheBody" onload="StartUp()">
+
+
+                <div class="StdDiv" id="InstructionsDiv">
+                        <div id="Instructions">
+                                Click on <button> ? </button> to check Your Answer.
+                        </div>
+                </div>
+                <div id="ContainerDiv">
+
+                        <div class="ExerciseContainer">
+
+
+
+
+                                <div class="QuestionNavigation" id="QNav">
+
+                                        <div style="text-align: center;">
+
+
+                                                <button class="FuncButton" id="ShowMethodButton"
+                                                        onclick="ShowHideQuestions(); return false;">All
+                                                        questions</button>
+
+
+                                        </div>
+                                        <hr>
+                                        <div id="OneByOneReadout">
+                                                <button class="FuncButton" id="PrevQButton"
+                                                        onclick="ChangeQ(-1); return false;">PREV</button>
+
+                                                <span class="QNum" id="QNumReadout">&nbsp;</span>
+
+                                                <button class="FuncButton" id="NextQButton"
+                                                        onclick="ChangeQ(1); return false;">NEXT</button>
+                                                <br />
+                                        </div>
+
+                                </div>
+
+                                <ol class="QuizQuestions" id="Questions">
+                                        <li class="QuizQuestion" id="Q_0" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>내일 시간 있어요? 내일 좀 만나고 싶은데요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>죄송해요. 내일은 제가 _________이/가 있어요. 고향 친구들을 만나기로 했어요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_0_0"><button class="FuncButton" id="Q_0_0_Btn"
+                                                                        onclick="CheckMCAnswer(0,0,this)">?</button>&nbsp;&nbsp;약속
+                                                        </li>
+                                                        <li id="Q_0_1"><button class="FuncButton" id="Q_0_1_Btn"
+                                                                        onclick="CheckMCAnswer(0,1,this)">?</button>&nbsp;&nbsp;고향
+                                                        </li>
+                                                        <li id="Q_0_2"><button class="FuncButton" id="Q_0_2_Btn"
+                                                                        onclick="CheckMCAnswer(0,2,this)">?</button>&nbsp;&nbsp;회의
+                                                        </li>
+                                                        <li id="Q_0_3"><button class="FuncButton" id="Q_0_3_Btn"
+                                                                        onclick="CheckMCAnswer(0,3,this)">?</button>&nbsp;&nbsp;
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_1" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>오늘은 일요일입니다. _________은/는 토요일이었습니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+
+
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_1_0"><button class="FuncButton" id="Q_1_0_Btn"
+                                                                        onclick="CheckMCAnswer(1,0,this)">?</button>&nbsp;&nbsp;내일
+                                                        </li>
+                                                        <li id="Q_1_1"><button class="FuncButton" id="Q_1_1_Btn"
+                                                                        onclick="CheckMCAnswer(1,1,this)">?</button>&nbsp;&nbsp;모레
+                                                        </li>
+                                                        <li id="Q_1_2"><button class="FuncButton" id="Q_1_2_Btn"
+                                                                        onclick="CheckMCAnswer(1,2,this)">?</button>&nbsp;&nbsp;어제
+                                                        </li>
+                                                        <li id="Q_1_3"><button class="FuncButton" id="Q_1_3_Btn"
+                                                                        onclick="CheckMCAnswer(1,3,this)">?</button>&nbsp;&nbsp;그저께
+                                                                안내 센터
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_2" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>오늘은 우리 사무실의 __________이/가 고장 났습니다. 사무실 안이 너무 더워서 일을 할 수가 없었습니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_2_0"><button class="FuncButton" id="Q_2_0_Btn"
+                                                                        onclick="CheckMCAnswer(2,0,this)">?</button>&nbsp;&nbsp;냉장고
+                                                        </li>
+                                                        <li id="Q_2_1"><button class="FuncButton" id="Q_2_1_Btn"
+                                                                        onclick="CheckMCAnswer(2,1,this)">?</button>&nbsp;&nbsp;에어컨
+                                                        </li>
+                                                        <li id="Q_2_2"><button class="FuncButton" id="Q_2_2_Btn"
+                                                                        onclick="CheckMCAnswer(2,2,this)">?</button>&nbsp;&nbsp;세탁기
+                                                        </li>
+                                                        <li id="Q_2_3"><button class="FuncButton" id="Q_2_3_Btn"
+                                                                        onclick="CheckMCAnswer(2,3,this)">?</button>&nbsp;&nbsp;텔레비전
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_3" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>외국에 나가려면 ________이/가 반드시 있어야 해요. 이것은 외국인의 신분증이 거든요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_3_0"><button class="FuncButton" id="Q_3_0_Btn"
+                                                                        onclick="CheckMCAnswer(3,0,this)">?</button>&nbsp;&nbsp;도장
+                                                        </li>
+                                                        <li id="Q_3_1"><button class="FuncButton" id="Q_3_1_Btn"
+                                                                        onclick="CheckMCAnswer(3,1,this)">?</button>&nbsp;&nbsp;명함
+                                                        </li>
+                                                        <li id="Q_3_2"><button class="FuncButton" id="Q_3_2_Btn"
+                                                                        onclick="CheckMCAnswer(3,2,this)">?</button>&nbsp;&nbsp;여권
+                                                        </li>
+                                                        <li id="Q_3_3"><button class="FuncButton" id="Q_3_3_Btn"
+                                                                        onclick="CheckMCAnswer(3,3,this)">?</button>&nbsp;&nbsp;신용카드
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_4" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>물건을 산 후에는 반드시 _________을/를 받으세요. 물건을 교환하거나 환불 받 을 때 필요해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_4_0"><button class="FuncButton" id="Q_4_0_Btn"
+                                                                        onclick="CheckMCAnswer(4,0,this)">?</button>&nbsp;&nbsp;돈
+                                                        </li>
+                                                        <li id="Q_4_1"><button class="FuncButton" id="Q_4_1_Btn"
+                                                                        onclick="CheckMCAnswer(4,1,this)">?</button>&nbsp;&nbsp;포장
+                                                        </li>
+                                                        <li id="Q_4_2"><button class="FuncButton" id="Q_4_2_Btn"
+                                                                        onclick="CheckMCAnswer(4,2,this)">?</button>&nbsp;&nbsp;카드
+                                                        </li>
+                                                        <li id="Q_4_3"><button class="FuncButton" id="Q_4_3_Btn"
+                                                                        onclick="CheckMCAnswer(4,3,this)">?</button>&nbsp;&nbsp;영수증
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_5" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>지금 인천행 ________이/가 들어오고 있습니다. 승객 여러분께서는 안전선 밖으 로 물러나 주시기 바랍니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_5_0"><button class="FuncButton" id="Q_5_0_Btn"
+                                                                        onclick="CheckMCAnswer(5,0,this)">?</button>&nbsp;&nbsp;표
+                                                        </li>
+                                                        <li id="Q_5_1"><button class="FuncButton" id="Q_5_1_Btn"
+                                                                        onclick="CheckMCAnswer(5,1,this)">?</button>&nbsp;&nbsp;열차
+                                                        </li>
+                                                        <li id="Q_5_2"><button class="FuncButton" id="Q_5_2_Btn"
+                                                                        onclick="CheckMCAnswer(5,2,this)">?</button>&nbsp;&nbsp;여행
+                                                        </li>
+                                                        <li id="Q_5_3"><button class="FuncButton" id="Q_5_3_Btn"
+                                                                        onclick="CheckMCAnswer(5,3,this)">?</button>&nbsp;&nbsp;예매
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_6" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>무슨 ________을/를 사려고 해요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>운동할 때 입을 바지를 사려고 해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_6_0"><button class="FuncButton" id="Q_6_0_Btn"
+                                                                        onclick="CheckMCAnswer(6,0,this)">?</button>&nbsp;&nbsp;옷
+                                                        </li>
+                                                        <li id="Q_6_1"><button class="FuncButton" id="Q_6_1_Btn"
+                                                                        onclick="CheckMCAnswer(6,1,this)">?</button>&nbsp;&nbsp;꽃
+                                                        </li>
+                                                        <li id="Q_6_2"><button class="FuncButton" id="Q_6_2_Btn"
+                                                                        onclick="CheckMCAnswer(6,2,this)">?</button>&nbsp;&nbsp;가방
+                                                        </li>
+                                                        <li id="Q_6_3"><button class="FuncButton" id="Q_6_3_Btn"
+                                                                        onclick="CheckMCAnswer(6,3,this)">?</button>&nbsp;&nbsp;모자
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_7" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>필리핀 가는 비행기 표를 예약하려고 하는데요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>________(으)로 하시겠어요? 편도로 하시겠어요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_7_0"><button class="FuncButton" id="Q_7_0_Btn"
+                                                                        onclick="CheckMCAnswer(7,0,this)">?</button>&nbsp;&nbsp;예매
+                                                        </li>
+                                                        <li id="Q_7_1"><button class="FuncButton" id="Q_7_1_Btn"
+                                                                        onclick="CheckMCAnswer(7,1,this)">?</button>&nbsp;&nbsp;여행
+                                                        </li>
+                                                        <li id="Q_7_2"><button class="FuncButton" id="Q_7_2_Btn"
+                                                                        onclick="CheckMCAnswer(7,2,this)">?</button>&nbsp;&nbsp;왕복
+                                                        </li>
+                                                        <li id="Q_7_3"><button class="FuncButton" id="Q_7_3_Btn"
+                                                                        onclick="CheckMCAnswer(7,3,this)">?</button>&nbsp;&nbsp;취소
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_8" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>택시 _________이/가 비싸요. 그래서 저는 버스나 지하철을 타고 다녀요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_8_0"><button class="FuncButton" id="Q_8_0_Btn"
+                                                                        onclick="CheckMCAnswer(8,0,this)">?</button>&nbsp;&nbsp;표
+                                                        </li>
+                                                        <li id="Q_8_1"><button class="FuncButton" id="Q_8_1_Btn"
+                                                                        onclick="CheckMCAnswer(8,1,this)">?</button>&nbsp;&nbsp;잔돈
+                                                        </li>
+                                                        <li id="Q_8_2"><button class="FuncButton" id="Q_8_2_Btn"
+                                                                        onclick="CheckMCAnswer(8,2,this)">?</button>&nbsp;&nbsp;현금
+                                                        </li>
+                                                        <li id="Q_8_3"><button class="FuncButton" id="Q_8_3_Btn"
+                                                                        onclick="CheckMCAnswer(8,3,this)">?</button>&nbsp;&nbsp;요금
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_9" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>한국에서는 비가 오면 __________을/를 써요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>그래요? 우리나라에서는 비를 그냥 맞아요. 비가 자주 안 와서 반갑거든요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_9_0"><button class="FuncButton" id="Q_9_0_Btn"
+                                                                        onclick="CheckMCAnswer(9,0,this)">?</button>&nbsp;&nbsp;구두
+                                                        </li>
+                                                        <li id="Q_9_1"><button class="FuncButton" id="Q_9_1_Btn"
+                                                                        onclick="CheckMCAnswer(9,1,this)">?</button>&nbsp;&nbsp;바지
+                                                        </li>
+                                                        <li id="Q_9_2"><button class="FuncButton" id="Q_9_2_Btn"
+                                                                        onclick="CheckMCAnswer(9,2,this)">?</button>&nbsp;&nbsp;우산
+                                                        </li>
+                                                        <li id="Q_9_3"><button class="FuncButton" id="Q_9_3_Btn"
+                                                                        onclick="CheckMCAnswer(9,3,this)">?</button>&nbsp;&nbsp;치마
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_10" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>편지를 보내려고 하는데 __________은/는 어디에 붙여요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>봉투오른쪽위에붙이면돼요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_10_0"><button class="FuncButton" id="Q_10_0_Btn"
+                                                                        onclick="CheckMCAnswer(10,0,this)">?</button>&nbsp;&nbsp;우표
+                                                        </li>
+                                                        <li id="Q_10_1"><button class="FuncButton" id="Q_10_1_Btn"
+                                                                        onclick="CheckMCAnswer(10,1,this)">?</button>&nbsp;&nbsp;수표
+                                                        </li>
+                                                        <li id="Q_10_2"><button class="FuncButton" id="Q_10_2_Btn"
+                                                                        onclick="CheckMCAnswer(10,2,this)">?</button>&nbsp;&nbsp;지폐
+                                                        </li>
+                                                        <li id="Q_10_3"><button class="FuncButton" id="Q_10_3_Btn"
+                                                                        onclick="CheckMCAnswer(10,3,this)">?</button>&nbsp;&nbsp;우체국
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_11" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>무슨 _________을 좋아해요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>저는 축구를 제일 좋아해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_11_0"><button class="FuncButton" id="Q_11_0_Btn"
+                                                                        onclick="CheckMCAnswer(11,0,this)">?</button>&nbsp;&nbsp;계절
+                                                        </li>
+                                                        <li id="Q_11_1"><button class="FuncButton" id="Q_11_1_Btn"
+                                                                        onclick="CheckMCAnswer(11,1,this)">?</button>&nbsp;&nbsp;색깔
+                                                        </li>
+                                                        <li id="Q_11_2"><button class="FuncButton" id="Q_11_2_Btn"
+                                                                        onclick="CheckMCAnswer(11,2,this)">?</button>&nbsp;&nbsp;운동
+                                                        </li>
+                                                        <li id="Q_11_3"><button class="FuncButton" id="Q_11_3_Btn"
+                                                                        onclick="CheckMCAnswer(11,3,this)">?</button>&nbsp;&nbsp;음식
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_12" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>텔레비전을 사고 싶은데, 너무 비싸네요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>우리집근처에________에가면중고텔레비전을싸게살수있어요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_12_0"><button class="FuncButton" id="Q_12_0_Btn"
+                                                                        onclick="CheckMCAnswer(12,0,this)">?</button>&nbsp;&nbsp;세탁소
+                                                        </li>
+                                                        <li id="Q_12_1"><button class="FuncButton" id="Q_12_1_Btn"
+                                                                        onclick="CheckMCAnswer(12,1,this)">?</button>&nbsp;&nbsp;편의점
+                                                        </li>
+                                                        <li id="Q_12_2"><button class="FuncButton" id="Q_12_2_Btn"
+                                                                        onclick="CheckMCAnswer(12,2,this)">?</button>&nbsp;&nbsp;재활용센터
+                                                        </li>
+                                                        <li id="Q_12_3"><button class="FuncButton" id="Q_12_3_Btn"
+                                                                        onclick="CheckMCAnswer(12,3,this)">?</button>&nbsp;&nbsp;부동산 중개소
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_13" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>우리 회사에서는 매달 25일에 _______을 줍니다. 그래서 우리는 모두 그날을 기 다립니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_13_0"><button class="FuncButton" id="Q_13_0_Btn"
+                                                                        onclick="CheckMCAnswer(13,0,this)">?</button>&nbsp;&nbsp;벌금
+                                                        </li>
+                                                        <li id="Q_13_1"><button class="FuncButton" id="Q_13_1_Btn"
+                                                                        onclick="CheckMCAnswer(13,1,this)">?</button>&nbsp;&nbsp;월급
+                                                        </li>
+                                                        <li id="Q_13_2"><button class="FuncButton" id="Q_13_2_Btn"
+                                                                        onclick="CheckMCAnswer(13,2,this)">?</button>&nbsp;&nbsp;잔돈
+                                                        </li>
+                                                        <li id="Q_13_3"><button class="FuncButton" id="Q_13_3_Btn"
+                                                                        onclick="CheckMCAnswer(13,3,this)">?</button>&nbsp;&nbsp;세금
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_14" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>이 집은 보증금 300만 원에 __________이/가 40만원입니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>한 달에 40 만원이요? 너무 비싸요. 다른 방은 없어요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_14_0"><button class="FuncButton" id="Q_14_0_Btn"
+                                                                        onclick="CheckMCAnswer(14,0,this)">?</button>&nbsp;&nbsp;월세
+                                                        </li>
+                                                        <li id="Q_14_1"><button class="FuncButton" id="Q_14_1_Btn"
+                                                                        onclick="CheckMCAnswer(14,1,this)">?</button>&nbsp;&nbsp;전세
+                                                        </li>
+                                                        <li id="Q_14_2"><button class="FuncButton" id="Q_14_2_Btn"
+                                                                        onclick="CheckMCAnswer(14,2,this)">?</button>&nbsp;&nbsp;요금
+                                                        </li>
+                                                        <li id="Q_14_3"><button class="FuncButton" id="Q_14_3_Btn"
+                                                                        onclick="CheckMCAnswer(14,3,this)">?</button>&nbsp;&nbsp;차비
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_15" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>저는 월급을 받으면 ________에 갑니다. 거기에서 고향에 돈도 보내고 저금도 합니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_15_0"><button class="FuncButton" id="Q_15_0_Btn"
+                                                                        onclick="CheckMCAnswer(15,0,this)">?</button>&nbsp;&nbsp;은행
+                                                        </li>
+                                                        <li id="Q_15_1"><button class="FuncButton" id="Q_15_1_Btn"
+                                                                        onclick="CheckMCAnswer(15,1,this)">?</button>&nbsp;&nbsp;식당
+                                                        </li>
+                                                        <li id="Q_15_2"><button class="FuncButton" id="Q_15_2_Btn"
+                                                                        onclick="CheckMCAnswer(15,2,this)">?</button>&nbsp;&nbsp;극장
+                                                        </li>
+                                                        <li id="Q_15_3"><button class="FuncButton" id="Q_15_3_Btn"
+                                                                        onclick="CheckMCAnswer(15,3,this)">?</button>&nbsp;&nbsp;공항
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_16" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statem리아 씨는 무슨 ________을/를 잘 먹어요?ent">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>김치찌개도 잘 먹고 비빔밥도 좋아해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_16_0"><button class="FuncButton" id="Q_16_0_Btn"
+                                                                        onclick="CheckMCAnswer(16,0,this)">?</button>&nbsp;&nbsp;과자
+                                                        </li>
+                                                        <li id="Q_16_1"><button class="FuncButton" id="Q_16_1_Btn"
+                                                                        onclick="CheckMCAnswer(16,1,this)">?</button>&nbsp;&nbsp;후식
+                                                        </li>
+                                                        <li id="Q_16_2"><button class="FuncButton" id="Q_16_2_Btn"
+                                                                        onclick="CheckMCAnswer(16,2,this)">?</button>&nbsp;&nbsp;식당
+                                                        </li>
+                                                        <li id="Q_16_3"><button class="FuncButton" id="Q_16_3_Btn"
+                                                                        onclick="CheckMCAnswer(16,3,this)">?</button>&nbsp;&nbsp;음식
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_17" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>이 ________에 앉아도 돼요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>네, 앉으세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_17_0"><button class="FuncButton" id="Q_17_0_Btn"
+                                                                        onclick="CheckMCAnswer(17,0,this)">?</button>&nbsp;&nbsp;의사
+                                                        </li>
+                                                        <li id="Q_17_1"><button class="FuncButton" id="Q_17_1_Btn"
+                                                                        onclick="CheckMCAnswer(17,1,this)">?</button>&nbsp;&nbsp;의자
+                                                        </li>
+                                                        <li id="Q_17_2"><button class="FuncButton" id="Q_17_2_Btn"
+                                                                        onclick="CheckMCAnswer(17,2,this)">?</button>&nbsp;&nbsp;지갑
+                                                        </li>
+                                                        <li id="Q_17_3"><button class="FuncButton" id="Q_17_3_Btn"
+                                                                        onclick="CheckMCAnswer(17,3,this)">?</button>&nbsp;&nbsp;장갑
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_18" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>어디에서 예방 주사를 맞았어요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>저는 집 근처 _______에 갔다 왔어요. 무료인 곳도 있으니까 한번 알아보세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_18_0"><button class="FuncButton" id="Q_18_0_Btn"
+                                                                        onclick="CheckMCAnswer(18,0,this)">?</button>&nbsp;&nbsp;공항
+                                                        </li>
+                                                        <li id="Q_18_1"><button class="FuncButton" id="Q_18_1_Btn"
+                                                                        onclick="CheckMCAnswer(18,1,this)">?</button>&nbsp;&nbsp;구청
+                                                        </li>
+                                                        <li id="Q_18_2"><button class="FuncButton" id="Q_18_2_Btn"
+                                                                        onclick="CheckMCAnswer(18,2,this)">?</button>&nbsp;&nbsp;보건소
+                                                        </li>
+                                                        <li id="Q_18_3"><button class="FuncButton" id="Q_18_3_Btn"
+                                                                        onclick="CheckMCAnswer(18,3,this)">?</button>&nbsp;&nbsp;소방서
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_19" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>저는 월요일부터 토요일까지 공장에서 일합니다. ________에는 집에서 쉽니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_19_0"><button class="FuncButton" id="Q_19_0_Btn"
+                                                                        onclick="CheckMCAnswer(19,0,this)">?</button>&nbsp;&nbsp;화요일
+                                                        </li>
+                                                        <li id="Q_19_1"><button class="FuncButton" id="Q_19_1_Btn"
+                                                                        onclick="CheckMCAnswer(19,1,this)">?</button>&nbsp;&nbsp;수요일
+                                                        </li>
+                                                        <li id="Q_19_2"><button class="FuncButton" id="Q_19_2_Btn"
+                                                                        onclick="CheckMCAnswer(19,2,this)">?</button>&nbsp;&nbsp;금요일
+                                                        </li>
+                                                        <li id="Q_19_3"><button class="FuncButton" id="Q_19_3_Btn"
+                                                                        onclick="CheckMCAnswer(19,3,this)">?</button>&nbsp;&nbsp;일요일
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_20" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>우리 공장이 문을 닫았어요.다른 공장에서 일하고 싶은데 어떻게 해야 해요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p> ________에 문의해 보세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_20_0"><button class="FuncButton" id="Q_20_0_Btn"
+                                                                        onclick="CheckMCAnswer(20,0,this)">?</button>&nbsp;&nbsp;대사관
+                                                        </li>
+                                                        <li id="Q_20_1"><button class="FuncButton" id="Q_20_1_Btn"
+                                                                        onclick="CheckMCAnswer(20,1,this)">?</button>&nbsp;&nbsp;취업 교육 기관
+                                                        </li>
+                                                        <li id="Q_20_2"><button class="FuncButton" id="Q_20_2_Btn"
+                                                                        onclick="CheckMCAnswer(20,2,this)">?</button>&nbsp;&nbsp;고용 안정 센터
+                                                        </li>
+                                                        <li id="Q_20_3"><button class="FuncButton" id="Q_20_3_Btn"
+                                                                        onclick="CheckMCAnswer(20,3,this)">?</button>&nbsp;&nbsp;출입국 관리 사무소
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_21" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>이 서류 좀 복사해 주세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>몇 ________ 복사해 드릴까요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_21_0"><button class="FuncButton" id="Q_21_0_Btn"
+                                                                        onclick="CheckMCAnswer(21,0,this)">?</button>&nbsp;&nbsp;잔
+                                                        </li>
+                                                        <li id="Q_21_1"><button class="FuncButton" id="Q_21_1_Btn"
+                                                                        onclick="CheckMCAnswer(21,1,this)">?</button>&nbsp;&nbsp;장
+                                                        </li>
+                                                        <li id="Q_21_2"><button class="FuncButton" id="Q_21_2_Btn"
+                                                                        onclick="CheckMCAnswer(21,2,this)">?</button>&nbsp;&nbsp;시
+                                                        </li>
+                                                        <li id="Q_21_3"><button class="FuncButton" id="Q_21_3_Btn"
+                                                                        onclick="CheckMCAnswer(21,3,this)">?</button>&nbsp;&nbsp;살
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_22" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>라면이나 국수는 ________(으)로 먹습니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_22_0"><button class="FuncButton" id="Q_22_0_Btn"
+                                                                        onclick="CheckMCAnswer(22,0,this)">?</button>&nbsp;&nbsp;칼
+                                                        </li>
+                                                        <li id="Q_22_1"><button class="FuncButton" id="Q_22_1_Btn"
+                                                                        onclick="CheckMCAnswer(22,1,this)">?</button>&nbsp;&nbsp;연필
+                                                        </li>
+                                                        <li id="Q_22_2"><button class="FuncButton" id="Q_22_2_Btn"
+                                                                        onclick="CheckMCAnswer(22,2,this)">?</button>&nbsp;&nbsp;가위
+                                                        </li>
+                                                        <li id="Q_22_3"><button class="FuncButton" id="Q_22_3_Btn"
+                                                                        onclick="CheckMCAnswer(22,3,this)">?</button>&nbsp;&nbsp;젓가락
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_23" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>여기서 시청에 어떻게 가요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>저기 편의점 앞에 ________ 이/가 있어요. 거기서 272번 버스를 타면 돼요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_23_0"><button class="FuncButton" id="Q_23_0_Btn"
+                                                                        onclick="CheckMCAnswer(23,0,this)">?</button>&nbsp;&nbsp;공항
+                                                        </li>
+                                                        <li id="Q_23_1"><button class="FuncButton" id="Q_23_1_Btn"
+                                                                        onclick="CheckMCAnswer(23,1,this)">?</button>&nbsp;&nbsp;출입문
+                                                        </li>
+                                                        <li id="Q_23_2"><button class="FuncButton" id="Q_23_2_Btn"
+                                                                        onclick="CheckMCAnswer(23,2,this)">?</button>&nbsp;&nbsp;정류장
+                                                        </li>
+                                                        <li id="Q_23_3"><button class="FuncButton" id="Q_23_3_Btn"
+                                                                        onclick="CheckMCAnswer(23,3,this)">?</button>&nbsp;&nbsp;교통카드
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_24" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>회사 사람들은 월요일부터 금요일까지 일하고, _________에는 쉽니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_24_0"><button class="FuncButton" id="Q_24_0_Btn"
+                                                                        onclick="CheckMCAnswer(24,0,this)">?</button>&nbsp;&nbsp;주말
+                                                        </li>
+                                                        <li id="Q_24_1"><button class="FuncButton" id="Q_24_1_Btn"
+                                                                        onclick="CheckMCAnswer(24,1,this)">?</button>&nbsp;&nbsp;월말
+                                                        </li>
+                                                        <li id="Q_24_2"><button class="FuncButton" id="Q_24_2_Btn"
+                                                                        onclick="CheckMCAnswer(24,2,this)">?</button>&nbsp;&nbsp;연말
+                                                        </li>
+                                                        <li id="Q_24_3"><button class="FuncButton" id="Q_24_3_Btn"
+                                                                        onclick="CheckMCAnswer(24,3,this)">?</button>&nbsp;&nbsp;기말
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_25" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>여기에 _________을/를 해도 돼요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>아니요,여기에 차를 세우면 안 돼요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_25_0"><button class="FuncButton" id="Q_25_0_Btn"
+                                                                        onclick="CheckMCAnswer(25,0,this)">?</button>&nbsp;&nbsp;주문
+                                                        </li>
+                                                        <li id="Q_25_1"><button class="FuncButton" id="Q_25_1_Btn"
+                                                                        onclick="CheckMCAnswer(25,1,this)">?</button>&nbsp;&nbsp;주차
+                                                        </li>
+                                                        <li id="Q_25_2"><button class="FuncButton" id="Q_25_2_Btn"
+                                                                        onclick="CheckMCAnswer(25,2,this)">?</button>&nbsp;&nbsp;세수
+                                                        </li>
+                                                        <li id="Q_25_3"><button class="FuncButton" id="Q_25_3_Btn"
+                                                                        onclick="CheckMCAnswer(25,3,this)">?</button>&nbsp;&nbsp;세차
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_26" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>어떡하죠? 지하철에서 _________을/를 잃어버렸어요. 그 안에 현금하고 신 용카드, 신분증도 들어 있는데....
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>빨리분실물센터에가보세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_26_0"><button class="FuncButton" id="Q_26_0_Btn"
+                                                                        onclick="CheckMCAnswer(26,0,this)">?</button>&nbsp;&nbsp;돈
+                                                        </li>
+                                                        <li id="Q_26_1"><button class="FuncButton" id="Q_26_1_Btn"
+                                                                        onclick="CheckMCAnswer(26,1,this)">?</button>&nbsp;&nbsp;지갑
+                                                        </li>
+                                                        <li id="Q_26_2"><button class="FuncButton" id="Q_26_2_Btn"
+                                                                        onclick="CheckMCAnswer(26,2,this)">?</button>&nbsp;&nbsp;휴지
+                                                        </li>
+                                                        <li id="Q_26_3"><button class="FuncButton" id="Q_26_3_Btn"
+                                                                        onclick="CheckMCAnswer(26,3,this)">?</button>&nbsp;&nbsp;휴대전화
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_27" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>회사에 어떻게 와요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>보통 _________을/를 타고 와요. 길도 안 막히고 빨라서 좋아요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_27_0"><button class="FuncButton" id="Q_27_0_Btn"
+                                                                        onclick="CheckMCAnswer(27,0,this)">?</button>&nbsp;&nbsp;육교
+                                                        </li>
+                                                        <li id="Q_27_1"><button class="FuncButton" id="Q_27_1_Btn"
+                                                                        onclick="CheckMCAnswer(27,1,this)">?</button>&nbsp;&nbsp;지하도
+                                                        </li>
+                                                        <li id="Q_27_2"><button class="FuncButton" id="Q_27_2_Btn"
+                                                                        onclick="CheckMCAnswer(27,2,this)">?</button>&nbsp;&nbsp;지하철
+                                                        </li>
+                                                        <li id="Q_27_3"><button class="FuncButton" id="Q_27_3_Btn"
+                                                                        onclick="CheckMCAnswer(27,3,this)">?</button>&nbsp;&nbsp;횡단보도
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_28" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>영수씨는어떤일을하세요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>저는 공장에서 텔레비전을 만드는 일을 해요. 성한 씨는 _______이/가 뭐예요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>저는 요리사예요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_28_0"><button class="FuncButton" id="Q_28_0_Btn"
+                                                                        onclick="CheckMCAnswer(28,0,this)">?</button>&nbsp;&nbsp;직업
+                                                        </li>
+                                                        <li id="Q_28_1"><button class="FuncButton" id="Q_28_1_Btn"
+                                                                        onclick="CheckMCAnswer(28,1,this)">?</button>&nbsp;&nbsp;취미
+                                                        </li>
+                                                        <li id="Q_28_2"><button class="FuncButton" id="Q_28_2_Btn"
+                                                                        onclick="CheckMCAnswer(28,2,this)">?</button>&nbsp;&nbsp;공장
+                                                        </li>
+                                                        <li id="Q_28_3"><button class="FuncButton" id="Q_28_3_Btn"
+                                                                        onclick="CheckMCAnswer(28,3,this)">?</button>&nbsp;&nbsp;주소
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_29" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>회사에 _________이 많아요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>네, 300명쯤 돼요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_29_0"><button class="FuncButton" id="Q_29_0_Btn"
+                                                                        onclick="CheckMCAnswer(29,0,this)">?</button>&nbsp;&nbsp;직원
+                                                        </li>
+                                                        <li id="Q_29_1"><button class="FuncButton" id="Q_29_1_Btn"
+                                                                        onclick="CheckMCAnswer(29,1,this)">?</button>&nbsp;&nbsp;직업
+                                                        </li>
+                                                        <li id="Q_29_2"><button class="FuncButton" id="Q_29_2_Btn"
+                                                                        onclick="CheckMCAnswer(29,2,this)">?</button>&nbsp;&nbsp;시간
+                                                        </li>
+                                                        <li id="Q_29_3"><button class="FuncButton" id="Q_29_3_Btn"
+                                                                        onclick="CheckMCAnswer(29,3,this)">?</button>&nbsp;&nbsp;사무실
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_30" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>어제 서점에 가서 ________ 을 많이 샀어요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>네, 10권 샀어요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_30_0"><button class="FuncButton" id="Q_30_0_Btn"
+                                                                        onclick="CheckMCAnswer(30,0,this)">?</button>&nbsp;&nbsp;약
+                                                        </li>
+                                                        <li id="Q_30_1"><button class="FuncButton" id="Q_30_1_Btn"
+                                                                        onclick="CheckMCAnswer(30,1,this)">?</button>&nbsp;&nbsp;책
+                                                        </li>
+                                                        <li id="Q_30_2"><button class="FuncButton" id="Q_30_2_Btn"
+                                                                        onclick="CheckMCAnswer(30,2,this)">?</button>&nbsp;&nbsp;옷
+                                                        </li>
+                                                        <li id="Q_30_3"><button class="FuncButton" id="Q_30_3_Btn"
+                                                                        onclick="CheckMCAnswer(30,3,this)">?</button>&nbsp;&nbsp;과일
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_31" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>리키 씨는 ________이/가 뭐예요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>컴퓨터 게임을 좋아해요. 주말에 자주 집에서 게임을 해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_31_0"><button class="FuncButton" id="Q_31_0_Btn"
+                                                                        onclick="CheckMCAnswer(31,0,this)">?</button>&nbsp;&nbsp;이름
+                                                        </li>
+                                                        <li id="Q_31_1"><button class="FuncButton" id="Q_31_1_Btn"
+                                                                        onclick="CheckMCAnswer(31,1,this)">?</button>&nbsp;&nbsp;취미
+                                                        </li>
+                                                        <li id="Q_31_2"><button class="FuncButton" id="Q_31_2_Btn"
+                                                                        onclick="CheckMCAnswer(31,2,this)">?</button>&nbsp;&nbsp;나이
+                                                        </li>
+                                                        <li id="Q_31_3"><button class="FuncButton" id="Q_31_3_Btn"
+                                                                        onclick="CheckMCAnswer(31,3,this)">?</button>&nbsp;&nbsp;성격
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_32" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>사업장에서 일하기 전에 _________에서 반드시 교육을 받아야 합니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_32_0"><button class="FuncButton" id="Q_32_0_Btn"
+                                                                        onclick="CheckMCAnswer(32,0,this)">?</button>&nbsp;&nbsp;복지 센터
+                                                        </li>
+                                                        <li id="Q_32_1"><button class="FuncButton" id="Q_32_1_Btn"
+                                                                        onclick="CheckMCAnswer(32,1,this)">?</button>&nbsp;&nbsp;상담 센터
+                                                        </li>
+                                                        <li id="Q_32_2"><button class="FuncButton" id="Q_32_2_Btn"
+                                                                        onclick="CheckMCAnswer(32,2,this)">?</button>&nbsp;&nbsp;취업 교육 기관
+                                                        </li>
+                                                        <li id="Q_32_3"><button class="FuncButton" id="Q_32_3_Btn"
+                                                                        onclick="CheckMCAnswer(32,3,this)">?</button>&nbsp;&nbsp;한국어 교육 기관
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_33" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>이가너무아파서음식을잘씹을수가없어요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>그럼 _________에 가 보세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_33_0"><button class="FuncButton" id="Q_33_0_Btn"
+                                                                        onclick="CheckMCAnswer(33,0,this)">?</button>&nbsp;&nbsp;안과
+                                                        </li>
+                                                        <li id="Q_33_1"><button class="FuncButton" id="Q_33_1_Btn"
+                                                                        onclick="CheckMCAnswer(33,1,this)">?</button>&nbsp;&nbsp;내과
+                                                        </li>
+                                                        <li id="Q_33_2"><button class="FuncButton" id="Q_33_2_Btn"
+                                                                        onclick="CheckMCAnswer(33,2,this)">?</button>&nbsp;&nbsp;치과
+                                                        </li>
+                                                        <li id="Q_33_3"><button class="FuncButton" id="Q_33_3_Btn"
+                                                                        onclick="CheckMCAnswer(33,3,this)">?</button>&nbsp;&nbsp;외과
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_34" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        
+                                                                        <div class="statement">
+                                                                                <p>우리 회사는 월요일부터 금요일까지 일하고 ________과 일요일은 쉽니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_34_0"><button class="FuncButton" id="Q_34_0_Btn"
+                                                                        onclick="CheckMCAnswer(34,0,this)">?</button>&nbsp;&nbsp;화요일
+                                                        </li>
+                                                        <li id="Q_34_1"><button class="FuncButton" id="Q_34_1_Btn"
+                                                                        onclick="CheckMCAnswer(34,1,this)">?</button>&nbsp;&nbsp;수요일
+                                                        </li>
+                                                        <li id="Q_34_2"><button class="FuncButton" id="Q_34_2_Btn"
+                                                                        onclick="CheckMCAnswer(34,2,this)">?</button>&nbsp;&nbsp;목요일
+                                                        </li>
+                                                        <li id="Q_34_3"><button class="FuncButton" id="Q_34_3_Btn"
+                                                                        onclick="CheckMCAnswer(34,3,this)">?</button>&nbsp;&nbsp;토요일
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_35" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>신용카드로 계산해도 됩니까?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>죄송합니다. 카드는 안 됩니다. _________으로 계산해 주십시오.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_35_0"><button class="FuncButton" id="Q_35_0_Btn"
+                                                                        onclick="CheckMCAnswer(35,0,this)">?</button>&nbsp;&nbsp;현금
+                                                        </li>
+                                                        <li id="Q_35_1"><button class="FuncButton" id="Q_35_1_Btn"
+                                                                        onclick="CheckMCAnswer(35,1,this)">?</button>&nbsp;&nbsp;도장
+                                                        </li>
+                                                        <li id="Q_35_2"><button class="FuncButton" id="Q_35_2_Btn"
+                                                                        onclick="CheckMCAnswer(35,2,this)">?</button>&nbsp;&nbsp;세금
+                                                        </li>
+                                                        <li id="Q_35_3"><button class="FuncButton" id="Q_35_3_Btn"
+                                                                        onclick="CheckMCAnswer(35,3,this)">?</button>&nbsp;&nbsp;영수증
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_36" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                       
+                                                                        <div class="statement">
+                                                                                <p>오늘은 월요일입니다. 내일은 _________입니다.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p></p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_36_0"><button class="FuncButton" id="Q_36_0_Btn"
+                                                                        onclick="CheckMCAnswer(36,0,this)">?</button>&nbsp;&nbsp;화요일
+                                                        </li>
+                                                        <li id="Q_36_1"><button class="FuncButton" id="Q_36_1_Btn"
+                                                                        onclick="CheckMCAnswer(36,1,this)">?</button>&nbsp;&nbsp;수요일
+                                                        </li>
+                                                        <li id="Q_36_2"><button class="FuncButton" id="Q_36_2_Btn"
+                                                                        onclick="CheckMCAnswer(36,2,this)">?</button>&nbsp;&nbsp;목요일
+                                                        </li>
+                                                        <li id="Q_36_3"><button class="FuncButton" id="Q_36_3_Btn"
+                                                                        onclick="CheckMCAnswer(36,3,this)">?</button>&nbsp;&nbsp;금요일
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_37" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>달러를 한국 돈으로 바꾸고 싶어요. 어디로 가야 해요?
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p> _________은/는 은행에서 할 수 있어요. 은행에 가 보세요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_37_0"><button class="FuncButton" id="Q_37_0_Btn"
+                                                                        onclick="CheckMCAnswer(37,0,this)">?</button>&nbsp;&nbsp;통장
+                                                        </li>
+                                                        <li id="Q_37_1"><button class="FuncButton" id="Q_37_1_Btn"
+                                                                        onclick="CheckMCAnswer(37,1,this)">?</button>&nbsp;&nbsp;송금
+                                                        </li>
+                                                        <li id="Q_37_2"><button class="FuncButton" id="Q_37_2_Btn"
+                                                                        onclick="CheckMCAnswer(37,2,this)">?</button>&nbsp;&nbsp;환전
+                                                        </li>
+                                                        <li id="Q_37_3"><button class="FuncButton" id="Q_37_3_Btn"
+                                                                        onclick="CheckMCAnswer(37,3,this)">?</button>&nbsp;&nbsp;편지
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_38" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>오늘 저녁에 바빠요? 같이 술 한잔해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>미안해요. 오늘은 ________이 있어요. 회사 사람들하고 같이 저녁을 먹어야 해요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_38_0"><button class="FuncButton" id="Q_38_0_Btn"
+                                                                        onclick="CheckMCAnswer(38,0,this)">?</button>&nbsp;&nbsp;월급
+                                                        </li>
+                                                        <li id="Q_38_1"><button class="FuncButton" id="Q_38_1_Btn"
+                                                                        onclick="CheckMCAnswer(38,1,this)">?</button>&nbsp;&nbsp;회식
+                                                        </li>
+                                                        <li id="Q_38_2"><button class="FuncButton" id="Q_38_2_Btn"
+                                                                        onclick="CheckMCAnswer(38,2,this)">?</button>&nbsp;&nbsp;출근
+                                                        </li>
+                                                        <li id="Q_38_3"><button class="FuncButton" id="Q_38_3_Btn"
+                                                                        onclick="CheckMCAnswer(38,3,this)">?</button>&nbsp;&nbsp;퇴근
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_39" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>빈칸에 들어갈 가장 알맞은 것을 고르십시오.</h4>
+                                                        <div class="quesSection">
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>가:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>잠깐만요! 빨간 불이에요. 지금 ________을/를 건너면 안 돼요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                        <div class="speaker">
+                                                                                <p>나:</p>
+                                                                        </div>
+                                                                        <div class="statement">
+                                                                                <p>미안해요. 못 봤어요.
+
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_39_0"><button class="FuncButton" id="Q_39_0_Btn"
+                                                                        onclick="CheckMCAnswer(39,0,this)">?</button>&nbsp;&nbsp;계단
+                                                        </li>
+                                                        <li id="Q_39_1"><button class="FuncButton" id="Q_39_1_Btn"
+                                                                        onclick="CheckMCAnswer(39,1,this)">?</button>&nbsp;&nbsp;신호등
+                                                        </li>
+                                                        <li id="Q_39_2"><button class="FuncButton" id="Q_39_2_Btn"
+                                                                        onclick="CheckMCAnswer(39,2,this)">?</button>&nbsp;&nbsp;지하도
+                                                        </li>
+                                                        <li id="Q_39_3"><button class="FuncButton" id="Q_39_3_Btn"
+                                                                        onclick="CheckMCAnswer(39,3,this)">?</button>&nbsp;&nbsp;횡단보도
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+
+
+                                </ol>
+                        </div>
+                </div>
+
+                <script>
+
+                        var I = new Array();
+                        I[0] = new Array(); I[0][0] = 100;
+                        I[0][1] = '';
+                        I[0][2] = '0';
+                        I[0][3] = new Array();
+                        I[0][3][0] = new Array('', '', 1, 100, 1);
+                        I[0][3][1] = new Array('', '', 0, 0, 1);
+                        I[0][3][2] = new Array('', '', 0, 0, 1);
+                        I[0][3][3] = new Array('', '', 0, 0, 1);
+                        I[1] = new Array(); I[1][0] = 100;
+                        I[1][1] = '';
+                        I[1][2] = '0';
+                        I[1][3] = new Array();
+                        I[1][3][0] = new Array('', '', 0, 0, 1);
+                        I[1][3][1] = new Array('', '', 0, 0, 1);
+                        I[1][3][2] = new Array('', '', 1, 100, 1);
+                        I[1][3][3] = new Array('', '', 0, 0, 1);
+                        I[2] = new Array(); I[2][0] = 100;
+                        I[2][1] = '';
+                        I[2][2] = '0';
+                        I[2][3] = new Array();
+                        I[2][3][0] = new Array('', '', 0, 0, 1);
+                        I[2][3][1] = new Array('', '', 1, 100, 1);
+                        I[2][3][2] = new Array('', '', 0, 0, 1);
+                        I[2][3][3] = new Array('', '', 0, 0, 1);
+                        I[3] = new Array(); I[3][0] = 100;
+                        I[3][1] = '';
+                        I[3][2] = '0';
+                        I[3][3] = new Array();
+                        I[3][3][0] = new Array('', '', 0, 0, 1);
+                        I[3][3][1] = new Array('', '', 1, 100, 1);
+                        I[3][3][2] = new Array('', '', 0, 0, 1);
+                        I[3][3][3] = new Array('', '', 0, 0, 1);
+                        I[4] = new Array(); I[4][0] = 100;
+                        I[4][1] = '';
+                        I[4][2] = '0';
+                        I[4][3] = new Array();
+                        I[4][3][0] = new Array('', '', 0, 0, 1);
+                        I[4][3][1] = new Array('', '', 0, 0, 1);
+                        I[4][3][2] = new Array('', '', 0, 0, 1);
+                        I[4][3][3] = new Array('', '', 1, 100, 1);
+                        I[5] = new Array(); I[5][0] = 100;
+                        I[5][1] = '';
+                        I[5][2] = '0';
+                        I[5][3] = new Array();
+                        I[5][3][0] = new Array('', '', 0, 0, 1);
+                        I[5][3][1] = new Array('', '', 1, 100, 1);
+                        I[5][3][2] = new Array('', '', 0, 0, 1);
+                        I[5][3][3] = new Array('', '', 0, 0, 1);
+                        I[6] = new Array(); I[6][0] = 100;
+                        I[6][1] = '';
+                        I[6][2] = '0';
+                        I[6][3] = new Array();
+                        I[6][3][0] = new Array('', '', 1, 100, 1);
+                        I[6][3][1] = new Array('', '', 0, 0, 1);
+                        I[6][3][2] = new Array('', '', 0, 0, 1);
+                        I[6][3][3] = new Array('', '', 0, 0, 1);
+                        I[7] = new Array(); I[7][0] = 100;
+                        I[7][1] = '';
+                        I[7][2] = '0';
+                        I[7][3] = new Array();
+                        I[7][3][0] = new Array('', '', 0, 0, 1);
+                        I[7][3][1] = new Array('', '', 0, 0, 1);
+                        I[7][3][2] = new Array('', '', 1, 100, 1);
+                        I[7][3][3] = new Array('', '', 0, 0, 1);
+                        I[8] = new Array(); I[8][0] = 100;
+                        I[8][1] = '';
+                        I[8][2] = '0';
+                        I[8][3] = new Array();
+                        I[8][3][0] = new Array('', '', 0, 0, 1);
+                        I[8][3][1] = new Array('', '', 0, 0, 1);
+                        I[8][3][2] = new Array('', '', 0, 0, 1);
+                        I[8][3][3] = new Array('', '', 1, 100, 1);
+                        I[9] = new Array(); I[9][0] = 100;
+                        I[9][1] = '';
+                        I[9][2] = '0';
+                        I[9][3] = new Array();
+                        I[9][3][0] = new Array('', '', 0, 0, 1);
+                        I[9][3][1] = new Array('', '', 0, 0, 1);
+                        I[9][3][2] = new Array('', '', 1, 100, 1);
+                        I[9][3][3] = new Array('', '', 0, 0, 1);
+                        I[10] = new Array(); I[10][0] = 100;
+                        I[10][1] = '';
+                        I[10][2] = '0';
+                        I[10][3] = new Array();
+                        I[10][3][0] = new Array('', '', 1, 100, 1);
+                        I[10][3][1] = new Array('', '', 0, 0, 1);
+                        I[10][3][2] = new Array('', '', 0, 0, 1);
+                        I[10][3][3] = new Array('', '', 0, 0, 1);
+                        I[11] = new Array(); I[11][0] = 100;
+                        I[11][1] = '';
+                        I[11][2] = '0';
+                        I[11][3] = new Array();
+                        I[11][3][0] = new Array('', '', 0, 0, 1);
+                        I[11][3][1] = new Array('', '', 0, 0, 1);
+                        I[11][3][2] = new Array('', '', 1, 100, 1);
+                        I[11][3][3] = new Array('', '', 0, 0, 1);
+                        I[12] = new Array(); I[12][0] = 100;
+                        I[12][1] = '';
+                        I[12][2] = '0';
+                        I[12][3] = new Array();
+                        I[12][3][0] = new Array('', '', 0, 0, 1);
+                        I[12][3][1] = new Array('', '', 0, 0, 1);
+                        I[12][3][2] = new Array('', '', 1, 100, 1);
+                        I[12][3][3] = new Array('', '', 0, 0, 1);
+                        I[13] = new Array(); I[13][0] = 100;
+                        I[13][1] = '';
+                        I[13][2] = '0';
+                        I[13][3] = new Array();
+                        I[13][3][0] = new Array('', '', 0, 0, 1);
+                        I[13][3][1] = new Array('', '', 1, 100, 1);
+                        I[13][3][2] = new Array('', '', 0, 0, 1);
+                        I[13][3][3] = new Array('', '', 0, 0, 1);
+                        I[14] = new Array(); I[14][0] = 100;
+                        I[14][1] = '';
+                        I[14][2] = '0';
+                        I[14][3] = new Array();
+                        I[14][3][0] = new Array('', '', 1, 100, 1);
+                        I[14][3][1] = new Array('', '', 0, 0, 1);
+                        I[14][3][2] = new Array('', '', 0, 0, 1);
+                        I[14][3][3] = new Array('', '', 0, 0, 1);
+                        I[15] = new Array(); I[15][0] = 100;
+                        I[15][1] = '';
+                        I[15][2] = '0';
+                        I[15][3] = new Array();
+                        I[15][3][0] = new Array('', '', 1, 100, 1);
+                        I[15][3][1] = new Array('', '', 0, 0, 1);
+                        I[15][3][2] = new Array('', '', 0, 0, 1);
+                        I[15][3][3] = new Array('', '', 0, 0, 1);
+                        I[16] = new Array(); I[16][0] = 100;
+                        I[16][1] = '';
+                        I[16][2] = '0';
+                        I[16][3] = new Array();
+                        I[16][3][0] = new Array('', '', 0, 0, 1);
+                        I[16][3][1] = new Array('', '', 0, 0, 1);
+                        I[16][3][2] = new Array('', '', 0, 0, 1);
+                        I[16][3][3] = new Array('', '', 1, 100, 1);
+                        I[17] = new Array(); I[17][0] = 100;
+                        I[17][1] = '';
+                        I[17][2] = '0';
+                        I[17][3] = new Array();
+                        I[17][3][0] = new Array('', '', 0, 0, 1);
+                        I[17][3][1] = new Array('', '', 1, 100, 1);
+                        I[17][3][2] = new Array('', '', 0, 0, 1);
+                        I[17][3][3] = new Array('', '', 0, 0, 1);
+                        I[18] = new Array(); I[18][0] = 100;
+                        I[18][1] = '';
+                        I[18][2] = '0';
+                        I[18][3] = new Array();
+                        I[18][3][0] = new Array('', '', 0, 0, 1);
+                        I[18][3][1] = new Array('', '', 0, 0, 1);
+                        I[18][3][2] = new Array('', '', 1, 100, 1);
+                        I[18][3][3] = new Array('', '', 0, 0, 1);
+                        I[19] = new Array(); I[19][0] = 100;
+                        I[19][1] = '';
+                        I[19][2] = '0';
+                        I[19][3] = new Array();
+                        I[19][3][0] = new Array('', '', 1, 100, 1);
+                        I[19][3][1] = new Array('', '', 0, 0, 1);
+                        I[19][3][2] = new Array('', '', 0, 0, 1);
+                        I[19][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[20] = new Array(); I[20][0] = 100;
+                        I[20][1] = '';
+                        I[20][2] = '0';
+                        I[20][3] = new Array();
+                        I[20][3][0] = new Array('', '', 0, 0, 1);
+                        I[20][3][1] = new Array('', '', 0, 0, 1);
+                        I[20][3][2] = new Array('', '', 1, 100, 1);
+                        I[20][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[21] = new Array(); I[21][0] = 100;
+                        I[21][1] = '';
+                        I[21][2] = '0';
+                        I[21][3] = new Array();
+                        I[21][3][0] = new Array('', '', 0, 0, 1);
+                        I[21][3][1] = new Array('', '', 1, 100, 1);
+                        I[21][3][2] = new Array('', '', 0, 0, 1);
+                        I[21][3][3] = new Array('', '', 0, 0, 1);
+                        I[22] = new Array(); I[22][0] = 100;
+                        I[22][1] = '';
+                        I[22][2] = '0';
+                        I[22][3] = new Array();
+                        I[22][3][0] = new Array('', '', 0, 0, 1);
+                        I[22][3][1] = new Array('', '', 0, 0, 1);
+                        I[22][3][2] = new Array('', '', 0, 0, 1);
+                        I[22][3][3] = new Array('', '', 1, 100, 1);
+                        I[23] = new Array(); I[23][0] = 100;
+                        I[23][1] = '';
+                        I[23][2] = '0';
+                        I[23][3] = new Array();
+                        I[23][3][0] = new Array('', '', 0, 0, 1);
+                        I[23][3][1] = new Array('', '', 0, 0, 1);
+                        I[23][3][2] = new Array('', '', 1, 100, 1);
+                        I[23][3][3] = new Array('', '', 0, 0, 1);
+                        I[24] = new Array(); I[24][0] = 100;
+                        I[24][1] = '';
+                        I[24][2] = '0';
+                        I[24][3] = new Array();
+                        I[24][3][0] = new Array('', '', 1, 100, 1);
+                        I[24][3][1] = new Array('', '', 0, 0, 1);
+                        I[24][3][2] = new Array('', '', 0, 0, 1);
+                        I[24][3][3] = new Array('', '', 0, 0, 1);
+                        I[25] = new Array(); I[25][0] = 100;
+                        I[25][1] = '';
+                        I[25][2] = '0';
+                        I[25][3] = new Array();
+                        I[25][3][0] = new Array('', '', 0, 0, 1);
+                        I[25][3][1] = new Array('', '', 1, 100, 1);
+                        I[25][3][2] = new Array('', '', 0, 0, 1);
+                        I[25][3][3] = new Array('', '', 0, 0, 1);
+                        I[26] = new Array(); I[26][0] = 100;
+                        I[26][1] = '';
+                        I[26][2] = '0';
+                        I[26][3] = new Array();
+                        I[26][3][0] = new Array('', '', 0, 0, 1);
+                        I[26][3][1] = new Array('', '', 1, 100, 1);
+                        I[26][3][2] = new Array('', '', 0, 0, 1);
+                        I[26][3][3] = new Array('', '', 0, 0, 1);
+                        I[27] = new Array(); I[27][0] = 100;
+                        I[27][1] = '';
+                        I[27][2] = '0';
+                        I[27][3] = new Array();
+                        I[27][3][0] = new Array('', '', 0, 0, 1);
+                        I[27][3][1] = new Array('', '', 0, 0, 1);
+                        I[27][3][2] = new Array('', '', 1, 100, 1);
+                        I[27][3][3] = new Array('', '', 0, 0, 1);
+                        I[28] = new Array(); I[28][0] = 100;
+                        I[28][1] = '';
+                        I[28][2] = '0';
+                        I[28][3] = new Array();
+                        I[28][3][0] = new Array('', '', 1, 100, 1);
+                        I[28][3][1] = new Array('', '', 0, 0, 1);
+                        I[28][3][2] = new Array('', '', 0, 0, 1);
+                        I[28][3][3] = new Array('', '', 0, 0, 1);
+                        I[29] = new Array(); I[29][0] = 100;
+                        I[29][1] = '';
+                        I[29][2] = '0';
+                        I[29][3] = new Array();
+                        I[29][3][0] = new Array('', '', 1, 100, 1);
+                        I[29][3][1] = new Array('', '', 0, 0, 1);
+                        I[29][3][2] = new Array('', '', 0, 0, 1);
+                        I[29][3][3] = new Array('', '', 0, 0, 1);
+                        I[30] = new Array(); I[30][0] = 100;
+                        I[30][1] = '';
+                        I[30][2] = '0';
+                        I[30][3] = new Array();
+                        I[30][3][0] = new Array('', '', 0, 0, 1);
+                        I[30][3][1] = new Array('', '', 1, 100, 1);
+                        I[30][3][2] = new Array('', '', 0, 0, 1);
+                        I[30][3][3] = new Array('', '', 0, 0, 1);
+                        I[31] = new Array(); I[31][0] = 100;
+                        I[31][1] = '';
+                        I[31][2] = '0';
+                        I[31][3] = new Array();
+                        I[31][3][0] = new Array('', '', 0, 0, 1);
+                        I[31][3][1] = new Array('', '', 1, 100, 1);
+                        I[31][3][2] = new Array('', '', 0, 0, 1);
+                        I[31][3][3] = new Array('', '', 0, 0, 1);
+                        I[32] = new Array(); I[32][0] = 100;
+                        I[32][1] = '';
+                        I[32][2] = '0';
+                        I[32][3] = new Array();
+                        I[32][3][0] = new Array('', '', 0, 0, 1);
+                        I[32][3][1] = new Array('', '', 0, 0, 1);
+                        I[32][3][2] = new Array('', '', 1, 100, 1);
+                        I[32][3][3] = new Array('', '', 0, 0, 1);
+                        I[33] = new Array(); I[33][0] = 100;
+                        I[33][1] = '';
+                        I[33][2] = '0';
+                        I[33][3] = new Array();
+                        I[33][3][0] = new Array('', '', 0, 0, 1);
+                        I[33][3][1] = new Array('', '', 0, 0, 1);
+                        I[33][3][2] = new Array('', '', 1, 100, 1);
+                        I[33][3][3] = new Array('', '', 0, 0, 1);
+                        I[34] = new Array(); I[34][0] = 100;
+                        I[34][1] = '';
+                        I[34][2] = '0';
+                        I[34][3] = new Array();
+                        I[34][3][0] = new Array('', '', 0, 0, 1);
+                        I[34][3][1] = new Array('', '', 0, 0, 1);
+                        I[34][3][2] = new Array('', '', 0, 0, 1);
+                        I[34][3][3] = new Array('', '', 1, 100, 1);
+                        I[35] = new Array(); I[35][0] = 100;
+                        I[35][1] = '';
+                        I[35][2] = '0';
+                        I[35][3] = new Array();
+                        I[35][3][0] = new Array('', '', 1, 100, 1);
+                        I[35][3][1] = new Array('', '', 0, 0, 1);
+                        I[35][3][2] = new Array('', '', 0, 0, 1);
+                        I[35][3][3] = new Array('', '', 0, 0, 1);
+                        I[36] = new Array(); I[36][0] = 100;
+                        I[36][1] = '';
+                        I[36][2] = '0';
+                        I[36][3] = new Array();
+                        I[36][3][0] = new Array('', '', 1, 100, 1);
+                        I[36][3][1] = new Array('', '', 0, 0, 1);
+                        I[36][3][2] = new Array('', '', 0, 0, 1);
+                        I[36][3][3] = new Array('', '', 0, 0, 1);
+                        I[37] = new Array(); I[37][0] = 100;
+                        I[37][1] = '';
+                        I[37][2] = '0';
+                        I[37][3] = new Array();
+                        I[37][3][0] = new Array('', '', 0, 0, 1);
+                        I[37][3][1] = new Array('', '', 0, 0, 1);
+                        I[37][3][2] = new Array('', '', 1, 100, 1);
+                        I[37][3][3] = new Array('', '', 0, 0, 1);
+                        I[38] = new Array(); I[38][0] = 100;
+                        I[38][1] = '';
+                        I[38][2] = '0';
+                        I[38][3] = new Array();
+                        I[38][3][0] = new Array('', '', 0, 0, 1);
+                        I[38][3][1] = new Array('', '', 1, 100, 1);
+                        I[38][3][2] = new Array('', '', 0, 0, 1);
+                        I[38][3][3] = new Array('', '', 0, 0, 1);
+                        I[39] = new Array(); I[39][0] = 100;
+                        I[39][1] = '';
+                        I[39][2] = '0';
+                        I[39][3] = new Array();
+                        I[39][3][0] = new Array('', '', 0, 0, 1);
+                        I[39][3][1] = new Array('', '', 0, 0, 1);
+                        I[39][3][2] = new Array('', '', 0, 0, 1);
+                        I[39][3][3] = new Array('', '', 1, 100, 1);
+
+                </script>
+        </body>
+
+        </html>
+
+</div>
