@@ -5287,6 +5287,7 @@
     "64": "https://jettyland.wordpress.com/wp-content/uploads/2024/12/snl60.pdf"
   },
   "cbtBook" : {
+    "cbtBook1" : {
     "1" : "https://mooyeng.github.io/app_eps_topik/machinery.html",
     "2" : "https://jettyland.wordpress.com/wp-content/uploads/2025/10/mac_5.webp",
     "3" : "https://jettyland.wordpress.com/wp-content/uploads/2025/10/mac_6.webp",
@@ -5327,6 +5328,7 @@
     "38" : "https://jettyland.wordpress.com/wp-content/uploads/2025/10/mac_115.webp",
     "39" : "https://jettyland.wordpress.com/wp-content/uploads/2025/10/mac_119.webp",
     "40" : "https://jettyland.wordpress.com/wp-content/uploads/2025/10/mac_120.webp"
+    }
   }
 
 }
