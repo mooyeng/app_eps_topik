@@ -1,0 +1,2257 @@
+<!doctype html>
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script type="text/javascript" src="file:///android_asset/js/p_sc_l_21.js">
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="file:///android_asset/css/p_st_l.css">
+
+
+    </head>
+
+    <body id="TheBody" onload="StartUp()">
+
+
+        <div class="StdDiv" id="InstructionsDiv">
+            <div id="Instructions">
+                Click on <button> ? </button> to check Your Answer.
+            </div>
+        </div>
+        <div id="ContainerDiv">
+
+            <div class="ExerciseContainer">
+
+
+
+
+                <div class="QuestionNavigation" id="QNav">
+
+                    <div style="text-align: center;">
+
+
+                        <button class="FuncButton" id="ShowMethodButton"
+                            onclick="ShowHideQuestions(); return false;">All
+                            questions</button>
+                        <h4>하나의 이야기를 듣고 두 개의 질문에 대답 하십시오.</h4>
+
+
+                    </div>
+                    <hr>
+                    <div id="OneByOneReadout">
+                        <button class="FuncButton" id="PrevQButton" onclick="ChangeQ(-1); return false;">PREV</button>
+
+                        <span class="QNum" id="QNumReadout">&nbsp;</span>
+
+                        <button class="FuncButton" id="NextQButton" onclick="ChangeQ(1); return false;">NEXT</button>
+                        <br />
+                    </div>
+
+                </div>
+                <ol class="QuizQuestions" id="Questions">
+
+
+                    <li class="QuizQuestion" id="Q_0" style="display: none;">
+
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35"></circle>
+                                    </svg>
+                                    <button class="play-btn" id="btn0"
+                                        onclick="toggleAudioWithProgress('audio0', 'btn0')">▶</button>
+                                </div>
+                                <audio id="audio0" src="21-01.mp3"></audio>
+                            </div>
+                        </div>
+
+                        <!-- Sub-question 1 -->
+                        <h4>1-1. 여자는 중국에서 얼마 동안 한국말을 배웠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_0_0_0"><button onclick="CheckMCAnswer(0,0,0,this)">?</button>&nbsp;&nbsp;2개월
+                            </li>
+                            <li id="Q_0_0_1"><button onclick="CheckMCAnswer(0,0,1,this)">?</button>&nbsp;&nbsp;6개월
+                            </li>
+                            <li id="Q_0_0_2"><button onclick="CheckMCAnswer(0,0,2,this)">?</button>&nbsp;&nbsp;1년
+                            </li>
+                            <li id="Q_0_0_3"><button onclick="CheckMCAnswer(0,0,3,this)">?</button>&nbsp;&nbsp;배운 적이
+                                없습니다.
+                            </li>
+                        </ol>
+
+                        <!-- Sub-question 2 -->
+                        <h4>1-2. 들은 내용과 다른 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_0_1_0"><button onclick="CheckMCAnswer(0,1,0,this)">?</button>&nbsp;&nbsp;초급 수업은
+                                평일에 있습니다.
+                            </li>
+                            <li id="Q_0_1_1"><button onclick="CheckMCAnswer(0,1,1,this)">?</button>&nbsp;&nbsp;중급 수업은
+                                토요일에 있습니다.
+                            </li>
+                            <li id="Q_0_1_2"><button onclick="CheckMCAnswer(0,1,2,this)">?</button>&nbsp;&nbsp;여자는 초급
+                                수업을 받겠습니다.
+                            </li>
+                            <li id="Q_0_1_3"><button onclick="CheckMCAnswer(0,1,3,this)">?</button>&nbsp;&nbsp;들은 내용과 다른
+                                것을 고르십시오.
+                            </li>
+                        </ol>
+
+                    </li>
+
+                    <!-- Question group 1 -->
+                    <li class="QuizQuestion" id="Q_1" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35"></circle>
+                                    </svg>
+                                    <button class="play-btn" id="btn1"
+                                        onclick="toggleAudioWithProgress('audio1', 'btn1')">▶</button>
+                                </div>
+                                <audio id="audio1" src="21-02.mp3"></audio>
+                            </div>
+                        </div>
+
+                        <!-- Sub-question 1 -->
+                        <h4>2-1. 남자는 어디를 다쳤습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_1_0_0"><button onclick="CheckMCAnswer(1,0,0,this)">?</button>&nbsp;&nbsp;팔
+                            </li>
+                            <li id="Q_1_0_1"><button onclick="CheckMCAnswer(1,0,1,this)">?</button>&nbsp;&nbsp;다리
+                            </li>
+                            <li id="Q_1_0_2"><button onclick="CheckMCAnswer(1,0,2,this)">?</button>&nbsp;&nbsp;손가락
+                            </li>
+                            <li id="Q_1_0_3"><button onclick="CheckMCAnswer(1,0,3,this)">?</button>&nbsp;&nbsp;발가락
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>2-2. 남자는 다친 후에 무엇을 제일 먼저 했습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_1_1_0"><button onclick="CheckMCAnswer(1,1,0,this)">?</button>&nbsp;&nbsp;팔에 붕대를 감았습니다.
+                            </li>
+                            <li id="Q_1_1_1"><button onclick="CheckMCAnswer(1,1,1,this)">?</button>&nbsp;&nbsp;덴 곳을 물에 담갔습니다.
+                            </li>
+                            <li id="Q_1_1_2"><button onclick="CheckMCAnswer(1,1,2,this)">?</button>&nbsp;&nbsp;상처에 연고를 발랐습니다.
+                            </li>
+                            <li id="Q_1_1_3"><button onclick="CheckMCAnswer(1,1,3,this)">?</button>&nbsp;&nbsp;바로 가까운 병원에 갔습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+
+                    <li class="QuizQuestion" id="Q_2" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn2"
+                                        onclick="toggleAudioWithProgress('audio2', 'btn2')">▶</button>
+                                </div>
+                                <audio id="audio2" src="21-03.mp3"></audio>
+                            </div>
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>3-1. 오늘은 무슨 요일입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_2_0_0"><button onclick="CheckMCAnswer(2,0,0,this)">?</button>&nbsp;&nbsp;월요일
+                            </li>
+                            <li id="Q_2_0_1"><button onclick="CheckMCAnswer(2,0,1,this)">?</button>&nbsp;&nbsp;수요일
+                            </li>
+                            <li id="Q_2_0_2"><button onclick="CheckMCAnswer(2,0,2,this)">?</button>&nbsp;&nbsp;토요일
+                            </li>
+                            <li id="Q_2_0_3"><button onclick="CheckMCAnswer(2,0,3,this)">?</button>&nbsp;&nbsp;일요일
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>3-2. 남자는 왜 은행에 갑니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_2_1_0"><button onclick="CheckMCAnswer(2,1,0,this)">?</button>&nbsp;&nbsp;돈을 저금하려고
+                            </li>
+                            <li id="Q_2_1_1"><button onclick="CheckMCAnswer(2,1,1,this)">?</button>&nbsp;&nbsp;친구를 만나려고
+                            </li>
+                            <li id="Q_2_1_2"><button onclick="CheckMCAnswer(2,1,2,this)">?</button>&nbsp;&nbsp;고향에 돈을 보내려고
+                            </li>
+                            <li id="Q_2_1_3"><button onclick="CheckMCAnswer(2,1,3,this)">?</button>&nbsp;&nbsp;통장을 다시 만들려고
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_3" style="display: none;">
+                        <div class="QuestionText">
+
+                            
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn3"
+                                        onclick="toggleAudioWithProgress('audio3', 'btn3')">▶</button>
+                                </div>
+                                <audio id="audio3" src="21-04.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>4-1. 두 사람은 지금 어디에 있습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_3_0_0"><button onclick="CheckMCAnswer(3,0,0,this)">?</button>&nbsp;&nbsp;병원
+                            </li>
+                            <li id="Q_3_0_1"><button onclick="CheckMCAnswer(3,0,1,this)">?</button>&nbsp;&nbsp;운동장
+                            </li>
+                            <li id="Q_3_0_2"><button onclick="CheckMCAnswer(3,0,2,this)">?</button>&nbsp;&nbsp;작업장
+                            </li>
+                            <li id="Q_3_0_3"><button onclick="CheckMCAnswer(3,0,3,this)">?</button>&nbsp;&nbsp;옷 가게
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>4-2. 다음 중 남자가 착용해야 하는 것은 무엇입니까?</h4>
+                       
+                        <img src="ls21_242.webp" style="max-width: 80%;">
+                        <br>
+                        <ol class="MCAnswers">
+                            <li id="Q_3_1_0"><button onclick="CheckMCAnswer(3,1,0,this)">?</button>&nbsp;&nbsp;①
+                            </li>
+                            <li id="Q_3_1_1"><button onclick="CheckMCAnswer(3,1,1,this)">?</button>&nbsp;&nbsp;②
+                            </li>
+                            <li id="Q_3_1_2"><button onclick="CheckMCAnswer(3,1,2,this)">?</button>&nbsp;&nbsp;③
+                            </li>
+                            <li id="Q_3_1_3"><button onclick="CheckMCAnswer(3,1,3,this)">?</button>&nbsp;&nbsp;④
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_4" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn4"
+                                        onclick="toggleAudioWithProgress('audio4', 'btn4')">▶</button>
+                                </div>
+                                <audio id="audio4" src="21-05.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>5-1. 남자의 가족은 모두 몇 명입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_4_0_0"><button onclick="CheckMCAnswer(4,0,0,this)">?</button>&nbsp;&nbsp;1명
+                            </li>
+                            <li id="Q_4_0_1"><button onclick="CheckMCAnswer(4,0,1,this)">?</button>&nbsp;&nbsp;2명
+                            </li>
+                            <li id="Q_4_0_2"><button onclick="CheckMCAnswer(4,0,2,this)">?</button>&nbsp;&nbsp;3명
+                            </li>
+                            <li id="Q_4_0_3"><button onclick="CheckMCAnswer(4,0,3,this)">?</button>&nbsp;&nbsp;4명
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>5-2. 남자의 여동생에 대한 설명으로 맞지 않는 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_4_1_0"><button onclick="CheckMCAnswer(4,1,0,this)">?</button>&nbsp;&nbsp;똑똑합니다.
+                            </li>
+                            <li id="Q_4_1_1"><button onclick="CheckMCAnswer(4,1,1,this)">?</button>&nbsp;&nbsp;노래를 잘합니다.
+                            </li>
+                            <li id="Q_4_1_2"><button onclick="CheckMCAnswer(4,1,2,this)">?</button>&nbsp;&nbsp;공부를 잘합니다.
+                            </li>
+                            <li id="Q_4_1_3"><button onclick="CheckMCAnswer(4,1,3,this)">?</button>&nbsp;&nbsp;컴퓨터를 잘합니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_5" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn5"
+                                        onclick="toggleAudioWithProgress('audio5', 'btn5')">▶</button>
+                                </div>
+                                <audio id="audio5" src="21-06.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>6-1. 이 남자는 주말에 무엇을 하려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_5_0_0"><button onclick="CheckMCAnswer(5,0,0,this)">?</button>&nbsp;&nbsp;집에서 쉬려고 합니다.
+                            </li>
+                            <li id="Q_5_0_1"><button onclick="CheckMCAnswer(5,0,1,this)">?</button>&nbsp;&nbsp;공부를 하려고 합니다.
+                            </li>
+                            <li id="Q_5_0_2"><button onclick="CheckMCAnswer(5,0,2,this)">?</button>&nbsp;&nbsp;회사에 가려고 합니다.
+                            </li>
+                            <li id="Q_5_0_3"><button onclick="CheckMCAnswer(5,0,3,this)">?</button>&nbsp;&nbsp;축구를 하려고 합니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>6-2. 비가 오면 두 사람은 어디에 가겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_5_1_0"><button onclick="CheckMCAnswer(5,1,0,this)">?</button>&nbsp;&nbsp;회사
+                            </li>
+                            <li id="Q_5_1_1"><button onclick="CheckMCAnswer(5,1,1,this)">?</button>&nbsp;&nbsp;극장
+                            </li>
+                            <li id="Q_5_1_2"><button onclick="CheckMCAnswer(5,1,2,this)">?</button>&nbsp;&nbsp;학교
+                            </li>
+                            <li id="Q_5_1_3"><button onclick="CheckMCAnswer(5,1,3,this)">?</button>&nbsp;&nbsp;노래방
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_6" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn6"
+                                        onclick="toggleAudioWithProgress('audio6', 'btn6')">▶</button>
+                                </div>
+                                <audio id="audio6" src="21-07.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>7-1. 이 여자는 어디에서 일합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_6_0_0"><button onclick="CheckMCAnswer(6,0,0,this)">?</button>&nbsp;&nbsp;치즈를 만드는 공장
+                            </li>
+                            <li id="Q_6_0_1"><button onclick="CheckMCAnswer(6,0,1,this)">?</button>&nbsp;&nbsp;우유를 생산하는 농장
+                            </li>
+                            <li id="Q_6_0_2"><button onclick="CheckMCAnswer(6,0,2,this)">?</button>&nbsp;&nbsp;방진복을 만드는 공장
+                            </li>
+                            <li id="Q_6_0_3"><button onclick="CheckMCAnswer(6,0,3,this)">?</button>&nbsp;&nbsp;화장품을 파는 백화점
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>7-2. 여기에서 일하는 남자 직원은 어떤 규칙을 지켜야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_6_1_0"><button onclick="CheckMCAnswer(6,1,0,this)">?</button>&nbsp;&nbsp;일하기 전에 담배를 피우면 안 됩니다.
+                            </li>
+                            <li id="Q_6_1_1"><button onclick="CheckMCAnswer(6,1,1,this)">?</button>&nbsp;&nbsp;우유를 담는 병을 깨끗이 씻어야 합니다.
+                            </li>
+                            <li id="Q_6_1_2"><button onclick="CheckMCAnswer(6,1,2,this)">?</button>&nbsp;&nbsp;일이 끝난 후 반드시 전깃불을 꺼야 합니다.
+                            </li>
+                            <li id="Q_6_1_3"><button onclick="CheckMCAnswer(6,1,3,this)">?</button>&nbsp;&nbsp;먼지가 없게 작업실을 깨끗이 청소해야 합니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_7" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn7"
+                                        onclick="toggleAudioWithProgress('audio7', 'btn7')">▶</button>
+                                </div>
+                                <audio id="audio7" src="21-08.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>8-1. 두 사람은 일요일에 어디에 가려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_7_0_0"><button onclick="CheckMCAnswer(7,0,0,this)">?</button>&nbsp;&nbsp;산
+                            </li>
+                            <li id="Q_7_0_1"><button onclick="CheckMCAnswer(7,0,1,this)">?</button>&nbsp;&nbsp;강
+                            </li>
+                            <li id="Q_7_0_2"><button onclick="CheckMCAnswer(7,0,2,this)">?</button>&nbsp;&nbsp;바다
+                            </li>
+                            <li id="Q_7_0_3"><button onclick="CheckMCAnswer(7,0,3,this)">?</button>&nbsp;&nbsp;극장
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>8-2. 두 사람은 언제 만나기로 했습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_7_1_0"><button onclick="CheckMCAnswer(7,1,0,this)">?</button>&nbsp;&nbsp;토요일 오전 8시
+                            </li>
+                            <li id="Q_7_1_1"><button onclick="CheckMCAnswer(7,1,1,this)">?</button>&nbsp;&nbsp;토요일 오전 10시
+                            </li>
+                            <li id="Q_7_1_2"><button onclick="CheckMCAnswer(7,1,2,this)">?</button>&nbsp;&nbsp;일요일 오전 8시
+                            </li>
+                            <li id="Q_7_1_3"><button onclick="CheckMCAnswer(7,1,3,this)">?</button>&nbsp;&nbsp;일요일 오전 10시
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_8" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn8"
+                                        onclick="toggleAudioWithProgress('audio8', 'btn8')">▶</button>
+                                </div>
+                                <audio id="audio8" src="21-09.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>9-1. 큰 수박은 한 개에 얼마입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_8_0_0"><button onclick="CheckMCAnswer(8,0,0,this)">?</button>&nbsp;&nbsp;7,000원
+                            </li>
+                            <li id="Q_8_0_1"><button onclick="CheckMCAnswer(8,0,1,this)">?</button>&nbsp;&nbsp;10,000원
+                            </li>
+                            <li id="Q_8_0_2"><button onclick="CheckMCAnswer(8,0,2,this)">?</button>&nbsp;&nbsp;17,000원
+                            </li>
+                            <li id="Q_8_0_3"><button onclick="CheckMCAnswer(8,0,3,this)">?</button>&nbsp;&nbsp;20,000원
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>9-2. 수박 값이 왜 비쌉니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_8_1_0"><button onclick="CheckMCAnswer(8,1,0,this)">?</button>&nbsp;&nbsp;요즘 비가 많이 왔기 때문에
+                            </li>
+                            <li id="Q_8_1_1"><button onclick="CheckMCAnswer(8,1,1,this)">?</button>&nbsp;&nbsp;크고 맛있는 수박이기 때문에
+                            </li>
+                            <li id="Q_8_1_2"><button onclick="CheckMCAnswer(8,1,2,this)">?</button>&nbsp;&nbsp;가을이 되어서 추워졌기 때문에
+                            </li>
+                            <li id="Q_8_1_3"><button onclick="CheckMCAnswer(8,1,3,this)">?</button>&nbsp;&nbsp;수박을 사는 사람이 많아졌기 때문에
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_9" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn9"
+                                        onclick="toggleAudioWithProgress('audio9', 'btn9')">▶</button>
+                                </div>
+                                <audio id="audio9" src="21-10.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>10-1. 손님은 모두 몇 명입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_9_0_0"><button onclick="CheckMCAnswer(9,0,0,this)">?</button>&nbsp;&nbsp;3명
+                            </li>
+                            <li id="Q_9_0_1"><button onclick="CheckMCAnswer(9,0,1,this)">?</button>&nbsp;&nbsp;4명
+                            </li>
+                            <li id="Q_9_0_2"><button onclick="CheckMCAnswer(9,0,2,this)">?</button>&nbsp;&nbsp;6명
+                            </li>
+                            <li id="Q_9_0_3"><button onclick="CheckMCAnswer(9,0,3,this)">?</button>&nbsp;&nbsp;7명
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>10-2. 손님은 어디에 앉겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_9_1_0"><button onclick="CheckMCAnswer(9,1,0,this)">?</button>&nbsp;&nbsp;1층 넓은 방
+                            </li>
+                            <li id="Q_9_1_1"><button onclick="CheckMCAnswer(9,1,1,this)">?</button>&nbsp;&nbsp;2층 넓은 방
+                            </li>
+                            <li id="Q_9_1_2"><button onclick="CheckMCAnswer(9,1,2,this)">?</button>&nbsp;&nbsp;1층 창문 옆 테이블
+                            </li>
+                            <li id="Q_9_1_3"><button onclick="CheckMCAnswer(9,1,3,this)">?</button>&nbsp;&nbsp;2층 창문 옆 테이블
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_10" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn10"
+                                        onclick="toggleAudioWithProgress('audio10', 'btn10')">▶</button>
+                                </div>
+                                <audio id="audio10" src="21-11.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>11-1 다음 중 이 곳에서 입는 작업복은 무엇입니까?</h4>
+                        <img src="ls21_311.webp" style="max-width: 80%;">
+                        <ol class="MCAnswers">
+                            <li id="Q_10_0_0"><button onclick="CheckMCAnswer(10,0,0,this)">?</button>&nbsp;&nbsp;①
+                            </li>
+                            <li id="Q_10_0_1"><button onclick="CheckMCAnswer(10,0,1,this)">?</button>&nbsp;&nbsp;②
+                            </li>
+                            <li id="Q_10_0_2"><button onclick="CheckMCAnswer(10,0,2,this)">?</button>&nbsp;&nbsp;③
+                            </li>
+                            <li id="Q_10_0_3"><button onclick="CheckMCAnswer(10,0,3,this)">?</button>&nbsp;&nbsp;④
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>11-2 다음 중 위의 대화로 알 수 있는 것이 아닌 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_10_1_0"><button onclick="CheckMCAnswer(10,1,0,this)">?</button>&nbsp;&nbsp;작업장 안에 소화기가 2개 있다.
+                            </li>
+                            <li id="Q_10_1_1"><button onclick="CheckMCAnswer(10,1,1,this)">?</button>&nbsp;&nbsp;문 옆에 소화기가 설치되어 있다.
+                            </li>
+                            <li id="Q_10_1_2"><button onclick="CheckMCAnswer(10,1,2,this)">?</button>&nbsp;&nbsp;트란 씨는 라이터를 가지고 있다.
+                            </li>
+                            <li id="Q_10_1_3"><button onclick="CheckMCAnswer(10,1,3,this)">?</button>&nbsp;&nbsp;트란 씨는 내일부터 여기에서 일한다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_11" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn11"
+                                        onclick="toggleAudioWithProgress('audio11', 'btn11')">▶</button>
+                                </div>
+                                <audio id="audio11" src="21-12.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>12-1 남자는 무엇을 샀습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_11_0_0"><button onclick="CheckMCAnswer(11,0,0,this)">?</button>&nbsp;&nbsp;김
+                            </li>
+                            <li id="Q_11_0_1"><button onclick="CheckMCAnswer(11,0,1,this)">?</button>&nbsp;&nbsp;김치
+                            </li>
+                            <li id="Q_11_0_2"><button onclick="CheckMCAnswer(11,0,2,this)">?</button>&nbsp;&nbsp;과일
+                            </li>
+                            <li id="Q_11_0_3"><button onclick="CheckMCAnswer(11,0,3,this)">?</button>&nbsp;&nbsp;고추장
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>12-2 남자는 얼마를 냈습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_11_1_0"><button onclick="CheckMCAnswer(11,1,0,this)">?</button>&nbsp;&nbsp;5,000원
+                            </li>
+                            <li id="Q_11_1_1"><button onclick="CheckMCAnswer(11,1,1,this)">?</button>&nbsp;&nbsp;10,000원
+                            </li>
+                            <li id="Q_11_1_2"><button onclick="CheckMCAnswer(11,1,2,this)">?</button>&nbsp;&nbsp;15,000원
+                            </li>
+                            <li id="Q_11_1_3"><button onclick="CheckMCAnswer(11,1,3,this)">?</button>&nbsp;&nbsp;20,000원
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_12" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn12"
+                                        onclick="toggleAudioWithProgress('audio12', 'btn12')">▶</button>
+                                </div>
+                                <audio id="audio12" src="21-13.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>13-1 두 사람은 내일 무엇을 하려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_12_0_0"><button onclick="CheckMCAnswer(12,0,0,this)">?</button>&nbsp;&nbsp;박물관에 가려고 합니다.
+                            </li>
+                            <li id="Q_12_0_1"><button onclick="CheckMCAnswer(12,0,1,this)">?</button>&nbsp;&nbsp;한국 영화를 보려고 합니다.
+                            </li>
+                            <li id="Q_12_0_2"><button onclick="CheckMCAnswer(12,0,2,this)">?</button>&nbsp;&nbsp;한국 춤을 구경하려고 합니다.
+                            </li>
+                            <li id="Q_12_0_3"><button onclick="CheckMCAnswer(12,0,3,this)">?</button>&nbsp;&nbsp;서울 시내를 구경하려고 합니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>13-2 두 사람은 내일 몇 시에 만나겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_12_1_0"><button onclick="CheckMCAnswer(12,1,0,this)">?</button>&nbsp;&nbsp;오후 4시
+                            </li>
+                            <li id="Q_12_1_1"><button onclick="CheckMCAnswer(12,1,1,this)">?</button>&nbsp;&nbsp;오후 5시
+                            </li>
+                            <li id="Q_12_1_2"><button onclick="CheckMCAnswer(12,1,2,this)">?</button>&nbsp;&nbsp;오후 6시
+                            </li>
+                            <li id="Q_12_1_3"><button onclick="CheckMCAnswer(12,1,3,this)">?</button>&nbsp;&nbsp;오후 7시
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_13" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn13"
+                                        onclick="toggleAudioWithProgress('audio13', 'btn13')">▶</button>
+                                </div>
+                                <audio id="audio13" src="21-14.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>14-1 수박은 한 통에 얼마입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_13_0_0"><button onclick="CheckMCAnswer(13,0,0,this)">?</button>&nbsp;&nbsp;1,000원
+                            </li>
+                            <li id="Q_13_0_1"><button onclick="CheckMCAnswer(13,0,1,this)">?</button>&nbsp;&nbsp;4,000원
+                            </li>
+                            <li id="Q_13_0_2"><button onclick="CheckMCAnswer(13,0,2,this)">?</button>&nbsp;&nbsp;10,000원
+                            </li>
+                            <li id="Q_13_0_3"><button onclick="CheckMCAnswer(13,0,3,this)">?</button>&nbsp;&nbsp;15,000원
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>14-2 여자가 산 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_13_1_0"><button onclick="CheckMCAnswer(13,1,0,this)">?</button>&nbsp;&nbsp;수박
+                            </li>
+                            <li id="Q_13_1_1"><button onclick="CheckMCAnswer(13,1,1,this)">?</button>&nbsp;&nbsp;사과와 포도
+                            </li>
+                            <li id="Q_13_1_2"><button onclick="CheckMCAnswer(13,1,2,this)">?</button>&nbsp;&nbsp;수박과 사과
+                            </li>
+                            <li id="Q_13_1_3"><button onclick="CheckMCAnswer(13,1,3,this)">?</button>&nbsp;&nbsp;포도와 수박
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_14" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn14"
+                                        onclick="toggleAudioWithProgress('audio14', 'btn14')">▶</button>
+                                </div>
+                                <audio id="audio14" src="21-15.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>15-1 남자는 지금 어디에 갑니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_14_0_0"><button onclick="CheckMCAnswer(14,0,0,this)">?</button>&nbsp;&nbsp;회사
+                            </li>
+                            <li id="Q_14_0_1"><button onclick="CheckMCAnswer(14,0,1,this)">?</button>&nbsp;&nbsp;시장
+                            </li>
+                            <li id="Q_14_0_2"><button onclick="CheckMCAnswer(14,0,2,this)">?</button>&nbsp;&nbsp;우체국
+                            </li>
+                            <li id="Q_14_0_3"><button onclick="CheckMCAnswer(14,0,3,this)">?</button>&nbsp;&nbsp;백화점
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>15-2 남자는 무엇을 샀습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_14_1_0"><button onclick="CheckMCAnswer(14,1,0,this)">?</button>&nbsp;&nbsp;어머니의 옷
+                            </li>
+                            <li id="Q_14_1_1"><button onclick="CheckMCAnswer(14,1,1,this)">?</button>&nbsp;&nbsp;생신 축하 꽃
+                            </li>
+                            <li id="Q_14_1_2"><button onclick="CheckMCAnswer(14,1,2,this)">?</button>&nbsp;&nbsp;여직원의 선물
+                            </li>
+                            <li id="Q_14_1_3"><button onclick="CheckMCAnswer(14,1,3,this)">?</button>&nbsp;&nbsp;회사에서 쓸 물건
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_15" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn15"
+                                        onclick="toggleAudioWithProgress('audio15', 'btn15')">▶</button>
+                                </div>
+                                <audio id="audio15" src="21-16.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>16-1 남자는 누구와 같이 경주에 갔습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_15_0_0"><button onclick="CheckMCAnswer(15,0,0,this)">?</button>&nbsp;&nbsp;혼자 갔습니다.
+                            </li>
+                            <li id="Q_15_0_1"><button onclick="CheckMCAnswer(15,0,1,this)">?</button>&nbsp;&nbsp;리아 씨와 갔습니다.
+                            </li>
+                            <li id="Q_15_0_2"><button onclick="CheckMCAnswer(15,0,2,this)">?</button>&nbsp;&nbsp;한국 친구와 갔습니다.
+                            </li>
+                            <li id="Q_15_0_3"><button onclick="CheckMCAnswer(15,0,3,this)">?</button>&nbsp;&nbsp;캄보디아 친구와 갔습니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>16-2 들은 내용과 같은 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_15_1_0"><button onclick="CheckMCAnswer(15,1,0,this)">?</button>&nbsp;&nbsp;경주는 서울의 북쪽에 있습니다.
+                            </li>
+                            <li id="Q_15_1_1"><button onclick="CheckMCAnswer(15,1,1,this)">?</button>&nbsp;&nbsp;두 사람은 박물관에 가려고 합니다.
+                            </li>
+                            <li id="Q_15_1_2"><button onclick="CheckMCAnswer(15,1,2,this)">?</button>&nbsp;&nbsp;경주까지 기차로 6시간 걸렸습니다.
+                            </li>
+                            <li id="Q_15_1_3"><button onclick="CheckMCAnswer(15,1,3,this)">?</button>&nbsp;&nbsp;여자는 경주에 가 본 적이 있습니다.
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_16" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn16"
+                                        onclick="toggleAudioWithProgress('audio16', 'btn16')">▶</button>
+                                </div>
+                                <audio id="audio16" src="21-17.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>7-1 약은 어떻게 먹어야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_16_0_0"><button onclick="CheckMCAnswer(16,0,0,this)">?</button>&nbsp;&nbsp;하루 2번, 1알씩, 식사 30분 전에
+                            </li>
+                            <li id="Q_16_0_1"><button onclick="CheckMCAnswer(16,0,1,this)">?</button>&nbsp;&nbsp;하루 2번, 2알씩, 식사 30분 후에
+                            </li>
+                            <li id="Q_16_0_2"><button onclick="CheckMCAnswer(16,0,2,this)">?</button>&nbsp;&nbsp;하루 3번, 1알씩, 식사 30분 전에
+                            </li>
+                            <li id="Q_16_0_3"><button onclick="CheckMCAnswer(16,0,3,this)">?</button>&nbsp;&nbsp;하루 3번, 2알씩, 식사 30분 후에
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>17-2 들은 내용과 다른 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_16_1_0"><button onclick="CheckMCAnswer(16,1,0,this)">?</button>&nbsp;&nbsp;여자는 목이 아프다.
+                            </li>
+                            <li id="Q_16_1_1"><button onclick="CheckMCAnswer(16,1,1,this)">?</button>&nbsp;&nbsp;여자는 감기에 걸렸다.
+                            </li>
+                            <li id="Q_16_1_2"><button onclick="CheckMCAnswer(16,1,2,this)">?</button>&nbsp;&nbsp;여자는 반창고를 샀다.
+                            </li>
+                            <li id="Q_16_1_3"><button onclick="CheckMCAnswer(16,1,3,this)">?</button>&nbsp;&nbsp;여자는 열이 많이 난다.
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_17" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn17"
+                                        onclick="toggleAudioWithProgress('audio17', 'btn17')">▶</button>
+                                </div>
+                                <audio id="audio17" src="21-18.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>18-1. 두 사람은 내일 무엇을 하겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_17_0_0"><button onclick="CheckMCAnswer(17,0,0,this)">?</button>&nbsp;&nbsp;서울 시내를 구경하겠습니다.
+                            </li>
+                            <li id="Q_17_0_1"><button onclick="CheckMCAnswer(17,0,1,this)">?</button>&nbsp;&nbsp;학교에서 한국말을 배우겠습니다.
+                            </li>
+                            <li id="Q_17_0_2"><button onclick="CheckMCAnswer(17,0,2,this)">?</button>&nbsp;&nbsp;여행사에서 기차표를 사겠습니다.
+                            </li>
+                            <li id="Q_17_0_3"><button onclick="CheckMCAnswer(17,0,3,this)">?</button>&nbsp;&nbsp;유명한 한국 가수를 만나겠습니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>18-2. 한 사람이 내야 하는 교통비는 얼마입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_17_1_0"><button onclick="CheckMCAnswer(17,1,0,this)">?</button>&nbsp;&nbsp;5,000원
+                            </li>
+                            <li id="Q_17_1_1"><button onclick="CheckMCAnswer(17,1,1,this)">?</button>&nbsp;&nbsp;9,000원
+                            </li>
+                            <li id="Q_17_1_2"><button onclick="CheckMCAnswer(17,1,2,this)">?</button>&nbsp;&nbsp;10,000원
+                            </li>
+                            <li id="Q_17_1_3"><button onclick="CheckMCAnswer(17,1,3,this)">?</button>&nbsp;&nbsp;50,000원
+                            </li>
+                        </ol>
+
+                    </li>
+                    <li class="QuizQuestion" id="Q_18" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn18"
+                                        onclick="toggleAudioWithProgress('audio18', 'btn18')">▶</button>
+                                </div>
+                                <audio id="audio18" src="21-19.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>19-1. 남자는 왜 여기에 왔습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_18_0_0"><button onclick="CheckMCAnswer(18,0,0,this)">?</button>&nbsp;&nbsp;새 트럭을 사려고
+                            </li>
+                            <li id="Q_18_0_1"><button onclick="CheckMCAnswer(18,0,1,this)">?</button>&nbsp;&nbsp;일자리를 구하려고
+                            </li>
+                            <li id="Q_18_0_2"><button onclick="CheckMCAnswer(18,0,2,this)">?</button>&nbsp;&nbsp;이사를 부탁하려고
+                            </li>
+                            <li id="Q_18_0_3"><button onclick="CheckMCAnswer(18,0,3,this)">?</button>&nbsp;&nbsp;외국 여행을 하려고
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>19-2. 남자에 대한 설명으로 맞지 않는 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_18_1_0"><button onclick="CheckMCAnswer(18,1,0,this)">?</button>&nbsp;&nbsp;우즈베키스탄에서 왔습니다.
+                            </li>
+                            <li id="Q_18_1_1"><button onclick="CheckMCAnswer(18,1,1,this)">?</button>&nbsp;&nbsp;주말에도 일할 수 있습니다.
+                            </li>
+                            <li id="Q_18_1_2"><button onclick="CheckMCAnswer(18,1,2,this)">?</button>&nbsp;&nbsp;한국말을 조금 할 수 있습니다.
+                            </li>
+                            <li id="Q_18_1_3"><button onclick="CheckMCAnswer(18,1,3,this)">?</button>&nbsp;&nbsp;전에 이삿짐센터에서 일했습니다.
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="QuizQuestion" id="Q_19" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn19"
+                                        onclick="toggleAudioWithProgress('audio19', 'btn19')">▶</button>
+                                </div>
+                                <audio id="audio19" src="21-20.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>20-1. 여자는 누구와 같이 경주에 가려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_19_0_0"><button onclick="CheckMCAnswer(19,0,0,this)">?</button>&nbsp;&nbsp;친구
+                            </li>
+                            <li id="Q_19_0_1"><button onclick="CheckMCAnswer(19,0,1,this)">?</button>&nbsp;&nbsp;동생
+                            </li>
+                            <li id="Q_19_0_2"><button onclick="CheckMCAnswer(19,0,2,this)">?</button>&nbsp;&nbsp;남편
+                            </li>
+                            <li id="Q_19_0_3"><button onclick="CheckMCAnswer(19,0,3,this)">?</button>&nbsp;&nbsp;부모님
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>20-2. 여자는 무엇을 타고 경주에 가려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_19_1_0"><button onclick="CheckMCAnswer(19,1,0,this)">?</button>&nbsp;&nbsp;기차
+                            </li>
+                            <li id="Q_19_1_1"><button onclick="CheckMCAnswer(19,1,1,this)">?</button>&nbsp;&nbsp;버스
+                            </li>
+                            <li id="Q_19_1_2"><button onclick="CheckMCAnswer(19,1,2,this)">?</button>&nbsp;&nbsp;비행기
+                            </li>
+                            <li id="Q_19_1_3"><button onclick="CheckMCAnswer(19,1,3,this)">?</button>&nbsp;&nbsp;자동차
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_20" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn20"
+                                        onclick="toggleAudioWithProgress('audio20', 'btn20')">▶</button>
+                                </div>
+                                <audio id="audio20" src="21-21.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>21-1. 여자의 취미는 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_20_0_0"><button onclick="CheckMCAnswer(20,0,0,this)">?</button>&nbsp;&nbsp;여행하기
+                            </li>
+                            <li id="Q_20_0_1"><button onclick="CheckMCAnswer(20,0,1,this)">?</button>&nbsp;&nbsp;사진 찍기
+                            </li>
+                            <li id="Q_20_0_2"><button onclick="CheckMCAnswer(20,0,2,this)">?</button>&nbsp;&nbsp;영화 보기
+                            </li>
+                            <li id="Q_20_0_3"><button onclick="CheckMCAnswer(20,0,3,this)">?</button>&nbsp;&nbsp;외국어 배우기
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>21-2. 남자는 내년에 어느 나라에서 일하려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_20_1_0"><button onclick="CheckMCAnswer(20,1,0,this)">?</button>&nbsp;&nbsp;일본
+                            </li>
+                            <li id="Q_20_1_1"><button onclick="CheckMCAnswer(20,1,1,this)">?</button>&nbsp;&nbsp;중국
+                            </li>
+                            <li id="Q_20_1_2"><button onclick="CheckMCAnswer(20,1,2,this)">?</button>&nbsp;&nbsp;한국
+                            </li>
+                            <li id="Q_20_1_3"><button onclick="CheckMCAnswer(20,1,3,this)">?</button>&nbsp;&nbsp;미국
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_21" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn21"
+                                        onclick="toggleAudioWithProgress('audio21', 'btn21')">▶</button>
+                                </div>
+                                <audio id="audio21" src="21-22.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>22-1. 이 기숙사에 몇 시까지 들어와야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_21_0_0"><button onclick="CheckMCAnswer(21,0,0,this)">?</button>&nbsp;&nbsp;밤 8시
+                            </li>
+                            <li id="Q_21_0_1"><button onclick="CheckMCAnswer(21,0,1,this)">?</button>&nbsp;&nbsp;밤 10시
+                            </li>
+                            <li id="Q_21_0_2"><button onclick="CheckMCAnswer(21,0,2,this)">?</button>&nbsp;&nbsp;밤 11시
+                            </li>
+                            <li id="Q_21_0_3"><button onclick="CheckMCAnswer(21,0,3,this)">?</button>&nbsp;&nbsp;밤 12시
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>22-2. 이 기숙사의 규칙을 지키지 않은 사람은 누구입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_21_1_0"><button onclick="CheckMCAnswer(21,1,0,this)">?</button>&nbsp;&nbsp;영수：기숙사 밖에서 담배를 피웠습니다.
+                            </li>
+                            <li id="Q_21_1_1"><button onclick="CheckMCAnswer(21,1,1,this)">?</button>&nbsp;&nbsp;성하：기숙사 방에서 맥주를 마셨습니다.
+                            </li>
+                            <li id="Q_21_1_2"><button onclick="CheckMCAnswer(21,1,2,this)">?</button>&nbsp;&nbsp;얀또：기숙사 방에서 김밥을 먹었습니다.
+                            </li>
+                            <li id="Q_21_1_3"><button onclick="CheckMCAnswer(21,1,3,this)">?</button>&nbsp;&nbsp;리아：기숙사 휴게실에서 커피를 마셨습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_22" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn22"
+                                        onclick="toggleAudioWithProgress('audio22', 'btn22')">▶</button>
+                                </div>
+                                <audio id="audio22" src="21-23.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>23-1. 전화를 건 사람은 누구입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_22_0_0"><button onclick="CheckMCAnswer(22,0,0,this)">?</button>&nbsp;&nbsp;민수
+                            </li>
+                            <li id="Q_22_0_1"><button onclick="CheckMCAnswer(22,0,1,this)">?</button>&nbsp;&nbsp;모하메드
+                            </li>
+                            <li id="Q_22_0_2"><button onclick="CheckMCAnswer(22,0,2,this)">?</button>&nbsp;&nbsp;민수 어머니
+                            </li>
+                            <li id="Q_22_0_3"><button onclick="CheckMCAnswer(22,0,3,this)">?</button>&nbsp;&nbsp;모하메드의 친구
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>23-2. 민수에 대한 설명으로 맞는 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_22_1_0"><button onclick="CheckMCAnswer(22,1,0,this)">?</button>&nbsp;&nbsp;지금 잠을 자고 있습니다.
+                            </li>
+                            <li id="Q_22_1_1"><button onclick="CheckMCAnswer(22,1,1,this)">?</button>&nbsp;&nbsp;친구를 만나러 나갔습니다.
+                            </li>
+                            <li id="Q_22_1_2"><button onclick="CheckMCAnswer(22,1,2,this)">?</button>&nbsp;&nbsp;집에서 친구의 전화를 기다립니다.
+                            </li>
+                            <li id="Q_22_1_3"><button onclick="CheckMCAnswer(22,1,3,this)">?</button>&nbsp;&nbsp;지금 모하메드 씨를 만나고 있습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_23" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn23"
+                                        onclick="toggleAudioWithProgress('audio23', 'btn23')">▶</button>
+                                </div>
+                                <audio id="audio23" src="21-24.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>24-1. 두 사람은 무엇에 대해 이야기하고 있습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_23_0_0"><button onclick="CheckMCAnswer(23,0,0,this)">?</button>&nbsp;&nbsp;회식 때 갈 식
+                            </li>
+                            <li id="Q_23_0_1"><button onclick="CheckMCAnswer(23,0,1,this)">?</button>&nbsp;&nbsp;회식 날짜와 시간
+                            </li>
+                            <li id="Q_23_0_2"><button onclick="CheckMCAnswer(23,0,2,this)">?</button>&nbsp;&nbsp;회식을 하는 이유
+                            </li>
+                            <li id="Q_23_0_3"><button onclick="CheckMCAnswer(23,0,3,this)">?</button>&nbsp;&nbsp;회식에 참석할 사
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>24-2. 들은 내용으로 알 수 있는 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_23_1_0"><button onclick="CheckMCAnswer(23,1,0,this)">?</button>&nbsp;&nbsp;부장님은 오늘 회식에 가지 않는다.
+                            </li>
+                            <li id="Q_23_1_1"><button onclick="CheckMCAnswer(23,1,1,this)">?</button>&nbsp;&nbsp;방 씨는 돼지고기를 먹지 않는다.
+                            </li>
+                            <li id="Q_23_1_2"><button onclick="CheckMCAnswer(23,1,2,this)">?</button>&nbsp;&nbsp;여자는 회식 때 참석하지 않을 것이다.
+                            </li>
+                            <li id="Q_23_1_3"><button onclick="CheckMCAnswer(23,1,3,this)">?</button>&nbsp;&nbsp;진천 씨는 오늘 처음 회식에 참석한다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_24" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn24"
+                                        onclick="toggleAudioWithProgress('audio24', 'btn24')">▶</button>
+                                </div>
+                                <audio id="audio24" src="21-25.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>25-1. 이 남자는 무엇을 샀습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_24_0_0"><button onclick="CheckMCAnswer(24,0,0,this)">?</button>&nbsp;&nbsp;귤
+                            </li>
+                            <li id="Q_24_0_1"><button onclick="CheckMCAnswer(24,0,1,this)">?</button>&nbsp;&nbsp;배
+                            </li>
+                            <li id="Q_24_0_2"><button onclick="CheckMCAnswer(24,0,2,this)">?</button>&nbsp;&nbsp;귤하고 배
+                            </li>
+                            <li id="Q_24_0_3"><button onclick="CheckMCAnswer(24,0,3,this)">?</button>&nbsp;&nbsp;아무것도 안 샀습니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>25-2. 남자는 얼마를 내야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_24_1_0"><button onclick="CheckMCAnswer(24,1,0,this)">?</button>&nbsp;&nbsp;2,000원
+                            </li>
+                            <li id="Q_24_1_1"><button onclick="CheckMCAnswer(24,1,1,this)">?</button>&nbsp;&nbsp;4,000원
+                            </li>
+                            <li id="Q_24_1_2"><button onclick="CheckMCAnswer(24,1,2,this)">?</button>&nbsp;&nbsp;7,000원
+                            </li>
+                            <li id="Q_24_1_3"><button onclick="CheckMCAnswer(24,1,3,this)">?</button>&nbsp;&nbsp;9,000원
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_25" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn25"
+                                        onclick="toggleAudioWithProgress('audio25', 'btn25')">▶</button>
+                                </div>
+                                <audio id="audio25" src="21-26.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>26-1. 민정 씨는 몇 번 출구로 나가야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_25_0_0"><button onclick="CheckMCAnswer(25,0,0,this)">?</button>&nbsp;&nbsp;7번 출구
+                            </li>
+                            <li id="Q_25_0_1"><button onclick="CheckMCAnswer(25,0,1,this)">?</button>&nbsp;&nbsp;8번 출구
+                            </li>
+                            <li id="Q_25_0_2"><button onclick="CheckMCAnswer(25,0,2,this)">?</button>&nbsp;&nbsp;9번 출구
+                            </li>
+                            <li id="Q_25_0_3"><button onclick="CheckMCAnswer(25,0,3,this)">?</button>&nbsp;&nbsp;10번 출구
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>26-2. 들은 내용과 같은 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_25_1_0"><button onclick="CheckMCAnswer(25,1,0,this)">?</button>&nbsp;&nbsp;민정 씨는 지금 8번 출구 쪽에 있습니다.
+                            </li>
+                            <li id="Q_25_1_1"><button onclick="CheckMCAnswer(25,1,1,this)">?</button>&nbsp;&nbsp;민정 씨는 지금 명동역으로 가려고 합니다.
+                            </li>
+                            <li id="Q_25_1_2"><button onclick="CheckMCAnswer(25,1,2,this)">?</button>&nbsp;&nbsp;민정 씨는 지금 빵집에서 빵을 사고 있습니다.
+                            </li>
+                            <li id="Q_25_1_3"><button onclick="CheckMCAnswer(25,1,3,this)">?</button>&nbsp;&nbsp;이 선생님은 빵집에서 민정 씨를 기다리고 있습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_26" style="display: none;">
+                        <div class="QuestionText">
+
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn26"
+                                        onclick="toggleAudioWithProgress('audio26', 'btn26')">▶</button>
+                                </div>
+                                <audio id="audio26" src="21-27.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>27-1. 여기는 어디입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_26_0_0"><button onclick="CheckMCAnswer(26,0,0,this)">?</button>&nbsp;&nbsp;은행
+                            </li>
+                            <li id="Q_26_0_1"><button onclick="CheckMCAnswer(26,0,1,this)">?</button>&nbsp;&nbsp;병원
+                            </li>
+                            <li id="Q_26_0_2"><button onclick="CheckMCAnswer(26,0,2,this)">?</button>&nbsp;&nbsp;공장
+                            </li>
+                            <li id="Q_26_0_3"><button onclick="CheckMCAnswer(26,0,3,this)">?</button>&nbsp;&nbsp;우체국
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>27-2. 여자는 언제부터 일하겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_26_1_0"><button onclick="CheckMCAnswer(26,1,0,this)">?</button>&nbsp;&nbsp;오늘 오전 8시
+                            </li>
+                            <li id="Q_26_1_1"><button onclick="CheckMCAnswer(26,1,1,this)">?</button>&nbsp;&nbsp;오늘 오후 8시
+                            </li>
+                            <li id="Q_26_1_2"><button onclick="CheckMCAnswer(26,1,2,this)">?</button>&nbsp;&nbsp;내일 오전 8시
+                            </li>
+                            <li id="Q_26_1_3"><button onclick="CheckMCAnswer(26,1,3,this)">?</button>&nbsp;&nbsp;내일 오후 8시
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_27" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn27"
+                                        onclick="toggleAudioWithProgress('audio27', 'btn27')">▶</button>
+                                </div>
+                                <audio id="audio27" src="21-28.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>28-1. 여자는 왜 전화했습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_27_0_0"><button onclick="CheckMCAnswer(27,0,0,this)">?</button>&nbsp;&nbsp;물건을 사려고
+                            </li>
+                            <li id="Q_27_0_1"><button onclick="CheckMCAnswer(27,0,1,this)">?</button>&nbsp;&nbsp;취직을 하려고
+                            </li>
+                            <li id="Q_27_0_2"><button onclick="CheckMCAnswer(27,0,2,this)">?</button>&nbsp;&nbsp;친구를 만나려고
+                            </li>
+                            <li id="Q_27_0_3"><button onclick="CheckMCAnswer(27,0,3,this)">?</button>&nbsp;&nbsp;음식을 주문하려고
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>28-2. 이 슈퍼마켓에서는 평일에 몇 시부터 몇 시까지 일해야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_27_1_0"><button onclick="CheckMCAnswer(27,1,0,this)">?</button>&nbsp;&nbsp;오전 8시부터 오후 4시까지
+                            </li>
+                            <li id="Q_27_1_1"><button onclick="CheckMCAnswer(27,1,1,this)">?</button>&nbsp;&nbsp;오전 8시부터 오후 6시까지
+                            </li>
+                            <li id="Q_27_1_2"><button onclick="CheckMCAnswer(27,1,2,this)">?</button>&nbsp;&nbsp;오전 9시부터 오후 7시까지
+                            </li>
+                            <li id="Q_27_1_3"><button onclick="CheckMCAnswer(27,1,3,this)">?</button>&nbsp;&nbsp;오전 9시부터 오후 8시까지
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_28" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn28"
+                                        onclick="toggleAudioWithProgress('audio28', 'btn28')">▶</button>
+                                </div>
+                                <audio id="audio28" src="21-29.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>29-1. 남자는 언제부터 일하겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_28_0_0"><button onclick="CheckMCAnswer(28,0,0,this)">?</button>&nbsp;&nbsp;내일
+                            </li>
+                            <li id="Q_28_0_1"><button onclick="CheckMCAnswer(28,0,1,this)">?</button>&nbsp;&nbsp;다음 주
+                            </li>
+                            <li id="Q_28_0_2"><button onclick="CheckMCAnswer(28,0,2,this)">?</button>&nbsp;&nbsp;다음 달
+                            </li>
+                            <li id="Q_28_0_3"><button onclick="CheckMCAnswer(28,0,3,this)">?</button>&nbsp;&nbsp;내년
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>29-2. 남자는 어떤 일을 하겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_28_1_0"><button onclick="CheckMCAnswer(28,1,0,this)">?</button>&nbsp;&nbsp;기계를 고치는 일
+                            </li>
+                            <li id="Q_28_1_1"><button onclick="CheckMCAnswer(28,1,1,this)">?</button>&nbsp;&nbsp;안전 교육을 하는 일
+                            </li>
+                            <li id="Q_28_1_2"><button onclick="CheckMCAnswer(28,1,2,this)">?</button>&nbsp;&nbsp;지게차를 운전하는 일
+                            </li>
+                            <li id="Q_28_1_3"><button onclick="CheckMCAnswer(28,1,3,this)">?</button>&nbsp;&nbsp;프레스기를 사용하는 일
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_29" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn29"
+                                        onclick="toggleAudioWithProgress('audio29', 'btn29')">▶</button>
+                                </div>
+                                <audio id="audio29" src="21-30.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>30-1. 남자는 이번 주말에 무엇을 할 것입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_29_0_0"><button onclick="CheckMCAnswer(29,0,0,this)">?</button>&nbsp;&nbsp;카넬을 만날 것입니다.
+                            </li>
+                            <li id="Q_29_0_1"><button onclick="CheckMCAnswer(29,0,1,this)">?</button>&nbsp;&nbsp;여자를 도와줄 것입니다.
+                            </li>
+                            <li id="Q_29_0_2"><button onclick="CheckMCAnswer(29,0,2,this)">?</button>&nbsp;&nbsp;회사에 갔다 올 것입니다.
+                            </li>
+                            <li id="Q_29_0_3"><button onclick="CheckMCAnswer(29,0,3,this)">?</button>&nbsp;&nbsp;친구 집에 놀러 갈 것입니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>30-2. 다음 중 들은 내용과 같은 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_29_1_0"><button onclick="CheckMCAnswer(29,1,0,this)">?</button>&nbsp;&nbsp;여자는 친구 한 명과 같이 산다.
+                            </li>
+                            <li id="Q_29_1_1"><button onclick="CheckMCAnswer(29,1,1,this)">?</button>&nbsp;&nbsp;남자의 집은 여자의 집에서 가깝다.
+                            </li>
+                            <li id="Q_29_1_2"><button onclick="CheckMCAnswer(29,1,2,this)">?</button>&nbsp;&nbsp;여자는 가까운 곳으로 이사를 간다.
+                            </li>
+                            <li id="Q_29_1_3"><button onclick="CheckMCAnswer(29,1,3,this)">?</button>&nbsp;&nbsp;남자는 카넬 씨에게 연락할 것이다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_30" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn30"
+                                        onclick="toggleAudioWithProgress('audio30', 'btn30')">▶</button>
+                                </div>
+                                <audio id="audio30" src="21-31.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>31-1. 남자는 어디에 가려고 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_30_0_0"><button onclick="CheckMCAnswer(30,0,0,this)">?</button>&nbsp;&nbsp;인천
+                            </li>
+                            <li id="Q_30_0_1"><button onclick="CheckMCAnswer(30,0,1,this)">?</button>&nbsp;&nbsp;부산
+                            </li>
+                            <li id="Q_30_0_2"><button onclick="CheckMCAnswer(30,0,2,this)">?</button>&nbsp;&nbsp;수원
+                            </li>
+                            <li id="Q_30_0_3"><button onclick="CheckMCAnswer(30,0,3,this)">?</button>&nbsp;&nbsp;안산
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>31-2. 남자는 몇 호선 지하철을 타야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_30_1_0"><button onclick="CheckMCAnswer(30,1,0,this)">?</button>&nbsp;&nbsp;1호선과 2호선
+                            </li>
+                            <li id="Q_30_1_1"><button onclick="CheckMCAnswer(30,1,1,this)">?</button>&nbsp;&nbsp;2호선과 3호선
+                            </li>
+                            <li id="Q_30_1_2"><button onclick="CheckMCAnswer(30,1,2,this)">?</button>&nbsp;&nbsp;3호선과 4호선
+                            </li>
+                            <li id="Q_30_1_3"><button onclick="CheckMCAnswer(30,1,3,this)">?</button>&nbsp;&nbsp;4호선과 1호선
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_31" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn31"
+                                        onclick="toggleAudioWithProgress('audio31', 'btn31')">▶</button>
+                                </div>
+                                <audio id="audio31" src="21-32.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>32-1. 두 사람은 지금 어디로 가겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_31_0_0"><button onclick="CheckMCAnswer(31,0,0,this)">?</button>&nbsp;&nbsp;병원
+                            </li>
+                            <li id="Q_31_0_1"><button onclick="CheckMCAnswer(31,0,1,this)">?</button>&nbsp;&nbsp;식당
+                            </li>
+                            <li id="Q_31_0_2"><button onclick="CheckMCAnswer(31,0,2,this)">?</button>&nbsp;&nbsp;시장
+                            </li>
+                            <li id="Q_31_0_3"><button onclick="CheckMCAnswer(31,0,3,this)">?</button>&nbsp;&nbsp;회의실
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>32-2. 이 엘리베이터는 언제 사용할 수 있습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_31_1_0"><button onclick="CheckMCAnswer(31,1,0,this)">?</button>&nbsp;&nbsp;20분 후
+                            </li>
+                            <li id="Q_31_1_1"><button onclick="CheckMCAnswer(31,1,1,this)">?</button>&nbsp;&nbsp;1시간 후
+                            </li>
+                            <li id="Q_31_1_2"><button onclick="CheckMCAnswer(31,1,2,this)">?</button>&nbsp;&nbsp;2시간 후
+                            </li>
+                            <li id="Q_31_1_3"><button onclick="CheckMCAnswer(31,1,3,this)">?</button>&nbsp;&nbsp;3시간 후
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_32" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn32"
+                                        onclick="toggleAudioWithProgress('audio32', 'btn32')">▶</button>
+                                </div>
+                                <audio id="audio32" src="21-33.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>33-1. 들은 내용과 같은 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_32_0_0"><button onclick="CheckMCAnswer(32,0,0,this)">?</button>&nbsp;&nbsp;여자는 뒷자리에 앉아서 구경했습니다.
+                            </li>
+                            <li id="Q_32_0_1"><button onclick="CheckMCAnswer(32,0,1,this)">?</button>&nbsp;&nbsp;여자는 이번 주말에 음악회에 가겠습니다.
+                            </li>
+                            <li id="Q_32_0_2"><button onclick="CheckMCAnswer(32,0,2,this)">?</button>&nbsp;&nbsp;여자는 자리가 없어서 서서 구경했습니다.
+                            </li>
+                            <li id="Q_32_0_3"><button onclick="CheckMCAnswer(32,0,3,this)">?</button>&nbsp;&nbsp;여자는 가수의 얼굴을 잘 볼 수 있었습니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>여자는 가수의 얼굴을 잘 볼 수 있었습니다.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_32_1_0"><button onclick="CheckMCAnswer(32,1,0,this)">?</button>&nbsp;&nbsp;한 시간
+                            </li>
+                            <li id="Q_32_1_1"><button onclick="CheckMCAnswer(32,1,1,this)">?</button>&nbsp;&nbsp;두 시간
+                            </li>
+                            <li id="Q_32_1_2"><button onclick="CheckMCAnswer(32,1,2,this)">?</button>&nbsp;&nbsp;세 시간
+                            </li>
+                            <li id="Q_32_1_3"><button onclick="CheckMCAnswer(32,1,3,this)">?</button>&nbsp;&nbsp;네 시간
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_33" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn33"
+                                        onclick="toggleAudioWithProgress('audio33', 'btn33')">▶</button>
+                                </div>
+                                <audio id="audio33" src="21-34.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>34-1. 남자가 먹은 음식은 무엇으로 만들었습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_33_0_0"><button onclick="CheckMCAnswer(33,0,0,this)">?</button>&nbsp;&nbsp;닭고기
+                            </li>
+                            <li id="Q_33_0_1"><button onclick="CheckMCAnswer(33,0,1,this)">?</button>&nbsp;&nbsp;소고기
+                            </li>
+                            <li id="Q_33_0_2"><button onclick="CheckMCAnswer(33,0,2,this)">?</button>&nbsp;&nbsp;양고기
+                            </li>
+                            <li id="Q_33_0_3"><button onclick="CheckMCAnswer(33,0,3,this)">?</button>&nbsp;&nbsp;돼지고기
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>34-2. 남자가 먹은 음식의 맛은 어땠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_33_1_0"><button onclick="CheckMCAnswer(33,1,0,this)">?</button>&nbsp;&nbsp;짰습니다.
+                            </li>
+                            <li id="Q_33_1_1"><button onclick="CheckMCAnswer(33,1,1,this)">?</button>&nbsp;&nbsp;시었습니다.
+                            </li>
+                            <li id="Q_33_1_2"><button onclick="CheckMCAnswer(33,1,2,this)">?</button>&nbsp;&nbsp;매웠습니다.
+                            </li>
+                            <li id="Q_33_1_3"><button onclick="CheckMCAnswer(33,1,3,this)">?</button>&nbsp;&nbsp;싱거웠습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_34" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn34"
+                                        onclick="toggleAudioWithProgress('audio34', 'btn34')">▶</button>
+                                </div>
+                                <audio id="audio34" src="21-35.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>35-1. 두 사람이 이야기를 하고 있는 곳은 어디입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_34_0_0"><button onclick="CheckMCAnswer(34,0,0,this)">?</button>&nbsp;&nbsp;병원
+                            </li>
+                            <li id="Q_34_0_1"><button onclick="CheckMCAnswer(34,0,1,this)">?</button>&nbsp;&nbsp;작업장
+                            </li>
+                            <li id="Q_34_0_2"><button onclick="CheckMCAnswer(34,0,2,this)">?</button>&nbsp;&nbsp;사무실
+                            </li>
+                            <li id="Q_34_0_3"><button onclick="CheckMCAnswer(34,0,3,this)">?</button>&nbsp;&nbsp;화장실
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>35-2. 다음 중 남자가 꼭 지켜야 할 일이 아닌 것은 무엇입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_34_1_0"><button onclick="CheckMCAnswer(34,1,0,this)">?</button>&nbsp;&nbsp;귀마개 하기
+                            </li>
+                            <li id="Q_34_1_1"><button onclick="CheckMCAnswer(34,1,1,this)">?</button>&nbsp;&nbsp;마스크 쓰기
+                            </li>
+                            <li id="Q_34_1_2"><button onclick="CheckMCAnswer(34,1,2,this)">?</button>&nbsp;&nbsp;비누로 손 씻기
+                            </li>
+                            <li id="Q_34_1_3"><button onclick="CheckMCAnswer(34,1,3,this)">?</button>&nbsp;&nbsp;깨끗하게 청소하기
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_35" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn35"
+                                        onclick="toggleAudioWithProgress('audio35', 'btn35')">▶</button>
+                                </div>
+                                <audio id="audio35" src="21-36.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>36-1. 오늘 오전에는 무슨 일을 했습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_35_0_0"><button onclick="CheckMCAnswer(35,0,0,this)">?</button>&nbsp;&nbsp;토마토를 따는 일
+                            </li>
+                            <li id="Q_35_0_1"><button onclick="CheckMCAnswer(35,0,1,this)">?</button>&nbsp;&nbsp;토마토를 나르는 일
+                            </li>
+                            <li id="Q_35_0_2"><button onclick="CheckMCAnswer(35,0,2,this)">?</button>&nbsp;&nbsp;토마토를 포장하는 일
+                            </li>
+                            <li id="Q_35_0_3"><button onclick="CheckMCAnswer(35,0,3,this)">?</button>&nbsp;&nbsp;토마토를 상자에 담는 일
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>36-2. 남자는 어떤 토마토를 상자에 담아야 한다고 말했습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_35_1_0"><button onclick="CheckMCAnswer(35,1,0,this)">?</button>&nbsp;&nbsp;빨갛게 된 것
+                            </li>
+                            <li id="Q_35_1_1"><button onclick="CheckMCAnswer(35,1,1,this)">?</button>&nbsp;&nbsp;상처가 있는 것
+                            </li>
+                            <li id="Q_35_1_2"><button onclick="CheckMCAnswer(35,1,2,this)">?</button>&nbsp;&nbsp;모양이 동그란 것
+                            </li>
+                            <li id="Q_35_1_3"><button onclick="CheckMCAnswer(35,1,3,this)">?</button>&nbsp;&nbsp;여자 주먹만 한 것
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_36" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn36"
+                                        onclick="toggleAudioWithProgress('audio36', 'btn36')">▶</button>
+                                </div>
+                                <audio id="audio36" src="21-37.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>37-1. 들은 내용과 같은 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_36_0_0"><button onclick="CheckMCAnswer(36,0,0,this)">?</button>&nbsp;&nbsp;여자는 파키스탄 사람입니다.
+                            </li>
+                            <li id="Q_36_0_1"><button onclick="CheckMCAnswer(36,0,1,this)">?</button>&nbsp;&nbsp;여자는 일자리를 구하려고 전화했습니다.
+                            </li>
+                            <li id="Q_36_0_2"><button onclick="CheckMCAnswer(36,0,2,this)">?</button>&nbsp;&nbsp;여자의 남편은 한글을 읽을 수 있습니다.
+                            </li>
+                            <li id="Q_36_0_3"><button onclick="CheckMCAnswer(36,0,3,this)">?</button>&nbsp;&nbsp;여자의 남편은 학교에서 한국말을 가르칩니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>37-2. 한국말 초급반 수업은 언제 언제 있습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_36_1_0"><button onclick="CheckMCAnswer(36,1,0,this)">?</button>&nbsp;&nbsp;평일 오전, 주말 오전
+                            </li>
+                            <li id="Q_36_1_1"><button onclick="CheckMCAnswer(36,1,1,this)">?</button>&nbsp;&nbsp;평일 오전, 주말 오후
+                            </li>
+                            <li id="Q_36_1_2"><button onclick="CheckMCAnswer(36,1,2,this)">?</button>&nbsp;&nbsp;평일 오후, 주말 오전
+                            </li>
+                            <li id="Q_36_1_3"><button onclick="CheckMCAnswer(36,1,3,this)">?</button>&nbsp;&nbsp;평일 오후, 주말 오후
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_37" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn37"
+                                        onclick="toggleAudioWithProgress('audio37', 'btn37')">▶</button>
+                                </div>
+                                <audio id="audio37" src="21-38.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>38-1. 여자가 내야 하는 돈은 얼마입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_37_0_0"><button onclick="CheckMCAnswer(37,0,0,this)">?</button>&nbsp;&nbsp;15,000원
+                            </li>
+                            <li id="Q_37_0_1"><button onclick="CheckMCAnswer(37,0,1,this)">?</button>&nbsp;&nbsp;20,000원
+                            </li>
+                            <li id="Q_37_0_2"><button onclick="CheckMCAnswer(37,0,2,this)">?</button>&nbsp;&nbsp;30,000원
+                            </li>
+                            <li id="Q_37_0_3"><button onclick="CheckMCAnswer(37,0,3,this)">?</button>&nbsp;&nbsp;40,000원
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>38-2. 들은 내용과 같은 것을 고르십시오.</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_37_1_0"><button onclick="CheckMCAnswer(37,1,0,this)">?</button>&nbsp;&nbsp;여자는 큰 수박을 두 통 샀습니다.
+                            </li>
+                            <li id="Q_37_1_1"><button onclick="CheckMCAnswer(37,1,1,this)">?</button>&nbsp;&nbsp;여자는 수박을 들고 가려고 합니다.
+                            </li>
+                            <li id="Q_37_1_2"><button onclick="CheckMCAnswer(37,1,2,this)">?</button>&nbsp;&nbsp;남자는 지금 배달해 주려고 합니다.
+                            </li>
+                            <li id="Q_37_1_3"><button onclick="CheckMCAnswer(37,1,3,this)">?</button>&nbsp;&nbsp;남자는 서울아파트에 살고 있습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_38" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn38"
+                                        onclick="toggleAudioWithProgress('audio38', 'btn38')">▶</button>
+                                </div>
+                                <audio id="audio38" src="21-39.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>39-1. 남자는 요즘 어떻게 회사에 다닙니까? </h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_38_0_0"><button onclick="CheckMCAnswer(38,0,0,this)">?</button>&nbsp;&nbsp;버스로 갑니다.
+                            </li>
+                            <li id="Q_38_0_1"><button onclick="CheckMCAnswer(38,0,1,this)">?</button>&nbsp;&nbsp;걸어서 갑니다.
+                            </li>
+                            <li id="Q_38_0_2"><button onclick="CheckMCAnswer(38,0,2,this)">?</button>&nbsp;&nbsp;자전거로 갑니다.
+                            </li>
+                            <li id="Q_38_0_3"><button onclick="CheckMCAnswer(38,0,3,this)">?</button>&nbsp;&nbsp;오토바이로 갑니다.
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>39-2. 여자는 무엇을 하겠습니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_138_1_0"><button onclick="CheckMCAnswer(38,1,0,this)">?</button>&nbsp;&nbsp;신문을 찾아보겠습니다.
+                            </li>
+                            <li id="Q_138_1_1"><button onclick="CheckMCAnswer(38,1,1,this)">?</button>&nbsp;&nbsp;버스를 타러 가겠습니다.
+                            </li>
+                            <li id="Q_138_1_2"><button onclick="CheckMCAnswer(38,1,2,this)">?</button>&nbsp;&nbsp;새 자전거를 사겠습니다.
+                            </li>
+                            <li id="Q_138_1_3"><button onclick="CheckMCAnswer(38,1,3,this)">?</button>&nbsp;&nbsp;중고 가구점에 가겠습니다.
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li class="QuizQuestion" id="Q_39" style="display: none;">
+                        <div class="QuestionText">
+                            <div class="audio-container">
+                                <div class="audio-wrapper">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="3"
+                                            fill="transparent" r="32" cx="35" cy="35" />
+                                    </svg>
+                                    <button class="play-btn" id="btn3"
+                                        onclick="toggleAudioWithProgress('audio3', 'btn3')">▶</button>
+                                </div>
+                                <audio id="audio3" src="21-40.mp3"></audio>
+                            </div>
+
+                        </div>
+                        <!-- Sub-question 1 -->
+                        <h4>40-1. 두 사람이 대화하고 있는 곳은 어디입니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_39_0_0"><button onclick="CheckMCAnswer(39,0,0,this)">?</button>&nbsp;&nbsp;은행
+                            </li>
+                            <li id="Q_39_0_1"><button onclick="CheckMCAnswer(39,0,1,this)">?</button>&nbsp;&nbsp;우체국
+                            </li>
+                            <li id="Q_39_0_2"><button onclick="CheckMCAnswer(39,0,2,this)">?</button>&nbsp;&nbsp;부동산 중개소
+                            </li>
+                            <li id="Q_39_0_3"><button onclick="CheckMCAnswer(39,0,3,this)">?</button>&nbsp;&nbsp;빌라 건축 현장
+                            </li>
+                        </ol>
+                        <!-- Sub-question 2 -->
+                        <h4>40-2. 남자가 소개한 빌라에서 살면 매달 얼마를 내야 합니까?</h4>
+                        <ol class="MCAnswers">
+                            <li id="Q_39_1_0"><button onclick="CheckMCAnswer(39,1,0,this)">?</button>&nbsp;&nbsp;5만 원
+                            </li>
+                            <li id="Q_39_1_1"><button onclick="CheckMCAnswer(39,1,1,this)">?</button>&nbsp;&nbsp;30만 원
+                            </li>
+                            <li id="Q_39_1_2"><button onclick="CheckMCAnswer(39,1,2,this)">?</button>&nbsp;&nbsp;40만 원
+                            </li>
+                            <li id="Q_39_1_3"><button onclick="CheckMCAnswer(39,1,3,this)">?</button>&nbsp;&nbsp;50만 원
+                            </li>
+                        </ol>
+                    </li>
+
+
+
+
+                </ol>
+            </div>
+        </div>
+
+        <script>
+
+            // ===== Question group 0 =====
+            var I = [];
+
+            I[0] = [];
+            I[0][3] = [];
+            I[0][3][0] = [];
+            I[0][3][0][0] = ['', '', 0, 0, 1];
+            I[0][3][0][1] = ['', '', 1, 100, 1];
+            I[0][3][0][2] = ['', '', 0, 0, 1];
+            I[0][3][0][3] = ['', '', 0, 0, 1];
+            I[0][3][1] = [];
+            I[0][3][1][0] = ['', '', 0, 0, 1];
+            I[0][3][1][1] = ['', '', 0, 0, 1];
+            I[0][3][1][2] = ['', '', 0, 0, 1];
+            I[0][3][1][3] = ['', '', 1, 100, 1];
+
+
+            // 
+            I[1] = [];
+            I[1][3] = [];
+            I[1][3][0] = [];
+            I[1][3][0][0] = ['', '', 0, 0, 1];
+            I[1][3][0][1] = ['', '', 0, 0, 1];
+            I[1][3][0][2] = ['', '', 1, 100, 1];
+            I[1][3][0][3] = ['', '', 0, 0, 1];
+            I[1][3][1] = [];
+            I[1][3][1][0] = ['', '', 0, 0, 1];
+            I[1][3][1][1] = ['', '', 1, 100, 1];
+            I[1][3][1][2] = ['', '', 0, 0, 1];
+            I[1][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[2] = [];
+            I[2][3] = [];
+            I[2][3][0] = [];
+            I[2][3][0][0] = ['', '', 0, 0, 1];
+            I[2][3][0][1] = ['', '', 0, 0, 1];
+            I[2][3][0][2] = ['', '', 0, 0, 1];
+            I[2][3][0][3] = ['', '', 1, 100, 1];
+            I[2][3][1] = [];
+            I[2][3][1][0] = ['', '', 0, 0, 1];
+            I[2][3][1][1] = ['', '', 0, 0, 1];
+            I[2][3][1][2] = ['', '', 1, 100, 1];
+            I[2][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[3] = [];
+            I[3][3] = [];
+            I[3][3][0] = [];
+            I[3][3][0][0] = ['', '', 0, 0, 1];
+            I[3][3][0][1] = ['', '', 0, 0, 1];
+            I[3][3][0][2] = ['', '', 1, 100, 1];
+            I[3][3][0][3] = ['', '', 0, 0, 1];
+            I[3][3][1] = [];
+            I[3][3][1][0] = ['', '', 1, 100, 1];
+            I[3][3][1][1] = ['', '', 0, 0, 1];
+            I[3][3][1][2] = ['', '', 0, 0, 1];
+            I[3][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[4] = [];
+            I[4][3] = [];
+            I[4][3][0] = [];
+            I[4][3][0][0] = ['', '', 0, 0, 1];
+            I[4][3][0][1] = ['', '', 0, 0, 1];
+            I[4][3][0][2] = ['', '', 0, 0, 1];
+            I[4][3][0][3] = ['', '', 1, 100, 1];
+            I[4][3][1] = [];
+            I[4][3][1][0] = ['', '', 0, 0, 1];
+            I[4][3][1][1] = ['', '', 1, 100, 1];
+            I[4][3][1][2] = ['', '', 0, 0, 1];
+            I[4][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[5] = [];
+            I[5][3] = [];
+            I[5][3][0] = [];
+            I[5][3][0][0] = ['', '', 0, 0, 1];
+            I[5][3][0][1] = ['', '', 0, 0, 1];
+            I[5][3][0][2] = ['', '', 0, 0, 1];
+            I[5][3][0][3] = ['', '', 1, 100, 1];
+            I[5][3][1] = [];
+            I[5][3][1][0] = ['', '', 0, 0, 1];
+            I[5][3][1][1] = ['', '', 1, 100, 1];
+            I[5][3][1][2] = ['', '', 0, 0, 1];
+            I[5][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[6] = [];
+            I[6][3] = [];
+            I[6][3][0] = [];
+            I[6][3][0][0] = ['', '', 1, 100, 1];
+            I[6][3][0][1] = ['', '', 0, 0, 1];
+            I[6][3][0][2] = ['', '', 0, 0, 1];
+            I[6][3][0][3] = ['', '', 0, 0, 1];
+            I[6][3][1] = [];
+            I[6][3][1][0] = ['', '', 1, 100, 1];
+            I[6][3][1][1] = ['', '', 0, 0, 1];
+            I[6][3][1][2] = ['', '', 0, 0, 1];
+            I[6][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[7] = [];
+            I[7][3] = [];
+            I[7][3][0] = [];
+            I[7][3][0][0] = ['', '', 1, 100, 1];
+            I[7][3][0][1] = ['', '', 0, 0, 1];
+            I[7][3][0][2] = ['', '', 0, 0, 1];
+            I[7][3][0][3] = ['', '', 0, 0, 1];
+            I[7][3][1] = [];
+            I[7][3][1][0] = ['', '', 0, 0, 1];
+            I[7][3][1][1] = ['', '', 0, 0, 1];
+            I[7][3][1][2] = ['', '', 0, 0, 1];
+            I[7][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[8] = [];
+            I[8][3] = [];
+            I[8][3][0] = [];
+            I[8][3][0][0] = ['', '', 0, 0, 1];
+            I[8][3][0][1] = ['', '', 0, 0, 1];
+            I[8][3][0][2] = ['', '', 0, 0, 1];
+            I[8][3][0][3] = ['', '', 1, 100, 1];
+            I[8][3][1] = [];
+            I[8][3][1][0] = ['', '', 1, 100, 1];
+            I[8][3][1][1] = ['', '', 0, 0, 1];
+            I[8][3][1][2] = ['', '', 0, 0, 1];
+            I[8][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[9] = [];
+            I[9][3] = [];
+            I[9][3][0] = [];
+            I[9][3][0][0] = ['', '', 0, 0, 1];
+            I[9][3][0][1] = ['', '', 0, 0, 1];
+            I[9][3][0][2] = ['', '', 0, 0, 1];
+            I[9][3][0][3] = ['', '', 1, 100, 1];
+            I[9][3][1] = [];
+            I[9][3][1][0] = ['', '', 0, 0, 1];
+            I[9][3][1][1] = ['', '', 1, 100, 1];
+            I[9][3][1][2] = ['', '', 0, 0, 1];
+            I[9][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[10] = [];
+            I[10][3] = [];
+            I[10][3][0] = [];
+            I[10][3][0][0] = ['', '', 0, 0, 1];
+            I[10][3][0][1] = ['', '', 0, 0, 1];
+            I[10][3][0][2] = ['', '', 1, 100, 1];
+            I[10][3][0][3] = ['', '', 0, 0, 1];
+            I[10][3][1] = [];
+            I[10][3][1][0] = ['', '', 0, 0, 1];
+            I[10][3][1][1] = ['', '', 0, 0, 1];
+            I[10][3][1][2] = ['', '', 1, 100, 1];
+            I[10][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[11] = [];
+            I[11][3] = [];
+            I[11][3][0] = [];
+            I[11][3][0][0] = ['', '', 0, 0, 1];
+            I[11][3][0][1] = ['', '', 1, 100, 1];
+            I[11][3][0][2] = ['', '', 0, 0, 1];
+            I[11][3][0][3] = ['', '', 0, 0, 1];
+            I[11][3][1] = [];
+            I[11][3][1][0] = ['', '', 0, 0, 1];
+            I[11][3][1][1] = ['', '', 1, 100, 1];
+            I[11][3][1][2] = ['', '', 0, 0, 1];
+            I[11][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[12] = [];
+            I[12][3] = [];
+            I[12][3][0] = [];
+            I[12][3][0][0] = ['', '', 0, 0, 1];
+            I[12][3][0][1] = ['', '', 0, 0, 1];
+            I[12][3][0][2] = ['', '', 1, 100, 1];
+            I[12][3][0][3] = ['', '', 0, 0, 1];
+            I[12][3][1] = [];
+            I[12][3][1][0] = ['', '', 0, 0, 1];
+            I[12][3][1][1] = ['', '', 1, 100, 1];
+            I[12][3][1][2] = ['', '', 0, 0, 1];
+            I[12][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[13] = [];
+            I[13][3] = [];
+            I[13][3][0] = [];
+            I[13][3][0][0] = ['', '', 0, 0, 1];
+            I[13][3][0][1] = ['', '', 0, 0, 1];
+            I[13][3][0][2] = ['', '', 0, 0, 1];
+            I[13][3][0][3] = ['', '', 1, 100, 1];
+            I[13][3][1] = [];
+            I[13][3][1][0] = ['', '', 0, 0, 1];
+            I[13][3][1][1] = ['', '', 1, 100, 1];
+            I[13][3][1][2] = ['', '', 0, 0, 1];
+            I[13][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[14] = [];
+            I[14][3] = [];
+            I[14][3][0] = [];
+            I[14][3][0][0] = ['', '', 0, 0, 1];
+            I[14][3][0][1] = ['', '', 0, 0, 1];
+            I[14][3][0][2] = ['', '', 1, 100, 1];
+            I[14][3][0][3] = ['', '', 0, 0, 1];
+            I[14][3][1] = [];
+            I[14][3][1][0] = ['', '', 1, 100, 1];
+            I[14][3][1][1] = ['', '', 0, 0, 1];
+            I[14][3][1][2] = ['', '', 0, 0, 1];
+            I[14][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[15] = [];
+            I[15][3] = [];
+            I[15][3][0] = [];
+            I[15][3][0][0] = ['', '', 0, 0, 1];
+            I[15][3][0][1] = ['', '', 0, 0, 1];
+            I[15][3][0][2] = ['', '', 0, 0, 1];
+            I[15][3][0][3] = ['', '', 1, 100, 1];
+            I[15][3][1] = [];
+            I[15][3][1][0] = ['', '', 0, 0, 1];
+            I[15][3][1][1] = ['', '', 0, 0, 1];
+            I[15][3][1][2] = ['', '', 1, 100, 1];
+            I[15][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[16] = [];
+            I[16][3] = [];
+            I[16][3][0] = [];
+            I[16][3][0][0] = ['', '', 0, 0, 1];
+            I[16][3][0][1] = ['', '', 0, 0, 1];
+            I[16][3][0][2] = ['', '', 0, 0, 1];
+            I[16][3][0][3] = ['', '', 1, 100, 1];
+            I[16][3][1] = [];
+            I[16][3][1][0] = ['', '', 0, 0, 1];
+            I[16][3][1][1] = ['', '', 0, 0, 1];
+            I[16][3][1][2] = ['', '', 0, 0, 1];
+            I[16][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[17] = [];
+            I[17][3] = [];
+            I[17][3][0] = [];
+            I[17][3][0][0] = ['', '', 1, 100, 1];
+            I[17][3][0][1] = ['', '', 0, 0, 1];
+            I[17][3][0][2] = ['', '', 0, 0, 1];
+            I[17][3][0][3] = ['', '', 0, 0, 1];
+            I[17][3][1] = [];
+            I[17][3][1][0] = ['', '', 0, 0, 1];
+            I[17][3][1][1] = ['', '', 0, 0, 1];
+            I[17][3][1][2] = ['', '', 1, 100, 1];
+            I[17][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[18] = [];
+            I[18][3] = [];
+            I[18][3][0] = [];
+            I[18][3][0][0] = ['', '', 0, 0, 1];
+            I[18][3][0][1] = ['', '', 1, 100, 1];
+            I[18][3][0][2] = ['', '', 0, 0, 1];
+            I[18][3][0][3] = ['', '', 0, 0, 1];
+            I[18][3][1] = [];
+            I[18][3][1][0] = ['', '', 0, 0, 1];
+            I[18][3][1][1] = ['', '', 0, 0, 1];
+            I[18][3][1][2] = ['', '', 0, 0, 1];
+            I[18][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[19] = [];
+            I[19][3] = [];
+            I[19][3][0] = [];
+            I[19][3][0][0] = ['', '', 1, 100, 1];
+            I[19][3][0][1] = ['', '', 0, 0, 1];
+            I[19][3][0][2] = ['', '', 0, 0, 1];
+            I[19][3][0][3] = ['', '', 0, 0, 1];
+            I[19][3][1] = [];
+            I[19][3][1][0] = ['', '', 0, 0, 1];
+            I[19][3][1][1] = ['', '', 0, 0, 1];
+            I[19][3][1][2] = ['', '', 0, 0, 1];
+            I[19][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[20] = [];
+            I[20][3] = [];
+            I[20][3][0] = [];
+            I[20][3][0][0] = ['', '', 0, 0, 1];
+            I[20][3][0][1] = ['', '', 1, 100, 1];
+            I[20][3][0][2] = ['', '', 0, 0, 1];
+            I[20][3][0][3] = ['', '', 0, 0, 1];
+            I[20][3][1] = [];
+            I[20][3][1][0] = ['', '', 0, 0, 1];
+            I[20][3][1][1] = ['', '', 0, 0, 1];
+            I[20][3][1][2] = ['', '', 1, 100, 1];
+            I[20][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[21] = [];
+            I[21][3] = [];
+            I[21][3][0] = [];
+            I[21][3][0][0] = ['', '', 0, 0, 1];
+            I[21][3][0][1] = ['', '', 0, 0, 1];
+            I[21][3][0][2] = ['', '', 0, 0, 1];
+            I[21][3][0][3] = ['', '', 1, 100, 1];
+            I[21][3][1] = [];
+            I[21][3][1][0] = ['', '', 0, 0, 1];
+            I[21][3][1][1] = ['', '', 1, 100, 1];
+            I[21][3][1][2] = ['', '', 0, 0, 1];
+            I[21][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[22] = [];
+            I[22][3] = [];
+            I[22][3][0] = [];
+            I[22][3][0][0] = ['', '', 0, 0, 1];
+            I[22][3][0][1] = ['', '', 1, 100, 1];
+            I[22][3][0][2] = ['', '', 0, 0, 1];
+            I[22][3][0][3] = ['', '', 0, 0, 1];
+            I[22][3][1] = [];
+            I[22][3][1][0] = ['', '', 0, 0, 1];
+            I[22][3][1][1] = ['', '', 1, 100, 1];
+            I[22][3][1][2] = ['', '', 0, 0, 1];
+            I[22][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[23] = [];
+            I[23][3] = [];
+            I[23][3][0] = [];
+            I[23][3][0][0] = ['', '', 1, 100, 1];
+            I[23][3][0][1] = ['', '', 0, 0, 1];
+            I[23][3][0][2] = ['', '', 0, 0, 1];
+            I[23][3][0][3] = ['', '', 0, 0, 1];
+            I[23][3][1] = [];
+            I[23][3][1][0] = ['', '', 0, 0, 1];
+            I[23][3][1][1] = ['', '', 1, 100, 1];
+            I[23][3][1][2] = ['', '', 0, 0, 1];
+            I[23][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[24] = [];
+            I[24][3] = [];
+            I[24][3][0] = [];
+            I[24][3][0][0] = ['', '', 0, 0, 1];
+            I[24][3][0][1] = ['', '', 0, 0, 1];
+            I[24][3][0][2] = ['', '', 1, 100, 1];
+            I[24][3][0][3] = ['', '', 0, 0, 1];
+            I[24][3][1] = [];
+            I[24][3][1][0] = ['', '', 0, 0, 1];
+            I[24][3][1][1] = ['', '', 0, 0, 1];
+            I[24][3][1][2] = ['', '', 0, 0, 1];
+            I[24][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[25] = [];
+            I[25][3] = [];
+            I[25][3][0] = [];
+            I[25][3][0][0] = ['', '', 0, 0, 1];
+            I[25][3][0][1] = ['', '', 1, 100, 1];
+            I[25][3][0][2] = ['', '', 0, 0, 1];
+            I[25][3][0][3] = ['', '', 0, 0, 1];
+            I[25][3][1] = [];
+            I[25][3][1][0] = ['', '', 0, 0, 1];
+            I[25][3][1][1] = ['', '', 0, 0, 1];
+            I[25][3][1][2] = ['', '', 0, 0, 1];
+            I[25][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[26] = [];
+            I[26][3] = [];
+            I[26][3][0] = [];
+            I[26][3][0][0] = ['', '', 0, 0, 1];
+            I[26][3][0][1] = ['', '', 0, 0, 1];
+            I[26][3][0][2] = ['', '', 1, 100, 1];
+            I[26][3][0][3] = ['', '', 0, 0, 1];
+            I[26][3][1] = [];
+            I[26][3][1][0] = ['', '', 0, 0, 1];
+            I[26][3][1][1] = ['', '', 0, 0, 1];
+            I[26][3][1][2] = ['', '', 1, 100, 1];
+            I[26][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[27] = [];
+            I[27][3] = [];
+            I[27][3][0] = [];
+            I[27][3][0][0] = ['', '', 0, 0, 1];
+            I[27][3][0][1] = ['', '', 1, 100, 1];
+            I[27][3][0][2] = ['', '', 0, 0, 1];
+            I[27][3][0][3] = ['', '', 0, 0, 1];
+            I[27][3][1] = [];
+            I[27][3][1][0] = ['', '', 0, 0, 1];
+            I[27][3][1][1] = ['', '', 1, 100, 1];
+            I[27][3][1][2] = ['', '', 0, 0, 1];
+            I[27][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[28] = [];
+            I[28][3] = [];
+            I[28][3][0] = [];
+            I[28][3][0][0] = ['', '', 0, 0, 1];
+            I[28][3][0][1] = ['', '', 1, 100, 1];
+            I[28][3][0][2] = ['', '', 0, 0, 1];
+            I[28][3][0][3] = ['', '', 0, 0, 1];
+            I[28][3][1] = [];
+            I[28][3][1][0] = ['', '', 0, 0, 1];
+            I[28][3][1][1] = ['', '', 0, 0, 1];
+            I[28][3][1][2] = ['', '', 0, 0, 1];
+            I[28][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[29] = [];
+            I[29][3] = [];
+            I[29][3][0] = [];
+            I[29][3][0][0] = ['', '', 0, 0, 1];
+            I[29][3][0][1] = ['', '', 1, 100, 1];
+            I[29][3][0][2] = ['', '', 0, 0, 1];
+            I[29][3][0][3] = ['', '', 0, 0, 1];
+            I[29][3][1] = [];
+            I[29][3][1][0] = ['', '', 0, 0, 1];
+            I[29][3][1][1] = ['', '', 0, 0, 1];
+            I[29][3][1][2] = ['', '', 1, 100, 1];
+            I[29][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[30] = [];
+            I[30][3] = [];
+            I[30][3][0] = [];
+            I[30][3][0][0] = ['', '', 1, 100, 1];
+            I[30][3][0][1] = ['', '', 0, 0, 1];
+            I[30][3][0][2] = ['', '', 0, 0, 1];
+            I[30][3][0][3] = ['', '', 0, 0, 1];
+            I[30][3][1] = [];
+            I[30][3][1][0] = ['', '', 0, 0, 1];
+            I[30][3][1][1] = ['', '', 0, 0, 1];
+            I[30][3][1][2] = ['', '', 0, 0, 1];
+            I[30][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[31] = [];
+            I[31][3] = [];
+            I[31][3][0] = [];
+            I[31][3][0][0] = ['', '', 0, 0, 1];
+            I[31][3][0][1] = ['', '', 1, 100, 1];
+            I[31][3][0][2] = ['', '', 0, 0, 1];
+            I[31][3][0][3] = ['', '', 0, 0, 1];
+            I[31][3][1] = [];
+            I[31][3][1][0] = ['', '', 0, 0, 1];
+            I[31][3][1][1] = ['', '', 1, 100, 1];
+            I[31][3][1][2] = ['', '', 0, 0, 1];
+            I[31][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[32] = [];
+            I[32][3] = [];
+            I[32][3][0] = [];
+            I[32][3][0][0] = ['', '', 1, 100, 1];
+            I[32][3][0][1] = ['', '', 0, 0, 1];
+            I[32][3][0][2] = ['', '', 0, 0, 1];
+            I[32][3][0][3] = ['', '', 0, 0, 1];
+            I[32][3][1] = [];
+            I[32][3][1][0] = ['', '', 0, 0, 1];
+            I[32][3][1][1] = ['', '', 0, 0, 1];
+            I[32][3][1][2] = ['', '', 1, 100, 1];
+            I[32][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[33] = [];
+            I[33][3] = [];
+            I[33][3][0] = [];
+            I[33][3][0][0] = ['', '', 1, 100, 1];
+            I[33][3][0][1] = ['', '', 0, 0, 1];
+            I[33][3][0][2] = ['', '', 0, 0, 1];
+            I[33][3][0][3] = ['', '', 0, 0, 1];
+            I[33][3][1] = [];
+            I[33][3][1][0] = ['', '', 0, 0, 1];
+            I[33][3][1][1] = ['', '', 0, 0, 1];
+            I[33][3][1][2] = ['', '', 1, 100, 1];
+            I[33][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[34] = [];
+            I[34][3] = [];
+            I[34][3][0] = [];
+            I[34][3][0][0] = ['', '', 0, 0, 1];
+            I[34][3][0][1] = ['', '', 1, 100, 1];
+            I[34][3][0][2] = ['', '', 0, 0, 1];
+            I[34][3][0][3] = ['', '', 0, 0, 1];
+            I[34][3][1] = [];
+            I[34][3][1][0] = ['', '', 0, 0, 1];
+            I[34][3][1][1] = ['', '', 0, 0, 1];
+            I[34][3][1][2] = ['', '', 0, 0, 1];
+            I[34][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[35] = [];
+            I[35][3] = [];
+            I[35][3][0] = [];
+            I[35][3][0][0] = ['', '', 1, 100, 1];
+            I[35][3][0][1] = ['', '', 0, 0, 1];
+            I[35][3][0][2] = ['', '', 0, 0, 1];
+            I[35][3][0][3] = ['', '', 0, 0, 1];
+            I[35][3][1] = [];
+            I[35][3][1][0] = ['', '', 0, 0, 1];
+            I[35][3][1][1] = ['', '', 0, 0, 1];
+            I[35][3][1][2] = ['', '', 0, 0, 1];
+            I[35][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[36] = [];
+            I[36][3] = [];
+            I[36][3][0] = [];
+            I[36][3][0][0] = ['', '', 0, 0, 1];
+            I[36][3][0][1] = ['', '', 0, 0, 1];
+            I[36][3][0][2] = ['', '', 1, 100, 1];
+            I[36][3][0][3] = ['', '', 0, 0, 1];
+            I[36][3][1] = [];
+            I[36][3][1][0] = ['', '', 0, 0, 1];
+            I[36][3][1][1] = ['', '', 0, 0, 1];
+            I[36][3][1][2] = ['', '', 0, 0, 1];
+            I[36][3][1][3] = ['', '', 1, 100, 1];
+            // 
+            I[37] = [];
+            I[37][3] = [];
+            I[37][3][0] = [];
+            I[37][3][0][0] = ['', '', 0, 0, 1];
+            I[37][3][0][1] = ['', '', 0, 0, 1];
+            I[37][3][0][2] = ['', '', 0, 0, 1];
+            I[37][3][0][3] = ['', '', 1, 100, 1];
+            I[37][3][1] = [];
+            I[37][3][1][0] = ['', '', 1, 100, 1];
+            I[37][3][1][1] = ['', '', 0, 0, 1];
+            I[37][3][1][2] = ['', '', 0, 0, 1];
+            I[37][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[38] = [];
+            I[38][3] = [];
+            I[38][3][0] = [];
+            I[38][3][0][0] = ['', '', 0, 0, 1];
+            I[38][3][0][1] = ['', '', 0, 0, 1];
+            I[38][3][0][2] = ['', '', 0, 0, 1];
+            I[38][3][0][3] = ['', '', 1, 100, 1];
+            I[38][3][1] = [];
+            I[38][3][1][0] = ['', '', 1, 100, 1];
+            I[38][3][1][1] = ['', '', 0, 0, 1];
+            I[38][3][1][2] = ['', '', 0, 0, 1];
+            I[38][3][1][3] = ['', '', 0, 0, 1];
+            // 
+            I[39] = [];
+            I[39][3] = [];
+            I[39][3][0] = [];
+            I[39][3][0][0] = ['', '', 0, 0, 1];
+            I[39][3][0][1] = ['', '', 0, 0, 1];
+            I[39][3][0][2] = ['', '', 1, 100, 1];
+            I[39][3][0][3] = ['', '', 0, 0, 1];
+            I[39][3][1] = [];
+            I[39][3][1][0] = ['', '', 0, 0, 1];
+            I[39][3][1][1] = ['', '', 1, 100, 1];
+            I[39][3][1][2] = ['', '', 0, 0, 1];
+            I[39][3][1][3] = ['', '', 0, 0, 1];
+
+
+
+        </script>
+
+
+    </body>
+
+    </html>
+
+</div>
