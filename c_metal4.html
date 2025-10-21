@@ -1,0 +1,1369 @@
+<!doctype html>
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+
+        <html lang="en">
+
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <script type="text/javascript" src="file:///android_asset/js/p_sc.js">
+
+                </script>
+
+                <link rel="stylesheet" type="text/css" href="file:///android_asset/css/p_st.css">
+
+
+        </head>
+
+        <body id="TheBody" onload="StartUp()">
+
+
+                <div class="StdDiv" id="InstructionsDiv">
+                        <div id="Instructions">
+                                Click on <button> ? </button> to check Your Answer.
+                        </div>
+                </div>
+                <div id="ContainerDiv">
+
+                        <div class="ExerciseContainer">
+
+
+
+
+                                <div class="QuestionNavigation" id="QNav">
+
+                                        <div style="text-align: center;">
+
+
+                                                <button class="FuncButton" id="ShowMethodButton"
+                                                        onclick="ShowHideQuestions(); return false;">All
+                                                        questions</button>
+
+
+                                        </div>
+                                        <hr>
+                                        <div id="OneByOneReadout">
+                                                <button class="FuncButton" id="PrevQButton"
+                                                        onclick="ChangeQ(-1); return false;">PREV</button>
+
+                                                <span class="QNum" id="QNumReadout">&nbsp;</span>
+
+                                                <button class="FuncButton" id="NextQButton"
+                                                        onclick="ChangeQ(1); return false;">NEXT</button>
+                                                <br />
+                                        </div>
+
+                                </div>
+                                <ol class="QuizQuestions" id="Questions">
+                                        <li class="QuizQuestion" id="Q_0" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>크롬 도금(Chromium plating)에서 촉매 작용(Catalysis)을 하는 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_0_0"><button class="FuncButton" id="Q_0_0_Btn"
+                                                                        onclick="CheckMCAnswer(0,0,this)">?</button>&nbsp;&nbsp;무수크롬산(Chromic acid)
+                                                        </li>
+                                                        <li id="Q_0_1"><button class="FuncButton" id="Q_0_1_Btn"
+                                                                        onclick="CheckMCAnswer(0,1,this)">?</button>&nbsp;&nbsp;3가 크롬(trivalent chromium)
+                                                        </li>
+                                                        <li id="Q_0_2"><button class="FuncButton" id="Q_0_2_Btn"
+                                                                        onclick="CheckMCAnswer(0,2,this)">?</button>&nbsp;&nbsp;황산(Sulfuric acid)
+                                                        </li>
+                                                        <li id="Q_0_3"><button class="FuncButton" id="Q_0_3_Btn"
+                                                                        onclick="CheckMCAnswer(0,3,this)">?</button>&nbsp;&nbsp;질산(Nitric acid)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_1" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>금도금(Gold plating)에서 산성 도금 용액을 사용하였을 경우 장점이 아닌 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_1_0"><button class="FuncButton" id="Q_1_0_Btn"
+                                                                        onclick="CheckMCAnswer(1,0,this)">?</button>&nbsp;&nbsp;전착물(Electrodeposit)이 치밀하다.
+                                                        </li>
+                                                        <li id="Q_1_1"><button class="FuncButton" id="Q_1_1_Btn"
+                                                                        onclick="CheckMCAnswer(1,1,this)">?</button>&nbsp;&nbsp;음극 분극이 크고 균일 전착성(Equal Electroless)이 좋다.
+                                                        </li>
+                                                        <li id="Q_1_2"><button class="FuncButton" id="Q_1_2_Btn"
+                                                                        onclick="CheckMCAnswer(1,2,this)">?</button>&nbsp;&nbsp;핀홀(Pin hole)이 거의 없다.
+                                                        </li>
+                                                        <li id="Q_1_3"><button class="FuncButton" id="Q_1_3_Btn"
+                                                                        onclick="CheckMCAnswer(1,3,this)">?</button>&nbsp;&nbsp;내식성(corrosion resistance)이 좋은 평활한 도금(smooth plating)이 얻어진다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_2" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아연 도금(Zinc plating)의 방식 중에서 아연분말(Zinc dust)과 철을 접촉 가열시켜서 아연을 침투(Penetration)시키는 방법은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_2_0"><button class="FuncButton" id="Q_2_0_Btn"
+                                                                        onclick="CheckMCAnswer(2,0,this)">?</button>&nbsp;&nbsp;용융도금법(Hot plating)
+                                                        </li>
+                                                        <li id="Q_2_1"><button class="FuncButton" id="Q_2_1_Btn"
+                                                                        onclick="CheckMCAnswer(2,1,this)">?</button>&nbsp;&nbsp;전기도금법(Electroplating)
+                                                        </li>
+                                                        <li id="Q_2_2"><button class="FuncButton" id="Q_2_2_Btn"
+                                                                        onclick="CheckMCAnswer(2,2,this)">?</button>&nbsp;&nbsp;세라다이징(Sheradizing)
+                                                        </li>
+                                                        <li id="Q_2_3"><button class="FuncButton" id="Q_2_3_Btn"
+                                                                        onclick="CheckMCAnswer(2,3,this)">?</button>&nbsp;&nbsp;크로마이징(Chromizing)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_3" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>베럴 도금(Barrel plating)에서 균일 전착성(Equal Electroless)이 가장 좋은 베럴(Barrel)의회전수는??</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_3_0"><button class="FuncButton" id="Q_3_0_Btn"
+                                                                        onclick="CheckMCAnswer(3,0,this)">?</button>&nbsp;&nbsp;15~20 rpm
+                                                        </li>
+                                                        <li id="Q_3_1"><button class="FuncButton" id="Q_3_1_Btn"
+                                                                        onclick="CheckMCAnswer(3,1,this)">?</button>&nbsp;&nbsp;12~15 rpm
+                                                        </li>
+                                                        <li id="Q_3_2"><button class="FuncButton" id="Q_3_2_Btn"
+                                                                        onclick="CheckMCAnswer(3,2,this)">?</button>&nbsp;&nbsp;10~12 rpm
+                                                        </li>
+                                                        <li id="Q_3_3"><button class="FuncButton" id="Q_3_3_Btn"
+                                                                        onclick="CheckMCAnswer(3,3,this)">?</button>&nbsp;&nbsp;6~8 rpm
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_4" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>도금(Plating) 약품에 의한 사고가 발생하였을 때 응급처치(First aid)로 틀린 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_4_0"><button class="FuncButton" id="Q_4_0_Btn"
+                                                                        onclick="CheckMCAnswer(4,0,this)">?</button>&nbsp;&nbsp;즉시 119에 신고를 한다.
+                                                        </li>
+                                                        <li id="Q_4_1"><button class="FuncButton" id="Q_4_1_Btn"
+                                                                        onclick="CheckMCAnswer(4,1,this)">?</button>&nbsp;&nbsp;도금액이 옷에 묻었을 경우 옷을 즉시 벗는다.
+                                                        </li>
+                                                        <li id="Q_4_2"><button class="FuncButton" id="Q_4_2_Btn"
+                                                                        onclick="CheckMCAnswer(4,2,this)">?</button>&nbsp;&nbsp;황산구리가 피부에 묻었을 때 물로 충분히 씻는다.
+                                                        </li>
+                                                        <li id="Q_4_3"><button class="FuncButton" id="Q_4_3_Btn"
+                                                                        onclick="CheckMCAnswer(4,3,this)">?</button>&nbsp;&nbsp;수산화칼슘이 피부에 묻었을 경우 염산으로 중화시킨다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_5" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>금속이나 비금속 등을 부분 가열하여 용융(Melting) 또는 반용융(Semi melting) 상태에서 접합(Joining)하는 방법은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_5_0"><button class="FuncButton" id="Q_5_0_Btn"
+                                                                        onclick="CheckMCAnswer(5,0,this)">?</button>&nbsp;&nbsp;용접(Welding)
+                                                        </li>
+                                                        <li id="Q_5_1"><button class="FuncButton" id="Q_5_1_Btn"
+                                                                        onclick="CheckMCAnswer(5,1,this)">?</button>&nbsp;&nbsp;합금(Alloy)
+                                                        </li>
+                                                        <li id="Q_5_2"><button class="FuncButton" id="Q_5_2_Btn"
+                                                                        onclick="CheckMCAnswer(5,2,this)">?</button>&nbsp;&nbsp;프레스(Press)
+                                                        </li>
+                                                        <li id="Q_5_3"><button class="FuncButton" id="Q_5_3_Btn"
+                                                                        onclick="CheckMCAnswer(5,3,this)">?</button>&nbsp;&nbsp;주조(Casting)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_6" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 용접(Welding)의 장점이 아닌 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_6_0"><button class="FuncButton" id="Q_6_0_Btn"
+                                                                        onclick="CheckMCAnswer(6,0,this)">?</button>&nbsp;&nbsp;재료가 절약된다.
+                                                        </li>
+                                                        <li id="Q_6_1"><button class="FuncButton" id="Q_6_1_Btn"
+                                                                        onclick="CheckMCAnswer(6,1,this)">?</button>&nbsp;&nbsp;결합 효율(Coupling efficiency)이 향상된다.
+                                                        </li>
+                                                        <li id="Q_6_2"><button class="FuncButton" id="Q_6_2_Btn"
+                                                                        onclick="CheckMCAnswer(6,2,this)">?</button>&nbsp;&nbsp;기계적 결합(Mechnical coupling)보다 결합력이 우수하다.
+                                                        </li>
+                                                        <li id="Q_6_3"><button class="FuncButton" id="Q_6_3_Btn"
+                                                                        onclick="CheckMCAnswer(6,3,this)">?</button>&nbsp;&nbsp;용접부(Weld zone)가 열영향(Heat influence)으로 모재(Base metal)의 재질이 변한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_7" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>접합되는 부분에 적당한 온도로 가열하거나 냉간 상태(Cold state)에서 압력을 주어 접합하는 방법은?</h4>
+                                                        <br />
+
+                                    
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_7_0"><button class="FuncButton" id="Q_7_0_Btn"
+                                                                        onclick="CheckMCAnswer(7,0,this)">?</button>&nbsp;&nbsp;융접(Fusion welding)
+                                                        </li>
+                                                        <li id="Q_7_1"><button class="FuncButton" id="Q_7_1_Btn"
+                                                                        onclick="CheckMCAnswer(7,1,this)">?</button>&nbsp;&nbsp;압접(Pressure welding)
+                                                        </li>
+                                                        <li id="Q_7_2"><button class="FuncButton" id="Q_7_2_Btn"
+                                                                        onclick="CheckMCAnswer(7,2,this)">?</button>&nbsp;&nbsp;납땜(Soldering)
+                                                        </li>
+                                                        <li id="Q_7_3"><button class="FuncButton" id="Q_7_3_Btn"
+                                                                        onclick="CheckMCAnswer(7,3,this)">?</button>&nbsp;&nbsp;주조(Casting)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_8" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아크 전류(Arc current)가 100A, 아크 전압(Arc voltage)이 20V, 용접속도(Weld speed)가 20cm/min이었을 경우 용접입열(Welding heat)은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_8_0"><button class="FuncButton" id="Q_8_0_Btn"
+                                                                        onclick="CheckMCAnswer(8,0,this)">?</button>&nbsp;&nbsp;2,000 J/cm
+                                                        </li>
+                                                        <li id="Q_8_1"><button class="FuncButton" id="Q_8_1_Btn"
+                                                                        onclick="CheckMCAnswer(8,1,this)">?</button>&nbsp;&nbsp;4,000 J/cm
+                                                        </li>
+                                                        <li id="Q_8_2"><button class="FuncButton" id="Q_8_2_Btn"
+                                                                        onclick="CheckMCAnswer(8,2,this)">?</button>&nbsp;&nbsp;6,000 J/cm
+                                                        </li>
+                                                        <li id="Q_8_3"><button class="FuncButton" id="Q_8_3_Btn"
+                                                                        onclick="CheckMCAnswer(8,3,this)">?</button>&nbsp;&nbsp;8,000 J/cm
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_9" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>피복아크 용접봉(Coated electrode)의 작용이 아닌 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_9_0"><button class="FuncButton" id="Q_9_0_Btn"
+                                                                        onclick="CheckMCAnswer(9,0,this)">?</button>&nbsp;&nbsp;아크(Arc)를 안정하게 한다.
+                                                        </li>
+                                                        <li id="Q_9_1"><button class="FuncButton" id="Q_9_1_Btn"
+                                                                        onclick="CheckMCAnswer(9,1,this)">?</button>&nbsp;&nbsp;용융점이 낮은 슬래그(Slag)를 형성한다.
+                                                        </li>
+                                                        <li id="Q_9_2"><button class="FuncButton" id="Q_9_2_Btn"
+                                                                        onclick="CheckMCAnswer(9,2,this)">?</button>&nbsp;&nbsp;용접금속의 정련작용(Refining)을 한다.
+                                                        </li>
+                                                        <li id="Q_9_3"><button class="FuncButton" id="Q_9_3_Btn"
+                                                                        onclick="CheckMCAnswer(9,3,this)">?</button>&nbsp;&nbsp;용접금속의 산화작용(Oxidation)을 한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_10" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>모재(Base metal)를 수평(Horizontal)으로 놓고 용접봉(Electrode)은 아래로 향하여 용접하는 자세는?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_10_0"><button class="FuncButton" id="Q_10_0_Btn"
+                                                                        onclick="CheckMCAnswer(10,0,this)">?</button>&nbsp;&nbsp;아래보기 자세
+                                                        </li>
+                                                        <li id="Q_10_1"><button class="FuncButton" id="Q_10_1_Btn"
+                                                                        onclick="CheckMCAnswer(10,1,this)">?</button>&nbsp;&nbsp;수평 자세
+                                                        </li>
+                                                        <li id="Q_10_2"><button class="FuncButton" id="Q_10_2_Btn"
+                                                                        onclick="CheckMCAnswer(10,2,this)">?</button>&nbsp;&nbsp;수직 자세
+                                                        </li>
+                                                        <li id="Q_10_3"><button class="FuncButton" id="Q_10_3_Btn"
+                                                                        onclick="CheckMCAnswer(10,3,this)">?</button>&nbsp;&nbsp;위보기 자세
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_11" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가스 용접(Gas welding)에 가장 많이 사용하는 혼합 가스(Mix gas)는?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_11_0"><button class="FuncButton" id="Q_11_0_Btn"
+                                                                        onclick="CheckMCAnswer(11,0,this)">?</button>&nbsp;&nbsp;산소 가스와 질소 가스
+                                                        </li>
+                                                        <li id="Q_11_1"><button class="FuncButton" id="Q_11_1_Btn"
+                                                                        onclick="CheckMCAnswer(11,1,this)">?</button>&nbsp;&nbsp;산소 가스와 아세틸렌 가스
+                                                        </li>
+                                                        <li id="Q_11_2"><button class="FuncButton" id="Q_11_2_Btn"
+                                                                        onclick="CheckMCAnswer(11,2,this)">?</button>&nbsp;&nbsp;산소 가스와 아르곤 가스
+                                                        </li>
+                                                        <li id="Q_11_3"><button class="FuncButton" id="Q_11_3_Btn"
+                                                                        onclick="CheckMCAnswer(11,3,this)">?</button>&nbsp;&nbsp;질소 가스와 LPG 가스
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_12" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가스 용접(Gas welding)에 사용하는 산소 가스를 내용적 40ℓ의 용기에 35℃에서 200기압으로 압축하여 충전하였을 때 용기 속의 산소량은??</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_12_0"><button class="FuncButton" id="Q_12_0_Btn"
+                                                                        onclick="CheckMCAnswer(12,0,this)">?</button>&nbsp;&nbsp;2,000
+                                                        </li>
+                                                        <li id="Q_12_1"><button class="FuncButton" id="Q_12_1_Btn"
+                                                                        onclick="CheckMCAnswer(12,1,this)">?</button>&nbsp;&nbsp;4,000
+                                                        </li>
+                                                        <li id="Q_12_2"><button class="FuncButton" id="Q_12_2_Btn"
+                                                                        onclick="CheckMCAnswer(12,2,this)">?</button>&nbsp;&nbsp;6,000
+                                                        </li>
+                                                        <li id="Q_12_3"><button class="FuncButton" id="Q_12_3_Btn"
+                                                                        onclick="CheckMCAnswer(12,3,this)">?</button>&nbsp;&nbsp;8,000
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_13" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가스 용접(Gas welding)에 사용하는 산소 용기를 취급할 때 주의사항으로 틀린 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_13_0"><button class="FuncButton" id="Q_13_0_Btn"
+                                                                        onclick="CheckMCAnswer(13,0,this)">?</button>&nbsp;&nbsp;산소 용기를 보관할 때는 눕혀서 보관한다
+                                                        </li>
+                                                        <li id="Q_13_1"><button class="FuncButton" id="Q_13_1_Btn"
+                                                                        onclick="CheckMCAnswer(13,1,this)">?</button>&nbsp;&nbsp;산소 용기를 운반할 때 충격을 주지 않아야 한다.
+                                                        </li>
+                                                        <li id="Q_13_2"><button class="FuncButton" id="Q_13_2_Btn"
+                                                                        onclick="CheckMCAnswer(13,2,this)">?</button>&nbsp;&nbsp;산소 용기는 화기(불)로부터 멀리 두어야 한다
+                                                        </li>
+                                                        <li id="Q_13_3"><button class="FuncButton" id="Q_13_3_Btn"
+                                                                        onclick="CheckMCAnswer(13,3,this)">?</button>&nbsp;&nbsp;산소 용기는 직사광선을 피하여 그늘진 곳에 놓아야 한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_14" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>점용접(Spot welding)의 3가지 중요한 요소가 아닌 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_14_0"><button class="FuncButton" id="Q_14_0_Btn"
+                                                                        onclick="CheckMCAnswer(14,0,this)">?</button>&nbsp;&nbsp;용접전류(Welding current)
+                                                        </li>
+                                                        <li id="Q_14_1"><button class="FuncButton" id="Q_14_1_Btn"
+                                                                        onclick="CheckMCAnswer(14,1,this)">?</button>&nbsp;&nbsp;가압력(Pressure)
+                                                        </li>
+                                                        <li id="Q_14_2"><button class="FuncButton" id="Q_14_2_Btn"
+                                                                        onclick="CheckMCAnswer(14,2,this)">?</button>&nbsp;&nbsp;용접자세(Welding position)
+                                                        </li>
+                                                        <li id="Q_14_3"><button class="FuncButton" id="Q_14_3_Btn"
+                                                                        onclick="CheckMCAnswer(14,3,this)">?</button>&nbsp;&nbsp;통전시간(Resistance time)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_15" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>용접재(Weld metal)를 세게 맞대고 여기에 대전류를 통하여 전류의 저항열(Heat resistant)로 가열시켜 큰 압력을 눌러서 용접하는 방법으로 맞대기 저항 용접(Butt resistance welding)이라고도 하는 용접법은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_15_0"><button class="FuncButton" id="Q_15_0_Btn"
+                                                                        onclick="CheckMCAnswer(15,0,this)">?</button>&nbsp;&nbsp;점 용접(Spot welding)
+                                                        </li>
+                                                        <li id="Q_15_1"><button class="FuncButton" id="Q_15_1_Btn"
+                                                                        onclick="CheckMCAnswer(15,1,this)">?</button>&nbsp;&nbsp;업셋 용접(Upset welding)
+                                                        </li>
+                                                        <li id="Q_15_2"><button class="FuncButton" id="Q_15_2_Btn"
+                                                                        onclick="CheckMCAnswer(15,2,this)">?</button>&nbsp;&nbsp;시임 용접(Seam welding)
+                                                        </li>
+                                                        <li id="Q_15_3"><button class="FuncButton" id="Q_15_3_Btn"
+                                                                        onclick="CheckMCAnswer(15,3,this)">?</button>&nbsp;&nbsp;프로젝션 용접(Projection welding)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_16" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가스 절단(Arc cutting)에서 절단 속도(Cutting speed)에 영향을 주는 것이 아닌 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_16_0"><button class="FuncButton" id="Q_16_0_Btn"
+                                                                        onclick="CheckMCAnswer(16,0,this)">?</button>&nbsp;&nbsp;산소 압력 
+                                                        </li>
+                                                        <li id="Q_16_1"><button class="FuncButton" id="Q_16_1_Btn"
+                                                                        onclick="CheckMCAnswer(16,1,this)">?</button>&nbsp;&nbsp;산소 농도
+                                                        </li>
+                                                        <li id="Q_16_2"><button class="FuncButton" id="Q_16_2_Btn"
+                                                                        onclick="CheckMCAnswer(16,2,this)">?</button>&nbsp;&nbsp;용기 용량 
+                                                        </li>
+                                                        <li id="Q_16_3"><button class="FuncButton" id="Q_16_3_Btn"
+                                                                        onclick="CheckMCAnswer(16,3,this)">?</button>&nbsp;&nbsp;팁(Tip)의 형상
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_17" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>슬래브(Slab) 등의 강괴(Ingot) 표면에 존재하는 흠 또는 개재물(Inclusion) 등을 제거하기 위하여 얇고 타원형 모양으로 표면을 깎아내는 가공법은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_17_0"><button class="FuncButton" id="Q_17_0_Btn"
+                                                                        onclick="CheckMCAnswer(17,0,this)">?</button>&nbsp;&nbsp;가우징(Gouging)
+                                                        </li>
+                                                        <li id="Q_17_1"><button class="FuncButton" id="Q_17_1_Btn"
+                                                                        onclick="CheckMCAnswer(17,1,this)">?</button>&nbsp;&nbsp;스카핑(Scarfing)
+                                                        </li>
+                                                        <li id="Q_17_2"><button class="FuncButton" id="Q_17_2_Btn"
+                                                                        onclick="CheckMCAnswer(17,2,this)">?</button>&nbsp;&nbsp;그루빙(Grooving)
+                                                        </li>
+                                                        <li id="Q_17_3"><button class="FuncButton" id="Q_17_3_Btn"
+                                                                        onclick="CheckMCAnswer(17,3,this)">?</button>&nbsp;&nbsp;아크 절단(Arc cutting)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_18" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>용접부의 기계적 성질이나 연성(Ductility)을 알기 위한 기계적 파괴 시험법(Mechnical breaking test)이 아닌 것은?</h4>
+                                                        <br />
+
+                                                      
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_18_0"><button class="FuncButton" id="Q_18_0_Btn"
+                                                                        onclick="CheckMCAnswer(18,0,this)">?</button>&nbsp;&nbsp;방사선시험(Radiograph test)
+                                                        </li>
+                                                        <li id="Q_18_1"><button class="FuncButton" id="Q_18_1_Btn"
+                                                                        onclick="CheckMCAnswer(18,1,this)">?</button>&nbsp;&nbsp;인장시험(Tensile test)
+                                                        </li>
+                                                        <li id="Q_18_2"><button class="FuncButton" id="Q_18_2_Btn"
+                                                                        onclick="CheckMCAnswer(18,2,this)">?</button>&nbsp;&nbsp;충격시험(Impact test)
+                                                        </li>
+                                                        <li id="Q_18_3"><button class="FuncButton" id="Q_18_3_Btn"
+                                                                        onclick="CheckMCAnswer(18,3,this)">?</button>&nbsp;&nbsp;굽힘시험(Bending test)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_19" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>용접부 검사 방법 중에서 용접표면 결함을 검출하는데 가장 적합한 비파괴검사법은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_19_0"><button class="FuncButton" id="Q_19_0_Btn"
+                                                                        onclick="CheckMCAnswer(19,0,this)">?</button>&nbsp;&nbsp;초음파 검사
+                                                        </li>
+                                                        <li id="Q_19_1"><button class="FuncButton" id="Q_19_1_Btn"
+                                                                        onclick="CheckMCAnswer(19,1,this)">?</button>&nbsp;&nbsp;방사선 투과 검사
+                                                        </li>
+                                                        <li id="Q_19_2"><button class="FuncButton" id="Q_19_2_Btn"
+                                                                        onclick="CheckMCAnswer(19,2,this)">?</button>&nbsp;&nbsp;매크로 검사
+                                                        </li>
+                                                        <li id="Q_19_3"><button class="FuncButton" id="Q_19_3_Btn"
+                                                                        onclick="CheckMCAnswer(19,3,this)">?</button>&nbsp;&nbsp;침투 검사
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_20" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>전로(Converter) 공장에서 제강(Steelmaking)이 완료된 용강(Molten iron)은 연속주조(Continuous casting) 공장으로 오기 전에 정련(Refining) 과정을 거칩니다. 이때 실시하는 버블링(Bubbling) 작업에 사용하는 불활성 가스(Inert gas)는?</h4>
+                                                        <br />
+
+                                                      
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_20_0"><button class="FuncButton" id="Q_20_0_Btn"
+                                                                        onclick="CheckMCAnswer(20,0,this)">?</button>&nbsp;&nbsp;산소, 수소
+                                                        </li>
+                                                        <li id="Q_20_1"><button class="FuncButton" id="Q_20_1_Btn"
+                                                                        onclick="CheckMCAnswer(20,1,this)">?</button>&nbsp;&nbsp;아르곤, 질소
+                                                        </li>
+                                                        <li id="Q_20_2"><button class="FuncButton" id="Q_20_2_Btn"
+                                                                        onclick="CheckMCAnswer(20,2,this)">?</button>&nbsp;&nbsp;질소, 산소
+                                                        </li>
+                                                        <li id="Q_20_3"><button class="FuncButton" id="Q_20_3_Btn"
+                                                                        onclick="CheckMCAnswer(20,3,this)">?</button>&nbsp;&nbsp;아르곤, 산소
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_21" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 작업 전에 실시하는 정련(Refining)의 목적으로 틀린 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_21_0"><button class="FuncButton" id="Q_21_0_Btn"
+                                                                        onclick="CheckMCAnswer(21,0,this)">?</button>&nbsp;&nbsp;용강(Molten iron) 성분의 조정
+                                                        </li>
+                                                        <li id="Q_21_1"><button class="FuncButton" id="Q_21_1_Btn"
+                                                                        onclick="CheckMCAnswer(21,1,this)">?</button>&nbsp;&nbsp;용강의 청정화
+                                                        </li>
+                                                        <li id="Q_21_2"><button class="FuncButton" id="Q_21_2_Btn"
+                                                                        onclick="CheckMCAnswer(21,2,this)">?</button>&nbsp;&nbsp;용강 온도 균일화
+                                                        </li>
+                                                        <li id="Q_21_3"><button class="FuncButton" id="Q_21_3_Btn"
+                                                                        onclick="CheckMCAnswer(21,3,this)">?</button>&nbsp;&nbsp;용강량의 조정
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_22" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 작업에서 용강(Molten Iron)이 주형(Mold)에 달라붙지 않도록 주형을 진동하는 작업은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_22_0"><button class="FuncButton" id="Q_22_0_Btn"
+                                                                        onclick="CheckMCAnswer(22,0,this)">?</button>&nbsp;&nbsp;실링(Sealing)
+                                                        </li>
+                                                        <li id="Q_22_1"><button class="FuncButton" id="Q_22_1_Btn"
+                                                                        onclick="CheckMCAnswer(22,1,this)">?</button>&nbsp;&nbsp;오실레이션(Oscillation)
+                                                        </li>
+                                                        <li id="Q_22_2"><button class="FuncButton" id="Q_22_2_Btn"
+                                                                        onclick="CheckMCAnswer(22,2,this)">?</button>&nbsp;&nbsp;버블링(Bubbling)
+                                                        </li>
+                                                        <li id="Q_22_3"><button class="FuncButton" id="Q_22_3_Btn"
+                                                                        onclick="CheckMCAnswer(22,3,this)">?</button>&nbsp;&nbsp;몰딩(Molding)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_23" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>주형(Mold) 안에서 응고(Solidification)된 주편(Solidified piece)이 주형을 빠져나와 냉각수(Cooling water)에 의해 냉각이 이루어지는 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_23_0"><button class="FuncButton" id="Q_23_0_Btn"
+                                                                        onclick="CheckMCAnswer(23,0,this)">?</button>&nbsp;&nbsp;간접 냉각(Indirect cooling)
+                                                        </li>
+                                                        <li id="Q_23_1"><button class="FuncButton" id="Q_23_1_Btn"
+                                                                        onclick="CheckMCAnswer(23,1,this)">?</button>&nbsp;&nbsp;기계 냉각(Machine cooling)
+                                                        </li>
+                                                        <li id="Q_23_2"><button class="FuncButton" id="Q_23_2_Btn"
+                                                                        onclick="CheckMCAnswer(23,2,this)">?</button>&nbsp;&nbsp;직접 냉각(Direct cooling)
+                                                        </li>
+                                                        <li id="Q_23_3"><button class="FuncButton" id="Q_23_3_Btn"
+                                                                        onclick="CheckMCAnswer(23,3,this)">?</button>&nbsp;&nbsp;공기 냉각(Air cooling)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_24" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting)가 완료된 주편(Piece)을 절단한 후 바로 고온의 주편 표면에 존재하는 결함(Defect), 불순물(Impurity), 스케일(Scale) 등을 제거하는 작업은?</h4>
+                                                        <br />
+
+                                                      
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_24_0"><button class="FuncButton" id="Q_24_0_Btn"
+                                                                        onclick="CheckMCAnswer(24,0,this)">?</button>&nbsp;&nbsp;열간 스카핑(Hot scarfing)
+                                                        </li>
+                                                        <li id="Q_24_1"><button class="FuncButton" id="Q_24_1_Btn"
+                                                                        onclick="CheckMCAnswer(24,1,this)">?</button>&nbsp;&nbsp;냉간 스카핑(Cold scarfing)
+                                                        </li>
+                                                        <li id="Q_24_2"><button class="FuncButton" id="Q_24_2_Btn"
+                                                                        onclick="CheckMCAnswer(24,2,this)">?</button>&nbsp;&nbsp;손 스카핑(Hand scarfing)
+                                                        </li>
+                                                        <li id="Q_24_3"><button class="FuncButton" id="Q_24_3_Btn"
+                                                                        onclick="CheckMCAnswer(24,3,this)">?</button>&nbsp;&nbsp;뜨임 스카핑(Tempering scarfing)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_25" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 조업의 생산성 향상을 위한 신기술 조업에 해당하지 않는 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_25_0"><button class="FuncButton" id="Q_25_0_Btn"
+                                                                        onclick="CheckMCAnswer(25,0,this)">?</button>&nbsp;&nbsp;턴디시 교환 연연주(Tundish exchange endless casting)
+                                                        </li>
+                                                        <li id="Q_25_1"><button class="FuncButton" id="Q_25_1_Btn"
+                                                                        onclick="CheckMCAnswer(25,1,this)">?</button>&nbsp;&nbsp;림드강 연연주(Rimmed steel endless casting)
+                                                        </li>
+                                                        <li id="Q_25_2"><button class="FuncButton" id="Q_25_2_Btn"
+                                                                        onclick="CheckMCAnswer(25,2,this)">?</button>&nbsp;&nbsp;이강종 연연주(Unlike steel endless casting)
+                                                        </li>
+                                                        <li id="Q_25_3"><button class="FuncButton" id="Q_25_3_Btn"
+                                                                        onclick="CheckMCAnswer(25,3,this)">?</button>&nbsp;&nbsp;주조 중 폭가변 연연주(Wide exchange endless casting)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_26" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 작업이 개시될 때 주형(Mold)내에 용강(Molten iron)을 채울 수 있도록 주형 바닥을 막아주고, 응고된 주편(Piece)을 핀치롤(Pinch roll)까지 인발 유도하는 장치는?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_26_0"><button class="FuncButton" id="Q_26_0_Btn"
+                                                                        onclick="CheckMCAnswer(26,0,this)">?</button>&nbsp;&nbsp;레이들(Ladle)
+                                                        </li>
+                                                        <li id="Q_26_1"><button class="FuncButton" id="Q_26_1_Btn"
+                                                                        onclick="CheckMCAnswer(26,1,this)">?</button>&nbsp;&nbsp;터렛(Turret)
+                                                        </li>
+                                                        <li id="Q_26_2"><button class="FuncButton" id="Q_26_2_Btn"
+                                                                        onclick="CheckMCAnswer(26,2,this)">?</button>&nbsp;&nbsp;턴디시(Tundish) 
+                                                        </li>
+                                                        <li id="Q_26_3"><button class="FuncButton" id="Q_26_3_Btn"
+                                                                        onclick="CheckMCAnswer(26,3,this)">?</button>&nbsp;&nbsp;더미바(Dummy bar) 
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_27" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 장치에서 턴디시(Tundish)의 기능으로 틀린 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_27_0"><button class="FuncButton" id="Q_27_0_Btn"
+                                                                        onclick="CheckMCAnswer(27,0,this)">?</button>&nbsp;&nbsp;주형으로 용강의 공급량을 조정
+                                                        </li>
+                                                        <li id="Q_27_1"><button class="FuncButton" id="Q_27_1_Btn"
+                                                                        onclick="CheckMCAnswer(27,1,this)">?</button>&nbsp;&nbsp;주형별로 용강을 분배
+                                                        </li>
+                                                        <li id="Q_27_2"><button class="FuncButton" id="Q_27_2_Btn"
+                                                                        onclick="CheckMCAnswer(27,2,this)">?</button>&nbsp;&nbsp;주형에 의한 1차 냉각
+                                                        </li>
+                                                        <li id="Q_27_3"><button class="FuncButton" id="Q_27_3_Btn"
+                                                                        onclick="CheckMCAnswer(27,3,this)">?</button>&nbsp;&nbsp;개재물 등의 불순물 분리 제거
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_28" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 조업에서 주조시간(Casting time)이 2시간, 준비시간(Ready time)이 1시간, 대기시간(Waiting time)이 1시간이었다면 싸이클 타임(Cycle time)을계산하면 몇 시간인가?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_28_0"><button class="FuncButton" id="Q_28_0_Btn"
+                                                                        onclick="CheckMCAnswer(28,0,this)">?</button>&nbsp;&nbsp;1시간
+                                                        </li>
+                                                        <li id="Q_28_1"><button class="FuncButton" id="Q_28_1_Btn"
+                                                                        onclick="CheckMCAnswer(28,1,this)">?</button>&nbsp;&nbsp;2시간
+                                                        </li>
+                                                        <li id="Q_28_2"><button class="FuncButton" id="Q_28_2_Btn"
+                                                                        onclick="CheckMCAnswer(28,2,this)">?</button>&nbsp;&nbsp;3시간
+                                                        </li>
+                                                        <li id="Q_28_3"><button class="FuncButton" id="Q_28_3_Btn"
+                                                                        onclick="CheckMCAnswer(28,3,this)">?</button>&nbsp;&nbsp;4시간
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_29" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>연속주조(Continuous casting) 공장에서 근무하는 작업자가 알아야할 안전사항으로 잘못된 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_29_0"><button class="FuncButton" id="Q_29_0_Btn"
+                                                                        onclick="CheckMCAnswer(29,0,this)">?</button>&nbsp;&nbsp;앞머리를 내놓고 작업모(Fatigue cap)를 착용하였다.
+                                                        </li>
+                                                        <li id="Q_29_1"><button class="FuncButton" id="Q_29_1_Btn"
+                                                                        onclick="CheckMCAnswer(29,1,this)">?</button>&nbsp;&nbsp;신발은 운동화를 벗고 안전화(Safety shoes)로 바꿔 신었다.
+                                                        </li>
+                                                        <li id="Q_29_2"><button class="FuncButton" id="Q_29_2_Btn"
+                                                                        onclick="CheckMCAnswer(29,2,this)">?</button>&nbsp;&nbsp;용강이 외부로 뛰는 것에 대비해 작업복은 방염복(Heatproof clothes)으로 갈아입었다.
+                                                        </li>
+                                                        <li id="Q_29_3"><button class="FuncButton" id="Q_29_3_Btn"
+                                                                        onclick="CheckMCAnswer(29,3,this)">?</button>&nbsp;&nbsp;높은 온도의 용강(Molten iron)과 분진(Dust)에 대비해 보안경(Protective goggle)을 착용하였다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_30" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로) 제선용 주원료로 가장 많이 사용하는 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_30_0"><button class="FuncButton" id="Q_30_0_Btn"
+                                                                        onclick="CheckMCAnswer(30,0,this)">?</button>&nbsp;&nbsp;자철광
+                                                        </li>
+                                                        <li id="Q_30_1"><button class="FuncButton" id="Q_30_1_Btn"
+                                                                        onclick="CheckMCAnswer(30,1,this)">?</button>&nbsp;&nbsp;적철광
+                                                        </li>
+                                                        <li id="Q_30_2"><button class="FuncButton" id="Q_30_2_Btn"
+                                                                        onclick="CheckMCAnswer(30,2,this)">?</button>&nbsp;&nbsp;갈철광
+                                                        </li>
+                                                        <li id="Q_30_3"><button class="FuncButton" id="Q_30_3_Btn"
+                                                                        onclick="CheckMCAnswer(30,3,this)">?</button>&nbsp;&nbsp;능철광
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_31" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>슬래그(Slag)의 유동성을 좋게 하는 부원료로 많이 사용되는 CaCO<sub>3</sub>는?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_31_0"><button class="FuncButton" id="Q_31_0_Btn"
+                                                                        onclick="CheckMCAnswer(31,0,this)">?</button>&nbsp;&nbsp;백운석
+                                                        </li>
+                                                        <li id="Q_31_1"><button class="FuncButton" id="Q_31_1_Btn"
+                                                                        onclick="CheckMCAnswer(31,1,this)">?</button>&nbsp;&nbsp;철광석
+                                                        </li>
+                                                        <li id="Q_31_2"><button class="FuncButton" id="Q_31_2_Btn"
+                                                                        onclick="CheckMCAnswer(31,2,this)">?</button>&nbsp;&nbsp;석회석
+                                                        </li>
+                                                        <li id="Q_31_3"><button class="FuncButton" id="Q_31_3_Btn"
+                                                                        onclick="CheckMCAnswer(31,3,this)">?</button>&nbsp;&nbsp;규사
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_32" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가루 철광석과 코크스(Coke)가루를 혼합한 다음 코크스를 연소시켜 철광석 가루를 덩어리로 만든 광석은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_32_0"><button class="FuncButton" id="Q_32_0_Btn"
+                                                                        onclick="CheckMCAnswer(32,0,this)">?</button>&nbsp;&nbsp;선철(Pig Iron)
+                                                        </li>
+                                                        <li id="Q_32_1"><button class="FuncButton" id="Q_32_1_Btn"
+                                                                        onclick="CheckMCAnswer(32,1,this)">?</button>&nbsp;&nbsp;펠리트(Pellet)
+                                                        </li>
+                                                        <li id="Q_32_2"><button class="FuncButton" id="Q_32_2_Btn"
+                                                                        onclick="CheckMCAnswer(32,2,this)">?</button>&nbsp;&nbsp;석회(Lime) 
+                                                        </li>
+                                                        <li id="Q_32_3"><button class="FuncButton" id="Q_32_3_Btn"
+                                                                        onclick="CheckMCAnswer(32,3,this)">?</button>&nbsp;&nbsp;소결광(Sinter Ore)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_33" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로)에서 많이 사용하는 코크스(Coke)의 역할로 적합한 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_33_0"><button class="FuncButton" id="Q_33_0_Btn"
+                                                                        onclick="CheckMCAnswer(33,0,this)">?</button>&nbsp;&nbsp;열원
+                                                        </li>
+                                                        <li id="Q_33_1"><button class="FuncButton" id="Q_33_1_Btn"
+                                                                        onclick="CheckMCAnswer(33,1,this)">?</button>&nbsp;&nbsp;점결제
+                                                        </li>
+                                                        <li id="Q_33_2"><button class="FuncButton" id="Q_33_2_Btn"
+                                                                        onclick="CheckMCAnswer(33,2,this)">?</button>&nbsp;&nbsp;산화제
+                                                        </li>
+                                                        <li id="Q_33_3"><button class="FuncButton" id="Q_33_3_Btn"
+                                                                        onclick="CheckMCAnswer(33,3,this)">?</button>&nbsp;&nbsp;냉각제
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_34" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로) 본체 중 용선(Molten Iron)과 슬래그(Slag)가 저장되어 있으며 출선구(Tapping Hole)가 설치된 곳의 명칭은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_34_0"><button class="FuncButton" id="Q_34_0_Btn"
+                                                                        onclick="CheckMCAnswer(34,0,this)">?</button>&nbsp;&nbsp;노구(Throat)
+                                                        </li>
+                                                        <li id="Q_34_1"><button class="FuncButton" id="Q_34_1_Btn"
+                                                                        onclick="CheckMCAnswer(34,1,this)">?</button>&nbsp;&nbsp;노흉(Shaft)
+                                                        </li>
+                                                        <li id="Q_34_2"><button class="FuncButton" id="Q_34_2_Btn"
+                                                                        onclick="CheckMCAnswer(34,2,this)">?</button>&nbsp;&nbsp;노흉(Shaft)
+                                                        </li>
+                                                        <li id="Q_34_3"><button class="FuncButton" id="Q_34_3_Btn"
+                                                                        onclick="CheckMCAnswer(34,3,this)">?</button>&nbsp;&nbsp;노상(Hearth)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_35" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로)에 장입되는 원료로 가장 많이 사용되는 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_35_0"><button class="FuncButton" id="Q_35_0_Btn"
+                                                                        onclick="CheckMCAnswer(35,0,this)">?</button>&nbsp;&nbsp;코크스(Coke)
+                                                        </li>
+                                                        <li id="Q_35_1"><button class="FuncButton" id="Q_35_1_Btn"
+                                                                        onclick="CheckMCAnswer(35,1,this)">?</button>&nbsp;&nbsp;철광석(Iron Ore)
+                                                        </li>
+                                                        <li id="Q_35_2"><button class="FuncButton" id="Q_35_2_Btn"
+                                                                        onclick="CheckMCAnswer(35,2,this)">?</button>&nbsp;&nbsp;석회석(Lime Stone)
+                                                        </li>
+                                                        <li id="Q_35_3"><button class="FuncButton" id="Q_35_3_Btn"
+                                                                        onclick="CheckMCAnswer(35,3,this)">?</button>&nbsp;&nbsp;실리콘(Slicon)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_36" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로) 내의 불어넣는 열풍 중 코크스를 연소시키는데 필요한 연소용 가스(Gas)의명칭은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_36_0"><button class="FuncButton" id="Q_36_0_Btn"
+                                                                        onclick="CheckMCAnswer(36,0,this)">?</button>&nbsp;&nbsp;수소(H<sub>2</sub>)
+                                                        </li>
+                                                        <li id="Q_36_1"><button class="FuncButton" id="Q_36_1_Btn"
+                                                                        onclick="CheckMCAnswer(36,1,this)">?</button>&nbsp;&nbsp;규소(Si)
+                                                        </li>
+                                                        <li id="Q_36_2"><button class="FuncButton" id="Q_36_2_Btn"
+                                                                        onclick="CheckMCAnswer(36,2,this)">?</button>&nbsp;&nbsp;산소(O<sub>2</sub>)
+                                                        </li>
+                                                        <li id="Q_36_3"><button class="FuncButton" id="Q_36_3_Btn"
+                                                                        onclick="CheckMCAnswer(36,3,this)">?</button>&nbsp;&nbsp;알곤(Ar)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_37" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로) 내의 철광석이 코크스(Coke)와 반응하여 용선(Molten Iron)이 만들어지는 화학식은?</h4>
+                                                        <br />
+
+                               
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_37_0"><button class="FuncButton" id="Q_37_0_Btn"
+                                                                        onclick="CheckMCAnswer(37,0,this)">?</button>&nbsp;&nbsp;C+O=CO
+                                                        </li>
+                                                        <li id="Q_37_1"><button class="FuncButton" id="Q_37_1_Btn"
+                                                                        onclick="CheckMCAnswer(37,1,this)">?</button>&nbsp;&nbsp;FeO+C=Fe+CO
+                                                        </li>
+                                                        <li id="Q_37_2"><button class="FuncButton" id="Q_37_2_Btn"
+                                                                        onclick="CheckMCAnswer(37,2,this)">?</button>&nbsp;&nbsp;Mn+O=MnO
+                                                        </li>
+                                                        <li id="Q_37_3"><button class="FuncButton" id="Q_37_3_Btn"
+                                                                        onclick="CheckMCAnswer(37,3,this)">?</button>&nbsp;&nbsp;Si+O<sub>2</sub>=SiO<sub>2</sub>
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_38" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>제철소에서 중요하게 관리하는 슬래그(Slag)의 염기도를 나타내는 식은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_38_0"><button class="FuncButton" id="Q_38_0_Btn"
+                                                                        onclick="CheckMCAnswer(38,0,this)">?</button>&nbsp;&nbsp;SiO<sub>2</sub>/CaO
+                                                        </li>
+                                                        <li id="Q_38_1"><button class="FuncButton" id="Q_38_1_Btn"
+                                                                        onclick="CheckMCAnswer(38,1,this)">?</button>&nbsp;&nbsp;CaO/SiO<sub>2</sub>
+                                                        </li>
+                                                        <li id="Q_38_2"><button class="FuncButton" id="Q_38_2_Btn"
+                                                                        onclick="CheckMCAnswer(38,2,this)">?</button>&nbsp;&nbsp;MgO/Al<sub>2</sub>O<sub>3</sub>
+                                                        </li>
+                                                        <li id="Q_38_3"><button class="FuncButton" id="Q_38_3_Btn"
+                                                                        onclick="CheckMCAnswer(38,3,this)">?</button>&nbsp;&nbsp;Al<sub>2</sub>O<sub>3</sub>/MgO
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_39" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>고로(용광로) 내에서 출선할 때 용선과 함께 나와 용선 위에 떠있는 물질로 주로 산화물로 되어 있는 찌꺼기는?</h4>
+                                                        <br />
+
+                          
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_39_0"><button class="FuncButton" id="Q_39_0_Btn"
+                                                                        onclick="CheckMCAnswer(39,0,this)">?</button>&nbsp;&nbsp;슬래그(Slag)
+                                                        </li>
+                                                        <li id="Q_39_1"><button class="FuncButton" id="Q_39_1_Btn"
+                                                                        onclick="CheckMCAnswer(39,1,this)">?</button>&nbsp;&nbsp;코크스(Coke)
+                                                        </li>
+                                                        <li id="Q_39_2"><button class="FuncButton" id="Q_39_2_Btn"
+                                                                        onclick="CheckMCAnswer(39,2,this)">?</button>&nbsp;&nbsp;일산화탄소(CO)
+                                                        </li>
+                                                        <li id="Q_39_3"><button class="FuncButton" id="Q_39_3_Btn"
+                                                                        onclick="CheckMCAnswer(39,3,this)">?</button>&nbsp;&nbsp;슬러지(Sludge)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                </ol>
+                        </div>
+                </div>
+
+                <script>
+
+                        var I = new Array();
+                        I[0] = new Array(); I[0][0] = 100;
+                        I[0][1] = '';
+                        I[0][2] = '0';
+                        I[0][3] = new Array();
+                        I[0][3][0] = new Array('', '', 0, 0, 1);
+                        I[0][3][1] = new Array('', '', 0, 0, 1);
+                        I[0][3][2] = new Array('', '', 1, 100, 1);
+                        I[0][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[1] = new Array(); I[1][0] = 100;
+                        I[1][1] = '';
+                        I[1][2] = '0';
+                        I[1][3] = new Array();
+                        I[1][3][0] = new Array('', '', 0, 0, 1);
+                        I[1][3][1] = new Array('', '', 1, 100, 1);
+                        I[1][3][2] = new Array('', '', 0, 0, 1);
+                        I[1][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[2] = new Array(); I[2][0] = 100;
+                        I[2][1] = '';
+                        I[2][2] = '0';
+                        I[2][3] = new Array();
+                        I[2][3][0] = new Array('', '', 0, 0, 1);
+                        I[2][3][1] = new Array('', '', 0, 0, 1);
+                        I[2][3][2] = new Array('', '', 1, 100, 1);
+                        I[2][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[3] = new Array(); I[3][0] = 100;
+                        I[3][1] = '';
+                        I[3][2] = '0';
+                        I[3][3] = new Array();
+                        I[3][3][0] = new Array('', '', 0, 0, 1);
+                        I[3][3][1] = new Array('', '', 0, 0, 1);
+                        I[3][3][2] = new Array('', '', 0, 0, 1);
+                        I[3][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[4] = new Array(); I[4][0] = 100;
+                        I[4][1] = '';
+                        I[4][2] = '0';
+                        I[4][3] = new Array();
+                        I[4][3][0] = new Array('', '', 0, 0, 1);
+                        I[4][3][1] = new Array('', '', 0, 0, 1);
+                        I[4][3][2] = new Array('', '', 0, 0, 1);
+                        I[4][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[5] = new Array(); I[5][0] = 100;
+                        I[5][1] = '';
+                        I[5][2] = '0';
+                        I[5][3] = new Array();
+                        I[5][3][0] = new Array('', '', 1, 100, 1);
+                        I[5][3][1] = new Array('', '', 0, 0, 1);
+                        I[5][3][2] = new Array('', '', 0, 0, 1);
+                        I[5][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[6] = new Array(); I[6][0] = 100;
+                        I[6][1] = '';
+                        I[6][2] = '0';
+                        I[6][3] = new Array();
+                        I[6][3][0] = new Array('', '', 0, 0, 1);
+                        I[6][3][1] = new Array('', '', 0, 0, 1);
+                        I[6][3][2] = new Array('', '', 0, 0, 1);
+                        I[6][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[7] = new Array(); I[7][0] = 100;
+                        I[7][1] = '';
+                        I[7][2] = '0';
+                        I[7][3] = new Array();
+                        I[7][3][0] = new Array('', '', 0, 0, 1);
+                        I[7][3][1] = new Array('', '', 1, 100, 1);
+                        I[7][3][2] = new Array('', '', 0, 0, 1);
+                        I[7][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[8] = new Array(); I[8][0] = 100;
+                        I[8][1] = '';
+                        I[8][2] = '0';
+                        I[8][3] = new Array();
+                        I[8][3][0] = new Array('', '', 0, 0, 1);
+                        I[8][3][1] = new Array('', '', 0, 0, 1);
+                        I[8][3][2] = new Array('', '', 1, 100, 1);
+                        I[8][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[9] = new Array(); I[9][0] = 100;
+                        I[9][1] = '';
+                        I[9][2] = '0';
+                        I[9][3] = new Array();
+                        I[9][3][0] = new Array('', '', 0, 0, 1);
+                        I[9][3][1] = new Array('', '', 0, 0, 1);
+                        I[9][3][2] = new Array('', '', 0, 0, 1);
+                        I[9][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[10] = new Array(); I[10][0] = 100;
+                        I[10][1] = '';
+                        I[10][2] = '0';
+                        I[10][3] = new Array();
+                        I[10][3][0] = new Array('', '', 1, 100, 1);
+                        I[10][3][1] = new Array('', '', 0, 0, 1);
+                        I[10][3][2] = new Array('', '', 0, 0, 1);
+                        I[10][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[11] = new Array(); I[11][0] = 100;
+                        I[11][1] = '';
+                        I[11][2] = '0';
+                        I[11][3] = new Array();
+                        I[11][3][0] = new Array('', '', 0, 0, 1);
+                        I[11][3][1] = new Array('', '', 1, 100, 1);
+                        I[11][3][2] = new Array('', '', 0, 0, 1);
+                        I[11][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[12] = new Array(); I[12][0] = 100;
+                        I[12][1] = '';
+                        I[12][2] = '0';
+                        I[12][3] = new Array();
+                        I[12][3][0] = new Array('', '', 0, 0, 1);
+                        I[12][3][1] = new Array('', '', 0, 0, 1);
+                        I[12][3][2] = new Array('', '', 0, 0, 1);
+                        I[12][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[13] = new Array(); I[13][0] = 100;
+                        I[13][1] = '';
+                        I[13][2] = '0';
+                        I[13][3] = new Array();
+                        I[13][3][0] = new Array('', '', 1, 100, 1);
+                        I[13][3][1] = new Array('', '', 0, 0, 1);
+                        I[13][3][2] = new Array('', '', 0, 0, 1);
+                        I[13][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[14] = new Array(); I[14][0] = 100;
+                        I[14][1] = '';
+                        I[14][2] = '0';
+                        I[14][3] = new Array();
+                        I[14][3][0] = new Array('', '', 0, 0, 1);
+                        I[14][3][1] = new Array('', '', 0, 0, 1);
+                        I[14][3][2] = new Array('', '', 1, 100, 1);
+                        I[14][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[15] = new Array(); I[15][0] = 100;
+                        I[15][1] = '';
+                        I[15][2] = '0';
+                        I[15][3] = new Array();
+                        I[15][3][0] = new Array('', '', 0, 0, 1);
+                        I[15][3][1] = new Array('', '', 1, 100, 1);
+                        I[15][3][2] = new Array('', '', 0, 0, 1);
+                        I[15][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[16] = new Array(); I[16][0] = 100;
+                        I[16][1] = '';
+                        I[16][2] = '0';
+                        I[16][3] = new Array();
+                        I[16][3][0] = new Array('', '', 0, 0, 1);
+                        I[16][3][1] = new Array('', '', 0, 0, 1);
+                        I[16][3][2] = new Array('', '', 1, 100, 1);
+                        I[16][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[17] = new Array(); I[17][0] = 100;
+                        I[17][1] = '';
+                        I[17][2] = '0';
+                        I[17][3] = new Array();
+                        I[17][3][0] = new Array('', '', 0, 0, 1);
+                        I[17][3][1] = new Array('', '', 1, 100, 1);
+                        I[17][3][2] = new Array('', '', 0, 0, 1);
+                        I[17][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[18] = new Array(); I[18][0] = 100;
+                        I[18][1] = '';
+                        I[18][2] = '0';
+                        I[18][3] = new Array();
+                        I[18][3][0] = new Array('', '', 1, 100, 1);
+                        I[18][3][1] = new Array('', '', 0, 0, 1);
+                        I[18][3][2] = new Array('', '', 0, 0, 1);
+                        I[18][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[19] = new Array(); I[19][0] = 100;
+                        I[19][1] = '';
+                        I[19][2] = '0';
+                        I[19][3] = new Array();
+                        I[19][3][0] = new Array('', '', 0, 0, 1);
+                        I[19][3][1] = new Array('', '', 0, 0, 1);
+                        I[19][3][2] = new Array('', '', 0, 0, 1);
+                        I[19][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[20] = new Array(); I[20][0] = 100;
+                        I[20][1] = '';
+                        I[20][2] = '0';
+                        I[20][3] = new Array();
+                        I[20][3][0] = new Array('', '', 0, 0, 1);
+                        I[20][3][1] = new Array('', '', 1, 100, 1);
+                        I[20][3][2] = new Array('', '', 0, 0, 1);
+                        I[20][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[21] = new Array(); I[21][0] = 100;
+                        I[21][1] = '';
+                        I[21][2] = '0';
+                        I[21][3] = new Array();
+                        I[21][3][0] = new Array('', '', 0, 0, 1);
+                        I[21][3][1] = new Array('', '', 0, 0, 1);
+                        I[21][3][2] = new Array('', '', 0, 0, 1);
+                        I[21][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[22] = new Array(); I[22][0] = 100;
+                        I[22][1] = '';
+                        I[22][2] = '0';
+                        I[22][3] = new Array();
+                        I[22][3][0] = new Array('', '', 0, 0, 1);
+                        I[22][3][1] = new Array('', '', 1, 100, 1);
+                        I[22][3][2] = new Array('', '', 0, 0, 1);
+                        I[22][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[23] = new Array(); I[23][0] = 100;
+                        I[23][1] = '';
+                        I[23][2] = '0';
+                        I[23][3] = new Array();
+                        I[23][3][0] = new Array('', '', 0, 0, 1);
+                        I[23][3][1] = new Array('', '', 0, 0, 1);
+                        I[23][3][2] = new Array('', '', 1, 100, 1);
+                        I[23][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[24] = new Array(); I[24][0] = 100;
+                        I[24][1] = '';
+                        I[24][2] = '0';
+                        I[24][3] = new Array();
+                        I[24][3][0] = new Array('', '', 1, 100, 1);
+                        I[24][3][1] = new Array('', '', 0, 0, 1);
+                        I[24][3][2] = new Array('', '', 0, 0, 1);
+                        I[24][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[25] = new Array(); I[25][0] = 100;
+                        I[25][1] = '';
+                        I[25][2] = '0';
+                        I[25][3] = new Array();
+                        I[25][3][0] = new Array('', '', 0, 0, 1);
+                        I[25][3][1] = new Array('', '', 1, 100, 1);
+                        I[25][3][2] = new Array('', '', 0, 0, 1);
+                        I[25][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[26] = new Array(); I[26][0] = 100;
+                        I[26][1] = '';
+                        I[26][2] = '0';
+                        I[26][3] = new Array();
+                        I[26][3][0] = new Array('', '', 0, 0, 1);
+                        I[26][3][1] = new Array('', '', 0, 0, 1);
+                        I[26][3][2] = new Array('', '', 0, 0, 1);
+                        I[26][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[27] = new Array(); I[27][0] = 100;
+                        I[27][1] = '';
+                        I[27][2] = '0';
+                        I[27][3] = new Array();
+                        I[27][3][0] = new Array('', '', 0, 0, 1);
+                        I[27][3][1] = new Array('', '', 0, 0, 1);
+                        I[27][3][2] = new Array('', '', 1, 100, 1);
+                        I[27][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[28] = new Array(); I[28][0] = 100;
+                        I[28][1] = '';
+                        I[28][2] = '0';
+                        I[28][3] = new Array();
+                        I[28][3][0] = new Array('', '', 0, 0, 1);
+                        I[28][3][1] = new Array('', '', 0, 0, 1);
+                        I[28][3][2] = new Array('', '', 0, 0, 1);
+                        I[28][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[29] = new Array(); I[29][0] = 100;
+                        I[29][1] = '';
+                        I[29][2] = '0';
+                        I[29][3] = new Array();
+                        I[29][3][0] = new Array('', '', 1, 100, 1);
+                        I[29][3][1] = new Array('', '', 0, 0, 1);
+                        I[29][3][2] = new Array('', '', 0, 0, 1);
+                        I[29][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[30] = new Array(); I[30][0] = 100;
+                        I[30][1] = '';
+                        I[30][2] = '0';
+                        I[30][3] = new Array();
+                        I[30][3][0] = new Array('', '', 0, 0, 1);
+                        I[30][3][1] = new Array('', '', 1, 100, 1);
+                        I[30][3][2] = new Array('', '', 0, 0, 1);
+                        I[30][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[31] = new Array(); I[31][0] = 100;
+                        I[31][1] = '';
+                        I[31][2] = '0';
+                        I[31][3] = new Array();
+                        I[31][3][0] = new Array('', '', 0, 0, 1);
+                        I[31][3][1] = new Array('', '', 0, 0, 1);
+                        I[31][3][2] = new Array('', '', 1, 100, 1);
+                        I[31][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[32] = new Array(); I[32][0] = 100;
+                        I[32][1] = '';
+                        I[32][2] = '0';
+                        I[32][3] = new Array();
+                        I[32][3][0] = new Array('', '', 0, 0, 1);
+                        I[32][3][1] = new Array('', '', 0, 0, 1);
+                        I[32][3][2] = new Array('', '', 0, 0, 1);
+                        I[32][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[33] = new Array(); I[33][0] = 100;
+                        I[33][1] = '';
+                        I[33][2] = '0';
+                        I[33][3] = new Array();
+                        I[33][3][0] = new Array('', '', 1, 100, 1);
+                        I[33][3][1] = new Array('', '', 0, 0, 1);
+                        I[33][3][2] = new Array('', '', 0, 0, 1);
+                        I[33][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[34] = new Array(); I[34][0] = 100;
+                        I[34][1] = '';
+                        I[34][2] = '0';
+                        I[34][3] = new Array();
+                        I[34][3][0] = new Array('', '', 0, 0, 1);
+                        I[34][3][1] = new Array('', '', 0, 0, 1);
+                        I[34][3][2] = new Array('', '', 0, 0, 1);
+                        I[34][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[35] = new Array(); I[35][0] = 100;
+                        I[35][1] = '';
+                        I[35][2] = '0';
+                        I[35][3] = new Array();
+                        I[35][3][0] = new Array('', '', 0, 0, 1);
+                        I[35][3][1] = new Array('', '', 1, 100, 1);
+                        I[35][3][2] = new Array('', '', 0, 0, 1);
+                        I[35][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[36] = new Array(); I[36][0] = 100;
+                        I[36][1] = '';
+                        I[36][2] = '0';
+                        I[36][3] = new Array();
+                        I[36][3][0] = new Array('', '', 0, 0, 1);
+                        I[36][3][1] = new Array('', '', 0, 0, 1);
+                        I[36][3][2] = new Array('', '', 1, 100, 1);
+                        I[36][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[37] = new Array(); I[37][0] = 100;
+                        I[37][1] = '';
+                        I[37][2] = '0';
+                        I[37][3] = new Array();
+                        I[37][3][0] = new Array('', '', 0, 0, 1);
+                        I[37][3][1] = new Array('', '', 1, 100, 1);
+                        I[37][3][2] = new Array('', '', 0, 0, 1);
+                        I[37][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[38] = new Array(); I[38][0] = 100;
+                        I[38][1] = '';
+                        I[38][2] = '0';
+                        I[38][3] = new Array();
+                        I[38][3][0] = new Array('', '', 0, 0, 1);
+                        I[38][3][1] = new Array('', '', 1, 100, 1);
+                        I[38][3][2] = new Array('', '', 0, 0, 1);
+                        I[38][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[39] = new Array(); I[39][0] = 100;
+                        I[39][1] = '';
+                        I[39][2] = '0';
+                        I[39][3] = new Array();
+                        I[39][3][0] = new Array('', '', 1, 100, 1);
+                        I[39][3][1] = new Array('', '', 0, 0, 1);
+                        I[39][3][2] = new Array('', '', 0, 0, 1);
+                        I[39][3][3] = new Array('', '', 0, 0, 1);
+
+                </script>
+
+
+        </body>
+
+        </html>
+
+</div>

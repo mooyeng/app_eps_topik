@@ -1,0 +1,1382 @@
+<!doctype html>
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+
+        <html lang="en">
+
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <script type="text/javascript" src="file:///android_asset/js/p_sc.js">
+
+                </script>
+
+                <link rel="stylesheet" type="text/css" href="file:///android_asset/css/p_st.css">
+
+
+        </head>
+
+        <body id="TheBody" onload="StartUp()">
+
+
+                <div class="StdDiv" id="InstructionsDiv">
+                        <div id="Instructions">
+                                Click on <button> ? </button> to check Your Answer.
+                        </div>
+                </div>
+                <div id="ContainerDiv">
+
+                        <div class="ExerciseContainer">
+
+
+
+
+                                <div class="QuestionNavigation" id="QNav">
+
+                                        <div style="text-align: center;">
+
+
+                                                <button class="FuncButton" id="ShowMethodButton"
+                                                        onclick="ShowHideQuestions(); return false;">All
+                                                        questions</button>
+
+
+                                        </div>
+                                        <hr>
+                                        <div id="OneByOneReadout">
+                                                <button class="FuncButton" id="PrevQButton"
+                                                        onclick="ChangeQ(-1); return false;">PREV</button>
+
+                                                <span class="QNum" id="QNumReadout">&nbsp;</span>
+
+                                                <button class="FuncButton" id="NextQButton"
+                                                        onclick="ChangeQ(1); return false;">NEXT</button>
+                                                <br />
+                                        </div>
+
+                                </div>
+                                <ol class="QuizQuestions" id="Questions">
+                                        <li class="QuizQuestion" id="Q_0" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 절삭가공에 해당되지 않는 것은? </h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_0_0"><button class="FuncButton" id="Q_0_0_Btn"
+                                                                        onclick="CheckMCAnswer(0,0,this)">?</button>&nbsp;&nbsp;선반 작업(Turning)
+                                                        </li>
+                                                        <li id="Q_0_1"><button class="FuncButton" id="Q_0_1_Btn"
+                                                                        onclick="CheckMCAnswer(0,1,this)">?</button>&nbsp;&nbsp;밀링 작업(Milling)
+                                                        </li>
+                                                        <li id="Q_0_2"><button class="FuncButton" id="Q_0_2_Btn"
+                                                                        onclick="CheckMCAnswer(0,2,this)">?</button>&nbsp;&nbsp;프레스 작업(Pressing) 
+                                                        </li>
+                                                        <li id="Q_0_3"><button class="FuncButton" id="Q_0_3_Btn"
+                                                                        onclick="CheckMCAnswer(0,3,this)">?</button>&nbsp;&nbsp;드릴링 작업(Drilling)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_1" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 회전 공구에 의한 가공이 아닌 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_1_0"><button class="FuncButton" id="Q_1_0_Btn"
+                                                                        onclick="CheckMCAnswer(1,0,this)">?</button>&nbsp;&nbsp;선삭(Turning) 
+                                                        </li>
+                                                        <li id="Q_1_1"><button class="FuncButton" id="Q_1_1_Btn"
+                                                                        onclick="CheckMCAnswer(1,1,this)">?</button>&nbsp;&nbsp;밀링(Milling)
+                                                        </li>
+                                                        <li id="Q_1_2"><button class="FuncButton" id="Q_1_2_Btn"
+                                                                        onclick="CheckMCAnswer(1,2,this)">?</button>&nbsp;&nbsp;보링(Boring)
+                                                        </li>
+                                                        <li id="Q_1_3"><button class="FuncButton" id="Q_1_3_Btn"
+                                                                        onclick="CheckMCAnswer(1,3,this)">?</button>&nbsp;&nbsp;드릴링(Drilling)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_2" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>공작기계의 구비조건으로 거리가 먼 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_2_0"><button class="FuncButton" id="Q_2_0_Btn"
+                                                                        onclick="CheckMCAnswer(2,0,this)">?</button>&nbsp;&nbsp;높은 정밀도를 가질 것
+                                                        </li>
+                                                        <li id="Q_2_1"><button class="FuncButton" id="Q_2_1_Btn"
+                                                                        onclick="CheckMCAnswer(2,1,this)">?</button>&nbsp;&nbsp;가공능력이 클 것
+                                                        </li>
+                                                        <li id="Q_2_2"><button class="FuncButton" id="Q_2_2_Btn"
+                                                                        onclick="CheckMCAnswer(2,2,this)">?</button>&nbsp;&nbsp;고장이 적고 효율이 좋을 것
+                                                        </li>
+                                                        <li id="Q_2_3"><button class="FuncButton" id="Q_2_3_Btn"
+                                                                        onclick="CheckMCAnswer(2,3,this)">?</button>&nbsp;&nbsp;가격이 비싸고 운전비용이 저렴할 것
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_3" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 고정입자에 의한 가공은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_3_0"><button class="FuncButton" id="Q_3_0_Btn"
+                                                                        onclick="CheckMCAnswer(3,0,this)">?</button>&nbsp;&nbsp;호닝(Honing) 
+                                                        </li>
+                                                        <li id="Q_3_1"><button class="FuncButton" id="Q_3_1_Btn"
+                                                                        onclick="CheckMCAnswer(3,1,this)">?</button>&nbsp;&nbsp;래핑(Lapping )
+                                                        </li>
+                                                        <li id="Q_3_2"><button class="FuncButton" id="Q_3_2_Btn"
+                                                                        onclick="CheckMCAnswer(3,2,this)">?</button>&nbsp;&nbsp;액체 호닝(Liquid honing)
+                                                        </li>
+                                                        <li id="Q_3_3"><button class="FuncButton" id="Q_3_3_Btn"
+                                                                        onclick="CheckMCAnswer(3,3,this)">?</button>&nbsp;&nbsp;배럴 가공(Barrel working)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_4" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림의 공작기계는 무엇인가?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/05.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_4_0"><button class="FuncButton" id="Q_4_0_Btn"
+                                                                        onclick="CheckMCAnswer(4,0,this)">?</button>&nbsp;&nbsp;선반(Lathe)
+                                                        </li>
+                                                        <li id="Q_4_1"><button class="FuncButton" id="Q_4_1_Btn"
+                                                                        onclick="CheckMCAnswer(4,1,this)">?</button>&nbsp;&nbsp;밀링머신(Milling machine)
+                                                        </li>
+                                                        <li id="Q_4_2"><button class="FuncButton" id="Q_4_2_Btn"
+                                                                        onclick="CheckMCAnswer(4,2,this)">?</button>&nbsp;&nbsp;보링머신(Boring machine)
+                                                        </li>
+                                                        <li id="Q_4_3"><button class="FuncButton" id="Q_4_3_Btn"
+                                                                        onclick="CheckMCAnswer(4,3,this)">?</button>&nbsp;&nbsp;드릴링머신(Drilling machine)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_5" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림은 어떤 공작기계에서 사용되는 장치인가?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/06.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_5_0"><button class="FuncButton" id="Q_5_0_Btn"
+                                                                        onclick="CheckMCAnswer(5,0,this)">?</button>&nbsp;&nbsp;선반(Lathe)
+                                                        </li>
+                                                        <li id="Q_5_1"><button class="FuncButton" id="Q_5_1_Btn"
+                                                                        onclick="CheckMCAnswer(5,1,this)">?</button>&nbsp;&nbsp;밀링머신(Milling machine)
+                                                        </li>
+                                                        <li id="Q_5_2"><button class="FuncButton" id="Q_5_2_Btn"
+                                                                        onclick="CheckMCAnswer(5,2,this)">?</button>&nbsp;&nbsp;보링머신(Boring machine)
+                                                        </li>
+                                                        <li id="Q_5_3"><button class="FuncButton" id="Q_5_3_Btn"
+                                                                        onclick="CheckMCAnswer(5,3,this)">?</button>&nbsp;&nbsp;드릴링머신(Drilling machine)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_6" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>공작물과 절삭공구가 모두 직선운동을 하는 공작기계는?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_6_0"><button class="FuncButton" id="Q_6_0_Btn"
+                                                                        onclick="CheckMCAnswer(6,0,this)">?</button>&nbsp;&nbsp; 선반(Lathe)
+                                                        </li>
+                                                        <li id="Q_6_1"><button class="FuncButton" id="Q_6_1_Btn"
+                                                                        onclick="CheckMCAnswer(6,1,this)">?</button>&nbsp;&nbsp;보링머신(Boring machine)
+                                                        </li>
+                                                        <li id="Q_6_2"><button class="FuncButton" id="Q_6_2_Btn"
+                                                                        onclick="CheckMCAnswer(6,2,this)">?</button>&nbsp;&nbsp;호닝머신(Honing machine)
+                                                        </li>
+                                                        <li id="Q_6_3"><button class="FuncButton" id="Q_6_3_Btn"
+                                                                        onclick="CheckMCAnswer(6,3,this)">?</button>&nbsp;&nbsp;플레이너(Planer)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_7" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>가공 시 칩(Chip)을 발생시키지 않는 공작기계는?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_7_0"><button class="FuncButton" id="Q_7_0_Btn"
+                                                                        onclick="CheckMCAnswer(7,0,this)">?</button>&nbsp;&nbsp;연삭기(Grinding machine)
+                                                        </li>
+                                                        <li id="Q_7_1"><button class="FuncButton" id="Q_7_1_Btn"
+                                                                        onclick="CheckMCAnswer(7,1,this)">?</button>&nbsp;&nbsp;호닝머신(Honing machine)
+                                                        </li>
+                                                        <li id="Q_7_2"><button class="FuncButton" id="Q_7_2_Btn"
+                                                                        onclick="CheckMCAnswer(7,2,this)">?</button>&nbsp;&nbsp;밀링머신(Milling machine)
+                                                        </li>
+                                                        <li id="Q_7_3"><button class="FuncButton" id="Q_7_3_Btn"
+                                                                        onclick="CheckMCAnswer(7,3,this)">?</button>&nbsp;&nbsp;프레스기(Press machine)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_8" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>절삭온도에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                      
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_8_0"><button class="FuncButton" id="Q_8_0_Btn"
+                                                                        onclick="CheckMCAnswer(8,0,this)">?</button>&nbsp;&nbsp;가공물의 경도가 높을수록 높아진다.
+                                                        </li>
+                                                        <li id="Q_8_1"><button class="FuncButton" id="Q_8_1_Btn"
+                                                                        onclick="CheckMCAnswer(8,1,this)">?</button>&nbsp;&nbsp;온도가 높아지면 공구수명이 단축된다.
+                                                        </li>
+                                                        <li id="Q_8_2"><button class="FuncButton" id="Q_8_2_Btn"
+                                                                        onclick="CheckMCAnswer(8,2,this)">?</button>&nbsp;&nbsp;공구와 공작물의 마찰이 적을수록 높아진다.
+                                                        </li>
+                                                        <li id="Q_8_3"><button class="FuncButton" id="Q_8_3_Btn"
+                                                                        onclick="CheckMCAnswer(8,3,this)">?</button>&nbsp;&nbsp;온도가 상승하면 열팽창으로 인해 치수변화가 발생된다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_9" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>공작기계 안내면에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_9_0"><button class="FuncButton" id="Q_9_0_Btn"
+                                                                        onclick="CheckMCAnswer(9,0,this)">?</button>&nbsp;&nbsp;가공이 용이해야 한다.
+                                                        </li>
+                                                        <li id="Q_9_1"><button class="FuncButton" id="Q_9_1_Btn"
+                                                                        onclick="CheckMCAnswer(9,1,this)">?</button>&nbsp;&nbsp;정밀도 유지를 위해 틈새(clearance)를 가능한 적게 한다.
+                                                        </li>
+                                                        <li id="Q_9_2"><button class="FuncButton" id="Q_9_2_Btn"
+                                                                        onclick="CheckMCAnswer(9,2,this)">?</button>&nbsp;&nbsp;내마모성이 크고 미끄럼(sliding)이 원활해야 한다.
+                                                        </li>
+                                                        <li id="Q_9_3"><button class="FuncButton" id="Q_9_3_Btn"
+                                                                        onclick="CheckMCAnswer(9,3,this)">?</button>&nbsp;&nbsp;내마모성을 높이기 위해 풀림(annealing)을 실시한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_10" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>공작기계의 몸체(body)에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_10_0"><button class="FuncButton" id="Q_10_0_Btn"
+                                                                        onclick="CheckMCAnswer(10,0,this)">?</button>&nbsp;&nbsp;진동을 흡수할 수 있는 구조여야 한다.
+                                                        </li>
+                                                        <li id="Q_10_1"><button class="FuncButton" id="Q_10_1_Btn"
+                                                                        onclick="CheckMCAnswer(10,1,this)">?</button>&nbsp;&nbsp;외력에 견딜 수 있는 강성이 있어야 된다.
+                                                        </li>
+                                                        <li id="Q_10_2"><button class="FuncButton" id="Q_10_2_Btn"
+                                                                        onclick="CheckMCAnswer(10,2,this)">?</button>&nbsp;&nbsp;응력변형을 방지하기 위해 전체 담금질(quenching)을 한다.
+                                                        </li>
+                                                        <li id="Q_10_3"><button class="FuncButton" id="Q_10_3_Btn"
+                                                                        onclick="CheckMCAnswer(10,3,this)">?</button>&nbsp;&nbsp;몸체의 재료는 주로 인장강도가 높은 고급 주철을 사용한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_11" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>공작기계의 기본운동과 거리가 먼 것은?</h4>
+                                                        <br />
+
+                                                      
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_11_0"><button class="FuncButton" id="Q_11_0_Btn"
+                                                                        onclick="CheckMCAnswer(11,0,this)">?</button>&nbsp;&nbsp;회전운동(rotation motion) 
+                                                        </li>
+                                                        <li id="Q_11_1"><button class="FuncButton" id="Q_11_1_Btn"
+                                                                        onclick="CheckMCAnswer(11,1,this)">?</button>&nbsp;&nbsp;이송운동(feed motion)
+                                                        </li>
+                                                        <li id="Q_11_2"><button class="FuncButton" id="Q_11_2_Btn"
+                                                                        onclick="CheckMCAnswer(11,2,this)">?</button>&nbsp;&nbsp;절삭운동(cutting motion)
+                                                        </li>
+                                                        <li id="Q_11_3"><button class="FuncButton" id="Q_11_3_Btn"
+                                                                        onclick="CheckMCAnswer(11,3,this)">?</button>&nbsp;&nbsp;위치조정운동(positioning motion)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_12" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림은 어떤 가공을 나타낸 것인가?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/13.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_12_0"><button class="FuncButton" id="Q_12_0_Btn"
+                                                                        onclick="CheckMCAnswer(12,0,this)">?</button>&nbsp;&nbsp;보링(boring)
+                                                        </li>
+                                                        <li id="Q_12_1"><button class="FuncButton" id="Q_12_1_Btn"
+                                                                        onclick="CheckMCAnswer(12,1,this)">?</button>&nbsp;&nbsp;밀링(milling)
+                                                        </li>
+                                                        <li id="Q_12_2"><button class="FuncButton" id="Q_12_2_Btn"
+                                                                        onclick="CheckMCAnswer(12,2,this)">?</button>&nbsp;&nbsp;리밍(reaming)
+                                                        </li>
+                                                        <li id="Q_12_3"><button class="FuncButton" id="Q_12_3_Btn"
+                                                                        onclick="CheckMCAnswer(12,3,this)">?</button>&nbsp;&nbsp;드릴링(drilling)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_13" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반, 밀링머신, 드릴링머신 등의 기계를 한 대로 조합하여 제작한 공작기계는?</h4>
+                                                        <br />
+
+                                                
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_13_0"><button class="FuncButton" id="Q_13_0_Btn"
+                                                                        onclick="CheckMCAnswer(13,0,this)">?</button>&nbsp;&nbsp;범용 공작기계(general purpose machine)
+                                                        </li>
+                                                        <li id="Q_13_1"><button class="FuncButton" id="Q_13_1_Btn"
+                                                                        onclick="CheckMCAnswer(13,1,this)">?</button>&nbsp;&nbsp;전용 공작기계(special machine)
+                                                        </li>
+                                                        <li id="Q_13_2"><button class="FuncButton" id="Q_13_2_Btn"
+                                                                        onclick="CheckMCAnswer(13,2,this)">?</button>&nbsp;&nbsp;만능 공작기계(universal purpose machine)
+                                                        </li>
+                                                        <li id="Q_13_3"><button class="FuncButton" id="Q_13_3_Btn"
+                                                                        onclick="CheckMCAnswer(13,3,this)">?</button>&nbsp;&nbsp;표준 공작기계(standard machine)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_14" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>그림과 같은 가공을 할 수 있는 공작기계는?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/15.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_14_0"><button class="FuncButton" id="Q_14_0_Btn"
+                                                                        onclick="CheckMCAnswer(14,0,this)">?</button>&nbsp;&nbsp;선반(lathe)
+                                                        </li>
+                                                        <li id="Q_14_1"><button class="FuncButton" id="Q_14_1_Btn"
+                                                                        onclick="CheckMCAnswer(14,1,this)">?</button>&nbsp;&nbsp;밀링머신(milling machine)
+                                                        </li>
+                                                        <li id="Q_14_2"><button class="FuncButton" id="Q_14_2_Btn"
+                                                                        onclick="CheckMCAnswer(14,2,this)">?</button>&nbsp;&nbsp;드릴링머신(drilling machine)
+                                                        </li>
+                                                        <li id="Q_14_3"><button class="FuncButton" id="Q_14_3_Btn"
+                                                                        onclick="CheckMCAnswer(14,3,this)">?</button>&nbsp;&nbsp;슈퍼피니싱(super finishing)
+
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_15" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>절삭유(cutting fluids)의 사용 목적에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_15_0"><button class="FuncButton" id="Q_15_0_Btn"
+                                                                        onclick="CheckMCAnswer(15,0,this)">?</button>&nbsp;&nbsp;공구의 인선을 냉각시켜 공구의 경도저하를 방지한다.
+                                                        </li>
+                                                        <li id="Q_15_1"><button class="FuncButton" id="Q_15_1_Btn"
+                                                                        onclick="CheckMCAnswer(15,1,this)">?</button>&nbsp;&nbsp;가공물을 냉각시켜 열에 의한 정밀도 저하 방지한다.
+                                                        </li>
+                                                        <li id="Q_15_2"><button class="FuncButton" id="Q_15_2_Btn"
+                                                                        onclick="CheckMCAnswer(15,2,this)">?</button>&nbsp;&nbsp;칩(chip)을 씻어주고 가공표면을 양호하게 한다.
+                                                        </li>
+                                                        <li id="Q_15_3"><button class="FuncButton" id="Q_15_3_Btn"
+                                                                        onclick="CheckMCAnswer(15,3,this)">?</button>&nbsp;&nbsp;안내면(slide way)에 윤활작용을 한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_16" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>절삭유의 구비조건에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_16_0"><button class="FuncButton" id="Q_16_0_Btn"
+                                                                        onclick="CheckMCAnswer(16,0,this)">?</button>&nbsp;&nbsp;방청 및 방식성이 좋아야 한다.
+                                                        </li>
+                                                        <li id="Q_16_1"><button class="FuncButton" id="Q_16_1_Btn"
+                                                                        onclick="CheckMCAnswer(16,1,this)">?</button>&nbsp;&nbsp;인화점 및 발화점이 낮아야 한다.
+                                                        </li>
+                                                        <li id="Q_16_2"><button class="FuncButton" id="Q_16_2_Btn"
+                                                                        onclick="CheckMCAnswer(16,2,this)">?</button>&nbsp;&nbsp;냉각성, 유동성, 윤활성이 우수해야 한다.
+                                                        </li>
+                                                        <li id="Q_16_3"><button class="FuncButton" id="Q_16_3_Btn"
+                                                                        onclick="CheckMCAnswer(16,3,this)">?</button>&nbsp;&nbsp;인체에 해가 없고 악취가 나지 않아야 한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_17" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>물과 원액을 혼합하여 사용하며 점성이 낮고 냉각효과가 우수하여 고속절삭 및 연삭 가공액으로 많이 사용되는 절삭유는?</h4>
+                                                        <br />
+
+                                               
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_17_0"><button class="FuncButton" id="Q_17_0_Btn"
+                                                                        onclick="CheckMCAnswer(17,0,this)">?</button>&nbsp;&nbsp;광유(mineral oil)
+                                                        </li>
+                                                        <li id="Q_17_1"><button class="FuncButton" id="Q_17_1_Btn"
+                                                                        onclick="CheckMCAnswer(17,1,this)">?</button>&nbsp;&nbsp;유화유(emulsion oil)
+                                                        </li>
+                                                        <li id="Q_17_2"><button class="FuncButton" id="Q_17_2_Btn"
+                                                                        onclick="CheckMCAnswer(17,2,this)">?</button>&nbsp;&nbsp;수용성 절삭유(soluble oil)
+                                                        </li>
+                                                        <li id="Q_17_3"><button class="FuncButton" id="Q_17_3_Btn"
+                                                                        onclick="CheckMCAnswer(17,3,this)">?</button>&nbsp;&nbsp;지방질유(fatty oil)
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_18" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 절삭온도 측정방법에 대해 잘못 설명한 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_18_0"><button class="FuncButton" id="Q_18_0_Btn"
+                                                                        onclick="CheckMCAnswer(18,0,this)">?</button>&nbsp;&nbsp;칩(chip)의 색깔에 의한 측정
+                                                        </li>
+                                                        <li id="Q_18_1"><button class="FuncButton" id="Q_18_1_Btn"
+                                                                        onclick="CheckMCAnswer(18,1,this)">?</button>&nbsp;&nbsp;절삭유의 온도에 의한 측정
+                                                        </li>
+                                                        <li id="Q_18_2"><button class="FuncButton" id="Q_18_2_Btn"
+                                                                        onclick="CheckMCAnswer(18,2,this)">?</button>&nbsp;&nbsp;칼로리메터(calorimeter)에 의한 측정
+                                                        </li>
+                                                        <li id="Q_18_3"><button class="FuncButton" id="Q_18_3_Btn"
+                                                                        onclick="CheckMCAnswer(18,3,this)">?</button>&nbsp;&nbsp;열전대(thermo-couple)에 의한 측정
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                        <li class="QuizQuestion" id="Q_19" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림과 같이 기어(gear)를 가공하는 공작기계의 명칭은 무엇인가?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/20.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_19_0"><button class="FuncButton" id="Q_19_0_Btn"
+                                                                        onclick="CheckMCAnswer(19,0,this)">?</button>&nbsp;&nbsp;셰이퍼(shaping machine)
+                                                        </li>
+                                                        <li id="Q_19_1"><button class="FuncButton" id="Q_19_1_Btn"
+                                                                        onclick="CheckMCAnswer(19,1,this)">?</button>&nbsp;&nbsp;호빙머신(hobing machine)
+                                                        </li>
+                                                        <li id="Q_19_2"><button class="FuncButton" id="Q_19_2_Btn"
+                                                                        onclick="CheckMCAnswer(19,2,this)">?</button>&nbsp;&nbsp;호닝머신(honing machine)
+                                                        </li>
+                                                        <li id="Q_19_3"><button class="FuncButton" id="Q_19_3_Btn"
+                                                                        onclick="CheckMCAnswer(19,3,this)">?</button>&nbsp;&nbsp;브로우칭머신(broaching machine)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_20" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4> 선반에서 가공할 수 없는 작업은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_20_0"><button class="FuncButton" id="Q_20_0_Btn"
+                                                                        onclick="CheckMCAnswer(20,0,this)">?</button>&nbsp;&nbsp;테이퍼(taper) 절삭
+                                                        </li>
+                                                        <li id="Q_20_1"><button class="FuncButton" id="Q_20_1_Btn"
+                                                                        onclick="CheckMCAnswer(20,1,this)">?</button>&nbsp;&nbsp;나사(thread) 절삭
+                                                        </li>
+                                                        <li id="Q_20_2"><button class="FuncButton" id="Q_20_2_Btn"
+                                                                        onclick="CheckMCAnswer(20,2,this)">?</button>&nbsp;&nbsp;기어(gear) 절삭
+                                                        </li>
+                                                        <li id="Q_20_3"><button class="FuncButton" id="Q_20_3_Btn"
+                                                                        onclick="CheckMCAnswer(20,3,this)">?</button>&nbsp;&nbsp;편심(eccentricity) 절삭
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_21" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>보통선반의 크기를 나타내는 방법 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_21_0"><button class="FuncButton" id="Q_21_0_Btn"
+                                                                        onclick="CheckMCAnswer(21,0,this)">?</button>&nbsp;&nbsp;베드(bed) 상의 스윙(swing)
+                                                        </li>
+                                                        <li id="Q_21_1"><button class="FuncButton" id="Q_21_1_Btn"
+                                                                        onclick="CheckMCAnswer(21,1,this)">?</button>&nbsp;&nbsp;왕복대 위의 스윙
+                                                        </li>
+                                                        <li id="Q_21_2"><button class="FuncButton" id="Q_21_2_Btn"
+                                                                        onclick="CheckMCAnswer(21,2,this)">?</button>&nbsp;&nbsp;양 센터(center) 사이의 거리
+                                                        </li>
+                                                        <li id="Q_21_3"><button class="FuncButton" id="Q_21_3_Btn"
+                                                                        onclick="CheckMCAnswer(21,3,this)">?</button>&nbsp;&nbsp;바닥에서 센터까지의 높이
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_22" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림에서 척(chuck)에 대해 바르게 설명한 것은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/23.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_22_0"><button class="FuncButton" id="Q_22_0_Btn"
+                                                                        onclick="CheckMCAnswer(22,0,this)">?</button>&nbsp;&nbsp;연동척(universal chuck)이다
+                                                        </li>
+                                                        <li id="Q_22_1"><button class="FuncButton" id="Q_22_1_Btn"
+                                                                        onclick="CheckMCAnswer(22,1,this)">?</button>&nbsp;&nbsp;편심(eccentricity)가공을 할 수 있다
+                                                        </li>
+                                                        <li id="Q_22_2"><button class="FuncButton" id="Q_22_2_Btn"
+                                                                        onclick="CheckMCAnswer(22,2,this)">?</button>&nbsp;&nbsp;1개의 조(jaw)를 돌리면 4개의 조가 동시에 움직인다
+                                                        </li>
+                                                        <li id="Q_22_3"><button class="FuncButton" id="Q_22_3_Btn"
+                                                                        onclick="CheckMCAnswer(22,3,this)">?</button>&nbsp;&nbsp;초보자도 쉽고 빠르게 가공물의 중심을 맞출 수 있다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_23" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 그림의 공구(tool)에 대한 설명으로 맞지 않는 것은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/24.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_23_0"><button class="FuncButton" id="Q_23_0_Btn"
+                                                                        onclick="CheckMCAnswer(23,0,this)">?</button>&nbsp;&nbsp;선반(lathe)에서 사용된다.
+                                                        </li>
+                                                        <li id="Q_23_1"><button class="FuncButton" id="Q_23_1_Btn"
+                                                                        onclick="CheckMCAnswer(23,1,this)">?</button>&nbsp;&nbsp;주로 내경가공에 사용된다.
+                                                        </li>
+                                                        <li id="Q_23_2"><button class="FuncButton" id="Q_23_2_Btn"
+                                                                        onclick="CheckMCAnswer(23,2,this)">?</button>&nbsp;&nbsp;엔드밀이라고 한다.
+                                                        </li>
+                                                        <li id="Q_23_3"><button class="FuncButton" id="Q_23_3_Btn"
+                                                                        onclick="CheckMCAnswer(23,3,this)">?</button>&nbsp;&nbsp;인서트 팁(insert tip)의 교환이 불가능하다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_24" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>절삭속도(cutting speed)의 단위를 바르게 나타낸 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_24_0"><button class="FuncButton" id="Q_24_0_Btn"
+                                                                        onclick="CheckMCAnswer(24,0,this)">?</button>&nbsp;&nbsp; m/min
+                                                        </li>
+                                                        <li id="Q_24_1"><button class="FuncButton" id="Q_24_1_Btn"
+                                                                        onclick="CheckMCAnswer(24,1,this)">?</button>&nbsp;&nbsp;mm/min
+                                                        </li>
+                                                        <li id="Q_24_2"><button class="FuncButton" id="Q_24_2_Btn"
+                                                                        onclick="CheckMCAnswer(24,2,this)">?</button>&nbsp;&nbsp;mm/rev
+                                                        </li>
+                                                        <li id="Q_24_3"><button class="FuncButton" id="Q_24_3_Btn"
+                                                                        onclick="CheckMCAnswer(24,3,this)">?</button>&nbsp;&nbsp;rpm
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_25" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반에서 지름이 30mm인 탄소강을 1200rpm으로 가공할 때 절삭속도는?</h4>
+                                                        <br />
+
+                                                       
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_25_0"><button class="FuncButton" id="Q_25_0_Btn"
+                                                                        onclick="CheckMCAnswer(25,0,this)">?</button>&nbsp;&nbsp;113 m/min
+                                                        </li>
+                                                        <li id="Q_25_1"><button class="FuncButton" id="Q_25_1_Btn"
+                                                                        onclick="CheckMCAnswer(25,1,this)">?</button>&nbsp;&nbsp;113 mm/min
+                                                        </li>
+                                                        <li id="Q_25_2"><button class="FuncButton" id="Q_25_2_Btn"
+                                                                        onclick="CheckMCAnswer(25,2,this)">?</button>&nbsp;&nbsp;1130 m/min
+                                                        </li>
+                                                        <li id="Q_25_3"><button class="FuncButton" id="Q_25_3_Btn"
+                                                                        onclick="CheckMCAnswer(25,3,this)">?</button>&nbsp;&nbsp;1130 mm/min
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_26" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반가공시 연속적으로 생성되는 칩(chip)을 짧게 끊어지도록 하기 위해 만든 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_26_0"><button class="FuncButton" id="Q_26_0_Btn"
+                                                                        onclick="CheckMCAnswer(26,0,this)">?</button>&nbsp;&nbsp;노즈(nose) 반경
+                                                        </li>
+                                                        <li id="Q_26_1"><button class="FuncButton" id="Q_26_1_Btn"
+                                                                        onclick="CheckMCAnswer(26,1,this)">?</button>&nbsp;&nbsp;여유각(clearance angle)
+                                                        </li>
+                                                        <li id="Q_26_2"><button class="FuncButton" id="Q_26_2_Btn"
+                                                                        onclick="CheckMCAnswer(26,2,this)">?</button>&nbsp;&nbsp;치핑(chipping)
+                                                        </li>
+                                                        <li id="Q_26_3"><button class="FuncButton" id="Q_26_3_Btn"
+                                                                        onclick="CheckMCAnswer(26,3,this)">?</button>&nbsp;&nbsp;칩 브레이커(chip breaker)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_27" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>사진 속 선반용 부속품에 관해 설명한 것 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/28.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_27_0"><button class="FuncButton" id="Q_27_0_Btn"
+                                                                        onclick="CheckMCAnswer(27,0,this)">?</button>&nbsp;&nbsp;회전센터(live center)라고 한다.
+                                                        </li>
+                                                        <li id="Q_27_1"><button class="FuncButton" id="Q_27_1_Btn"
+                                                                        onclick="CheckMCAnswer(27,1,this)">?</button>&nbsp;&nbsp;센터의 자루(shank)는 모스테이퍼(morse taper)로 제작한다.
+                                                        </li>
+                                                        <li id="Q_27_2"><button class="FuncButton" id="Q_27_2_Btn"
+                                                                        onclick="CheckMCAnswer(27,2,this)">?</button>&nbsp;&nbsp;길이가 긴 공작물을 지지할 때 사용된다. 
+                                                        </li>
+                                                        <li id="Q_27_3"><button class="FuncButton" id="Q_27_3_Btn"
+                                                                        onclick="CheckMCAnswer(27,3,this)">?</button>&nbsp;&nbsp;심압축(tail stock)에 꽂아서 사용한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_28" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>구성인선(built-up edge)이 발생하지 않는 조건에 대한 설명으로 틀린 것은?</h4>
+                                                        <br />
+
+                                                     
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_28_0"><button class="FuncButton" id="Q_28_0_Btn"
+                                                                        onclick="CheckMCAnswer(28,0,this)">?</button>&nbsp;&nbsp;절삭 속도를 크게 한다.
+                                                        </li>
+                                                        <li id="Q_28_1"><button class="FuncButton" id="Q_28_1_Btn"
+                                                                        onclick="CheckMCAnswer(28,1,this)">?</button>&nbsp;&nbsp;절삭 깊이(depth of cut)를 크게 한다.
+                                                        </li>
+                                                        <li id="Q_28_2"><button class="FuncButton" id="Q_28_2_Btn"
+                                                                        onclick="CheckMCAnswer(28,2,this)">?</button>&nbsp;&nbsp;공구의 날 끝을 예리하게 한다.
+                                                        </li>
+                                                        <li id="Q_28_3"><button class="FuncButton" id="Q_28_3_Btn"
+                                                                        onclick="CheckMCAnswer(28,3,this)">?</button>&nbsp;&nbsp;공구의 윗면 경사각(rake angle)을 크게 한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_29" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4> 선반에서 가늘고 긴 공작물을 가공할 때 사용하는 부속장치는?</h4>
+                                                        <br />
+
+                                                
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_29_0"><button class="FuncButton" id="Q_29_0_Btn"
+                                                                        onclick="CheckMCAnswer(29,0,this)">?</button>&nbsp;&nbsp;면판(face plate)
+                                                        </li>
+                                                        <li id="Q_29_1"><button class="FuncButton" id="Q_29_1_Btn"
+                                                                        onclick="CheckMCAnswer(29,1,this)">?</button>&nbsp;&nbsp;돌림판(driving plate)
+                                                        </li>
+                                                        <li id="Q_29_2"><button class="FuncButton" id="Q_29_2_Btn"
+                                                                        onclick="CheckMCAnswer(29,2,this)">?</button>&nbsp;&nbsp;방진구(work rest)
+                                                        </li>
+                                                        <li id="Q_29_3"><button class="FuncButton" id="Q_29_3_Btn"
+                                                                        onclick="CheckMCAnswer(29,3,this)">?</button>&nbsp;&nbsp;맨드릴(mandrel)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_30" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반에서 지름이 80mm인 공작물을 절삭속도 302m/min으로 가공하고 있다면 이때의주축회전수는 얼마인가?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_30_0"><button class="FuncButton" id="Q_30_0_Btn"
+                                                                        onclick="CheckMCAnswer(30,0,this)">?</button>&nbsp;&nbsp;1000rpm
+                                                        </li>
+                                                        <li id="Q_30_1"><button class="FuncButton" id="Q_30_1_Btn"
+                                                                        onclick="CheckMCAnswer(30,1,this)">?</button>&nbsp;&nbsp;1200rpm
+                                                        </li>
+                                                        <li id="Q_30_2"><button class="FuncButton" id="Q_30_2_Btn"
+                                                                        onclick="CheckMCAnswer(30,2,this)">?</button>&nbsp;&nbsp;1400rpm 
+                                                        </li>
+                                                        <li id="Q_30_3"><button class="FuncButton" id="Q_30_3_Btn"
+                                                                        onclick="CheckMCAnswer(30,3,this)">?</button>&nbsp;&nbsp;1600rpm
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_31" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>그림은 선반에서 무슨 가공을 하는 것인가?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/32.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_31_0"><button class="FuncButton" id="Q_31_0_Btn"
+                                                                        onclick="CheckMCAnswer(31,0,this)">?</button>&nbsp;&nbsp;널링(knurling) 가공
+                                                        </li>
+                                                        <li id="Q_31_1"><button class="FuncButton" id="Q_31_1_Btn"
+                                                                        onclick="CheckMCAnswer(31,1,this)">?</button>&nbsp;&nbsp;테이퍼(taper) 가공
+                                                        </li>
+                                                        <li id="Q_31_2"><button class="FuncButton" id="Q_31_2_Btn"
+                                                                        onclick="CheckMCAnswer(31,2,this)">?</button>&nbsp;&nbsp;릴리빙(relieving) 가공
+                                                        </li>
+                                                        <li id="Q_31_3"><button class="FuncButton" id="Q_31_3_Btn"
+                                                                        onclick="CheckMCAnswer(31,3,this)">?</button>&nbsp;&nbsp;보링(boring) 가공
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_32" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반의 내경절삭(boring)에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_32_0"><button class="FuncButton" id="Q_32_0_Btn"
+                                                                        onclick="CheckMCAnswer(32,0,this)">?</button>&nbsp;&nbsp;외경바이트에 비해 진동이 심하다.
+                                                        </li>
+                                                        <li id="Q_32_1"><button class="FuncButton" id="Q_32_1_Btn"
+                                                                        onclick="CheckMCAnswer(32,1,this)">?</button>&nbsp;&nbsp;바이트를 최대한 길게 고정한다.
+                                                        </li>
+                                                        <li id="Q_32_2"><button class="FuncButton" id="Q_32_2_Btn"
+                                                                        onclick="CheckMCAnswer(32,2,this)">?</button>&nbsp;&nbsp;외경절삭에 비해 이송을 느리게 한다.
+                                                        </li>
+                                                        <li id="Q_32_3"><button class="FuncButton" id="Q_32_3_Btn"
+                                                                        onclick="CheckMCAnswer(32,3,this)">?</button>&nbsp;&nbsp;생크(shank)는 가능한 굵은 것을 사용한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_33" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>심압대를 이용하여 아래 도면과 같은 가공물 테이퍼를 가공할 때의 편위량은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/34.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_33_0"><button class="FuncButton" id="Q_33_0_Btn"
+                                                                        onclick="CheckMCAnswer(33,0,this)">?</button>&nbsp;&nbsp;5mm
+                                                        </li>
+                                                        <li id="Q_33_1"><button class="FuncButton" id="Q_33_1_Btn"
+                                                                        onclick="CheckMCAnswer(33,1,this)">?</button>&nbsp;&nbsp;6mm
+                                                        </li>
+                                                        <li id="Q_33_2"><button class="FuncButton" id="Q_33_2_Btn"
+                                                                        onclick="CheckMCAnswer(33,2,this)">?</button>&nbsp;&nbsp;7mm
+                                                        </li>
+                                                        <li id="Q_33_3"><button class="FuncButton" id="Q_33_3_Btn"
+                                                                        onclick="CheckMCAnswer(33,3,this)">?</button>&nbsp;&nbsp;8mm
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_34" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반에서 테이퍼를 가공하는 방법이 아닌 것은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_34_0"><button class="FuncButton" id="Q_34_0_Btn"
+                                                                        onclick="CheckMCAnswer(34,0,this)">?</button>&nbsp;&nbsp;복식 공구대(compound tool post)를 경사시키는 방법
+                                                        </li>
+                                                        <li id="Q_34_1"><button class="FuncButton" id="Q_34_1_Btn"
+                                                                        onclick="CheckMCAnswer(34,1,this)">?</button>&nbsp;&nbsp;심압대(tail stock)를 편위시키는 방법
+                                                        </li>
+                                                        <li id="Q_34_2"><button class="FuncButton" id="Q_34_2_Btn"
+                                                                        onclick="CheckMCAnswer(34,2,this)">?</button>&nbsp;&nbsp;테이퍼 절삭장치(taper attachment)를 이용하는 방법
+                                                        </li>
+                                                        <li id="Q_34_3"><button class="FuncButton" id="Q_34_3_Btn"
+                                                                        onclick="CheckMCAnswer(34,3,this)">?</button>&nbsp;&nbsp;왕복대(carriage)를 회전시키는 방법
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_35" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>그림과 같이 편심(eccentricity)가공을 할 때 가공방법에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/36.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_35_0"><button class="FuncButton" id="Q_35_0_Btn"
+                                                                        onclick="CheckMCAnswer(35,0,this)">?</button>&nbsp;&nbsp;연동척에서 가공할 수 있다.
+                                                        </li>
+                                                        <li id="Q_35_1"><button class="FuncButton" id="Q_35_1_Btn"
+                                                                        onclick="CheckMCAnswer(35,1,this)">?</button>&nbsp;&nbsp;이송을 천천히 하고 절삭속도를 느리게 한다.
+                                                        </li>
+                                                        <li id="Q_35_2"><button class="FuncButton" id="Q_35_2_Btn"
+                                                                        onclick="CheckMCAnswer(35,2,this)">?</button>&nbsp;&nbsp;다이얼게이이지의 이동량은 편심량X2로 맞춘다
+                                                        </li>
+                                                        <li id="Q_35_3"><button class="FuncButton" id="Q_35_3_Btn"
+                                                                        onclick="CheckMCAnswer(35,3,this)">?</button>&nbsp;&nbsp;충격절삭이 이루어지므로 공작물을 견고하게 고정한다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_36" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>선반에서 지름 50mm의 탄소강재를 회전수 1000rpm, 이송 0.2mm/rev, 길이 50mm를
+                                                                1회 가공할 때 소요되는 시간은?</h4>
+                                                        <br />
+
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_36_0"><button class="FuncButton" id="Q_36_0_Btn"
+                                                                        onclick="CheckMCAnswer(36,0,this)">?</button>&nbsp;&nbsp;20초
+                                                        </li>
+                                                        <li id="Q_36_1"><button class="FuncButton" id="Q_36_1_Btn"
+                                                                        onclick="CheckMCAnswer(36,1,this)">?</button>&nbsp;&nbsp;40초
+                                                        </li>
+                                                        <li id="Q_36_2"><button class="FuncButton" id="Q_36_2_Btn"
+                                                                        onclick="CheckMCAnswer(36,2,this)">?</button>&nbsp;&nbsp;60초
+                                                        </li>
+                                                        <li id="Q_36_3"><button class="FuncButton" id="Q_36_3_Btn"
+                                                                        onclick="CheckMCAnswer(36,3,this)">?</button>&nbsp;&nbsp;80초
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_37" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>다음 중 밀링머신의 몸체(body)에 해당되지 않는 것은?</h4>
+                                                        <br />
+
+                                                     
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_37_0"><button class="FuncButton" id="Q_37_0_Btn"
+                                                                        onclick="CheckMCAnswer(37,0,this)">?</button>&nbsp;&nbsp;컬럼(column)
+                                                        </li>
+                                                        <li id="Q_37_1"><button class="FuncButton" id="Q_37_1_Btn"
+                                                                        onclick="CheckMCAnswer(37,1,this)">?</button>&nbsp;&nbsp;테이블(table)
+                                                        </li>
+                                                        <li id="Q_37_2"><button class="FuncButton" id="Q_37_2_Btn"
+                                                                        onclick="CheckMCAnswer(37,2,this)">?</button>&nbsp;&nbsp;니(knee)
+                                                        </li>
+                                                        <li id="Q_37_3"><button class="FuncButton" id="Q_37_3_Btn"
+                                                                        onclick="CheckMCAnswer(37,3,this)">?</button>&nbsp;&nbsp;왕복대(carriage)
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_38" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>아래 장치에 대한 설명으로 바른 것은?</h4>
+                                                        <br />
+
+                                                        <img src="file:///android_asset/imgs6/39.webp" style = "max-width: 80%;">
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_38_0"><button class="FuncButton" id="Q_38_0_Btn"
+                                                                        onclick="CheckMCAnswer(38,0,this)">?</button>&nbsp;&nbsp;선반(lathe)에서 사용되는 장치이다.
+                                                        </li>
+                                                        <li id="Q_38_1"><button class="FuncButton" id="Q_38_1_Btn"
+                                                                        onclick="CheckMCAnswer(38,1,this)">?</button>&nbsp;&nbsp;회전테이블(circular table)이라 한다.
+                                                        </li>
+                                                        <li id="Q_38_2"><button class="FuncButton" id="Q_38_2_Btn"
+                                                                        onclick="CheckMCAnswer(38,2,this)">?</button>&nbsp;&nbsp;원주분할, 기어가공 등을 할 수 있다.
+                                                        </li>
+                                                        <li id="Q_38_3"><button class="FuncButton" id="Q_38_3_Btn"
+                                                                        onclick="CheckMCAnswer(38,3,this)">?</button>&nbsp;&nbsp;편심(eccentricity)가공을 할 수 있다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+
+                                        <li class="QuizQuestion" id="Q_39" style="display: none;">
+                                                <div class="QuestionText">
+                                                        <h4>밀링머신에서 하향절삭(down cutting)에 관한 설명 중 틀린 것은?</h4>
+                                                        <br />
+
+                                                        
+
+                                                </div>
+                                                <ol class="MCAnswers">
+                                                        <li id="Q_39_0"><button class="FuncButton" id="Q_39_0_Btn"
+                                                                        onclick="CheckMCAnswer(39,0,this)">?</button>&nbsp;&nbsp;백 래시(back lash)의 영향을 받지 않는다.
+                                                        </li>
+                                                        <li id="Q_39_1"><button class="FuncButton" id="Q_39_1_Btn"
+                                                                        onclick="CheckMCAnswer(39,1,this)">?</button>&nbsp;&nbsp;상향절삭(up cutting)에 비해 공구수명이 길다.
+                                                        </li>
+                                                        <li id="Q_39_2"><button class="FuncButton" id="Q_39_2_Btn"
+                                                                        onclick="CheckMCAnswer(39,2,this)">?</button>&nbsp;&nbsp;가공면이 깨끗하고 고정밀 절삭이 가능하다.
+                                                        </li>
+                                                        <li id="Q_39_3"><button class="FuncButton" id="Q_39_3_Btn"
+                                                                        onclick="CheckMCAnswer(39,3,this)">?</button>&nbsp;&nbsp;절삭가공시 마찰력은 적으나 큰 충격력이 발생된다.
+                                                        </li>
+                                                </ol>
+                                        </li>
+                                </ol>
+                        </div>
+                </div>
+
+                <script>
+
+                        var I = new Array();
+                        I[0] = new Array(); I[0][0] = 100;
+                        I[0][1] = '';
+                        I[0][2] = '0';
+                        I[0][3] = new Array();
+                        I[0][3][0] = new Array('', '', 0, 0, 1);
+                        I[0][3][1] = new Array('', '', 0, 0, 1);
+                        I[0][3][2] = new Array('', '', 1, 100, 1);
+                        I[0][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[1] = new Array(); I[1][0] = 100;
+                        I[1][1] = '';
+                        I[1][2] = '0';
+                        I[1][3] = new Array();
+                        I[1][3][0] = new Array('', '', 1, 100, 1);
+                        I[1][3][1] = new Array('', '', 0, 0, 1);
+                        I[1][3][2] = new Array('', '', 0, 0, 1);
+                        I[1][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[2] = new Array(); I[2][0] = 100;
+                        I[2][1] = '';
+                        I[2][2] = '0';
+                        I[2][3] = new Array();
+                        I[2][3][0] = new Array('', '', 0, 0, 1);
+                        I[2][3][1] = new Array('', '', 0, 0, 1);
+                        I[2][3][2] = new Array('', '', 0, 0, 1);
+                        I[2][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[3] = new Array(); I[3][0] = 100;
+                        I[3][1] = '';
+                        I[3][2] = '0';
+                        I[3][3] = new Array();
+                        I[3][3][0] = new Array('', '', 1, 100, 1);
+                        I[3][3][1] = new Array('', '', 0, 0, 1);
+                        I[3][3][2] = new Array('', '', 0, 0, 1);
+                        I[3][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[4] = new Array(); I[4][0] = 100;
+                        I[4][1] = '';
+                        I[4][2] = '0';
+                        I[4][3] = new Array();
+                        I[4][3][0] = new Array('', '', 0, 0, 1);
+                        I[4][3][1] = new Array('', '', 1, 100, 1);
+                        I[4][3][2] = new Array('', '', 0, 0, 1);
+                        I[4][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[5] = new Array(); I[5][0] = 100;
+                        I[5][1] = '';
+                        I[5][2] = '0';
+                        I[5][3] = new Array();
+                        I[5][3][0] = new Array('', '', 1, 100, 1);
+                        I[5][3][1] = new Array('', '', 0, 0, 1);
+                        I[5][3][2] = new Array('', '', 0, 0, 1);
+                        I[5][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[6] = new Array(); I[6][0] = 100;
+                        I[6][1] = '';
+                        I[6][2] = '0';
+                        I[6][3] = new Array();
+                        I[6][3][0] = new Array('', '', 0, 0, 1);
+                        I[6][3][1] = new Array('', '', 0, 0, 1);
+                        I[6][3][2] = new Array('', '', 0, 0, 1);
+                        I[6][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[7] = new Array(); I[7][0] = 100;
+                        I[7][1] = '';
+                        I[7][2] = '0';
+                        I[7][3] = new Array();
+                        I[7][3][0] = new Array('', '', 0, 0, 1);
+                        I[7][3][1] = new Array('', '', 0, 0, 1);
+                        I[7][3][2] = new Array('', '', 0, 0, 1);
+                        I[7][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[8] = new Array(); I[8][0] = 100;
+                        I[8][1] = '';
+                        I[8][2] = '0';
+                        I[8][3] = new Array();
+                        I[8][3][0] = new Array('', '', 0, 0, 1);
+                        I[8][3][1] = new Array('', '', 0, 0, 1);
+                        I[8][3][2] = new Array('', '', 1, 100, 1);
+                        I[8][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[9] = new Array(); I[9][0] = 100;
+                        I[9][1] = '';
+                        I[9][2] = '0';
+                        I[9][3] = new Array();
+                        I[9][3][0] = new Array('', '', 0, 0, 1);
+                        I[9][3][1] = new Array('', '', 0, 0, 1);
+                        I[9][3][2] = new Array('', '', 0, 0, 1);
+                        I[9][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[10] = new Array(); I[10][0] = 100;
+                        I[10][1] = '';
+                        I[10][2] = '0';
+                        I[10][3] = new Array();
+                        I[10][3][0] = new Array('', '', 0, 0, 1);
+                        I[10][3][1] = new Array('', '', 0, 0, 1);
+                        I[10][3][2] = new Array('', '', 1, 100, 1);
+                        I[10][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[11] = new Array(); I[11][0] = 100;
+                        I[11][1] = '';
+                        I[11][2] = '0';
+                        I[11][3] = new Array();
+                        I[11][3][0] = new Array('', '', 1, 100, 1);
+                        I[11][3][1] = new Array('', '', 0, 0, 1);
+                        I[11][3][2] = new Array('', '', 0, 0, 1);
+                        I[11][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[12] = new Array(); I[12][0] = 100;
+                        I[12][1] = '';
+                        I[12][2] = '0';
+                        I[12][3] = new Array();
+                        I[12][3][0] = new Array('', '', 0, 0, 1);
+                        I[12][3][1] = new Array('', '', 0, 0, 1);
+                        I[12][3][2] = new Array('', '', 0, 0, 1);
+                        I[12][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[13] = new Array(); I[13][0] = 100;
+                        I[13][1] = '';
+                        I[13][2] = '0';
+                        I[13][3] = new Array();
+                        I[13][3][0] = new Array('', '', 0, 0, 1);
+                        I[13][3][1] = new Array('', '', 0, 0, 1);
+                        I[13][3][2] = new Array('', '', 1, 100, 1);
+                        I[13][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[14] = new Array(); I[14][0] = 100;
+                        I[14][1] = '';
+                        I[14][2] = '0';
+                        I[14][3] = new Array();
+                        I[14][3][0] = new Array('', '', 0, 0, 1);
+                        I[14][3][1] = new Array('', '', 1, 100, 1);
+                        I[14][3][2] = new Array('', '', 0, 0, 1);
+                        I[14][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[15] = new Array(); I[15][0] = 100;
+                        I[15][1] = '';
+                        I[15][2] = '0';
+                        I[15][3] = new Array();
+                        I[15][3][0] = new Array('', '', 0, 0, 1);
+                        I[15][3][1] = new Array('', '', 0, 0, 1);
+                        I[15][3][2] = new Array('', '', 0, 0, 1);
+                        I[15][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[16] = new Array(); I[16][0] = 100;
+                        I[16][1] = '';
+                        I[16][2] = '0';
+                        I[16][3] = new Array();
+                        I[16][3][0] = new Array('', '', 0, 0, 1);
+                        I[16][3][1] = new Array('', '', 1, 100, 1);
+                        I[16][3][2] = new Array('', '', 0, 0, 1);
+                        I[16][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[17] = new Array(); I[17][0] = 100;
+                        I[17][1] = '';
+                        I[17][2] = '0';
+                        I[17][3] = new Array();
+                        I[17][3][0] = new Array('', '', 0, 0, 1);
+                        I[17][3][1] = new Array('', '', 0, 0, 1);
+                        I[17][3][2] = new Array('', '', 1, 100, 1);
+                        I[17][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[18] = new Array(); I[18][0] = 100;
+                        I[18][1] = '';
+                        I[18][2] = '0';
+                        I[18][3] = new Array();
+                        I[18][3][0] = new Array('', '', 0, 0, 1);
+                        I[18][3][1] = new Array('', '', 1, 100, 1);
+                        I[18][3][2] = new Array('', '', 0, 0, 1);
+                        I[18][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[19] = new Array(); I[19][0] = 100;
+                        I[19][1] = '';
+                        I[19][2] = '0';
+                        I[19][3] = new Array();
+                        I[19][3][0] = new Array('', '', 0, 0, 1);
+                        I[19][3][1] = new Array('', '', 1, 100, 1);
+                        I[19][3][2] = new Array('', '', 0, 0, 1);
+                        I[19][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[20] = new Array(); I[20][0] = 100;
+                        I[20][1] = '';
+                        I[20][2] = '0';
+                        I[20][3] = new Array();
+                        I[20][3][0] = new Array('', '', 0, 0, 1);
+                        I[20][3][1] = new Array('', '', 0, 0, 1);
+                        I[20][3][2] = new Array('', '', 1, 100, 1);
+                        I[20][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[21] = new Array(); I[21][0] = 100;
+                        I[21][1] = '';
+                        I[21][2] = '0';
+                        I[21][3] = new Array();
+                        I[21][3][0] = new Array('', '', 0, 0, 1);
+                        I[21][3][1] = new Array('', '', 0, 0, 1);
+                        I[21][3][2] = new Array('', '', 0, 0, 1);
+                        I[21][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[22] = new Array(); I[22][0] = 100;
+                        I[22][1] = '';
+                        I[22][2] = '0';
+                        I[22][3] = new Array();
+                        I[22][3][0] = new Array('', '', 0, 0, 1);
+                        I[22][3][1] = new Array('', '', 1, 100, 1);
+                        I[22][3][2] = new Array('', '', 0, 0, 1);
+                        I[22][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[23] = new Array(); I[23][0] = 100;
+                        I[23][1] = '';
+                        I[23][2] = '0';
+                        I[23][3] = new Array();
+                        I[23][3][0] = new Array('', '', 1, 100, 1);
+                        I[23][3][1] = new Array('', '', 0, 0, 1);
+                        I[23][3][2] = new Array('', '', 0, 0, 1);
+                        I[23][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[24] = new Array(); I[24][0] = 100;
+                        I[24][1] = '';
+                        I[24][2] = '0';
+                        I[24][3] = new Array();
+                        I[24][3][0] = new Array('', '', 1, 100, 1);
+                        I[24][3][1] = new Array('', '', 0, 0, 1);
+                        I[24][3][2] = new Array('', '', 0, 0, 1);
+                        I[24][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[25] = new Array(); I[25][0] = 100;
+                        I[25][1] = '';
+                        I[25][2] = '0';
+                        I[25][3] = new Array();
+                        I[25][3][0] = new Array('', '', 1, 100, 1);
+                        I[25][3][1] = new Array('', '', 0, 0, 1);
+                        I[25][3][2] = new Array('', '', 0, 0, 1);
+                        I[25][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[26] = new Array(); I[26][0] = 100;
+                        I[26][1] = '';
+                        I[26][2] = '0';
+                        I[26][3] = new Array();
+                        I[26][3][0] = new Array('', '', 0, 0, 1);
+                        I[26][3][1] = new Array('', '', 0, 0, 1);
+                        I[26][3][2] = new Array('', '', 0, 0, 1);
+                        I[26][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[27] = new Array(); I[27][0] = 100;
+                        I[27][1] = '';
+                        I[27][2] = '0';
+                        I[27][3] = new Array();
+                        I[27][3][0] = new Array('', '', 1, 100, 1);
+                        I[27][3][1] = new Array('', '', 0, 0, 1);
+                        I[27][3][2] = new Array('', '', 0, 0, 1);
+                        I[27][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[28] = new Array(); I[28][0] = 100;
+                        I[28][1] = '';
+                        I[28][2] = '0';
+                        I[28][3] = new Array();
+                        I[28][3][0] = new Array('', '', 0, 0, 1);
+                        I[28][3][1] = new Array('', '', 1, 100, 1);
+                        I[28][3][2] = new Array('', '', 0, 0, 1);
+                        I[28][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[29] = new Array(); I[29][0] = 100;
+                        I[29][1] = '';
+                        I[29][2] = '0';
+                        I[29][3] = new Array();
+                        I[29][3][0] = new Array('', '', 0, 0, 1);
+                        I[29][3][1] = new Array('', '', 0, 0, 1);
+                        I[29][3][2] = new Array('', '', 1, 100, 1);
+                        I[29][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[30] = new Array(); I[30][0] = 100;
+                        I[30][1] = '';
+                        I[30][2] = '0';
+                        I[30][3] = new Array();
+                        I[30][3][0] = new Array('', '', 0, 0, 1);
+                        I[30][3][1] = new Array('', '', 1, 100, 1);
+                        I[30][3][2] = new Array('', '', 0, 0, 1);
+                        I[30][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[31] = new Array(); I[31][0] = 100;
+                        I[31][1] = '';
+                        I[31][2] = '0';
+                        I[31][3] = new Array();
+                        I[31][3][0] = new Array('', '', 1, 100, 1);
+                        I[31][3][1] = new Array('', '', 0, 0, 1);
+                        I[31][3][2] = new Array('', '', 0, 0, 1);
+                        I[31][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[32] = new Array(); I[32][0] = 100;
+                        I[32][1] = '';
+                        I[32][2] = '0';
+                        I[32][3] = new Array();
+                        I[32][3][0] = new Array('', '', 0, 0, 1);
+                        I[32][3][1] = new Array('', '', 1, 100, 1);
+                        I[32][3][2] = new Array('', '', 0, 0, 1);
+                        I[32][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[33] = new Array(); I[33][0] = 100;
+                        I[33][1] = '';
+                        I[33][2] = '0';
+                        I[33][3] = new Array();
+                        I[33][3][0] = new Array('', '', 0, 0, 1);
+                        I[33][3][1] = new Array('', '', 1, 100, 1);
+                        I[33][3][2] = new Array('', '', 0, 0, 1);
+                        I[33][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[34] = new Array(); I[34][0] = 100;
+                        I[34][1] = '';
+                        I[34][2] = '0';
+                        I[34][3] = new Array();
+                        I[34][3][0] = new Array('', '', 0, 0, 1);
+                        I[34][3][1] = new Array('', '', 0, 0, 1);
+                        I[34][3][2] = new Array('', '', 0, 0, 1);
+                        I[34][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[35] = new Array(); I[35][0] = 100;
+                        I[35][1] = '';
+                        I[35][2] = '0';
+                        I[35][3] = new Array();
+                        I[35][3][0] = new Array('', '', 1, 100, 1);
+                        I[35][3][1] = new Array('', '', 0, 0, 1);
+                        I[35][3][2] = new Array('', '', 0, 0, 1);
+                        I[35][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[36] = new Array(); I[36][0] = 100;
+                        I[36][1] = '';
+                        I[36][2] = '0';
+                        I[36][3] = new Array();
+                        I[36][3][0] = new Array('', '', 1, 100, 1);
+                        I[36][3][1] = new Array('', '', 0, 0, 1);
+                        I[36][3][2] = new Array('', '', 0, 0, 1);
+                        I[36][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[37] = new Array(); I[37][0] = 100;
+                        I[37][1] = '';
+                        I[37][2] = '0';
+                        I[37][3] = new Array();
+                        I[37][3][0] = new Array('', '', 0, 0, 1);
+                        I[37][3][1] = new Array('', '', 0, 0, 1);
+                        I[37][3][2] = new Array('', '', 0, 0, 1);
+                        I[37][3][3] = new Array('', '', 1, 100, 1);
+
+                        I[38] = new Array(); I[38][0] = 100;
+                        I[38][1] = '';
+                        I[38][2] = '0';
+                        I[38][3] = new Array();
+                        I[38][3][0] = new Array('', '', 0, 0, 1);
+                        I[38][3][1] = new Array('', '', 0, 0, 1);
+                        I[38][3][2] = new Array('', '', 1, 100, 1);
+                        I[38][3][3] = new Array('', '', 0, 0, 1);
+
+                        I[39] = new Array(); I[39][0] = 100;
+                        I[39][1] = '';
+                        I[39][2] = '0';
+                        I[39][3] = new Array();
+                        I[39][3][0] = new Array('', '', 1, 100, 1);
+                        I[39][3][1] = new Array('', '', 0, 0, 1);
+                        I[39][3][2] = new Array('', '', 0, 0, 1);
+                        I[39][3][3] = new Array('', '', 0, 0, 1);
+
+                </script>
+
+
+        </body>
+
+        </html>
+
+</div>
