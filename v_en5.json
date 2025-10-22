@@ -1,0 +1,324 @@
+{
+  "Dic" : [
+    {
+      "en" : "garlic",
+      "kr" : "마 늘"
+    },
+    {
+      "en" : "burlap bag",
+      "kr" : "마대"
+    },
+    {
+      "en" : "dust mask, gas mask",
+      "kr" : "마스크"
+    },
+    {
+      "en" : "shuttle bus (in-town)",
+      "kr" : "마을버스"
+    },
+    {
+      "en" : "to come to meet someone",
+      "kr" : "마중 나가다"
+    },
+    {
+      "en" : "mart",
+      "kr" : "마트"
+    },
+    {
+      "en" : "to expire",
+      "kr" : "만기가 되다"
+    },
+    {
+      "en" : "to be expired",
+      "kr" : "만료되다"
+    },
+    {
+      "en" : "many",
+      "kr" : "많다"
+    },
+    {
+      "en" : "many / much / a lot",
+      "kr" : "많이"
+    },
+    {
+      "en" : "horse",
+      "kr" : "말"
+    },
+    {
+      "en" : "to brawl",
+      "kr" : "말다툼을 하다"
+    },
+    {
+      "en" : "to say",
+      "kr" : "말씀하시다"
+    },
+    {
+      "en" : "to bring up",
+      "kr" : "말을 꺼내다"
+    },
+    {
+      "en" : "clear",
+      "kr" : "맑다"
+    },
+    {
+      "en" : "not tasty",
+      "kr" : "맛없다"
+    },
+    {
+      "en" : "delicious",
+      "kr" : "맛있다"
+    },
+    {
+      "en" : "hammer",
+      "kr" : "망치"
+    },
+    {
+      "en" : "to be hit",
+      "kr" : "맞다"
+    },
+    {
+      "en" : "across the street",
+      "kr" : "맞은편"
+    },
+    {
+      "en" : "Hitting disaster",
+      "kr" : "맞음 재해"
+    },
+    {
+      "en" : "adjust",
+      "kr" : "맞추다"
+    },
+    {
+      "en" : "Warning: hanging objects",
+      "kr" : "매달린 물체 경고"
+    },
+    {
+      "en" : "beer",
+      "kr" : "맥주"
+    },
+    {
+      "en" : "spicy",
+      "kr" : "맵다"
+    },
+    {
+      "en" : "head",
+      "kr" : "머리"
+    },
+    {
+      "en" : "food",
+      "kr" : "먹이"
+    },
+    {
+      "en" : "to clear dust away",
+      "kr" : "먼지를 떨다"
+    },
+    {
+      "en" : "far",
+      "kr" : "멀다"
+    },
+    {
+      "en" : "cool",
+      "kr" : "멋있다"
+    },
+    {
+      "en" : "menu",
+      "kr" : "메뉴"
+    },
+    {
+      "en" : "menu",
+      "kr" : "메뉴판"
+    },
+    {
+      "en" : "romantic movie",
+      "kr" : "멜로 영화"
+    },
+    {
+      "en" : "shaver",
+      "kr" : "면도기"
+    },
+   {
+      "en" : "to have a job interview",
+      "kr" : "면접을 보다"
+    },
+    {
+      "en" : "to be exempted",
+      "kr" : "면제되다"
+    },
+    {
+      "en" : "edge",
+      "kr" : "모서리"
+    },
+    {
+      "en" : "hat",
+      "kr" : "모자"
+    },
+    {
+      "en" : "trowel",
+      "kr" : "모종삽"
+    },
+    {
+      "en" : "to plant seedlings",
+      "kr" : "모종을 심다"
+    },
+    {
+      "en" : "carpenter",
+      "kr" : "목 수"
+    },
+     {
+      "en" : "witness",
+      "kr" : "목격자"
+    },
+    {
+      "en" : "scarf",
+      "kr" : "목도리"
+    },
+    {
+      "en" : "pastor",
+      "kr" : "목사님"
+    },
+    {
+      "en" : "safety gloves",
+      "kr" : "목장갑"
+    },
+     {
+      "en" : "lumber",
+      "kr" : "목재"
+    },
+     {
+      "en" : "body",
+      "kr" : "몸"
+    },
+    {
+      "en" : "Warning: loss of body balance",
+      "kr" : "몸균형 상실 경고"
+    },
+    {
+      "en" : "nail",
+      "kr" : "못"
+    },
+    {
+      "en" : "to get pricked by a nail",
+      "kr" : "못에 찔리다"
+    },
+     {
+      "en" : "Mongolia",
+      "kr" : "몽골"
+    },
+     {
+      "en" : "to weigh",
+      "kr" : "무게를 재다"
+    },
+    {
+      "en" : "unpaid time-off-days",
+      "kr" : "무급 휴일"
+    },
+     {
+      "en" : "No jaywalking",
+      "kr" : "무단 횡단 금지"
+    },
+    {
+      "en" : "to be absent from work without authorization",
+      "kr" : "무단결근하다"
+    },
+    {
+      "en" : "knees",
+      "kr" : "무릎"
+    },
+    {
+      "en" : "scared",
+      "kr" : "무섭다"
+    },
+     {
+      "en" : "to ignore",
+      "kr" : "무시하다"
+    },
+    {
+      "en" : "trade",
+      "kr" : "무역"
+    },
+    {
+      "en" : "to stay",
+      "kr" : "묵다"
+    },
+    {
+      "en" : "to tie",
+      "kr" : "묶다"
+    },
+    {
+      "en" : "door",
+      "kr" : "문"
+    },
+    {
+      "en" : "to make inquiries",
+      "kr" : "문의하다"
+    },
+    {
+      "en" : "to send a text message",
+      "kr" : "문자를 보내다"
+    },
+    {
+      "en" : "to check a text message",
+      "kr" : "문자를 확인하다"
+    },
+    {
+      "en" : "to have a cultural experience",
+      "kr" : "문화 체험을 하다"
+    },
+    {
+      "en" : "water",
+      "kr" : "물"
+    },
+    {
+      "en" : "warehouse",
+      "kr" : "물류 창고"
+    },
+    {
+      "en" : "watering can",
+      "kr" : "물뿌리개"
+    },
+    {
+      "en" : "to water",
+      "kr" : "물을 주다"
+    },
+    {
+      "en" : "to slip",
+      "kr" : "미끄러지다"
+    },
+    {
+      "en" : "in advance",
+      "kr" : "미리미리"
+    },
+    {
+      "en" : "to have a mass",
+      "kr" : "미사를 드리다"
+    },
+    {
+      "en" : "Myanmar",
+      "kr" : "미얀마"
+    },
+    {
+      "en" : "hair salon",
+      "kr" : "미용실"
+    },
+    {
+      "en" : "B&B (bed and breakfast) ",
+      "kr" : "민박"
+    },
+    {
+      "en" : "folk village",
+      "kr" : "민속촌"
+    },
+    {
+      "en" : "to believe",
+      "kr" : "믿다"
+    },
+    {
+      "en" : "wheat",
+      "kr" : "밀"
+    },
+    {
+      "en" : "milling machine",
+      "kr" : "밀링 기계"
+    }
+  ]
+}
