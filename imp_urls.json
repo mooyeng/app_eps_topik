@@ -6702,7 +6702,68 @@
   },
   "vocab" : {
     "v_eng" : {
-      "1" : ""
+      "1" : "https://mooyeng.github.io/app_eps_topik/v_en1.json",
+      "2" : "https://mooyeng.github.io/app_eps_topik/v_en2.json",
+      "3" : "https://mooyeng.github.io/app_eps_topik/v_en3.json",
+      "4" : "https://mooyeng.github.io/app_eps_topik/v_en4.json",
+      "5" : "https://mooyeng.github.io/app_eps_topik/v_en5.json",
+      "6" : "https://mooyeng.github.io/app_eps_topik/v_en6.json",
+      "7" : "https://mooyeng.github.io/app_eps_topik/v_en7.json",
+      "8" : "https://mooyeng.github.io/app_eps_topik/v_en8.json",
+      "9" : "https://mooyeng.github.io/app_eps_topik/v_en9.json",
+      "10" : "https://mooyeng.github.io/app_eps_topik/v_en10.json",
+      "11" : "https://mooyeng.github.io/app_eps_topik/v_en11.json",
+      "12" : "https://mooyeng.github.io/app_eps_topik/v_en12.json",
+      "13" : "https://mooyeng.github.io/app_eps_topik/v_en13.json",
+      "14" : "https://mooyeng.github.io/app_eps_topik/v_en14.json"
+    },
+    "v_nep" : {
+      "1" : "https://mooyeng.github.io/app_eps_topik/v_nep1.json",
+      "2" : "https://mooyeng.github.io/app_eps_topik/v_nep2.json",
+      "3" : "https://mooyeng.github.io/app_eps_topik/v_nep3.json",
+      "4" : "https://mooyeng.github.io/app_eps_topik/v_nep4.json",
+      "5" : "https://mooyeng.github.io/app_eps_topik/v_nep5.json",
+      "6" : "https://mooyeng.github.io/app_eps_topik/v_nep6.json",
+      "7" : "https://mooyeng.github.io/app_eps_topik/v_nep7.json",
+      "8" : "https://mooyeng.github.io/app_eps_topik/v_nep8.json",
+      "9" : "https://mooyeng.github.io/app_eps_topik/v_nep9.json",
+      "10" : "https://mooyeng.github.io/app_eps_topik/v_nep10.json",
+      "11" : "https://mooyeng.github.io/app_eps_topik/v_nep11.json",
+      "12" : "https://mooyeng.github.io/app_eps_topik/v_nep12.json",
+      "13" : "https://mooyeng.github.io/app_eps_topik/v_nep13.json",
+      "14" : "https://mooyeng.github.io/app_eps_topik/v_nep14.json"
+    },
+    "v_ind" : {
+      "1" : "https://mooyeng.github.io/app_eps_topik/v_id1.json",
+      "2" : "https://mooyeng.github.io/app_eps_topik/v_id2.json",
+      "3" : "https://mooyeng.github.io/app_eps_topik/v_id3.json",
+      "4" : "https://mooyeng.github.io/app_eps_topik/v_id4.json",
+      "5" : "https://mooyeng.github.io/app_eps_topik/v_id5.json",
+      "6" : "https://mooyeng.github.io/app_eps_topik/v_id6.json",
+      "7" : "https://mooyeng.github.io/app_eps_topik/v_id7.json",
+      "8" : "https://mooyeng.github.io/app_eps_topik/v_id8.json",
+      "9" : "https://mooyeng.github.io/app_eps_topik/v_id9.json",
+      "10" : "https://mooyeng.github.io/app_eps_topik/v_id10.json",
+      "11" : "https://mooyeng.github.io/app_eps_topik/v_id11.json",
+      "12" : "https://mooyeng.github.io/app_eps_topik/v_id12.json",
+      "13" : "https://mooyeng.github.io/app_eps_topik/v_id13.json",
+      "14" : "https://mooyeng.github.io/app_eps_topik/v_id14.json"
+    },
+    "v_ban" : {
+      "1" : "https://mooyeng.github.io/app_eps_topik/v_ban1.json",
+      "2" : "https://mooyeng.github.io/app_eps_topik/v_ban2.json",
+      "3" : "https://mooyeng.github.io/app_eps_topik/v_ban3.json",
+      "4" : "https://mooyeng.github.io/app_eps_topik/v_ban4.json",
+      "5" : "https://mooyeng.github.io/app_eps_topik/v_ban5.json",
+      "6" : "https://mooyeng.github.io/app_eps_topik/v_ban6.json",
+      "7" : "https://mooyeng.github.io/app_eps_topik/v_ban7.json",
+      "8" : "https://mooyeng.github.io/app_eps_topik/v_ban8.json",
+      "9" : "https://mooyeng.github.io/app_eps_topik/v_ban9.json",
+      "10" : "https://mooyeng.github.io/app_eps_topik/v_ban10.json",
+      "11" : "https://mooyeng.github.io/app_eps_topik/v_ban11.json",
+      "12" : "https://mooyeng.github.io/app_eps_topik/v_ban12.json",
+      "13" : "https://mooyeng.github.io/app_eps_topik/v_ban13.json",
+      "14" : "https://mooyeng.github.io/app_eps_topik/v_ban14.json"
     }
   }
 
