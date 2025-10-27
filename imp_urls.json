@@ -6701,7 +6701,7 @@
     }
   },
   "vocab" : {
-    "v_eng" : {
+    "english" : {
       "1" : "https://mooyeng.github.io/app_eps_topik/v_en1.json",
       "2" : "https://mooyeng.github.io/app_eps_topik/v_en2.json",
       "3" : "https://mooyeng.github.io/app_eps_topik/v_en3.json",
