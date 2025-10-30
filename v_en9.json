@@ -2,663 +2,663 @@
   "Dic" : [
 
     {
-      "en" : "car",
+      "meaning" : "car",
       "kr" : "자 동차"
     },
     {
-      "en" : "to change status",
+      "meaning" : "to change status",
       "kr" : "자격을 변경하다"
     },
     {
-      "en" : "to grant status of sojourn",
+      "meaning" : "to grant status of sojourn",
       "kr" : "자격을 부여하다"
     },
     {
-      "en" : "to obtain a status of sojourn",
+      "meaning" : "to obtain a status of sojourn",
       "kr" : "자격을 획득하다"
     },
     {
-      "en" : "to be qualified",
+      "meaning" : "to be qualified",
       "kr" : "자격이 주어지다"
     },
     {
-      "en" : "certificate",
+      "meaning" : "certificate",
       "kr" : "자격증"
     },
      {
-      "en" : "to sleep",
+      "meaning" : "to sleep",
       "kr" : "자다"
     },
     {
-      "en" : "automatically",
+      "meaning" : "automatically",
       "kr" : "자동으로"
     },
     {
-      "en" : "to cut",
+      "meaning" : "to cut",
       "kr" : "자르다"
     },
     {
-      "en" : "seats are not available",
+      "meaning" : "seats are not available",
       "kr" : "자리가 없다"
     },
     {
-      "en" : "seats are available",
+      "meaning" : "seats are available",
       "kr" : "자리가 있다"
     },
     {
-      "en" : "to offer one’s seat to someone else",
+      "meaning" : "to offer one’s seat to someone else",
       "kr" : "자리를 양보하다"
     },
     {
-      "en" : "to take space",
+      "meaning" : "to take space",
       "kr" : "자리를 차지하다"
     },
     {
-      "en" : "to volunteer",
+      "meaning" : "to volunteer",
       "kr" : "자원 봉사를 하다"
     },
    {
-      "en" : "lively",
+      "meaning" : "lively",
       "kr" : "자유롭다"
     },
    {
-      "en" : "to bike",
+      "meaning" : "to bike",
       "kr" : "자전거를 타다"
     },
      {
-      "en" : "often",
+      "meaning" : "often",
       "kr" : "자주"
     },
      {
-      "en" : "voluntary departure form",
+      "meaning" : "voluntary departure form",
       "kr" : "자진 출국 각서"
     },
     {
-      "en" : "to leave voluntarily",
+      "meaning" : "to leave voluntarily",
       "kr" : "자진 출국하다"
     },
     {
-      "en" : "last year",
+      "meaning" : "last year",
       "kr" : "작년"
     },
     {
-      "en" : "to operate",
+      "meaning" : "to operate",
       "kr" : "작동하다"
     },
     {
-      "en" : "work clothes",
+      "meaning" : "work clothes",
       "kr" : "작업복"
     },
     {
-      "en" : "to be assigned to a workshop",
+      "meaning" : "to be assigned to a workshop",
       "kr" : "작업장에 배치되다"
     },
     {
-      "en" : "to work",
+      "meaning" : "to work",
       "kr" : "작업하다"
     },
     {
-      "en" : "balance inquiry",
+      "meaning" : "balance inquiry",
       "kr" : "잔액 조회"
     },
     {
-      "en" : "jacket",
+      "meaning" : "jacket",
       "kr" : "잠바"
     },
     {
-      "en" : "to eat",
+      "meaning" : "to eat",
       "kr" : "잡수시다/드시다"
     },
     {
-      "en" : "to remove weed",
+      "meaning" : "to remove weed",
       "kr" : "잡초를 뽑다"
     },
     {
-      "en" : "gloves",
+      "meaning" : "gloves",
       "kr" : "장갑"
     },
     {
-      "en" : "to go grocery shopping",
+      "meaning" : "to go grocery shopping",
       "kr" : "장을 보다"
     },
     {
-      "en" : "disability",
+      "meaning" : "disability",
       "kr" : "장해"
     },
     {
-      "en" : "disability compensation",
+      "meaning" : "disability compensation",
       "kr" : "장해 보상금"
     },
     {
-      "en" : "rain boots",
+      "meaning" : "rain boots",
       "kr" : "장화"
     },
    {
-      "en" : "to check inventory",
+      "meaning" : "to check inventory",
       "kr" : "재고를 파악하다"
     },
     {
-      "en" : "to measure",
+      "meaning" : "to measure",
       "kr" : "재다"
     },
     {
-      "en" : "to cultivate",
+      "meaning" : "to cultivate",
       "kr" : "재배하다"
     },
     {
-      "en" : "application for a re-entry permit",
+      "meaning" : "application for a re-entry permit",
       "kr" : "재입국 허가 신청서"
     },
     {
-      "en" : "to re-enter",
+      "meaning" : "to re-enter",
       "kr" : "재입국하다"
     },
     {
-      "en" : "over there",
+      "meaning" : "over there",
       "kr" : "저기"
     },
     {
-      "en" : "evening",
+      "meaning" : "evening",
       "kr" : "저녁"
     },
     {
-      "en" : "to have dinner",
+      "meaning" : "to have dinner",
       "kr" : "저녁을 먹다"
     },
     {
-      "en" : "Warning: low temperature",
+      "meaning" : "Warning: low temperature",
       "kr" : "저온 경고"
     },
     {
-      "en" : "to place (something) on the scales",
+      "meaning" : "to place (something) on the scales",
       "kr" : "저울에 올려놓다"
     },
     {
-      "en" : "to store",
+      "meaning" : "to store",
       "kr" : "저장하다"
     },
     {
-      "en" : "to load",
+      "meaning" : "to load",
       "kr" : "적재하다"
     },
     {
-      "en" : "electric drill",
+      "meaning" : "electric drill",
       "kr" : "전기 드릴"
     },
     {
-      "en" : "electric welder",
+      "meaning" : "electric welder",
       "kr" : "전기 용접기"
     },
     {
-      "en" : "electrical cutting machine",
+      "meaning" : "electrical cutting machine",
       "kr" : "전기 절단기"
     },
     {
-      "en" : "electric heater",
+      "meaning" : "electric heater",
       "kr" : "전기난로"
     },
     {
-      "en" : "electric blanket",
+      "meaning" : "electric blanket",
       "kr" : "전기장판"
     },
     {
-      "en" : "cable reel",
+      "meaning" : "cable reel",
       "kr" : "전선 릴"
     },
     {
-      "en" : "traditional Korean game",
+      "meaning" : "traditional Korean game",
       "kr" : "전통 놀이"
     },
     {
-      "en" : "traditional Korean wedding",
+      "meaning" : "traditional Korean wedding",
       "kr" : "전통 혼례"
     },
     {
-      "en" : "telephone",
+      "meaning" : "telephone",
       "kr" : "전화"
     },
     {
-      "en" : "the phone is ringing",
+      "meaning" : "the phone is ringing",
       "kr" : "전화가 오다"
     },
     {
-      "en" : "to make a call",
+      "meaning" : "to make a call",
       "kr" : "전화를 걸다"
     },
     {
-      "en" : "to hang up the phone",
+      "meaning" : "to hang up the phone",
       "kr" : "전화를 끊다"
     },
     {
-      "en" : "to transfer to (someone) to (someone else)",
+      "meaning" : "to transfer to (someone) to (someone else)",
       "kr" : "전화를 바꾸다"
     },
     {
-      "en" : "answer the phone",
+      "meaning" : "answer the phone",
       "kr" : "전화를 받다"
     },
     {
-      "en" : "to call the wrong number",
+      "meaning" : "to call the wrong number",
       "kr" : "전화를 잘못 걸다"
     },
     {
-      "en" : "to call",
+      "meaning" : "to call",
       "kr" : "전화하다"
     },
     {
-      "en" : "temple",
+      "meaning" : "temple",
       "kr" : "절"
     },
     {
-      "en" : "to cut off",
+      "meaning" : "to cut off",
       "kr" : "절단하다"
     },
     {
-      "en" : "to bow",
+      "meaning" : "to bow",
       "kr" : "절하다"
     },
     {
-      "en" : "to inspect",
+      "meaning" : "to inspect",
       "kr" : "점검하다"
     },
     {
-      "en" : "noon",
+      "meaning" : "noon",
       "kr" : "점심"
     },
     {
-      "en" : "to have lunch",
+      "meaning" : "to have lunch",
       "kr" : "점심을 먹다"
     },
     {
-      "en" : "clerk",
+      "meaning" : "clerk",
       "kr" : "점원"
     },
     {
-      "en" : "No approach",
+      "meaning" : "No approach",
       "kr" : "접근 금지"
     },
     {
-      "en" : "to fold",
+      "meaning" : "to fold",
       "kr" : "접다"
     },
      {
-      "en" : "proof of application",
+      "meaning" : "proof of application",
       "kr" : "접수증"
     },
     {
-      "en" : "chopsticks",
+      "meaning" : "chopsticks",
       "kr" : "젓가락"
     },
     {
-      "en" : "to be well arranged",
+      "meaning" : "to be well arranged",
       "kr" : "정돈되어 있다"
     },
     {
-      "en" : "well-arranged",
+      "meaning" : "well-arranged",
       "kr" : "정리가 잘 되어 있다"
     },
     {
-      "en" : "to clean up",
+      "meaning" : "to clean up",
       "kr" : "정리하다"
     },
     {
-      "en" : "really",
+      "meaning" : "really",
       "kr" : "정말"
     },
     {
-      "en" : "to maintain",
+      "meaning" : "to maintain",
       "kr" : "정비하다"
     },
     {
-      "en" : "to be fond",
+      "meaning" : "to be fond",
       "kr" : "정이 들다"
     },
     {
-      "en" : "suits",
+      "meaning" : "suits",
       "kr" : "정장"
     },
     {
-      "en" : "orthopedic office",
+      "meaning" : "orthopedic office",
       "kr" : "정형외과"
     },
     {
-      "en" : "to offer / to provide",
+      "meaning" : "to offer / to provide",
       "kr" : "제공하다"
     },
     {
-      "en" : "at the right moment",
+      "meaning" : "at the right moment",
       "kr" : "제때"
     },
    {
-      "en" : "the most / the best",
+      "meaning" : "the most / the best",
       "kr" : "제일"
     },
     {
-      "en" : "to make",
+      "meaning" : "to make",
       "kr" : "제작하다"
     },
     {
-      "en" : "manufacturing industry",
+      "meaning" : "manufacturing industry",
       "kr" : "제조업"
     },
     {
-      "en" : "few / little",
+      "meaning" : "few / little",
       "kr" : "조금"
     },
     {
-      "en" : "early coming back to home country",
+      "meaning" : "early coming back to home country",
       "kr" : "조기 귀국하다"
     },
     {
-      "en" : "cooking equipment",
+      "meaning" : "cooking equipment",
       "kr" : "조리 기구"
     },
     {
-      "en" : "to assemble",
+      "meaning" : "to assemble",
       "kr" : "조립하다"
     },
     {
-      "en" : "to be quiet",
+      "meaning" : "to be quiet",
       "kr" : "조용하다"
     },
     {
-      "en" : "to tighten up",
+      "meaning" : "to tighten up",
       "kr" : "조이다"
     },
     {
-      "en" : "to adjust",
+      "meaning" : "to adjust",
       "kr" : "조절하다"
     },
     {
-      "en" : "(Bricklaying and plastering(polishing)",
+      "meaning" : "(Bricklaying and plastering(polishing)",
       "kr" : "조정 및 미장(견출) 작업"
     },
     {
-      "en" : "to take action",
+      "meaning" : "to take action",
       "kr" : "조치를 취하다"
     },
     {
-      "en" : "to leave early",
+      "meaning" : "to leave early",
       "kr" : "조퇴하다"
     },
     {
-      "en" : "to use honorifics",
+      "meaning" : "to use honorifics",
       "kr" : "존댓말을 하다"
     },
     {
-      "en" : "to respect",
+      "meaning" : "to respect",
       "kr" : "존중하다"
     },
     {
-      "en" : "sleepy",
+      "meaning" : "sleepy",
       "kr" : "졸리다"
     },
     {
-      "en" : "end of the semester",
+      "meaning" : "end of the semester",
       "kr" : "종강"
     },
     {
-      "en" : "religion",
+      "meaning" : "religion",
       "kr" : "종교"
     },
     {
-      "en" : "nice",
+      "meaning" : "nice",
       "kr" : "좋다"
     },
      {
-      "en" : "officiant",
+      "meaning" : "officiant",
       "kr" : "주례"
     },
     {
-      "en" : "weekand",
+      "meaning" : "weekand",
       "kr" : "주로"
     },
     {
-      "en" : "to massage",
+      "meaning" : "to massage",
       "kr" : "주무르다"
     },
     {
-      "en" : "to sleep",
+      "meaning" : "to sleep",
       "kr" : "주무시다"
     },
     {
-      "en" : "an order form",
+      "meaning" : "an order form",
       "kr" : "주문서"
     },
     {
-      "en" : "to order",
+      "meaning" : "to order",
       "kr" : "주문하다"
     },
     {
-      "en" : "community service center",
+      "meaning" : "community service center",
       "kr" : "주민센터"
     },
     {
-      "en" : "dishwasher detergents",
+      "meaning" : "dishwasher detergents",
       "kr" : "주방 세제"
     },
     {
-      "en" : "homemaker",
+      "meaning" : "homemaker",
       "kr" : "주부"
     },
     {
-      "en" : "to get an injection",
+      "meaning" : "to get an injection",
       "kr" : "주사를 맞다"
     },
     {
-      "en" : "address",
+      "meaning" : "address",
       "kr" : "주소"
     },
     {
-      "en" : "juice",
+      "meaning" : "juice",
       "kr" : "주스"
     },
     {
-      "en" : "to pay attention to",
+      "meaning" : "to pay attention to",
       "kr" : "주의하다"
     },
     {
-      "en" : "weekdays",
+      "meaning" : "weekdays",
       "kr" : "주중"
     },
     {
-      "en" : "No parking",
+      "meaning" : "No parking",
       "kr" : "주차 금지"
     },
     {
-      "en" : "tape measure",
+      "meaning" : "tape measure",
       "kr" : "줄자"
     },
     {
-      "en" : "China",
+      "meaning" : "China",
       "kr" : "중 국"
     },
     {
-      "en" : "in the middle",
+      "meaning" : "in the middle",
       "kr" : "중간"
     },
     {
-      "en" : "medium",
+      "meaning" : "medium",
       "kr" : "중자"
     },
     {
-      "en" : "promptly",
+      "meaning" : "promptly",
       "kr" : "즉시"
     },
     {
-      "en" : "pleasant",
+      "meaning" : "pleasant",
       "kr" : "즐겁다"
     },
      {
-      "en" : "evidence",
+      "meaning" : "evidence",
       "kr" : "증거"
     },
     {
-      "en" : "to secure evidence",
+      "meaning" : "to secure evidence",
       "kr" : "증거를 확보하다"
     },
     {
-      "en" : "identification picture",
+      "meaning" : "identification picture",
       "kr" : "증명사진"
     },
     {
-      "en" : "witness",
+      "meaning" : "witness",
       "kr" : "증인"
     },
     {
-      "en" : "wallet",
+      "meaning" : "wallet",
       "kr" : "지갑"
     },
     {
-      "en" : "now",
+      "meaning" : "now",
       "kr" : "지금"
     },
      {
-      "en" : "wage payment options",
+      "meaning" : "wage payment options",
       "kr" : "지급 방법"
     },
     {
-      "en" : "to go through review",
+      "meaning" : "to go through review",
       "kr" : "지급 심사를 받다"
     },
     {
-      "en" : "payday",
+      "meaning" : "payday",
       "kr" : "지급일"
     },
     {
-      "en" : "to pass",
+      "meaning" : "to pass",
       "kr" : "지나다"
     },
     {
-      "en" : "last month",
+      "meaning" : "last month",
       "kr" : "지난달"
     },
     {
-      "en" : "last week",
+      "meaning" : "last week",
       "kr" : "지난주"
     },
     {
-      "en" : "to register fingerprint",
+      "meaning" : "to register fingerprint",
       "kr" : "지문을 등록하다"
     },
     {
-      "en" : "eraser",
+      "meaning" : "eraser",
       "kr" : "지우개"
     },
     {
-      "en" : "to zip down",
+      "meaning" : "to zip down",
       "kr" : "지퍼를 내리다"
     },
     {
-      "en" : "to zip up",
+      "meaning" : "to zip up",
       "kr" : "지퍼를 올리다"
     },
     {
-      "en" : "paper money",
+      "meaning" : "paper money",
       "kr" : "지폐"
     },
     {
-      "en" : "1st basement",
+      "meaning" : "1st basement",
       "kr" : "지하 1층"
     },
     {
-      "en" : "subway",
+      "meaning" : "subway",
       "kr" : "지하 철"
     },
     {
-      "en" : "subway station",
+      "meaning" : "subway station",
       "kr" : "지하 철역"
     },
     {
-      "en" : "steel square",
+      "meaning" : "steel square",
       "kr" : "직각자"
     },
     {
-      "en" : "position",
+      "meaning" : "position",
       "kr" : "직위"
     },
     {
-      "en" : "to research for oneself",
+      "meaning" : "to research for oneself",
       "kr" : "직접 알아보다"
     },
     {
-      "en" : "medical report",
+      "meaning" : "medical report",
       "kr" : "진단서"
     },
     {
-      "en" : "medical report",
+      "meaning" : "medical report",
       "kr" : "진료 기록"
     },
      {
-      "en" : "testimony",
+      "meaning" : "testimony",
       "kr" : "진술"
     },
     {
-      "en" : "to soothe",
+      "meaning" : "to soothe",
       "kr" : "진정하다"
     },
     {
-      "en" : "really",
+      "meaning" : "really",
       "kr" : "진짜"
     },
     {
-      "en" : "painkillers",
+      "meaning" : "painkillers",
       "kr" : "진통제"
     },
      {
-      "en" : "disease",
+      "meaning" : "disease",
       "kr" : "질병"
     },
     {
-      "en" : "to pack",
+      "meaning" : "to pack",
       "kr" : "짐을 싸다"
     },
     {
-      "en" : "to unpack",
+      "meaning" : "to unpack",
       "kr" : "짐을 풀다"
     },
      {
-      "en" : "house",
+      "meaning" : "house",
       "kr" : "집"
     },
     {
-      "en" : "housewarming (party)",
+      "meaning" : "housewarming (party)",
       "kr" : "집들이"
     },
     {
-      "en" : "family circumstances",
+      "meaning" : "family circumstances",
       "kr" : "집안 사정"
     },
     {
-      "en" : "a fish-luring light",
+      "meaning" : "a fish-luring light",
       "kr" : "집어등"
     },
     {
-      "en" : "to look for a house",
+      "meaning" : "to look for a house",
       "kr" : "집을 찾다"
     },
     {
-      "en" : "salty",
+      "meaning" : "salty",
       "kr" : "짜다"
     },
      {
-      "en" : "to be irritated",
+      "meaning" : "to be irritated",
       "kr" : "짜증을 내다"
     },
      {
-      "en" : "jjigae",
+      "meaning" : "jjigae",
       "kr" : "찌개"
     },
     {
-      "en" : "to stamp (out)",
+      "meaning" : "to stamp (out)",
       "kr" : "찍어 내다"
     },
     {
-      "en" : "Steamed Bun with Red Bean Paste Filling",
+      "meaning" : "Steamed Bun with Red Bean Paste Filling",
       "kr" : "찐빵"
     },
     {
-      "en" : "to apply ice",
+      "meaning" : "to apply ice",
       "kr" : "찜질을 하다"
     }
   ]

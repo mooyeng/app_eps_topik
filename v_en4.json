@@ -1,23 +1,23 @@
 {
   "Dic" : [
     {
-      "en" : "instant noodles",
+      "meaning" : "instant noodles",
       "kr" : "라면"
     },
     {
-      "en" : "log in",
+      "meaning" : "log in",
       "kr" : "로 그인"
     },
     {
-      "en" : "log out",
+      "meaning" : "log out",
       "kr" : "로그아웃"
     },
     {
-      "en" : "roommate",
+      "meaning" : "roommate",
       "kr" : "룸메이트"
     },
     {
-      "en" : "conditioner",
+      "meaning" : "conditioner",
       "kr" : "린스"
     }
   ]

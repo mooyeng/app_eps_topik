@@ -1,323 +1,323 @@
 {
   "Dic" : [
     {
-      "en" : "garlic",
+      "meaning" : "garlic",
       "kr" : "마 늘"
     },
     {
-      "en" : "burlap bag",
+      "meaning" : "burlap bag",
       "kr" : "마대"
     },
     {
-      "en" : "dust mask, gas mask",
+      "meaning" : "dust mask, gas mask",
       "kr" : "마스크"
     },
     {
-      "en" : "shuttle bus (in-town)",
+      "meaning" : "shuttle bus (in-town)",
       "kr" : "마을버스"
     },
     {
-      "en" : "to come to meet someone",
+      "meaning" : "to come to meet someone",
       "kr" : "마중 나가다"
     },
     {
-      "en" : "mart",
+      "meaning" : "mart",
       "kr" : "마트"
     },
     {
-      "en" : "to expire",
+      "meaning" : "to expire",
       "kr" : "만기가 되다"
     },
     {
-      "en" : "to be expired",
+      "meaning" : "to be expired",
       "kr" : "만료되다"
     },
     {
-      "en" : "many",
+      "meaning" : "many",
       "kr" : "많다"
     },
     {
-      "en" : "many / much / a lot",
+      "meaning" : "many / much / a lot",
       "kr" : "많이"
     },
     {
-      "en" : "horse",
+      "meaning" : "horse",
       "kr" : "말"
     },
     {
-      "en" : "to brawl",
+      "meaning" : "to brawl",
       "kr" : "말다툼을 하다"
     },
     {
-      "en" : "to say",
+      "meaning" : "to say",
       "kr" : "말씀하시다"
     },
     {
-      "en" : "to bring up",
+      "meaning" : "to bring up",
       "kr" : "말을 꺼내다"
     },
     {
-      "en" : "clear",
+      "meaning" : "clear",
       "kr" : "맑다"
     },
     {
-      "en" : "not tasty",
+      "meaning" : "not tasty",
       "kr" : "맛없다"
     },
     {
-      "en" : "delicious",
+      "meaning" : "delicious",
       "kr" : "맛있다"
     },
     {
-      "en" : "hammer",
+      "meaning" : "hammer",
       "kr" : "망치"
     },
     {
-      "en" : "to be hit",
+      "meaning" : "to be hit",
       "kr" : "맞다"
     },
     {
-      "en" : "across the street",
+      "meaning" : "across the street",
       "kr" : "맞은편"
     },
     {
-      "en" : "Hitting disaster",
+      "meaning" : "Hitting disaster",
       "kr" : "맞음 재해"
     },
     {
-      "en" : "adjust",
+      "meaning" : "adjust",
       "kr" : "맞추다"
     },
     {
-      "en" : "Warning: hanging objects",
+      "meaning" : "Warning: hanging objects",
       "kr" : "매달린 물체 경고"
     },
     {
-      "en" : "beer",
+      "meaning" : "beer",
       "kr" : "맥주"
     },
     {
-      "en" : "spicy",
+      "meaning" : "spicy",
       "kr" : "맵다"
     },
     {
-      "en" : "head",
+      "meaning" : "head",
       "kr" : "머리"
     },
     {
-      "en" : "food",
+      "meaning" : "food",
       "kr" : "먹이"
     },
     {
-      "en" : "to clear dust away",
+      "meaning" : "to clear dust away",
       "kr" : "먼지를 떨다"
     },
     {
-      "en" : "far",
+      "meaning" : "far",
       "kr" : "멀다"
     },
     {
-      "en" : "cool",
+      "meaning" : "cool",
       "kr" : "멋있다"
     },
     {
-      "en" : "menu",
+      "meaning" : "menu",
       "kr" : "메뉴"
     },
     {
-      "en" : "menu",
+      "meaning" : "menu",
       "kr" : "메뉴판"
     },
     {
-      "en" : "romantic movie",
+      "meaning" : "romantic movie",
       "kr" : "멜로 영화"
     },
     {
-      "en" : "shaver",
+      "meaning" : "shaver",
       "kr" : "면도기"
     },
    {
-      "en" : "to have a job interview",
+      "meaning" : "to have a job interview",
       "kr" : "면접을 보다"
     },
     {
-      "en" : "to be exempted",
+      "meaning" : "to be exempted",
       "kr" : "면제되다"
     },
     {
-      "en" : "edge",
+      "meaning" : "edge",
       "kr" : "모서리"
     },
     {
-      "en" : "hat",
+      "meaning" : "hat",
       "kr" : "모자"
     },
     {
-      "en" : "trowel",
+      "meaning" : "trowel",
       "kr" : "모종삽"
     },
     {
-      "en" : "to plant seedlings",
+      "meaning" : "to plant seedlings",
       "kr" : "모종을 심다"
     },
     {
-      "en" : "carpenter",
+      "meaning" : "carpenter",
       "kr" : "목 수"
     },
      {
-      "en" : "witness",
+      "meaning" : "witness",
       "kr" : "목격자"
     },
     {
-      "en" : "scarf",
+      "meaning" : "scarf",
       "kr" : "목도리"
     },
     {
-      "en" : "pastor",
+      "meaning" : "pastor",
       "kr" : "목사님"
     },
     {
-      "en" : "safety gloves",
+      "meaning" : "safety gloves",
       "kr" : "목장갑"
     },
      {
-      "en" : "lumber",
+      "meaning" : "lumber",
       "kr" : "목재"
     },
      {
-      "en" : "body",
+      "meaning" : "body",
       "kr" : "몸"
     },
     {
-      "en" : "Warning: loss of body balance",
+      "meaning" : "Warning: loss of body balance",
       "kr" : "몸균형 상실 경고"
     },
     {
-      "en" : "nail",
+      "meaning" : "nail",
       "kr" : "못"
     },
     {
-      "en" : "to get pricked by a nail",
+      "meaning" : "to get pricked by a nail",
       "kr" : "못에 찔리다"
     },
      {
-      "en" : "Mongolia",
+      "meaning" : "Mongolia",
       "kr" : "몽골"
     },
      {
-      "en" : "to weigh",
+      "meaning" : "to weigh",
       "kr" : "무게를 재다"
     },
     {
-      "en" : "unpaid time-off-days",
+      "meaning" : "unpaid time-off-days",
       "kr" : "무급 휴일"
     },
      {
-      "en" : "No jaywalking",
+      "meaning" : "No jaywalking",
       "kr" : "무단 횡단 금지"
     },
     {
-      "en" : "to be absent from work without authorization",
+      "meaning" : "to be absent from work without authorization",
       "kr" : "무단결근하다"
     },
     {
-      "en" : "knees",
+      "meaning" : "knees",
       "kr" : "무릎"
     },
     {
-      "en" : "scared",
+      "meaning" : "scared",
       "kr" : "무섭다"
     },
      {
-      "en" : "to ignore",
+      "meaning" : "to ignore",
       "kr" : "무시하다"
     },
     {
-      "en" : "trade",
+      "meaning" : "trade",
       "kr" : "무역"
     },
     {
-      "en" : "to stay",
+      "meaning" : "to stay",
       "kr" : "묵다"
     },
     {
-      "en" : "to tie",
+      "meaning" : "to tie",
       "kr" : "묶다"
     },
     {
-      "en" : "door",
+      "meaning" : "door",
       "kr" : "문"
     },
     {
-      "en" : "to make inquiries",
+      "meaning" : "to make inquiries",
       "kr" : "문의하다"
     },
     {
-      "en" : "to send a text message",
+      "meaning" : "to send a text message",
       "kr" : "문자를 보내다"
     },
     {
-      "en" : "to check a text message",
+      "meaning" : "to check a text message",
       "kr" : "문자를 확인하다"
     },
     {
-      "en" : "to have a cultural experience",
+      "meaning" : "to have a cultural experience",
       "kr" : "문화 체험을 하다"
     },
     {
-      "en" : "water",
+      "meaning" : "water",
       "kr" : "물"
     },
     {
-      "en" : "warehouse",
+      "meaning" : "warehouse",
       "kr" : "물류 창고"
     },
     {
-      "en" : "watering can",
+      "meaning" : "watering can",
       "kr" : "물뿌리개"
     },
     {
-      "en" : "to water",
+      "meaning" : "to water",
       "kr" : "물을 주다"
     },
     {
-      "en" : "to slip",
+      "meaning" : "to slip",
       "kr" : "미끄러지다"
     },
     {
-      "en" : "in advance",
+      "meaning" : "in advance",
       "kr" : "미리미리"
     },
     {
-      "en" : "to have a mass",
+      "meaning" : "to have a mass",
       "kr" : "미사를 드리다"
     },
     {
-      "en" : "Myanmar",
+      "meaning" : "Myanmar",
       "kr" : "미얀마"
     },
     {
-      "en" : "hair salon",
+      "meaning" : "hair salon",
       "kr" : "미용실"
     },
     {
-      "en" : "B&B (bed and breakfast) ",
+      "meaning" : "B&B (bed and breakfast) ",
       "kr" : "민박"
     },
     {
-      "en" : "folk village",
+      "meaning" : "folk village",
       "kr" : "민속촌"
     },
     {
-      "en" : "to believe",
+      "meaning" : "to believe",
       "kr" : "믿다"
     },
     {
-      "en" : "wheat",
+      "meaning" : "wheat",
       "kr" : "밀"
     },
     {
-      "en" : "milling machine",
+      "meaning" : "milling machine",
       "kr" : "밀링 기계"
     }
   ]
