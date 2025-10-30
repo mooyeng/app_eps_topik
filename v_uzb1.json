@@ -1,0 +1,844 @@
+{
+  "Dic": [
+    {
+      "uz": "narxini tushirish, savdolashmoq",
+      "kr": "(값을) 깎다"
+    },
+    {
+      "uz": "narx",
+      "kr": "가격"
+    },
+    {
+      "uz": "iloji boricha tezroq",
+      "kr": "가급적 빨리"
+    },
+    {
+      "uz": "yaqin bo'lmoq",
+      "kr": "가깝다"
+    },
+    {
+      "uz": "ba'zan, gohida",
+      "kr": "가끔"
+    },
+    {
+      "uz": "mumkin",
+      "kr": "가능하다"
+    },
+    {
+      "uz": "jim turmoq, qimirlamay turmoq",
+      "kr": "가만히 있다"
+    },
+    {
+      "uz": "sumka, yukxalta",
+      "kr": "가방"
+    },
+    {
+      "uz": "avans olmoq",
+      "kr": "가불하다"
+    },
+    {
+      "uz": "qo'shiqchi",
+      "kr": "가수"
+    },
+    {
+      "uz": "gaz payvandlash uskunasi",
+      "kr": "가스 용접기"
+    },
+    {
+      "uz": "gaz sizishi",
+      "kr": "가스가 새다"
+    },
+    {
+      "uz": "oshqozoni qaynashi",
+      "kr": "가스가 차다"
+    },
+    {
+      "uz": "gazdan zaharlanmoq",
+      "kr": "가스에 중독되다 "
+    },
+    {
+      "uz": "o'rtasida, markazida",
+      "kr": "가운데(중간)"
+    },
+    {
+      "uz": "kuz",
+      "kr": "가을"
+    },
+    {
+      "uz": "eng ko'p / eng yaxshi",
+      "kr": "가장(제일)"
+    },
+    {
+      "uz": "oila rasmi",
+      "kr": "가족사진"
+    },
+    {
+      "uz": "jinoyatchi, aybdor",
+      "kr": "가해자"
+    },
+    {
+      "uz": "har xil turdagi",
+      "kr": "각종"
+    },
+    {
+      "uz": "sodda, oson",
+      "kr": "간단하다"
+    },
+    {
+      "uz": "hamshira",
+      "kr": "간호사"
+    },
+    {
+      "uz": "maydalamoq, charxlamoq",
+      "kr": "갈다"
+    },
+    {
+      "uz": "oyoq kiyimni almashtirmoq",
+      "kr": "갈아 신다"
+    },
+    {
+      "uz": "o'tkazmoq, ko'chirmoq",
+      "kr": "갈아타다/환승하다"
+    },
+    {
+      "uz": "panja, tirmik",
+      "kr": "갈퀴"
+    },
+    {
+      "uz": "shamollash, sovuq va gripp dori-darmonlari",
+      "kr": "감기약"
+    },
+    {
+      "uz": "shamollamoq",
+      "kr": "감기에 걸리다"
+    },
+    {
+      "uz": "kartoshka",
+      "kr": "감자"
+    },
+    {
+      "uz": "elektr toki urishi",
+      "kr": "감전되다"
+    },
+    {
+      "uz": "narx yorlig'i",
+      "kr": "값"
+    },
+    {
+      "uz": "daryo",
+      "kr": "강"
+    },
+    {
+      "uz": "kuchukcha",
+      "kr": "강아지"
+    },
+    {
+      "uz": "majburlamoq",
+      "kr": "강요하다"
+    },
+    {
+      "uz": "deportatsiya qilinmoq",
+      "kr": "강제 출국을 당하다 "
+    },
+    {
+      "uz": "o'xshash bo'lmoq",
+      "kr": "같다"
+    },
+    {
+      "uz": "semestr boshlanishi",
+      "kr": "개강"
+    },
+    {
+      "uz": "rivojlanayotgan mamlakat",
+      "kr": "개발도상국"
+    },
+    {
+      "uz": "yaxshilamoq",
+      "kr": "개선하다"
+    },
+    {
+      "uz": "shaxsiy sharoitlar",
+      "kr": "개인 사정"
+    },
+    {
+      "uz": "Koreya Milliy poydevor kuni",
+      "kr": "개천절"
+    },
+    {
+      "uz": "shartnomani uzaytirishdan bosh tortmoq",
+      "kr": "갱신을 거절하다"
+    },
+    {
+      "uz": "uzaytirmoq, yangilamoq",
+      "kr": "갱신하다"
+    },
+    {
+      "uz": "gangform ishi (qurilish)",
+      "kr": "갱폼 작업"
+    },
+    {
+      "uz": "u yerda",
+      "kr": "거기"
+    },
+    {
+      "uz": "hosil yig'moq",
+      "kr": "거두다"
+    },
+    {
+      "uz": "mijoz, hamkor",
+      "kr": "거래처"
+    },
+    {
+      "uz": "(dalaga) o'g'it solmoq",
+      "kr": "거름을 주다"
+    },
+    {
+      "uz": "jirkanish, nafrat",
+      "kr": "거부감"
+    },
+    {
+      "uz": "ko'zgu",
+      "kr": "거울"
+    },
+    {
+      "uz": "qolipga quyish ishi (kasting)",
+      "kr": "거푸집 작업"
+    },
+    {
+      "uz": "qolipni qurmoq (o'rnatmoq)",
+      "kr": "거푸집을 설치하다 "
+    },
+    {
+      "uz": "muntazam tibbiy ko'rikdan o'tmoq",
+      "kr": "건강 검진을 받다"
+    },
+    {
+      "uz": "sog'lig'iga g'amxo'rlik qilmoq",
+      "kr": "건강을 챙기다"
+    },
+    {
+      "uz": "sog'lig'iga zarar yetkazmoq",
+      "kr": "건강을 해치다"
+    },
+    {
+      "uz": "ko'chaning narigi tomoni",
+      "kr": "건너편"
+    },
+    {
+      "uz": "bino qurmoq",
+      "kr": "건물을 짓다"
+    },
+    {
+      "uz": "qadah urmoq, tost aytmoq",
+      "kr": "건배하다"
+    },
+    {
+      "uz": "qurilish",
+      "kr": "건설"
+    },
+    {
+      "uz": "qurilish sanoati",
+      "kr": "건설업"
+    },
+    {
+      "uz": "quruq",
+      "kr": "건조하다"
+    },
+    {
+      "uz": "pichan",
+      "kr": "건초"
+    },
+    {
+      "uz": "yurmoq",
+      "kr": "걷다"
+    },
+    {
+      "uz": "osmoq, qo'ng'iroq qilmoq",
+      "kr": "걸다"
+    },
+    {
+      "uz": "latta, pol artish latta",
+      "kr": "걸레"
+    },
+    {
+      "uz": "piyoda bormoq",
+      "kr": "걸어가다"
+    },
+    {
+      "uz": "piyoda kelmoq",
+      "kr": "걸어오다"
+    },
+    {
+      "uz": "qidiruv tizimi",
+      "kr": "검색 엔진"
+    },
+    {
+      "uz": "o'yin o'ynamoq",
+      "kr": "게임하다"
+    },
+    {
+      "uz": "qish",
+      "kr": "겨울"
+    },
+    {
+      "uz": "rag'batlantirmoq, dalda bermoq (Bu yerda 'to be absent from work' noto'g'ri berilgan bo'lishi mumkin)",
+      "kr": "격려하다"
+    },
+    {
+      "uz": "To'y yubileyi",
+      "kr": "결혼기념일"
+    },
+    {
+      "uz": "to'y marosimi",
+      "kr": "결혼식"
+    },
+    {
+      "uz": "motorli kultivator",
+      "kr": "경운기"
+    },
+    {
+      "uz": "iqtisodiy rivojlanish",
+      "kr": "경제 발전"
+    },
+    {
+      "uz": "politsiya xodimi",
+      "kr": "경찰관"
+    },
+    {
+      "uz": "politsiya bo'limi",
+      "kr": "경찰서"
+    },
+    {
+      "uz": "manzarasi ajoyib bo'lmoq",
+      "kr": "경치가 좋다"
+    },
+    {
+      "uz": "zinapoya",
+      "kr": "계단"
+    },
+    {
+      "uz": "turmoq (hurmat shakli)",
+      "kr": "계시다"
+    },
+    {
+      "uz": "ishlash muddati",
+      "kr": "계약 기간"
+    },
+    {
+      "uz": "shartnomani uzaytirmoq",
+      "kr": "계약을 갱신하다"
+    },
+    {
+      "uz": "shartnoma tuzmoq",
+      "kr": "계약을 하다"
+    },
+    {
+      "uz": "hisob raqami",
+      "kr": "계좌 번호"
+    },
+    {
+      "uz": "hisobdan o'tkazish",
+      "kr": "계좌 이체"
+    },
+    {
+      "uz": "boshini (ozgina) burmoq",
+      "kr": "고개를 돌리다 "
+    },
+    {
+      "uz": "go'sht",
+      "kr": "고기"
+    },
+    {
+      "uz": "tanlamoq",
+      "kr": "고르다"
+    },
+    {
+      "uz": "halqa / ilmoq",
+      "kr": "고리"
+    },
+    {
+      "uz": "KTX (Tezyurar poyezd)",
+      "kr": "고속열차"
+    },
+    {
+      "uz": "Ogohlantirish: yuqori kuchlanishli elektr",
+      "kr": "고압 전기 경고"
+    },
+    {
+      "uz": "mushuk",
+      "kr": "고양이"
+    },
+    {
+      "uz": "Ogohlantirish: yuqori harorat",
+      "kr": "고온 경고"
+    },
+    {
+      "uz": "yollamoq",
+      "kr": "고용하다"
+    },
+    {
+      "uz": "Ishga ruxsat berish tizimi",
+      "kr": "고용허가제"
+    },
+    {
+      "uz": "o'z yurtiga (shaharga) bormoq",
+      "kr": "고향에 내려가다"
+    },
+    {
+      "uz": "ketmon",
+      "kr": "곡괭이"
+    },
+    {
+      "uz": "turli xil oziq-ovqat mahsulotlarini iste'mol qilmoq",
+      "kr": "골고루 섭취하다"
+    },
+    {
+      "uz": "tor ko'cha",
+      "kr": "골목"
+    },
+    {
+      "uz": "gofrirovka qilingan karton",
+      "kr": "골판지"
+    },
+    {
+      "uz": "golf o'ynamoq",
+      "kr": "골프를 치다"
+    },
+    {
+      "uz": "asboblar qutisi",
+      "kr": "공구함"
+    },
+    {
+      "uz": "havo toza",
+      "kr": "공기가 맑다"
+    },
+    {
+      "uz": "davlat xizmatchisi",
+      "kr": "공무원"
+    },
+    {
+      "uz": "o'qimoq, o'rganmoq",
+      "kr": "공부하다"
+    },
+    {
+      "uz": "qurilish maydonchasi",
+      "kr": "공사장"
+    },
+    {
+      "uz": "park, xiyobon",
+      "kr": "공원"
+    },
+    {
+      "uz": "ushlab qolmoq, chegirmoq",
+      "kr": "공제하다"
+    },
+    {
+      "uz": "e'lon chiqmoq",
+      "kr": "공지가 나다"
+    },
+    {
+      "uz": "daftar",
+      "kr": "공책"
+    },
+    {
+      "uz": "qo'rqinchli film",
+      "kr": "공포 영화"
+    },
+    {
+      "uz": "aeroport",
+      "kr": "공항"
+    },
+    {
+      "uz": "fan, mavzu",
+      "kr": "과목"
+    },
+    {
+      "uz": "Tezlikni oshirish taqiqlanadi",
+      "kr": "과속 금지"
+    },
+    {
+      "uz": "mevali bog'",
+      "kr": "과수원"
+    },
+    {
+      "uz": "yeguliklar, pechenye",
+      "kr": "과자"
+    },
+    {
+      "uz": "kurs, jarayon",
+      "kr": "과정"
+    },
+    {
+      "uz": "ma'mur, xodim",
+      "kr": "관리인"
+    },
+    {
+      "uz": "boshqarmoq, nazorat qilmoq",
+      "kr": "관리하다"
+    },
+    {
+      "uz": "Milliy ozodlik kuni",
+      "kr": "광복절"
+    },
+    {
+      "uz": "yaxshi, to'g'ri",
+      "kr": "괜찮다"
+    },
+    {
+      "uz": "ketmon (ikki uchi o'tkir)",
+      "kr": "괭이"
+    },
+    {
+      "uz": "sinf xonasi",
+      "kr": "교실"
+    },
+    {
+      "uz": "ta'lim",
+      "kr": "교육"
+    },
+    {
+      "uz": "kursda (darsda) qatnashmoq",
+      "kr": "교육을 받다"
+    },
+    {
+      "uz": "o'quv kursiga yozilmoq",
+      "kr": "교육을 신청하다"
+    },
+    {
+      "uz": "dindor",
+      "kr": "교인"
+    },
+    {
+      "uz": "transport tizimi noqulay",
+      "kr": "교통이 불편하다"
+    },
+    {
+      "uz": "transport tizimi qulay",
+      "kr": "교통이 편리하다"
+    },
+    {
+      "uz": "cherkov",
+      "kr": "교회"
+    },
+    {
+      "uz": "chuqurlikka tushib ketmoq",
+      "kr": "구덩이에 빠지다"
+    },
+    {
+      "uz": "tufli (oyoq kiyim)",
+      "kr": "구두"
+    },
+    {
+      "uz": "teshik ochmoq, burg'ulamoq",
+      "kr": "구멍을 뚫다"
+    },
+    {
+      "uz": "bukmoq, egmoq",
+      "kr": "구부리다"
+    },
+    {
+      "uz": "hudud, mintaqa",
+      "kr": "구역"
+    },
+    {
+      "uz": "ishga joylashish ro'yxatidan o'tish tasdiqnomasi",
+      "kr": "구직등록필증"
+    },
+    {
+      "uz": "tuman idorasi",
+      "kr": "구청"
+    },
+    {
+      "uz": "sho'rva",
+      "kr": "국"
+    },
+    {
+      "uz": "milliy pensiya",
+      "kr": "국민연금"
+    },
+    {
+      "uz": "Koreya klassik musiqa darslari",
+      "kr": "국악 교육"
+    },
+    {
+      "uz": "Xalqaro tezkor pochta (EMS)",
+      "kr": "국제 특급"
+    },
+    {
+      "uz": "Qovurilgan shirin kartoshka",
+      "kr": "군고구마"
+    },
+    {
+      "uz": "qovurmoq, pishirmoq (tovoqda emas)",
+      "kr": "굽다"
+    },
+    {
+      "uz": "quloqlar",
+      "kr": "귀"
+    },
+    {
+      "uz": "xavfsizlik quloqchinlari",
+      "kr": "귀덮개"
+    },
+    {
+      "uz": "chigirtka, kriket",
+      "kr": "귀뚜라미"
+    },
+    {
+      "uz": "xavfsizlik quloq tiqinlari",
+      "kr": "귀마개"
+    },
+    {
+      "uz": "qoidalari qattiq, jiddiy",
+      "kr": "규율이 엄격하다"
+    },
+    {
+      "uz": "qoida va tartiblarni buzmoq",
+      "kr": "규칙을 어기다"
+    },
+    {
+      "uz": "qoidalarga amal qilmoq",
+      "kr": "규칙을 준수하다"
+    },
+    {
+      "uz": "qoida va tartiblarga rioya qilmoq",
+      "kr": "규칙을 지키다"
+    },
+    {
+      "uz": "baliq ovi to'ri",
+      "kr": "그물"
+    },
+    {
+      "uz": "to'xtamoq, tugatmoq (masalan, yomg'ir)",
+      "kr": "그치다"
+    },
+    {
+      "uz": "teatr, kinoteatr",
+      "kr": "극장"
+    },
+    {
+      "uz": "ish shartnomasi muddati tugamoq",
+      "kr": "근로계약이 만료되다"
+    },
+    {
+      "uz": "ish shartnomasi bekor qilinmoq",
+      "kr": "근로계약이 해지되다"
+    },
+    {
+      "uz": "Mehnat kuni",
+      "kr": "근로자의 날"
+    },
+    {
+      "uz": "ish sharoitlari",
+      "kr": "근로조건"
+    },
+    {
+      "uz": "ish vaqti",
+      "kr": "근무시간"
+    },
+    {
+      "uz": "ish joyi",
+      "kr": "근무지"
+    },
+    {
+      "uz": "ishlamoq",
+      "kr": "근무하다"
+    },
+    {
+      "uz": "Chekish taqiqlanadi",
+      "kr": "금연"
+    },
+    {
+      "uz": "moliyaviy ta'lim",
+      "kr": "금융 교육"
+    },
+    {
+      "uz": "Ogohlantirish: o'tkir zaharli modda",
+      "kr": "급성독 물질 경고"
+    },
+    {
+      "uz": "ish haqi ma'lumotlari",
+      "kr": "급여 내역"
+    },
+    {
+      "uz": "ish haqi varaqasi",
+      "kr": "급여 명세서"
+    },
+    {
+      "uz": "mashinaga tiqilib qolmoq",
+      "kr": "기계에 감기다"
+    },
+    {
+      "uz": "muassasa, tashkilot",
+      "kr": "기관"
+    },
+    {
+      "uz": "suvenir sotib olmoq",
+      "kr": "기념품을 사다"
+    },
+    {
+      "uz": "nishonlamoq",
+      "kr": "기념하다"
+    },
+    {
+      "uz": "kutmoq",
+      "kr": "기다리다"
+    },
+    {
+      "uz": "ibodat qilmoq",
+      "kr": "기도하다"
+    },
+    {
+      "uz": "Xristianlik (protestant)",
+      "kr": "기독교"
+    },
+    {
+      "uz": "yozib olmoq",
+      "kr": "기록하다"
+    },
+    {
+      "uz": "o'stirmoq, boqmoq",
+      "kr": "기르다"
+    },
+    {
+      "uz": "asosiy ish haqi",
+      "kr": "기본급"
+    },
+    {
+      "uz": "kayfiyatini ko'tarmoq",
+      "kr": "기분 전환을 하다"
+    },
+    {
+      "uz": "kayfiyati yomon bo'lmoq",
+      "kr": "기분이 나쁘다"
+    },
+    {
+      "uz": "kayfiyati yaxshi bo'lmoq",
+      "kr": "기분이 좋다"
+    },
+    {
+      "uz": "xursand bo'lmoq",
+      "kr": "기쁘다"
+    },
+    {
+      "uz": "yotoqxona",
+      "kr": "기숙사"
+    },
+    {
+      "uz": "texnik, usta",
+      "kr": "기술자"
+    },
+    {
+      "uz": "eslamoq, yodda tutmoq",
+      "kr": "기억하다"
+    },
+    {
+      "uz": "harorat",
+      "kr": "기온"
+    },
+    {
+      "uz": "harorat past",
+      "kr": "기온이 낮다"
+    },
+    {
+      "uz": "harorat tushmoq",
+      "kr": "기온이 내려가다"
+    },
+    {
+      "uz": "harorat yuqori",
+      "kr": "기온이 높다"
+    },
+    {
+      "uz": "harorat ko'tarilmoq",
+      "kr": "기온이 올라가다"
+    },
+    {
+      "uz": "poyezd",
+      "kr": "기차"
+    },
+    {
+      "uz": "poyezd stansiyasi",
+      "kr": "기차역"
+    },
+    {
+      "uz": "oldingi imtihonlardan namuna savollar",
+      "kr": "기출문제"
+    },
+    {
+      "uz": "yo'talmoq",
+      "kr": "기침을 하다"
+    },
+    {
+      "uz": "boshqa falokatlar",
+      "kr": "기타 재해"
+    },
+    {
+      "uz": "gitara chalmoq",
+      "kr": "기타를 치다"
+    },
+    {
+      "uz": "ko'cha, yo'l",
+      "kr": "길"
+    },
+    {
+      "uz": "gips qo'ymoq",
+      "kr": "깁스를 하다"
+    },
+    {
+      "uz": "murakkab",
+      "kr": "까다롭다"
+    },
+    {
+      "uz": "qarg'a",
+      "kr": "까치"
+    },
+    {
+      "uz": "kesmoq, archimoq, narxini tushirmoq",
+      "kr": "깎다"
+    },
+    {
+      "uz": "ozoda, saranjom-sarishta",
+      "kr": "깔끔하다"
+    },
+    {
+      "uz": "unutmoq (tezda)",
+      "kr": "깜빡하다"
+    },
+    {
+      "uz": "hayratlanmoq, cho'chimoq",
+      "kr": "깜짝 놀라다"
+    },
+    {
+      "uz": "toza",
+      "kr": "깨끗하다"
+    },
+    {
+      "uz": "puxtalik bilan, sinchkovlik bilan",
+      "kr": "꼼꼼히"
+    },
+    {
+      "uz": "tiqmoq, sanchmoq",
+      "kr": "꽂다"
+    },
+    {
+      "uz": "gul",
+      "kr": "꽃"
+    },
+    {
+      "uz": "kesmoq, uzmoq, tamaki chekishni tashlamoq",
+      "kr": "끊다"
+    },
+    {
+      "uz": "qaynatmoq",
+      "kr": "끓이다"
+    },
+    {
+      "uz": "solmoq, kiritmoq, kiydirmoq",
+      "kr": "끼우다"
+    },
+    {
+      "uz": "Siqilib qolish falokati",
+      "kr": "끼임재해"
+    }
+  ]
+}

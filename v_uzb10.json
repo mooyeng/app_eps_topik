@@ -1,0 +1,384 @@
+{
+  "Dic": [
+    {
+      "uz": "tirbandlik",
+      "kr": "차가 막히다"
+    },
+    {
+      "uz": "sovuq",
+      "kr": "차다/차갑다"
+    },
+    {
+      "uz": "ajdodlar uchun marosim o'tkazish",
+      "kr": "차례를 지내다"
+    },
+    {
+      "uz": "kiyish",
+      "kr": "착용하다"
+    },
+    {
+      "uz": "budda madhiyasi/xristian madhiyasi kuylash",
+      "kr": "찬불가/성가를 부르다"
+    },
+    {
+      "uz": "tirnalish",
+      "kr": "찰과상을 입다"
+    },
+    {
+      "uz": "ishtirok etish",
+      "kr": "참석하다"
+    },
+    {
+      "uz": "ombor",
+      "kr": "창고"
+    },
+    {
+      "uz": "kassa / xizmat ko'rsatish joyi",
+      "kr": "창구"
+    },
+    {
+      "uz": "deraza",
+      "kr": "창문"
+    },
+    {
+      "uz": "sabzavot",
+      "kr": "채소"
+    },
+    {
+      "uz": "kitob",
+      "kr": "책"
+    },
+    {
+      "uz": "stol",
+      "kr": "책상"
+    },
+    {
+      "uz": "kitob o'qish",
+      "kr": "책을 읽다"
+    },
+    {
+      "uz": "olib yurish / g'amxo'rlik qilish",
+      "kr": "챙기다"
+    },
+    {
+      "uz": "yo'q qilish / hal qilish",
+      "kr": "처리하다"
+    },
+    {
+      "uz": "dori yozish",
+      "kr": "처방하다"
+    },
+    {
+      "uz": "katoliklik",
+      "kr": "천주교(가톨릭)"
+    },
+    {
+      "uz": "po'lat ramali ish",
+      "kr": "철골 작업"
+    },
+    {
+      "uz": "armatura",
+      "kr": "철근"
+    },
+    {
+      "uz": "armatura ishi",
+      "kr": "철근 작업"
+    },
+    {
+      "uz": "armaturani yig'ish",
+      "kr": "철근을 조립하다"
+    },
+    {
+      "uz": "o'zini toza tutish",
+      "kr": "청결을 유지하다"
+    },
+    {
+      "uz": "hisob-faktura",
+      "kr": "청구서"
+    },
+    {
+      "uz": "tozalash uskunalari",
+      "kr": "청소 도구"
+    },
+    {
+      "uz": "changyutgichda tozalash",
+      "kr": "청소기를 돌리다"
+    },
+    {
+      "uz": "tozalash",
+      "kr": "청소를 하다"
+    },
+    {
+      "uz": "to'y taklifnomasi",
+      "kr": "청첩장"
+    },
+    {
+      "uz": "ruxsat etilgan qolish muddati",
+      "kr": "체류 가능 기간"
+    },
+    {
+      "uz": "qolish muddati",
+      "kr": "체류 기간"
+    },
+    {
+      "uz": "yashash maqomi",
+      "kr": "체류 자격"
+    },
+    {
+      "uz": "yashash maqomi bilan ruxsat etilmagan faoliyatlar",
+      "kr": "체류 자격 외 활동"
+    },
+    {
+      "uz": "yashash joyini tasdiqlovchi hujjat",
+      "kr": "체류지 입증 서류"
+    },
+    {
+      "uz": "qolish",
+      "kr": "체류하다"
+    },
+    {
+      "uz": "sport musobaqasi",
+      "kr": "체육대회"
+    },
+    {
+      "uz": "chek karta",
+      "kr": "체크카드"
+    },
+    {
+      "uz": "taklif qilinish",
+      "kr": "초대를 받다"
+    },
+    {
+      "uz": "taklif qilish",
+      "kr": "초대하다"
+    },
+    {
+      "uz": "shokolad",
+      "kr": "초콜릿"
+    },
+    {
+      "uz": "yalpi ish haqi",
+      "kr": "총액"
+    },
+    {
+      "uz": "eng yuqori harorat",
+      "kr": "최고기온"
+    },
+    {
+      "uz": "eng past harorat",
+      "kr": "최저기온"
+    },
+    {
+      "uz": "eng kam ish haqi",
+      "kr": "최저임금"
+    },
+    {
+      "uz": "birinchi",
+      "kr": "최초"
+    },
+    {
+      "uz": "balandlikdan yiqilish",
+      "kr": "추락하다"
+    },
+    {
+      "uz": "deportatsiya qilinish",
+      "kr": "추방되다"
+    },
+    {
+      "uz": "Chuseok / Koreya Mincetish bayrami",
+      "kr": "추석"
+    },
+    {
+      "uz": "tavsiya qilish",
+      "kr": "추천하다"
+    },
+    {
+      "uz": "futbol klubi",
+      "kr": "축구 동호회"
+    },
+    {
+      "uz": "futbol o'ynash",
+      "kr": "축구하다"
+    },
+    {
+      "uz": "molxona / cho'chqaxona",
+      "kr": "축사"
+    },
+    {
+      "uz": "go'sht va sut sanoati",
+      "kr": "축산업"
+    },
+    {
+      "uz": "tabrik puli",
+      "kr": "축의금"
+    },
+    {
+      "uz": "festivalni tomosha qilish",
+      "kr": "축제를 구경하다"
+    },
+    {
+      "uz": "tabriklash",
+      "kr": "축하하다"
+    },
+    {
+      "uz": "tashqariga chiqarish (ombor/zavoddan)",
+      "kr": "출고하다"
+    },
+    {
+      "uz": "ketish arizasi",
+      "kr": "출국 예정 신고서"
+    },
+    {
+      "uz": "ishga kelish vaqti",
+      "kr": "출근 시간"
+    },
+    {
+      "uz": "pul yechish",
+      "kr": "출금하다"
+    },
+    {
+      "uz": "jo'nab ketish",
+      "kr": "출발하다"
+    },
+    {
+      "uz": "tug'ish ta'tili",
+      "kr": "출산 휴가"
+    },
+    {
+      "uz": "Kirish taqiqlanadi",
+      "kr": "출입 금지"
+    },
+    {
+      "uz": "Immigratsiya xizmati idorasi",
+      "kr": "출입국 관리소"
+    },
+    {
+      "uz": "immigratsiya idorasi",
+      "kr": "출입국관리사무소"
+    },
+    {
+      "uz": "Kirish taqiqlanadi",
+      "kr": "출입금지"
+    },
+    {
+      "uz": "kirish eshigi",
+      "kr": "출입문"
+    },
+    {
+      "uz": "shoshilinch soatlar (ishga borish/kelish)",
+      "kr": "출퇴근 시간"
+    },
+    {
+      "uz": "mollarni jo'natish",
+      "kr": "출하하다"
+    },
+    {
+      "uz": "raqqosa",
+      "kr": "춤을 추다"
+    },
+    {
+      "uz": "sovuq",
+      "kr": "춥다"
+    },
+    {
+      "uz": "to'qnashuv",
+      "kr": "충돌하다"
+    },
+    {
+      "uz": "yetarli bo'lish",
+      "kr": "충분하다"
+    },
+    {
+      "uz": "ishga joylashish uchun ta'lim olish",
+      "kr": "취업 교육을 받다"
+    },
+    {
+      "uz": "ish davri",
+      "kr": "취업 기간"
+    },
+    {
+      "uz": "ish davrini uzaytirish uchun ariza",
+      "kr": "취업 활동 기간 연장 신청서"
+    },
+    {
+      "uz": "xodim",
+      "kr": "취업자"
+    },
+    {
+      "uz": "ishga joylashish",
+      "kr": "취업하다"
+    },
+    {
+      "uz": "stomatologiya",
+      "kr": "치과"
+    },
+    {
+      "uz": "davolash",
+      "kr": "치료를 하다"
+    },
+    {
+      "uz": "davolash xarajatlari",
+      "kr": "치료비"
+    },
+    {
+      "uz": "yubka",
+      "kr": "치마"
+    },
+    {
+      "uz": "Chi-mek (tovuq va pivo)",
+      "kr": "치맥"
+    },
+    {
+      "uz": "tish pastasi",
+      "kr": "치약"
+    },
+    {
+      "uz": "tozalash / olib tashlash",
+      "kr": "치우다"
+    },
+    {
+      "uz": "tovuq (odatda qovurilgan tovuq)",
+      "kr": "치킨"
+    },
+    {
+      "uz": "do'st",
+      "kr": "친구"
+    },
+    {
+      "uz": "do'st bilan uchrashish",
+      "kr": "친구를 만나다"
+    },
+    {
+      "uz": "mehribon / yaxshi",
+      "kr": "친절하다"
+    },
+    {
+      "uz": "qarindoshlar uyiga borish",
+      "kr": "친척집에 가다"
+    },
+    {
+      "uz": "yaqin bo'lib qolish",
+      "kr": "친해지다"
+    },
+    {
+      "uz": "70 yoshlik tug'ilgan kun",
+      "kr": "칠순"
+    },
+    {
+      "uz": "doska",
+      "kr": "칠판"
+    },
+    {
+      "uz": "tupurish",
+      "kr": "침을 뱉다"
+    },
+    {
+      "uz": "tish cho'tkasi",
+      "kr": "칫솔"
+    },
+    {
+      "uz": "maqtash",
+      "kr": "칭찬하다"
+    }
+  ]
+}

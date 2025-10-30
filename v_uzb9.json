@@ -1,0 +1,664 @@
+{
+  "Dic": [
+    {
+      "uz": "avtomobil",
+      "kr": "자 동차"
+    },
+    {
+      "uz": "maqomni o'zgartirish",
+      "kr": "자격을 변경하다"
+    },
+    {
+      "uz": "yashash maqomini berish",
+      "kr": "자격을 부여하다"
+    },
+    {
+      "uz": "yashash maqomini olish",
+      "kr": "자격을 획득하다"
+    },
+    {
+      "uz": "malakali bo'lish",
+      "kr": "자격이 주어지다"
+    },
+    {
+      "uz": "sertifikat",
+      "kr": "자격증"
+    },
+    {
+      "uz": "uxlash",
+      "kr": "자다"
+    },
+    {
+      "uz": "avtomatik ravishda",
+      "kr": "자동으로"
+    },
+    {
+      "uz": "kesish",
+      "kr": "자르다"
+    },
+    {
+      "uz": "o'rindiqlar bo'sh emas",
+      "kr": "자리가 없다"
+    },
+    {
+      "uz": "o'rindiqlar bo'sh",
+      "kr": "자리가 있다"
+    },
+    {
+      "uz": "kimdirga joy berish",
+      "kr": "자리를 양보하다"
+    },
+    {
+      "uz": "joy egallash",
+      "kr": "자리를 차지하다"
+    },
+    {
+      "uz": "ko'ngilli bo'lish",
+      "kr": "자원 봉사를 하다"
+    },
+    {
+      "uz": "jonli / erkin",
+      "kr": "자유롭다"
+    },
+    {
+      "uz": "velosiped haydash",
+      "kr": "자전거를 타다"
+    },
+    {
+      "uz": "tez-tez",
+      "kr": "자주"
+    },
+    {
+      "uz": "ixtiyoriy ravishda chiqib ketish arizasi",
+      "kr": "자진 출국 각서"
+    },
+    {
+      "uz": "ixtiyoriy ravishda chiqib ketish",
+      "kr": "자진 출국하다"
+    },
+    {
+      "uz": "o'tgan yil",
+      "kr": "작년"
+    },
+    {
+      "uz": "ishlatish",
+      "kr": "작동하다"
+    },
+    {
+      "uz": "ish kiyimlari",
+      "kr": "작업복"
+    },
+    {
+      "uz": "ustaxonaga tayinlanish",
+      "kr": "작업장에 배치되다"
+    },
+    {
+      "uz": "ishlash",
+      "kr": "작업하다"
+    },
+    {
+      "uz": "balansni so'rash",
+      "kr": "잔액 조회"
+    },
+    {
+      "uz": "kurtka",
+      "kr": "잠바"
+    },
+    {
+      "uz": "ovqatlanish (hurmat shakli)",
+      "kr": "잡수시다/드시다"
+    },
+    {
+      "uz": "begona o'tni yulish",
+      "kr": "잡초를 뽑다"
+    },
+    {
+      "uz": "qo'lqoplar",
+      "kr": "장갑"
+    },
+    {
+      "uz": "oziq-ovqat xarid qilish",
+      "kr": "장을 보다"
+    },
+    {
+      "uz": "nogironlik",
+      "kr": "장해"
+    },
+    {
+      "uz": "nogironlik kompensatsiyasi",
+      "kr": "장해 보상금"
+    },
+    {
+      "uz": "rezina etiklar",
+      "kr": "장화"
+    },
+    {
+      "uz": "inventarni tekshirish",
+      "kr": "재고를 파악하다"
+    },
+    {
+      "uz": "o'lchash",
+      "kr": "재다"
+    },
+    {
+      "uz": "yetishtirish",
+      "kr": "재배하다"
+    },
+    {
+      "uz": "qayta kirish uchun ruxsatnoma arizasi",
+      "kr": "재입국 허가 신청서"
+    },
+    {
+      "uz": "qayta kirish",
+      "kr": "재입국하다"
+    },
+    {
+      "uz": "ana u yerda",
+      "kr": "저기"
+    },
+    {
+      "uz": "kechqurun",
+      "kr": "저녁"
+    },
+    {
+      "uz": "kechki ovqatlanish",
+      "kr": "저녁을 먹다"
+    },
+    {
+      "uz": "Ogohlantirish: past harorat",
+      "kr": "저온 경고"
+    },
+    {
+      "uz": "taraoziga qo'yish",
+      "kr": "저울에 올려놓다"
+    },
+    {
+      "uz": "saqlash",
+      "kr": "저장하다"
+    },
+    {
+      "uz": "yuklash",
+      "kr": "적재하다"
+    },
+    {
+      "uz": "elektr burg'ulash",
+      "kr": "전기 드릴"
+    },
+    {
+      "uz": "elektr payvandlash apparati",
+      "kr": "전기 용접기"
+    },
+    {
+      "uz": "elektr kesish mashinasi",
+      "kr": "전기 절단기"
+    },
+    {
+      "uz": "elektr isitgich",
+      "kr": "전기난로"
+    },
+    {
+      "uz": "elektr adial",
+      "kr": "전기장판"
+    },
+    {
+      "uz": "kabel g'altagi",
+      "kr": "전선 릴"
+    },
+    {
+      "uz": "an'anaviy Koreya o'yini",
+      "kr": "전통 놀이"
+    },
+    {
+      "uz": "an'anaviy Koreya to'yi",
+      "kr": "전통 혼례"
+    },
+    {
+      "uz": "telefon",
+      "kr": "전화"
+    },
+    {
+      "uz": "telefon jiringlayapti",
+      "kr": "전화가 오다"
+    },
+    {
+      "uz": "qo'ng'iroq qilish",
+      "kr": "전화를 걸다"
+    },
+    {
+      "uz": "telefonni qo'yish",
+      "kr": "전화를 끊다"
+    },
+    {
+      "uz": "telefonni boshqasiga uzatish",
+      "kr": "전화를 바꾸다"
+    },
+    {
+      "uz": "telefonni ko'tarish",
+      "kr": "전화를 받다"
+    },
+    {
+      "uz": "noto'g'ri raqamga qo'ng'iroq qilish",
+      "kr": "전화를 잘못 걸다"
+    },
+    {
+      "uz": "telefon qilish",
+      "kr": "전화하다"
+    },
+    {
+      "uz": "ibodatxona",
+      "kr": "절"
+    },
+    {
+      "uz": "kesib tashlash",
+      "kr": "절단하다"
+    },
+    {
+      "uz": "ta'zim qilish",
+      "kr": "절하다"
+    },
+    {
+      "uz": "tekshirish",
+      "kr": "점검하다"
+    },
+    {
+      "uz": "tush",
+      "kr": "점심"
+    },
+    {
+      "uz": "tushlik qilish",
+      "kr": "점심을 먹다"
+    },
+    {
+      "uz": "sotuvchi",
+      "kr": "점원"
+    },
+    {
+      "uz": "Yaqinlashish taqiqlanadi",
+      "kr": "접근 금지"
+    },
+    {
+      "uz": "buklash",
+      "kr": "접다"
+    },
+    {
+      "uz": "ariza qog'ozi",
+      "kr": "접수증"
+    },
+    {
+      "uz": "cho'plar",
+      "kr": "젓가락"
+    },
+    {
+      "uz": "yaxshi tartiblangan bo'lish",
+      "kr": "정돈되어 있다"
+    },
+    {
+      "uz": "yaxshi tartiblangan",
+      "kr": "정리가 잘 되어 있다"
+    },
+    {
+      "uz": "tozalash / tartibga solish",
+      "kr": "정리하다"
+    },
+    {
+      "uz": "haqiqatan ham",
+      "kr": "정말"
+    },
+    {
+      "uz": "ta'mirlash",
+      "kr": "정비하다"
+    },
+    {
+      "uz": "mehr qo'yish",
+      "kr": "정이 들다"
+    },
+    {
+      "uz": "kostyumlar",
+      "kr": "정장"
+    },
+    {
+      "uz": "ortopedik ofis",
+      "kr": "정형외과"
+    },
+    {
+      "uz": "taklif qilish / ta'minlash",
+      "kr": "제공하다"
+    },
+    {
+      "uz": "o'z vaqtida",
+      "kr": "제때"
+    },
+    {
+      "uz": "eng ko'p / eng yaxshi",
+      "kr": "제일"
+    },
+    {
+      "uz": "ishlab chiqarish",
+      "kr": "제작하다"
+    },
+    {
+      "uz": "ishlab chiqarish sanoati",
+      "kr": "제조업"
+    },
+    {
+      "uz": "bir oz / kam",
+      "kr": "조금"
+    },
+    {
+      "uz": "erta vatanga qaytish",
+      "kr": "조기 귀국하다"
+    },
+    {
+      "uz": "pishirish uskunalari",
+      "kr": "조리 기구"
+    },
+    {
+      "uz": "yig'ish",
+      "kr": "조립하다"
+    },
+    {
+      "uz": "tinish / jim bo'lish",
+      "kr": "조용하다"
+    },
+    {
+      "uz": "siqish / mahkamlash",
+      "kr": "조이다"
+    },
+    {
+      "uz": "moslashtirish / sozlash",
+      "kr": "조절하다"
+    },
+    {
+      "uz": "(G'isht terish va suvoqchilik (sayqallash) ishlari)",
+      "kr": "조정 및 미장(견출) 작업"
+    },
+    {
+      "uz": "chora ko'rish",
+      "kr": "조치를 취하다"
+    },
+    {
+      "uz": "erta ketish (ishdan)",
+      "kr": "조퇴하다"
+    },
+    {
+      "uz": "hurmat so'zlarini ishlatish",
+      "kr": "존댓말을 하다"
+    },
+    {
+      "uz": "hurmat qilish",
+      "kr": "존중하다"
+    },
+    {
+      "uz": "uyqusirash",
+      "kr": "졸리다"
+    },
+    {
+      "uz": "semestr oxiri",
+      "kr": "종강"
+    },
+    {
+      "uz": "din",
+      "kr": "종교"
+    },
+    {
+      "uz": "yaxshi",
+      "kr": "좋다"
+    },
+    {
+      "uz": "marosimchi",
+      "kr": "주례"
+    },
+    {
+      "uz": "odatda / asosan",
+      "kr": "주로"
+    },
+    {
+      "uz": "massaj qilish",
+      "kr": "주무르다"
+    },
+    {
+      "uz": "uxlash (hurmat shakli)",
+      "kr": "주무시다"
+    },
+    {
+      "uz": "buyurtma shakli",
+      "kr": "주문서"
+    },
+    {
+      "uz": "buyurtma qilish",
+      "kr": "주문하다"
+    },
+    {
+      "uz": "jamoat xizmatlari markazi",
+      "kr": "주민센터"
+    },
+    {
+      "uz": "idish yuvish vositasi",
+      "kr": "주방 세제"
+    },
+    {
+      "uz": "uy bekasi",
+      "kr": "주부"
+    },
+    {
+      "uz": "ukol olish",
+      "kr": "주사를 맞다"
+    },
+    {
+      "uz": "manzil",
+      "kr": "주소"
+    },
+    {
+      "uz": "sharbat",
+      "kr": "주스"
+    },
+    {
+      "uz": "e'tibor berish",
+      "kr": "주의하다"
+    },
+    {
+      "uz": "ish kunlari",
+      "kr": "주중"
+    },
+    {
+      "uz": "To'xtash taqiqlanadi",
+      "kr": "주차 금지"
+    },
+    {
+      "uz": "o'lchov tasmasi",
+      "kr": "줄자"
+    },
+    {
+      "uz": "Xitoy",
+      "kr": "중 국"
+    },
+    {
+      "uz": "o'rtada",
+      "kr": "중간"
+    },
+    {
+      "uz": "o'rta (o'lcham)",
+      "kr": "중자"
+    },
+    {
+      "uz": "darhol",
+      "kr": "즉시"
+    },
+    {
+      "uz": "yoqimli",
+      "kr": "즐겁다"
+    },
+    {
+      "uz": "dalil",
+      "kr": "증거"
+    },
+    {
+      "uz": "dalillarni ta'minlash",
+      "kr": "증거를 확보하다"
+    },
+    {
+      "uz": "guvohnoma uchun rasm",
+      "kr": "증명사진"
+    },
+    {
+      "uz": "guvoh",
+      "kr": "증인"
+    },
+    {
+      "uz": "hamyon",
+      "kr": "지갑"
+    },
+    {
+      "uz": "hozir",
+      "kr": "지금"
+    },
+    {
+      "uz": "ish haqi to'lash usullari",
+      "kr": "지급 방법"
+    },
+    {
+      "uz": "tekshiruvdan o'tish",
+      "kr": "지급 심사를 받다"
+    },
+    {
+      "uz": "ish haqi kuni",
+      "kr": "지급일"
+    },
+    {
+      "uz": "o'tish",
+      "kr": "지나다"
+    },
+    {
+      "uz": "o'tgan oy",
+      "kr": "지난달"
+    },
+    {
+      "uz": "o'tgan hafta",
+      "kr": "지난주"
+    },
+    {
+      "uz": "barmoq izini ro'yxatdan o'tkazish",
+      "kr": "지문을 등록하다"
+    },
+    {
+      "uz": "o'chirg'ich",
+      "kr": "지우개"
+    },
+    {
+      "uz": "fermuarni tushirish",
+      "kr": "지퍼를 내리다"
+    },
+    {
+      "uz": "fermuarni ko'tarish",
+      "kr": "지퍼를 올리다"
+    },
+    {
+      "uz": "qog'oz pul",
+      "kr": "지폐"
+    },
+    {
+      "uz": "1-yer osti qavati",
+      "kr": "지하 1층"
+    },
+    {
+      "uz": "metro",
+      "kr": "지하 철"
+    },
+    {
+      "uz": "metro stantsiyasi",
+      "kr": "지하 철역"
+    },
+    {
+      "uz": "po'lat burchak",
+      "kr": "직각자"
+    },
+    {
+      "uz": "lavozim",
+      "kr": "직위"
+    },
+    {
+      "uz": "o'zi tadqiq qilish",
+      "kr": "직접 알아보다"
+    },
+    {
+      "uz": "tibbiy ma'lumotnoma",
+      "kr": "진단서"
+    },
+    {
+      "uz": "tibbiy hisobot",
+      "kr": "진료 기록"
+    },
+    {
+      "uz": "guvohlik",
+      "kr": "진술"
+    },
+    {
+      "uz": "tinchlantirish",
+      "kr": "진정하다"
+    },
+    {
+      "uz": "rostdan",
+      "kr": "진짜"
+    },
+    {
+      "uz": "og'riq qoldiruvchi dorilar",
+      "kr": "진통제"
+    },
+    {
+      "uz": "kasallik",
+      "kr": "질병"
+    },
+    {
+      "uz": "narsalarni yig'ish",
+      "kr": "짐을 싸다"
+    },
+    {
+      "uz": "narsalarni ochish",
+      "kr": "짐을 풀다"
+    },
+    {
+      "uz": "uy",
+      "kr": "집"
+    },
+    {
+      "uz": "uy ochish marosimi",
+      "kr": "집들이"
+    },
+    {
+      "uz": "oila sharoitlari",
+      "kr": "집안 사정"
+    },
+    {
+      "uz": "baliq tortuvchi chiroq",
+      "kr": "집어등"
+    },
+    {
+      "uz": "uy qidirish",
+      "kr": "집을 찾다"
+    },
+    {
+      "uz": "sho'r",
+      "kr": "짜다"
+    },
+    {
+      "uz": "jahli chiqish",
+      "kr": "짜증을 내다"
+    },
+    {
+      "uz": "jjigae (koreys sho'rvasi)",
+      "kr": "찌개"
+    },
+    {
+      "uz": "(tashqariga) shtamplash / bosib chiqarish",
+      "kr": "찍어 내다"
+    },
+    {
+      "uz": "Qizil loviyali pastali bug'langan bulochka (Jjinppang)",
+      "kr": "찐빵"
+    },
+    {
+      "uz": "muz qo'yish (terapiya)",
+      "kr": "찜질을 하다"
+    }
+  ]
+}

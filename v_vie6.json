@@ -1,0 +1,640 @@
+{
+  "Dic": [
+    {
+      "vi": "cái rổ",
+      "kr": "바구니"
+    },
+    {
+      "vi": "đổi/trao đổi",
+      "kr": "바꾸다(교환하다)"
+    },
+    {
+      "vi": "chuối",
+      "kr": "바나나"
+    },
+    {
+      "vi": "kim đan lưới",
+      "kr": "바늘대"
+    },
+    {
+      "vi": "biển",
+      "kr": "바다"
+    },
+    {
+      "vi": "bãi biển",
+      "kr": "바닷가"
+    },
+    {
+      "vi": "trời có gió",
+      "kr": "바람이 불다"
+    },
+    {
+      "vi": "ngay lập tức",
+      "kr": "바로바로"
+    },
+    {
+      "vi": "bận rộn",
+      "kr": "바쁘다"
+    },
+    {
+      "vi": "quần",
+      "kr": "바지"
+    },
+    {
+      "vi": "đóng đinh/vặn vít",
+      "kr": "박다"
+    },
+    {
+      "vi": "tham quan bảo tàng",
+      "kr": "박물관을 관람하다"
+    },
+    {
+      "vi": "bên ngoài",
+      "kr": "밖"
+    },
+    {
+      "vi": "bạn cùng lớp",
+      "kr": "반 친구"
+    },
+    {
+      "vi": "nói trống không/nói không kính ngữ",
+      "kr": "반말을 하다"
+    },
+    {
+      "vi": "món ăn kèm",
+      "kr": "반찬"
+    },
+    {
+      "vi": "băng dán",
+      "kr": "반창고"
+    },
+    {
+      "vi": "bàn chân",
+      "kr": "발"
+    },
+    {
+      "vi": "được cấp",
+      "kr": "발급 받다"
+    },
+    {
+      "vi": "đăng ký cấp",
+      "kr": "발급을 신청하다"
+    },
+    {
+      "vi": "mắt cá chân",
+      "kr": "발목"
+    },
+    {
+      "vi": "bong gân mắt cá chân",
+      "kr": "발목을 삐다"
+    },
+    {
+      "vi": "bị kẹt chân",
+      "kr": "발이 깔리다"
+    },
+    {
+      "vi": "ban đêm",
+      "kr": "밤"
+    },
+    {
+      "vi": "cơm",
+      "kr": "밥"
+    },
+    {
+      "vi": "cầm bát cơm lên ăn",
+      "kr": "밥그릇을 들고 먹다"
+    },
+    {
+      "vi": "nồi cơm điện",
+      "kr": "밥솥"
+    },
+    {
+      "vi": "cắm thìa vào bát cơm",
+      "kr": "밥에 숟가락을 꽂다"
+    },
+    {
+      "vi": "nấu cơm",
+      "kr": "밥을 하다(짓다)"
+    },
+    {
+      "vi": "dây thừng",
+      "kr": "밧줄"
+    },
+    {
+      "vi": "phòng",
+      "kr": "방"
+    },
+    {
+      "vi": "Bangladesh",
+      "kr": "방글라데시"
+    },
+    {
+      "vi": "thăm",
+      "kr": "방문을 하다"
+    },
+    {
+      "vi": "Cảnh báo: chất phóng xạ",
+      "kr": "방사선 물질 경고"
+    },
+    {
+      "vi": "lơ là",
+      "kr": "방심하다"
+    },
+    {
+      "vi": "hướng",
+      "kr": "방향"
+    },
+    {
+      "vi": "cánh đồng",
+      "kr": "밭"
+    },
+    {
+      "vi": "bụng/tàu",
+      "kr": "배"
+    },
+    {
+      "vi": "ăn no căng bụng",
+      "kr": "배 터지게 먹다"
+    },
+    {
+      "vi": "giao hàng",
+      "kr": "배달하다"
+    },
+    {
+      "vi": "chơi cầu lông",
+      "kr": "배드민턴을 치다"
+    },
+    {
+      "vi": "chu đáo",
+      "kr": "배려하다"
+    },
+    {
+      "vi": "phân và nước tiểu",
+      "kr": "배설물"
+    },
+    {
+      "vi": "tiễn ai đó",
+      "kr": "배웅하다"
+    },
+    {
+      "vi": "cải thảo",
+      "kr": "배추"
+    },
+    {
+      "vi": "bị đau bụng",
+      "kr": "배탈이 나다"
+    },
+    {
+      "vi": "một trăm ngày",
+      "kr": "백일"
+    },
+    {
+      "vi": "trung tâm thương mại",
+      "kr": "백화점"
+    },
+    {
+      "vi": "băng keo y tế",
+      "kr": "밴드"
+    },
+    {
+      "vi": "dán băng cá nhân",
+      "kr": "밴드를 붙이다"
+    },
+    {
+      "vi": "máy đóng đai",
+      "kr": "밴딩기"
+    },
+    {
+      "vi": "vứt bỏ",
+      "kr": "버리다"
+    },
+    {
+      "vi": "trạm xe buýt",
+      "kr": "버스 정류장"
+    },
+    {
+      "vi": "bến xe buýt",
+      "kr": "버스터미널"
+    },
+    {
+      "vi": "rút số thứ tự",
+      "kr": "번호표를 뽑다"
+    },
+    {
+      "vi": "nộp phạt",
+      "kr": "벌금을 내다"
+    },
+    {
+      "vi": "kiếm (tiền)",
+      "kr": "벌다"
+    },
+    {
+      "vi": "bắt sâu",
+      "kr": "벌레를 잡다"
+    },
+    {
+      "vi": "giáo dục pháp luật",
+      "kr": "법률 교육"
+    },
+    {
+      "vi": "theo luật",
+      "kr": "법적으로"
+    },
+    {
+      "vi": "giờ làm việc tiêu chuẩn theo luật",
+      "kr": "법정 근로 시간"
+    },
+    {
+      "vi": "ngày nghỉ theo luật",
+      "kr": "법정 휴일"
+    },
+    {
+      "vi": "gối",
+      "kr": "베개"
+    },
+    {
+      "vi": "Việt Nam",
+      "kr": "베트남"
+    },
+    {
+      "vi": "lúa",
+      "kr": "벼"
+    },
+    {
+      "vi": "gạch",
+      "kr": "벽돌"
+    },
+    {
+      "vi": "số lần có thể thay đổi",
+      "kr": "변경 가능 횟수"
+    },
+    {
+      "vi": "ngôi sao",
+      "kr": "별"
+    },
+    {
+      "vi": "thanh toán riêng",
+      "kr": "별도로 지급하다"
+    },
+    {
+      "vi": "nghỉ ốm",
+      "kr": "병가"
+    },
+    {
+      "vi": "thời gian nghỉ ốm",
+      "kr": "병가 기간"
+    },
+    {
+      "vi": "lý do nghỉ ốm",
+      "kr": "병가 사유"
+    },
+    {
+      "vi": "chi phí bệnh viện",
+      "kr": "병원비"
+    },
+    {
+      "vi": "ốm đau/bệnh tật",
+      "kr": "병환"
+    },
+    {
+      "vi": "trung tâm y tế (công cộng)",
+      "kr": "보건소"
+    },
+    {
+      "vi": "báo cáo",
+      "kr": "보고하다"
+    },
+    {
+      "vi": "bảo quản/cất giữ",
+      "kr": "보관하다"
+    },
+    {
+      "vi": "ngắm trăng rằm",
+      "kr": "보름달을 보다"
+    },
+    {
+      "vi": "lúa mạch",
+      "kr": "보리"
+    },
+    {
+      "vi": "nhận tiền bồi thường",
+      "kr": "보상을 받다"
+    },
+    {
+      "vi": "sửa chữa",
+      "kr": "보수하다"
+    },
+    {
+      "vi": "kính bảo hộ",
+      "kr": "보안경"
+    },
+    {
+      "vi": "mặt nạ bảo hộ",
+      "kr": "보안면"
+    },
+    {
+      "vi": "thông thường/thường",
+      "kr": "보통"
+    },
+    {
+      "vi": "Cấm đi bộ",
+      "kr": "보행금지"
+    },
+    {
+      "vi": "chi trả tiền bảo hiểm",
+      "kr": "보험금을 지급하다"
+    },
+    {
+      "vi": "yêu cầu chi trả bảo hiểm",
+      "kr": "보험금을 청구하다"
+    },
+    {
+      "vi": "nhận tiền bảo hiểm",
+      "kr": "보험금을 타다"
+    },
+    {
+      "vi": "nhận hoàn lại chi phí bảo hiểm",
+      "kr": "보험금을 환급 받다"
+    },
+    {
+      "vi": "đóng phí bảo hiểm",
+      "kr": "보험료를 내다"
+    },
+    {
+      "vi": "tham gia bảo hiểm",
+      "kr": "보험에 가입하다"
+    },
+    {
+      "vi": "thiết bị bảo hộ",
+      "kr": "보호구"
+    },
+    {
+      "vi": "quần áo bảo hộ",
+      "kr": "보호복"
+    },
+    {
+      "vi": "ba ngày nóng nhất mùa hè (tam phục)",
+      "kr": "복날"
+    },
+    {
+      "vi": "hành lang",
+      "kr": "복도"
+    },
+    {
+      "vi": "ôn tập",
+      "kr": "복습하다"
+    },
+    {
+      "vi": "phức tạp/đông đúc",
+      "kr": "복잡하다"
+    },
+    {
+      "vi": "xào",
+      "kr": "볶다"
+    },
+    {
+      "vi": "chơi bowling",
+      "kr": "볼링을 치다"
+    },
+    {
+      "vi": "bu lông",
+      "kr": "볼트"
+    },
+    {
+      "vi": "bút bi",
+      "kr": "볼펜"
+    },
+    {
+      "vi": "mùa xuân",
+      "kr": "봄"
+    },
+    {
+      "vi": "gánh vác / chịu trách nhiệm",
+      "kr": "부담하다"
+    },
+    {
+      "vi": "va chạm",
+      "kr": "부딪히다"
+    },
+    {
+      "vi": "tai nạn va chạm",
+      "kr": "부딪힘 재해"
+    },
+    {
+      "vi": "gọi",
+      "kr": "부르다"
+    },
+    {
+      "vi": "giàu có",
+      "kr": "부자"
+    },
+    {
+      "vi": "siêng năng",
+      "kr": "부지런하다"
+    },
+    {
+      "vi": "phao",
+      "kr": "부표"
+    },
+    {
+      "vi": "cấp dưới",
+      "kr": "부하"
+    },
+    {
+      "vi": "phân và nước tiểu",
+      "kr": "분뇨"
+    },
+    {
+      "vi": "phân loại",
+      "kr": "분류하다"
+    },
+    {
+      "vi": "tách ra",
+      "kr": "분리하다"
+    },
+    {
+      "vi": "không khí không tốt",
+      "kr": "분위기가 나쁘다"
+    },
+    {
+      "vi": "không khí tốt",
+      "kr": "분위기가 좋다"
+    },
+    {
+      "vi": "lửa",
+      "kr": "불"
+    },
+    {
+      "vi": "không thể",
+      "kr": "불가능하다"
+    },
+    {
+      "vi": "kinh Phật",
+      "kr": "불경"
+    },
+    {
+      "vi": "Bulgogi (Thịt bò xào)",
+      "kr": "불고기"
+    },
+    {
+      "vi": "Phật giáo",
+      "kr": "불교"
+    },
+    {
+      "vi": "bắn tia lửa",
+      "kr": "불꽃이 튀다"
+    },
+    {
+      "vi": "trở nên phồng lên",
+      "kr": "불룩해지다"
+    },
+    {
+      "vi": "cư trú bất hợp pháp",
+      "kr": "불법 체류"
+    },
+    {
+      "vi": "xảy ra hỏa hoạn",
+      "kr": "불이 나다"
+    },
+    {
+      "vi": "gây bất lợi",
+      "kr": "불이익을 주다"
+    },
+    {
+      "vi": "cúng dường",
+      "kr": "불전/헌금을 내다"
+    },
+    {
+      "vi": "khó chịu",
+      "kr": "불쾌감"
+    },
+    {
+      "vi": "khó chịu",
+      "kr": "불쾌하다"
+    },
+    {
+      "vi": "bất tiện",
+      "kr": "불편하다"
+    },
+    {
+      "vi": "trượt / thi trượt",
+      "kr": "불합격하다"
+    },
+    {
+      "vi": "băng vải",
+      "kr": "붕대"
+    },
+    {
+      "vi": "băng bó",
+      "kr": "붕대를 감다"
+    },
+    {
+      "vi": "dán",
+      "kr": "붙이다"
+    },
+    {
+      "vi": "blog",
+      "kr": "블로그"
+    },
+    {
+      "vi": "trời mưa",
+      "kr": "비가 오다"
+    },
+    {
+      "vi": "giàn giáo",
+      "kr": "비계"
+    },
+    {
+      "vi": "xà phòng",
+      "kr": "비누"
+    },
+    {
+      "vi": "dây buộc nylon",
+      "kr": "비닐 끈"
+    },
+    {
+      "vi": "nhà kính (bằng nylon)",
+      "kr": "비닐하우스"
+    },
+    {
+      "vi": "bón phân",
+      "kr": "비료를 뿌리다"
+    },
+    {
+      "vi": "mật khẩu",
+      "kr": "비밀번호"
+    },
+    {
+      "vi": "danh sách liên lạc khẩn cấp",
+      "kr": "비상 연락처"
+    },
+    {
+      "vi": "trợ lý",
+      "kr": "비서"
+    },
+    {
+      "vi": "tương tự",
+      "kr": "비슷하다"
+    },
+    {
+      "vi": "đắt",
+      "kr": "비싸다"
+    },
+    {
+      "vi": "Visa",
+      "kr": "비자"
+    },
+    {
+      "vi": "máy bay",
+      "kr": "비행기"
+    },
+    {
+      "vi": "lược",
+      "kr": "빗"
+    },
+    {
+      "vi": "chổi",
+      "kr": "빗자루"
+    },
+    {
+      "vi": "sớm",
+      "kr": "빠르다(이르다)"
+    },
+    {
+      "vi": "vắng mặt/bị thiếu",
+      "kr": "빠지다"
+    },
+    {
+      "vi": "thu quần áo",
+      "kr": "빨래를 걷다"
+    },
+    {
+      "vi": "phơi quần áo",
+      "kr": "빨래를 널다"
+    },
+    {
+      "vi": "giặt quần áo",
+      "kr": "빨래를 하다"
+    },
+    {
+      "vi": "bị kéo vào",
+      "kr": "빨려 들어가다"
+    },
+    {
+      "vi": "bánh mì",
+      "kr": "빵"
+    },
+    {
+      "vi": "rút ra/lấy ra",
+      "kr": "빼다"
+    },
+    {
+      "vi": "được chọn",
+      "kr": "뽑히다"
+    },
+    {
+      "vi": "rễ",
+      "kr": "뿌리"
+    }
+  ]
+}

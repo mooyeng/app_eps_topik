@@ -1,0 +1,876 @@
+{
+  "Dic": [
+    {
+      "uz": "hodisani qayd etmoq",
+      "kr": "사건을 기록하다"
+    },
+    {
+      "uz": "olma",
+      "kr": "사과"
+    },
+    {
+      "uz": "uzr so'ramoq",
+      "kr": "사과하다"
+    },
+    {
+      "uz": "shaxs / odam",
+      "kr": "사람"
+    },
+    {
+      "uz": "odamlar mehribon / yaxshi",
+      "kr": "사람들이 친절하다"
+    },
+    {
+      "uz": "ishga yollamoq",
+      "kr": "사람을 뽑다"
+    },
+    {
+      "uz": "oziq-ovqat / yem",
+      "kr": "사료"
+    },
+    {
+      "uz": "o'lim",
+      "kr": "사망"
+    },
+    {
+      "uz": "ofis",
+      "kr": "사무실"
+    },
+    {
+      "uz": "biznesni ro'yxatdan o'tkazish guvohnomasining nusxasi",
+      "kr": "사업자 등록증 사본"
+    },
+    {
+      "uz": "ish joyini o'zgartirish sabablari",
+      "kr": "사업장 변경 사유"
+    },
+    {
+      "uz": "ish joyini o'zgartirish uchun ariza",
+      "kr": "사업장 변경 신청서"
+    },
+    {
+      "uz": "ish joyini qo'shish",
+      "kr": "사업장 추가"
+    },
+    {
+      "uz": "biznes egasi",
+      "kr": "사업주"
+    },
+    {
+      "uz": "foydalanmoq",
+      "kr": "사용하다"
+    },
+    {
+      "uz": "masjid",
+      "kr": "사원(모스크)"
+    },
+    {
+      "uz": "orasida",
+      "kr": "사이"
+    },
+    {
+      "uz": "munosabatlari yomon bo'lmoq",
+      "kr": "사이가 나쁘다"
+    },
+    {
+      "uz": "yaxshi munosabatda bo'lmoq",
+      "kr": "사이가 좋다"
+    },
+    {
+      "uz": "imzo chekmoq / imzo qo'ymoq",
+      "kr": "사인하다/서명하다"
+    },
+    {
+      "uz": "sher",
+      "kr": "사자"
+    },
+    {
+      "uz": "lug'atdan qidirmoq",
+      "kr": "사전을 찾다"
+    },
+    {
+      "uz": "moliyaviy qiyinchiliklarga duch kelmoq",
+      "kr": "사정이 안 좋다"
+    },
+    {
+      "uz": "viza",
+      "kr": "사증"
+    },
+    {
+      "uz": "fotografiya klubi",
+      "kr": "사진 동호회"
+    },
+    {
+      "uz": "suratga olish man etiladi",
+      "kr": "사진 촬영 금지"
+    },
+    {
+      "uz": "suratga olmoq",
+      "kr": "사진 촬영을 하다"
+    },
+    {
+      "uz": "rasmga tushmoq / suratga olmoq",
+      "kr": "사진을 찍다"
+    },
+    {
+      "uz": "zamburug' bilan qo'lda ishqalamoq",
+      "kr": "사포질하다"
+    },
+    {
+      "uz": "tog'",
+      "kr": "산"
+    },
+    {
+      "uz": "akusherlik va ginekologiya",
+      "kr": "산부인과"
+    },
+    {
+      "uz": "ishchining kompensatsiya sug'urtasi",
+      "kr": "산재 보험"
+    },
+    {
+      "uz": "sayr qilmoq",
+      "kr": "산책하다"
+    },
+    {
+      "uz": "ogohlantirish: oksidlovchi",
+      "kr": "산화성 물질 경고"
+    },
+    {
+      "uz": "yashamoq",
+      "kr": "살다"
+    },
+    {
+      "uz": "tekshirmoq / ko'zdan kechirmoq",
+      "kr": "살피다"
+    },
+    {
+      "uz": "qaynatmoq / pishirmoq",
+      "kr": "삶다"
+    },
+    {
+      "uz": "qovurilgan cho'chqa qornini",
+      "kr": "삼겹살"
+    },
+    {
+      "uz": "jenshenli tovuq sho'rvasi",
+      "kr": "삼계탕"
+    },
+    {
+      "uz": "samiljeol / Mustaqillik Harakati Kuni",
+      "kr": "삼일절"
+    },
+    {
+      "uz": "belkurak",
+      "kr": "삽"
+    },
+    {
+      "uz": "so'rovlar qilmoq",
+      "kr": "상담을 받다"
+    },
+    {
+      "uz": "katta / boshliq",
+      "kr": "상사"
+    },
+    {
+      "uz": "bonus",
+      "kr": "상여금"
+    },
+    {
+      "uz": "dasturxon yozmoq",
+      "kr": "상을 차리다"
+    },
+    {
+      "uz": "dasturxonni yig'ishtirmoq",
+      "kr": "상을 치우다"
+    },
+    {
+      "uz": "tetik / xushchaqchaq",
+      "kr": "상쾌하다"
+    },
+    {
+      "uz": "jarohat",
+      "kr": "상해"
+    },
+    {
+      "uz": "baxtsiz hodisa sug'urtasi",
+      "kr": "상해 보험"
+    },
+    {
+      "uz": "tong",
+      "kr": "새벽"
+    },
+    {
+      "uz": "qisqichbaqa",
+      "kr": "새우"
+    },
+    {
+      "uz": "navbatsiz kirib ketmoq",
+      "kr": "새치기를 하다"
+    },
+    {
+      "uz": "sandilli yog'ochni silliqlamoq",
+      "kr": "샌딩하다"
+    },
+    {
+      "uz": "baliq",
+      "kr": "생선"
+    },
+    {
+      "uz": "tug'ilgan kun",
+      "kr": "생일"
+    },
+    {
+      "uz": "dush xonasi",
+      "kr": "샤워실"
+    },
+    {
+      "uz": "shampun",
+      "kr": "샴푸"
+    },
+    {
+      "uz": "bir-biriga g'amxo'rlik qilmoq",
+      "kr": "서로 위해 주다"
+    },
+    {
+      "uz": "imzo",
+      "kr": "서명"
+    },
+    {
+      "uz": "xizmat ko'rsatish sohasi",
+      "kr": "서비스업"
+    },
+    {
+      "uz": "kitob do'koni",
+      "kr": "서점"
+    },
+    {
+      "uz": "Buddha tug'ilgan kuni",
+      "kr": "석가탄신일"
+    },
+    {
+      "uz": "sovg'a tayyorlamoq",
+      "kr": "선물을 준비하다"
+    },
+    {
+      "uz": "tokar dastgohi",
+      "kr": "선반 기계"
+    },
+    {
+      "uz": "o'qituvchi",
+      "kr": "선생님"
+    },
+    {
+      "uz": "rivojlangan mamlakat",
+      "kr": "선진국"
+    },
+    {
+      "uz": "yelpig'ich",
+      "kr": "선풍기"
+    },
+    {
+      "uz": "idishlarni yuvmoq",
+      "kr": "설거지를 하다"
+    },
+    {
+      "uz": "ich ketishi",
+      "kr": "설사를 하다"
+    },
+    {
+      "uz": "orol",
+      "kr": "섬"
+    },
+    {
+      "uz": "afsuslanmoq / ranjimoq",
+      "kr": "섭섭하다"
+    },
+    {
+      "uz": "Injil",
+      "kr": "성경"
+    },
+    {
+      "uz": "katolik cherkovi / sobor",
+      "kr": "성당"
+    },
+    {
+      "uz": "ajdodlar qabriga hurmat bajo keltirmoq",
+      "kr": "성묘하다"
+    },
+    {
+      "uz": "jinsiy zo'ravonlik",
+      "kr": "성범죄"
+    },
+    {
+      "uz": "jinsiy yoki jinsga asoslangan hazillar",
+      "kr": "성적 농담"
+    },
+    {
+      "uz": "baholar kitobchasi",
+      "kr": "성적표"
+    },
+    {
+      "uz": "ziyoratga bormoq",
+      "kr": "성지 순례를 가다"
+    },
+    {
+      "uz": "ism",
+      "kr": "성함"
+    },
+    {
+      "uz": "soliqlar",
+      "kr": "세금"
+    },
+    {
+      "uz": "yangi yil ta'zimini qilmoq",
+      "kr": "세배하다"
+    },
+    {
+      "uz": "Yangi yil pul sovg'alarini olmoq",
+      "kr": "세뱃돈을 받다"
+    },
+    {
+      "uz": "Yangi yil pul sovg'alarini bermoq",
+      "kr": "세뱃돈을 주다"
+    },
+    {
+      "uz": "yuvish vositasi",
+      "kr": "세탁 세제"
+    },
+    {
+      "uz": "kir yuvish mashinasini ishlatmoq",
+      "kr": "세탁기를 돌리다"
+    },
+    {
+      "uz": "kir yuvish xonasi",
+      "kr": "세탁소"
+    },
+    {
+      "uz": "kir yuvish xonasi",
+      "kr": "세탁실"
+    },
+    {
+      "uz": "sigir",
+      "kr": "소"
+    },
+    {
+      "uz": "mol go'shti",
+      "kr": "소고기"
+    },
+    {
+      "uz": "antiseptik",
+      "kr": "소독약"
+    },
+    {
+      "uz": "zararsizlantirmoq",
+      "kr": "소독을 하다"
+    },
+    {
+      "uz": "ovoz",
+      "kr": "소리"
+    },
+    {
+      "uz": "baland ovoz chiqarmaslik",
+      "kr": "소리를 크게 내다"
+    },
+    {
+      "uz": "yo'qolmoq / tugamoq",
+      "kr": "소멸되다"
+    },
+    {
+      "uz": "o't o'chiruvchi",
+      "kr": "소방관"
+    },
+    {
+      "uz": "o't o'chirish stansiyasi",
+      "kr": "소방서"
+    },
+    {
+      "uz": "tashkilotga mansublik",
+      "kr": "소속"
+    },
+    {
+      "uz": "pediatriya",
+      "kr": "소아과"
+    },
+    {
+      "uz": "tilak tilamoq",
+      "kr": "소원을 빌다"
+    },
+    {
+      "uz": "juda shovqinli bo'lmoq",
+      "kr": "소음이 심하다"
+    },
+    {
+      "uz": "kichik",
+      "kr": "소자"
+    },
+    {
+      "uz": "posilka olmoq",
+      "kr": "소포를 받다"
+    },
+    {
+      "uz": "posilka jo'natmoq",
+      "kr": "소포를 보내다"
+    },
+    {
+      "uz": "hazm bo'lmaslik",
+      "kr": "소화가 안 되다"
+    },
+    {
+      "uz": "hazm dori-darmonlari",
+      "kr": "소화제"
+    },
+    {
+      "uz": "o'zidan xafa bo'lmoq",
+      "kr": "속상하다"
+    },
+    {
+      "uz": "qo'llar",
+      "kr": "손"
+    },
+    {
+      "uz": "bilaklar",
+      "kr": "손 목"
+    },
+    {
+      "uz": "barmoqlar",
+      "kr": "손가락"
+    },
+    {
+      "uz": "barmog'i qisilib qolmoq",
+      "kr": "손가락이 끼이다"
+    },
+    {
+      "uz": "barmog'ini kuydirib olmoq",
+      "kr": "손가락이 데다"
+    },
+    {
+      "uz": "barmog'ini kesib olmoq",
+      "kr": "손가락이 베이다"
+    },
+    {
+      "uz": "barmog'i uzilib qolmoq",
+      "kr": "손가락이 잘리다"
+    },
+    {
+      "uz": "mijoz",
+      "kr": "손님"
+    },
+    {
+      "uz": "tegmoq",
+      "kr": "손대다"
+    },
+    {
+      "uz": "qo'l aravachasi",
+      "kr": "손수레"
+    },
+    {
+      "uz": "ko'nikmoq",
+      "kr": "손에 익다"
+    },
+    {
+      "uz": "qo'lini kuydirib olmoq",
+      "kr": "손을 데다"
+    },
+    {
+      "uz": "qo'lini kesib olmoq",
+      "kr": "손을 베다"
+    },
+    {
+      "uz": "dasta / tutqich",
+      "kr": "손잡이"
+    },
+    {
+      "uz": "pul o'tkazmoq",
+      "kr": "송금하다"
+    },
+    {
+      "uz": "Songpyeon (yarim oy guruch pirogi) tayyorlamoq",
+      "kr": "송편을 만들다"
+    },
+    {
+      "uz": "zanjir",
+      "kr": "쇠사슬"
+    },
+    {
+      "uz": "sanchqi",
+      "kr": "쇠스랑"
+    },
+    {
+      "uz": "xarid qilmoq",
+      "kr": "쇼핑하다"
+    },
+    {
+      "uz": "sochiq",
+      "kr": "수건"
+    },
+    {
+      "uz": "suzish ko'zoynagi",
+      "kr": "수경"
+    },
+    {
+      "uz": "harakat qilmoq",
+      "kr": "수고하다"
+    },
+    {
+      "uz": "bonuslar olmoq",
+      "kr": "수당을 받다"
+    },
+    {
+      "uz": "tarvuz",
+      "kr": "수박"
+    },
+    {
+      "uz": "to'lovlar",
+      "kr": "수수료"
+    },
+    {
+      "uz": "operatsiya qilmoq",
+      "kr": "수술하다"
+    },
+    {
+      "uz": "sinov muddati",
+      "kr": "수습 기간"
+    },
+    {
+      "uz": "dars",
+      "kr": "수업"
+    },
+    {
+      "uz": "suzmoq",
+      "kr": "수영하다"
+    },
+    {
+      "uz": "veterinar",
+      "kr": "수의사"
+    },
+    {
+      "uz": "import mahsulotlari",
+      "kr": "수입품"
+    },
+    {
+      "uz": "import qilmoq",
+      "kr": "수입하다"
+    },
+    {
+      "uz": "suv osti nasosi",
+      "kr": "수중 펌프"
+    },
+    {
+      "uz": "eksport mahsulotlari",
+      "kr": "수출품"
+    },
+    {
+      "uz": "eksport qilmoq",
+      "kr": "수출하다"
+    },
+    {
+      "uz": "kamsitilish hissi",
+      "kr": "수치심"
+    },
+    {
+      "uz": "ruhiy daraja",
+      "kr": "수평대"
+    },
+    {
+      "uz": "o'qish to'lovi",
+      "kr": "수험료"
+    },
+    {
+      "uz": "test identifikatsiya qog'ozi",
+      "kr": "수험표"
+    },
+    {
+      "uz": "hosil yig'moq",
+      "kr": "수확하다"
+    },
+    {
+      "uz": "turar joyni bron qilmoq",
+      "kr": "숙소를 예약하다"
+    },
+    {
+      "uz": "turar joy va ovqat",
+      "kr": "숙식"
+    },
+    {
+      "uz": "qoshiq",
+      "kr": "숟가락"
+    },
+    {
+      "uz": "alkogol taklif qilinmoq",
+      "kr": "술을 받다"
+    },
+    {
+      "uz": "dam olmoq",
+      "kr": "쉬다"
+    },
+    {
+      "uz": "oson",
+      "kr": "쉽다"
+    },
+    {
+      "uz": "supermarket",
+      "kr": "슈퍼마켓"
+    },
+    {
+      "uz": "buddist rohiblar",
+      "kr": "스님"
+    },
+    {
+      "uz": "Shri Lanka",
+      "kr": "스리랑카"
+    },
+    {
+      "uz": "smartfon",
+      "kr": "스마트폰"
+    },
+    {
+      "uz": "O'qituvchilar Kuni",
+      "kr": "스승의 날"
+    },
+    {
+      "uz": "o'chirish tugmasini o'chirmoq",
+      "kr": "스위치를 끄다"
+    },
+    {
+      "uz": "o'chirish tugmasini yoqmoq",
+      "kr": "스위치를 켜다"
+    },
+    {
+      "uz": "konkida uchmoq",
+      "kr": "스케이트를 타다"
+    },
+    {
+      "uz": "chang'ida uchmoq",
+      "kr": "스키를 타다"
+    },
+    {
+      "uz": "cho'zilmoq",
+      "kr": "스트레칭을 하다"
+    },
+    {
+      "uz": "stiropolli muzlatkich qutisi",
+      "kr": "스티로폼 상자"
+    },
+    {
+      "uz": "kalit",
+      "kr": "스패너"
+    },
+    {
+      "uz": "shippak",
+      "kr": "슬리퍼"
+    },
+    {
+      "uz": "g'amgin / xafa",
+      "kr": "슬프다"
+    },
+    {
+      "uz": "namlik",
+      "kr": "습도"
+    },
+    {
+      "uz": "nam / sernam",
+      "kr": "습하다"
+    },
+    {
+      "uz": "vaqti yo'q",
+      "kr": "시간(이) 없다"
+    },
+    {
+      "uz": "vaqti bor",
+      "kr": "시간(이) 있다"
+    },
+    {
+      "uz": "soat",
+      "kr": "시계"
+    },
+    {
+      "uz": "soatlik ish haqi",
+      "kr": "시급"
+    },
+    {
+      "uz": "shovqinli",
+      "kr": "시끄럽다"
+    },
+    {
+      "uz": "shaharlararo avtobus",
+      "kr": "시내버스"
+    },
+    {
+      "uz": "nordon",
+      "kr": "시다"
+    },
+    {
+      "uz": "sement",
+      "kr": "시멘트"
+    },
+    {
+      "uz": "inshootlar",
+      "kr": "시설물"
+    },
+    {
+      "uz": "shaharlararo / tezkor avtobus",
+      "kr": "시외/고속버스"
+    },
+    {
+      "uz": "salqin",
+      "kr": "시원하다"
+    },
+    {
+      "uz": "bozor",
+      "kr": "시장"
+    },
+    {
+      "uz": "shahar hokimiyati",
+      "kr": "시청"
+    },
+    {
+      "uz": "buyurtma bermoq",
+      "kr": "시키다(주문하다)"
+    },
+    {
+      "uz": "restoran / oshxona",
+      "kr": "식당"
+    },
+    {
+      "uz": "ovqatlanish to'lovi",
+      "kr": "식대"
+    },
+    {
+      "uz": "oziq-ovqat mahsulotlari",
+      "kr": "식료품"
+    },
+    {
+      "uz": "ovqatlanish odobi",
+      "kr": "식사 예절"
+    },
+    {
+      "uz": "e'tibor bermoq / g'amxo'rlik qilmoq",
+      "kr": "신경 쓰다"
+    },
+    {
+      "uz": "xabar bermoq / ma'lum qilmoq",
+      "kr": "신고하다"
+    },
+    {
+      "uz": "ajoyib / qiziq",
+      "kr": "신기하다"
+    },
+    {
+      "uz": "hayajonli",
+      "kr": "신나다"
+    },
+    {
+      "uz": "kuyov",
+      "kr": "신랑"
+    },
+    {
+      "uz": "uy ichida poyabzal kiyib kirmoq",
+      "kr": "신발을 신고 들어가다"
+    },
+    {
+      "uz": "kelin",
+      "kr": "신부"
+    },
+    {
+      "uz": "ruhoni",
+      "kr": "신부님"
+    },
+    {
+      "uz": "huquqiy maqomga ega bo'lmoq",
+      "kr": "신분을 보장 받다"
+    },
+    {
+      "uz": "shaxsiy guvohnoma",
+      "kr": "신분증"
+    },
+    {
+      "uz": "kredit karta",
+      "kr": "신용카드"
+    },
+    {
+      "uz": "tavsiyanoma",
+      "kr": "신원 보증서"
+    },
+    {
+      "uz": "e'tiqodli",
+      "kr": "신자"
+    },
+    {
+      "uz": "Yangi yil kuni",
+      "kr": "신정"
+    },
+    {
+      "uz": "ariza topshirmoq / murojaat qilmoq",
+      "kr": "신청하다"
+    },
+    {
+      "uz": "jismoniy aloqa",
+      "kr": "신체 접촉"
+    },
+    {
+      "uz": "svetofor",
+      "kr": "신호등"
+    },
+    {
+      "uz": "yuklamoq",
+      "kr": "싣다"
+    },
+    {
+      "uz": "jim zona",
+      "kr": "실내 정숙"
+    },
+    {
+      "uz": "aniq ish haqi",
+      "kr": "실수령액"
+    },
+    {
+      "uz": "aslida",
+      "kr": "실제로"
+    },
+    {
+      "uz": "jiddiy / og'ir",
+      "kr": "심하다"
+    },
+    {
+      "uz": "mazasiz / bemaza",
+      "kr": "싱겁다"
+    },
+    {
+      "uz": "arzon",
+      "kr": "싸다"
+    },
+    {
+      "uz": "o'ramoq / qadoqlamoq",
+      "kr": "싸다(포장하다)"
+    },
+    {
+      "uz": "urushmoq / janjallashmoq",
+      "kr": "싸움을 하다"
+    },
+    {
+      "uz": "ustoq qilib qo'ymoq",
+      "kr": "쌓다"
+    },
+    {
+      "uz": "achchiq / foydalanmoq (yozmoq)",
+      "kr": "쓰다"
+    },
+    {
+      "uz": "axlat tashlamoq",
+      "kr": "쓰레기를 버리다"
+    },
+    {
+      "uz": "supurmoq",
+      "kr": "쓸다"
+    },
+    {
+      "uz": "urug' sepmok",
+      "kr": "씨앗을 뿌리다"
+    },
+    {
+      "uz": "yuvmoq",
+      "kr": "씻다"
+    }
+  ]
+}

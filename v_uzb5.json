@@ -1,0 +1,324 @@
+{
+  "Dic": [
+    {
+      "uz": "sarimsoq",
+      "kr": "마 늘"
+    },
+    {
+      "uz": "qop",
+      "kr": "마대"
+    },
+    {
+      "uz": "niqob / maska (chang/gaz niqobi)",
+      "kr": "마스크"
+    },
+    {
+      "uz": "shahar ichidagi avtobus / marshrutka",
+      "kr": "마을버스"
+    },
+    {
+      "uz": "kutib olishga chiqmoq",
+      "kr": "마중 나가다"
+    },
+    {
+      "uz": "do'kon / mart",
+      "kr": "마트"
+    },
+    {
+      "uz": "muddati tugamoq",
+      "kr": "만기가 되다"
+    },
+    {
+      "uz": "muddati tugamoq / amal qilish muddati tugamoq",
+      "kr": "만료되다"
+    },
+    {
+      "uz": "ko'p",
+      "kr": "많다"
+    },
+    {
+      "uz": "ko'p",
+      "kr": "많이"
+    },
+    {
+      "uz": "ot",
+      "kr": "말"
+    },
+    {
+      "uz": "og'zaki tortishmoq / janjallashmoq",
+      "kr": "말다툼을 하다"
+    },
+    {
+      "uz": "aytmoq (hurmat shakli)",
+      "kr": "말씀하시다"
+    },
+    {
+      "uz": "gap boshlamoq / mavzu ko'tarmoq",
+      "kr": "말을 꺼내다"
+    },
+    {
+      "uz": "musaffo / ochiq / tiniq",
+      "kr": "맑다"
+    },
+    {
+      "uz": "mazasiz / bemaza",
+      "kr": "맛없다"
+    },
+    {
+      "uz": "mazali / shirin",
+      "kr": "맛있다"
+    },
+    {
+      "uz": "bolg'a",
+      "kr": "망치"
+    },
+    {
+      "uz": "urilmoq / to'g'ri bo'lmoq",
+      "kr": "맞다"
+    },
+    {
+      "uz": "ro'para / qarshi tomon",
+      "kr": "맞은편"
+    },
+    {
+      "uz": "urilish falokati",
+      "kr": "맞음 재해"
+    },
+    {
+      "uz": "moslamoq / to'g'irlamoq",
+      "kr": "맞추다"
+    },
+    {
+      "uz": "Ogohlantirish: osilgan narsalar",
+      "kr": "매달린 물체 경고"
+    },
+    {
+      "uz": "pivo",
+      "kr": "맥주"
+    },
+    {
+      "uz": "achchiq",
+      "kr": "맵다"
+    },
+    {
+      "uz": "bosh / soch",
+      "kr": "머리"
+    },
+    {
+      "uz": "oziq-ovqat / yem (hayvonlar uchun)",
+      "kr": "먹이"
+    },
+    {
+      "uz": "changni qoqmoq / tozalash",
+      "kr": "먼지를 떨다"
+    },
+    {
+      "uz": "uzoq",
+      "kr": "멀다"
+    },
+    {
+      "uz": "ko'rkam / ajoyib",
+      "kr": "멋있다"
+    },
+    {
+      "uz": "menyu",
+      "kr": "메뉴"
+    },
+    {
+      "uz": "menyu taxtasi",
+      "kr": "메뉴판"
+    },
+    {
+      "uz": "romantik film",
+      "kr": "멜로 영화"
+    },
+    {
+      "uz": "soch olish mashinasi / ustara",
+      "kr": "면도기"
+    },
+    {
+      "uz": "ish suhbatidan o'tmoq",
+      "kr": "면접을 보다"
+    },
+    {
+      "uz": "ozod qilinmoq / bo'shatilmoq",
+      "kr": "면제되다"
+    },
+    {
+      "uz": "burchak / qirra",
+      "kr": "모서리"
+    },
+    {
+      "uz": "shlyapa / do'ppi",
+      "kr": "모자"
+    },
+    {
+      "uz": "kichik belkurak / kulcha",
+      "kr": "모종삽"
+    },
+    {
+      "uz": "ko'chat ekmoq",
+      "kr": "모종을 심다"
+    },
+    {
+      "uz": "duradgor",
+      "kr": "목 수"
+    },
+    {
+      "uz": "guvoh",
+      "kr": "목격자"
+    },
+    {
+      "uz": "sharfa / ro'mol",
+      "kr": "목도리"
+    },
+    {
+      "uz": "pastor / ruhoniy",
+      "kr": "목사님"
+    },
+    {
+      "uz": "ish qo'lqoplari / himoya qo'lqoplari",
+      "kr": "목장갑"
+    },
+    {
+      "uz": "yog'och / taxta materiallar",
+      "kr": "목재"
+    },
+    {
+      "uz": "tana / vujud",
+      "kr": "몸"
+    },
+    {
+      "uz": "Ogohlantirish: tana muvozanatini yo'qotish",
+      "kr": "몸균형 상실 경고"
+    },
+    {
+      "uz": "mix",
+      "kr": "못"
+    },
+    {
+      "uz": "mixga sanchilmoq / urilmoq",
+      "kr": "못에 찔리다"
+    },
+    {
+      "uz": "Mo'g'uliston",
+      "kr": "몽골"
+    },
+    {
+      "uz": "og'irligini o'lchamoq",
+      "kr": "무게를 재다"
+    },
+    {
+      "uz": "maoshsiz ta'til kunlari",
+      "kr": "무급 휴일"
+    },
+    {
+      "uz": "belgilanmagan joydan o'tish taqiqlanadi",
+      "kr": "무단 횡단 금지"
+    },
+    {
+      "uz": "ruxsatsiz ishga kelmaslik",
+      "kr": "무단결근하다"
+    },
+    {
+      "uz": "tizza",
+      "kr": "무릎"
+    },
+    {
+      "uz": "qo'rqinchli",
+      "kr": "무섭다"
+    },
+    {
+      "uz": "e'tiborsiz qoldirmoq",
+      "kr": "무시하다"
+    },
+    {
+      "uz": "savdo",
+      "kr": "му역"
+    },
+    {
+      "uz": "tunamoq / qolmoq",
+      "kr": "묵다"
+    },
+    {
+      "uz": "bog'lamoq",
+      "kr": "묶다"
+    },
+    {
+      "uz": "eshik",
+      "kr": "문"
+    },
+    {
+      "uz": "so'ramoq / ma'lumot olish",
+      "kr": "문의하다"
+    },
+    {
+      "uz": "SMS yubormoq / xabar yubormoq",
+      "kr": "문자를 보내다"
+    },
+    {
+      "uz": "SMSni tekshirmoq / xabarni tekshirmoq",
+      "kr": "문자를 확인하다"
+    },
+    {
+      "uz": "madaniy tadbirda qatnashmoq",
+      "kr": "문화 체험을 하다"
+    },
+    {
+      "uz": "suv",
+      "kr": "물"
+    },
+    {
+      "uz": "omborxona / logistika ombori",
+      "kr": "물류 창고"
+    },
+    {
+      "uz": "suv purkagich / sug'orgich",
+      "kr": "물뿌리개"
+    },
+    {
+      "uz": "suv bermoq / sug'ormoq",
+      "kr": "물을 주다"
+    },
+    {
+      "uz": "sirpanib ketmoq",
+      "kr": "미끄러지다"
+    },
+    {
+      "uz": "oldindan / avvaldan",
+      "kr": "미리미리"
+    },
+    {
+      "uz": "cherkov marosimini o'tkazmoq",
+      "kr": "미사를 드리다"
+    },
+    {
+      "uz": "Myanma",
+      "kr": "미얀마"
+    },
+    {
+      "uz": "sartaroshxona",
+      "kr": "미용실"
+    },
+    {
+      "uz": "xususiy mehmonxona / mehmon uyi",
+      "kr": "민박"
+    },
+    {
+      "uz": "etnografik qishloq",
+      "kr": "민속촌"
+    },
+    {
+      "uz": "ishonmoq",
+      "kr": "믿다"
+    },
+    {
+      "uz": "bug'doy",
+      "kr": "밀"
+    },
+    {
+      "uz": "frezerlash dastgohi / freza",
+      "kr": "밀링 기계"
+    }
+  ]
+}
