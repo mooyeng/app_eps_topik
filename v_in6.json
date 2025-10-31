@@ -1,0 +1,640 @@
+{
+  "Dic": [
+    {
+      "meaning": "keranjang",
+      "kr": "바구니"
+    },
+    {
+      "meaning": "menukar/mengganti",
+      "kr": "바꾸다(교환하다)"
+    },
+    {
+      "meaning": "pisang",
+      "kr": "바나나"
+    },
+    {
+      "meaning": "jarum jaring",
+      "kr": "바늘대"
+    },
+    {
+      "meaning": "laut",
+      "kr": "바다"
+    },
+    {
+      "meaning": "pantai",
+      "kr": "바닷가"
+    },
+    {
+      "meaning": "angin bertiup",
+      "kr": "바람이 불다"
+    },
+    {
+      "meaning": "segera/tepat waktu",
+      "kr": "바로바로"
+    },
+    {
+      "meaning": "sibuk",
+      "kr": "바쁘다"
+    },
+    {
+      "meaning": "celana",
+      "kr": "바지"
+    },
+    {
+      "meaning": "memaku/mengencangkan sekrup",
+      "kr": "박다"
+    },
+    {
+      "meaning": "mengunjungi museum",
+      "kr": "박물관을 관람하다"
+    },
+    {
+      "meaning": "luar",
+      "kr": "밖"
+    },
+    {
+      "meaning": "teman sekelas",
+      "kr": "반 친구"
+    },
+    {
+      "meaning": "berbicara informal (tidak sopan)",
+      "kr": "반말을 하다"
+    },
+    {
+      "meaning": "lauk pauk",
+      "kr": "반찬"
+    },
+    {
+      "meaning": "plester luka",
+      "kr": "반창고"
+    },
+    {
+      "meaning": "kaki (telapak)",
+      "kr": "발"
+    },
+    {
+      "meaning": "diterbitkan/dikeluarkan",
+      "kr": "발급 받다"
+    },
+    {
+      "meaning": "mengajukan penerbitan",
+      "kr": "발급을 신청하다"
+    },
+    {
+      "meaning": "pergelangan kaki",
+      "kr": "발목"
+    },
+    {
+      "meaning": "pergelangan kaki terkilir",
+      "kr": "발목을 삐다"
+    },
+    {
+      "meaning": "kaki terjepit/tertimpa",
+      "kr": "발이 깔리다"
+    },
+    {
+      "meaning": "malam",
+      "kr": "밤"
+    },
+    {
+      "meaning": "nasi",
+      "kr": "밥"
+    },
+    {
+      "meaning": "makan sambil memegang mangkuk nasi",
+      "kr": "밥그릇을 들고 먹다"
+    },
+    {
+      "meaning": "penanak nasi",
+      "kr": "밥솥"
+    },
+    {
+      "meaning": "menancapkan sendok ke mangkuk nasi",
+      "kr": "밥에 숟가락을 꽂다"
+    },
+    {
+      "meaning": "memasak nasi",
+      "kr": "밥을 하다(짓다)"
+    },
+    {
+      "meaning": "tali/tambang",
+      "kr": "밧줄"
+    },
+    {
+      "meaning": "kamar/ruangan",
+      "kr": "방"
+    },
+    {
+      "meaning": "Bangladesh",
+      "kr": "방글라데시"
+    },
+    {
+      "meaning": "mengunjungi",
+      "kr": "방문을 하다"
+    },
+    {
+      "meaning": "Peringatan: bahan radioaktif",
+      "kr": "방사선 물질 경고"
+    },
+    {
+      "meaning": "lalai/tidak hati-hati",
+      "kr": "방심하다"
+    },
+    {
+      "meaning": "arah",
+      "kr": "방향"
+    },
+    {
+      "meaning": "ladang",
+      "kr": "밭"
+    },
+    {
+      "meaning": "perut/kapal/buah pir",
+      "kr": "배"
+    },
+    {
+      "meaning": "makan sampai kenyang sekali",
+      "kr": "배 터지게 먹다"
+    },
+    {
+      "meaning": "mengirim/mengantarkan",
+      "kr": "배달하다"
+    },
+    {
+      "meaning": "bermain bulutangkis",
+      "kr": "배드민턴을 치다"
+    },
+    {
+      "meaning": "bertenggang rasa/peduli",
+      "kr": "배려하다"
+    },
+    {
+      "meaning": "kotoran (feses dan urin)",
+      "kr": "배설물"
+    },
+    {
+      "meaning": "mengantar seseorang pergi",
+      "kr": "배웅하다"
+    },
+    {
+      "meaning": "sawi putih",
+      "kr": "배추"
+    },
+    {
+      "meaning": "sakit perut/gangguan pencernaan",
+      "kr": "배탈이 나다"
+    },
+    {
+      "meaning": "hari ke-100 (bayi)",
+      "kr": "백일"
+    },
+    {
+      "meaning": "toko serba ada/department store",
+      "kr": "백화점"
+    },
+    {
+      "meaning": "perban plastik/plester",
+      "kr": "밴드"
+    },
+    {
+      "meaning": "memasang plester",
+      "kr": "밴드를 붙이다"
+    },
+    {
+      "meaning": "mesin pengepakan (strapping machine)",
+      "kr": "밴딩기"
+    },
+    {
+      "meaning": "membuang",
+      "kr": "버리다"
+    },
+    {
+      "meaning": "halte bus",
+      "kr": "버스 정류장"
+    },
+    {
+      "meaning": "terminal bus",
+      "kr": "버스터미널"
+    },
+    {
+      "meaning": "mengambil nomor antrian",
+      "kr": "번호표를 뽑다"
+    },
+    {
+      "meaning": "membayar denda",
+      "kr": "벌금을 내다"
+    },
+    {
+      "meaning": "menghasilkan (uang)/menyimpan",
+      "kr": "벌다"
+    },
+    {
+      "meaning": "membasmi serangga/ulat",
+      "kr": "벌레를 잡다"
+    },
+    {
+      "meaning": "pendidikan hukum",
+      "kr": "법률 교육"
+    },
+    {
+      "meaning": "secara hukum",
+      "kr": "법적으로"
+    },
+    {
+      "meaning": "jam kerja standar",
+      "kr": "법정 근로 시간"
+    },
+    {
+      "meaning": "hari libur resmi",
+      "kr": "법정 휴일"
+    },
+    {
+      "meaning": "bantal",
+      "kr": "베개"
+    },
+    {
+      "meaning": "Vietnam",
+      "kr": "베트남"
+    },
+    {
+      "meaning": "padi",
+      "kr": "벼"
+    },
+    {
+      "meaning": "batu bata",
+      "kr": "벽돌"
+    },
+    {
+      "meaning": "jumlah perubahan yang mungkin",
+      "kr": "변경 가능 횟수"
+    },
+    {
+      "meaning": "bintang",
+      "kr": "별"
+    },
+    {
+      "meaning": "membayar secara terpisah",
+      "kr": "별도로 지급하다"
+    },
+    {
+      "meaning": "cuti sakit",
+      "kr": "병가"
+    },
+    {
+      "meaning": "periode cuti sakit",
+      "kr": "병가 기간"
+    },
+    {
+      "meaning": "alasan cuti sakit",
+      "kr": "병가 사유"
+    },
+    {
+      "meaning": "biaya rumah sakit/medis",
+      "kr": "병원비"
+    },
+    {
+      "meaning": "penyakit/sakit",
+      "kr": "병환"
+    },
+    {
+      "meaning": "puskesmas/klinik kesehatan (umum)",
+      "kr": "보건소"
+    },
+    {
+      "meaning": "melaporkan",
+      "kr": "보고하다"
+    },
+    {
+      "meaning": "menyimpan",
+      "kr": "보관하다"
+    },
+    {
+      "meaning": "melihat bulan purnama",
+      "kr": "보름달을 보다"
+    },
+    {
+      "meaning": "jelai",
+      "kr": "보리"
+    },
+    {
+      "meaning": "menerima dana kompensasi",
+      "kr": "보상을 받다"
+    },
+    {
+      "meaning": "memperbaiki/mereparasi",
+      "kr": "보수하다"
+    },
+    {
+      "meaning": "kacamata keselamatan",
+      "kr": "보안경"
+    },
+    {
+      "meaning": "topeng keselamatan/pelindung wajah",
+      "kr": "보안면"
+    },
+    {
+      "meaning": "biasanya",
+      "kr": "보통"
+    },
+    {
+      "meaning": "Dilarang berjalan kaki",
+      "kr": "보행금지"
+    },
+    {
+      "meaning": "membayarkan klaim asuransi",
+      "kr": "보험금을 지급하다"
+    },
+    {
+      "meaning": "mengajukan klaim asuransi",
+      "kr": "보험금을 청구하다"
+    },
+    {
+      "meaning": "menerima pembayaran asuransi",
+      "kr": "보험금을 타다"
+    },
+    {
+      "meaning": "mendapatkan penggantian biaya asuransi",
+      "kr": "보험금을 환급 받다"
+    },
+    {
+      "meaning": "membayar premi asuransi",
+      "kr": "보험료를 내다"
+    },
+    {
+      "meaning": "mendaftar dalam program asuransi",
+      "kr": "보험에 가입하다"
+    },
+    {
+      "meaning": "alat pelindung diri (APD)",
+      "kr": "보호구"
+    },
+    {
+      "meaning": "pakaian pelindung",
+      "kr": "보호복"
+    },
+    {
+      "meaning": "tiga hari terpanas di musim panas",
+      "kr": "복날"
+    },
+    {
+      "meaning": "lorong/koridor",
+      "kr": "복도"
+    },
+    {
+      "meaning": "mengulas/mereview",
+      "kr": "복습하다"
+    },
+    {
+      "meaning": "rumit/padat/ramai",
+      "kr": "복잡하다"
+    },
+    {
+      "meaning": "menggoreng (dengan sedikit minyak)/menumis",
+      "kr": "볶다"
+    },
+    {
+      "meaning": "bermain boling",
+      "kr": "볼링을 치다"
+    },
+    {
+      "meaning": "baut",
+      "kr": "볼트"
+    },
+    {
+      "meaning": "pulpen",
+      "kr": "볼펜"
+    },
+    {
+      "meaning": "musim semi",
+      "kr": "봄"
+    },
+    {
+      "meaning": "membebani/menanggung",
+      "kr": "부담하다"
+    },
+    {
+      "meaning": "bertubrukan/menabrak",
+      "kr": "부딪히다"
+    },
+    {
+      "meaning": "bencana tabrakan",
+      "kr": "부딪힘 재해"
+    },
+    {
+      "meaning": "memanggil/menyanyikan",
+      "kr": "부르다"
+    },
+    {
+      "meaning": "pelampung/orang kaya",
+      "kr": "부자"
+    },
+    {
+      "meaning": "rajin",
+      "kr": "부지런하다"
+    },
+    {
+      "meaning": "pelampung",
+      "kr": "부표"
+    },
+    {
+      "meaning": "bawahan/junior",
+      "kr": "부하"
+    },
+    {
+      "meaning": "kotoran hewan (feses dan urin)",
+      "kr": "분뇨"
+    },
+    {
+      "meaning": "menggolongkan/mengelompokkan",
+      "kr": "분류하다"
+    },
+    {
+      "meaning": "memisahkan/memilah",
+      "kr": "분리하다"
+    },
+    {
+      "meaning": "memiliki suasana buruk",
+      "kr": "분위기가 나쁘다"
+    },
+    {
+      "meaning": "memiliki suasana bagus",
+      "kr": "분위기가 좋다"
+    },
+    {
+      "meaning": "api/lampu",
+      "kr": "불"
+    },
+    {
+      "meaning": "tidak mungkin",
+      "kr": "불가능하다"
+    },
+    {
+      "meaning": "kitab suci Buddha",
+      "kr": "불경"
+    },
+    {
+      "meaning": "Bulgogi (daging panggang)",
+      "kr": "불고기"
+    },
+    {
+      "meaning": "agama Buddha",
+      "kr": "불교"
+    },
+    {
+      "meaning": "memercikkan bunga api",
+      "kr": "불꽃이 튀다"
+    },
+    {
+      "meaning": "menjadi buncit/menggembung",
+      "kr": "불룩해지다"
+    },
+    {
+      "meaning": "tinggal ilegal",
+      "kr": "불법 체류"
+    },
+    {
+      "meaning": "terjadi kebakaran",
+      "kr": "불이 나다"
+    },
+    {
+      "meaning": "merugikan",
+      "kr": "불이익을 주다"
+    },
+    {
+      "meaning": "memberi persembahan/sumbangan (keagamaan)",
+      "kr": "불전/헌금을 내다"
+    },
+    {
+      "meaning": "ketidaksenangan",
+      "kr": "불쾌감"
+    },
+    {
+      "meaning": "tidak menyenangkan/tidak nyaman",
+      "kr": "불쾌하다"
+    },
+    {
+      "meaning": "tidak nyaman/merepotkan",
+      "kr": "불편하다"
+    },
+    {
+      "meaning": "gagal/tidak lulus",
+      "kr": "불합격하다"
+    },
+    {
+      "meaning": "perban kain",
+      "kr": "붕대"
+    },
+    {
+      "meaning": "membalut dengan perban",
+      "kr": "붕대를 감다"
+    },
+    {
+      "meaning": "menempelkan",
+      "kr": "붙이다"
+    },
+    {
+      "meaning": "blog",
+      "kr": "블로그"
+    },
+    {
+      "meaning": "turun hujan",
+      "kr": "비가 오다"
+    },
+    {
+      "meaning": "perancah",
+      "kr": "비계"
+    },
+    {
+      "meaning": "sabun",
+      "kr": "비누"
+    },
+    {
+      "meaning": "tali nilon/plastik",
+      "kr": "비닐 끈"
+    },
+    {
+      "meaning": "rumah kaca (plastik)",
+      "kr": "비닐하우스"
+    },
+    {
+      "meaning": "menyebar pupuk",
+      "kr": "비료를 뿌리다"
+    },
+    {
+      "meaning": "kata sandi",
+      "kr": "비밀번호"
+    },
+    {
+      "meaning": "daftar kontak darurat",
+      "kr": "비상 연락처"
+    },
+    {
+      "meaning": "asisten/sekretaris",
+      "kr": "비서"
+    },
+    {
+      "meaning": "mirip",
+      "kr": "비슷하다"
+    },
+    {
+      "meaning": "mahal",
+      "kr": "비싸다"
+    },
+    {
+      "meaning": "Visa",
+      "kr": "비자"
+    },
+    {
+      "meaning": "pesawat terbang",
+      "kr": "비행기"
+    },
+    {
+      "meaning": "sisir",
+      "kr": "빗"
+    },
+    {
+      "meaning": "sapu",
+      "kr": "빗자루"
+    },
+    {
+      "meaning": "cepat/awal",
+      "kr": "빠르다(이르다)"
+    },
+    {
+      "meaning": "menghilang/tercebur",
+      "kr": "빠지다"
+    },
+    {
+      "meaning": "mengangkat cucian",
+      "kr": "빨래를 걷다"
+    },
+    {
+      "meaning": "menjemur cucian",
+      "kr": "빨래를 널다"
+    },
+    {
+      "meaning": "mencuci pakaian",
+      "kr": "빨래를 하다"
+    },
+    {
+      "meaning": "terseret/terhisap masuk",
+      "kr": "빨려 들어가다"
+    },
+    {
+      "meaning": "roti",
+      "kr": "빵"
+    },
+    {
+      "meaning": "mengeluarkan/mencabut",
+      "kr": "빼다"
+    },
+    {
+      "meaning": "terpilih/tertarik keluar",
+      "kr": "뽑히다"
+    },
+    {
+      "meaning": "akar",
+      "kr": "뿌리"
+    }
+  ]
+}

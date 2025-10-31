@@ -1,0 +1,844 @@
+{
+  "Dic": [
+    {
+      "meaning": "menawar",
+      "kr": "(값을) 깎다"
+    },
+    {
+      "meaning": "harga",
+      "kr": "가격"
+    },
+    {
+      "meaning": "secepat mungkin",
+      "kr": "가급적 빨리"
+    },
+    {
+      "meaning": "dekat",
+      "kr": "가깝다"
+    },
+    {
+      "meaning": "kadang-kadang",
+      "kr": "가끔"
+    },
+    {
+      "meaning": "mungkin",
+      "kr": "가능하다"
+    },
+    {
+      "meaning": "berdiri diam",
+      "kr": "가만히 있다"
+    },
+    {
+      "meaning": "tas",
+      "kr": "가방"
+    },
+    {
+      "meaning": "menerima gaji di muka",
+      "kr": "가불하다"
+    },
+    {
+      "meaning": "penyanyi",
+      "kr": "가수"
+    },
+    {
+      "meaning": "tukang las bertenaga gas",
+      "kr": "가스 용접기"
+    },
+    {
+      "meaning": "terjadi kebocoran gas",
+      "kr": "가스가 새다"
+    },
+    {
+      "meaning": "perut kembung/asam lambung",
+      "kr": "가스가 차다"
+    },
+    {
+      "meaning": "keracunan gas",
+      "kr": "가스에 중독되다 "
+    },
+    {
+      "meaning": "di tengah",
+      "kr": "가운데(중간)"
+    },
+    {
+      "meaning": "musim gugur",
+      "kr": "가을"
+    },
+    {
+      "meaning": "paling",
+      "kr": "가장(제일)"
+    },
+    {
+      "meaning": "foto keluarga",
+      "kr": "가족사진"
+    },
+    {
+      "meaning": "pelaku",
+      "kr": "가해자"
+    },
+    {
+      "meaning": "segala jenis",
+      "kr": "각종"
+    },
+    {
+      "meaning": "sederhana",
+      "kr": "간단하다"
+    },
+    {
+      "meaning": "perawat",
+      "kr": "간호사"
+    },
+    {
+      "meaning": "menggiling/mengasah",
+      "kr": "갈다"
+    },
+    {
+      "meaning": "mengganti sepatu",
+      "kr": "갈아 신다"
+    },
+    {
+      "meaning": "pindah/transit",
+      "kr": "갈아타다/환승하다"
+    },
+    {
+      "meaning": "garu",
+      "kr": "갈퀴"
+    },
+    {
+      "meaning": "obat batuk, pilek, dan flu",
+      "kr": "감기약"
+    },
+    {
+      "meaning": "terkena flu",
+      "kr": "감기에 걸리다"
+    },
+    {
+      "meaning": "kentang",
+      "kr": "감자"
+    },
+    {
+      "meaning": "terkena sengatan listrik",
+      "kr": "감전되다"
+    },
+    {
+      "meaning": "label harga",
+      "kr": "값"
+    },
+    {
+      "meaning": "sungai",
+      "kr": "강"
+    },
+    {
+      "meaning": "anjing",
+      "kr": "강아지"
+    },
+    {
+      "meaning": "memaksa",
+      "kr": "강요하다"
+    },
+    {
+      "meaning": "dideportasi secara paksa",
+      "kr": "강제 출국을 당하다 "
+    },
+    {
+      "meaning": "sama",
+      "kr": "같다"
+    },
+    {
+      "meaning": "awal semester",
+      "kr": "개강"
+    },
+    {
+      "meaning": "negara berkembang",
+      "kr": "개발도상국"
+    },
+    {
+      "meaning": "memperbaiki",
+      "kr": "개선하다"
+    },
+    {
+      "meaning": "urusan pribadi",
+      "kr": "개인 사정"
+    },
+    {
+      "meaning": "Hari Yayasan Nasional Korea",
+      "kr": "개천절"
+    },
+    {
+      "meaning": "menolak perpanjangan kontrak",
+      "kr": "갱신을 거절하다"
+    },
+    {
+      "meaning": "memperbarui",
+      "kr": "갱신하다"
+    },
+    {
+      "meaning": "pekerjaan bekisting besar",
+      "kr": "갱폼 작업"
+    },
+    {
+      "meaning": "di sana",
+      "kr": "거기"
+    },
+    {
+      "meaning": "memanen",
+      "kr": "거두다"
+    },
+    {
+      "meaning": "klien/tempat transaksi",
+      "kr": "거래처"
+    },
+    {
+      "meaning": "memberi pupuk kandang (ke ladang)",
+      "kr": "거름을 주다"
+    },
+    {
+      "meaning": "rasa jijik/penolakan",
+      "kr": "거부감"
+    },
+    {
+      "meaning": "cermin",
+      "kr": "거울"
+    },
+    {
+      "meaning": "pekerjaan pengecoran",
+      "kr": "거푸집 작업"
+    },
+    {
+      "meaning": "memasang bekisting",
+      "kr": "거푸집을 설치하다 "
+    },
+    {
+      "meaning": "menjalani pemeriksaan kesehatan rutin",
+      "kr": "건강 검진을 받다"
+    },
+    {
+      "meaning": "menjaga kesehatan",
+      "kr": "건강을 챙기다"
+    },
+    {
+      "meaning": "merusak kesehatan",
+      "kr": "건강을 해치다"
+    },
+    {
+      "meaning": "seberang jalan",
+      "kr": "건너편"
+    },
+    {
+      "meaning": "membangun gedung",
+      "kr": "건물을 짓다"
+    },
+    {
+      "meaning": "bersulang",
+      "kr": "건배하다"
+    },
+    {
+      "meaning": "konstruksi",
+      "kr": "건설"
+    },
+    {
+      "meaning": "industri konstruksi",
+      "kr": "건설업"
+    },
+    {
+      "meaning": "kering",
+      "kr": "건조하다"
+    },
+    {
+      "meaning": "jerami",
+      "kr": "건초"
+    },
+    {
+      "meaning": "berjalan",
+      "kr": "걷다"
+    },
+    {
+      "meaning": "menggantung",
+      "kr": "걸다"
+    },
+    {
+      "meaning": "lap pel",
+      "kr": "걸레"
+    },
+    {
+      "meaning": "berjalan kaki (pergi)",
+      "kr": "걸어가다"
+    },
+    {
+      "meaning": "berjalan kaki (datang)",
+      "kr": "걸어오다"
+    },
+    {
+      "meaning": "mesin pencari",
+      "kr": "검색 엔진"
+    },
+    {
+      "meaning": "bermain game",
+      "kr": "게임하다"
+    },
+    {
+      "meaning": "musim dingin",
+      "kr": "겨울"
+    },
+    {
+      "meaning": "memberi semangat/mendorong",
+      "kr": "격려하다"
+    },
+    {
+      "meaning": "Ulang Tahun Pernikahan",
+      "kr": "결혼기념일"
+    },
+    {
+      "meaning": "upacara pernikahan",
+      "kr": "결혼식"
+    },
+    {
+      "meaning": "kultivator bermotor",
+      "kr": "경운기"
+    },
+    {
+      "meaning": "pembangunan ekonomi",
+      "kr": "경제 발전"
+    },
+    {
+      "meaning": "petugas polisi",
+      "kr": "경찰관"
+    },
+    {
+      "meaning": "kantor polisi",
+      "kr": "경찰서"
+    },
+    {
+      "meaning": "pemandangan indah",
+      "kr": "경치가 좋다"
+    },
+    {
+      "meaning": "tangga",
+      "kr": "계단"
+    },
+    {
+      "meaning": "tinggal (hormat)",
+      "kr": "계시다"
+    },
+    {
+      "meaning": "masa kerja",
+      "kr": "계약 기간"
+    },
+    {
+      "meaning": "memperbarui kontrak",
+      "kr": "계약을 갱신하다"
+    },
+    {
+      "meaning": "membuat kontrak",
+      "kr": "계약을 하다"
+    },
+    {
+      "meaning": "nomor rekening",
+      "kr": "계좌 번호"
+    },
+    {
+      "meaning": "transfer rekening",
+      "kr": "계좌 이체"
+    },
+    {
+      "meaning": "memalingkan (sedikit) badan/kepala",
+      "kr": "고개를 돌리다 "
+    },
+    {
+      "meaning": "daging",
+      "kr": "고기"
+    },
+    {
+      "meaning": "memilih",
+      "kr": "고르다"
+    },
+    {
+      "meaning": "lingkaran/kait",
+      "kr": "고리"
+    },
+    {
+      "meaning": "KTX (kereta cepat)",
+      "kr": "고속열차"
+    },
+    {
+      "meaning": "Peringatan: listrik tegangan tinggi",
+      "kr": "고압 전기 경고"
+    },
+    {
+      "meaning": "kucing",
+      "kr": "고양이"
+    },
+    {
+      "meaning": "Peringatan: suhu tinggi",
+      "kr": "고온 경고"
+    },
+    {
+      "meaning": "mempekerjakan",
+      "kr": "고용하다"
+    },
+    {
+      "meaning": "Sistem Izin Kerja",
+      "kr": "고용허가제"
+    },
+    {
+      "meaning": "pulang kampung",
+      "kr": "고향에 내려가다"
+    },
+    {
+      "meaning": "beliung",
+      "kr": "곡괭이"
+    },
+    {
+      "meaning": "mengonsumsi berbagai produk makanan",
+      "kr": "골고루 섭취하다"
+    },
+    {
+      "meaning": "gang",
+      "kr": "골목"
+    },
+    {
+      "meaning": "kardus bergelombang",
+      "kr": "골판지"
+    },
+    {
+      "meaning": "bermain golf",
+      "kr": "골프를 치다"
+    },
+    {
+      "meaning": "kotak peralatan",
+      "kr": "공구함"
+    },
+    {
+      "meaning": "udara segar",
+      "kr": "공기가 맑다"
+    },
+    {
+      "meaning": "pegawai negeri",
+      "kr": "공무원"
+    },
+    {
+      "meaning": "belajar",
+      "kr": "공부하다"
+    },
+    {
+      "meaning": "lokasi konstruksi",
+      "kr": "공사장"
+    },
+    {
+      "meaning": "taman",
+      "kr": "공원"
+    },
+    {
+      "meaning": "memotong/mendebet",
+      "kr": "공제하다"
+    },
+    {
+      "meaning": "mengeluarkan pengumuman",
+      "kr": "공지가 나다"
+    },
+    {
+      "meaning": "buku catatan",
+      "kr": "공책"
+    },
+    {
+      "meaning": "film horor",
+      "kr": "공포 영화"
+    },
+    {
+      "meaning": "bandara",
+      "kr": "공항"
+    },
+    {
+      "meaning": "mata pelajaran",
+      "kr": "과목"
+    },
+    {
+      "meaning": "Dilarang mengebut",
+      "kr": "과속 금지"
+    },
+    {
+      "meaning": "kebun buah",
+      "kr": "과수원"
+    },
+    {
+      "meaning": "makanan ringan",
+      "kr": "과자"
+    },
+    {
+      "meaning": "kursus/proses",
+      "kr": "과정"
+    },
+    {
+      "meaning": "anggota staf/pengurus",
+      "kr": "관리인"
+    },
+    {
+      "meaning": "mengelola",
+      "kr": "관리하다"
+    },
+    {
+      "meaning": "Hari Pembebasan Nasional",
+      "kr": "광복절"
+    },
+    {
+      "meaning": "baik-baik saja",
+      "kr": "괜찮다"
+    },
+    {
+      "meaning": "cangkul",
+      "kr": "괭이"
+    },
+    {
+      "meaning": "ruang kelas",
+      "kr": "교실"
+    },
+    {
+      "meaning": "pendidikan",
+      "kr": "교육"
+    },
+    {
+      "meaning": "mengikuti pelajaran (kursus)",
+      "kr": "교육을 받다"
+    },
+    {
+      "meaning": "mendaftar kursus pelatihan",
+      "kr": "교육을 신청하다"
+    },
+    {
+      "meaning": "pengikut agama",
+      "kr": "교인"
+    },
+    {
+      "meaning": "sistem transportasi tidak nyaman",
+      "kr": "교통이 불편하다"
+    },
+    {
+      "meaning": "sistem transportasi nyaman",
+      "kr": "교통이 편리하다"
+    },
+    {
+      "meaning": "gereja",
+      "kr": "교회"
+    },
+    {
+      "meaning": "jatuh ke dalam lubang",
+      "kr": "구덩이에 빠지다"
+    },
+    {
+      "meaning": "sepatu",
+      "kr": "구두"
+    },
+    {
+      "meaning": "mengebor lubang",
+      "kr": "구멍을 뚫다"
+    },
+    {
+      "meaning": "membengkokkan",
+      "kr": "구부리다"
+    },
+    {
+      "meaning": "area/wilayah",
+      "kr": "구역"
+    },
+    {
+      "meaning": "surat konfirmasi pendaftaran pencari kerja",
+      "kr": "구직등록필증"
+    },
+    {
+      "meaning": "kantor bupati",
+      "kr": "구청"
+    },
+    {
+      "meaning": "sup",
+      "kr": "국"
+    },
+    {
+      "meaning": "pensiun nasional",
+      "kr": "국민연금"
+    },
+    {
+      "meaning": "pelajaran musik klasik Korea",
+      "kr": "국악 교육"
+    },
+    {
+      "meaning": "Surat Kilat (EMS)",
+      "kr": "국제 특급"
+    },
+    {
+      "meaning": "Ubi Jalar Panggang",
+      "kr": "군고구마"
+    },
+    {
+      "meaning": "memanggang",
+      "kr": "굽다"
+    },
+    {
+      "meaning": "telinga",
+      "kr": "귀"
+    },
+    {
+      "meaning": "penutup telinga pengaman",
+      "kr": "귀덮개"
+    },
+    {
+      "meaning": "jangkrik",
+      "kr": "귀뚜라미"
+    },
+    {
+      "meaning": "sumbat telinga pengaman",
+      "kr": "귀마개"
+    },
+    {
+      "meaning": "aturannya ketat",
+      "kr": "규율이 엄격하다"
+    },
+    {
+      "meaning": "melanggar aturan dan peraturan",
+      "kr": "규칙을 어기다"
+    },
+    {
+      "meaning": "mematuhi aturan",
+      "kr": "규칙을 준수하다"
+    },
+    {
+      "meaning": "mematuhi aturan dan peraturan",
+      "kr": "규칙을 지키다"
+    },
+    {
+      "meaning": "jaring penangkap ikan",
+      "kr": "그물"
+    },
+    {
+      "meaning": "berhenti (hujan/salju)",
+      "kr": "그치다"
+    },
+    {
+      "meaning": "teater",
+      "kr": "극장"
+    },
+    {
+      "meaning": "kontrak kerja berakhir",
+      "kr": "근로계약이 만료되다"
+    },
+    {
+      "meaning": "kontrak kerja dihentikan",
+      "kr": "근로계약이 해지되다"
+    },
+    {
+      "meaning": "Hari Buruh",
+      "kr": "근로자의 날"
+    },
+    {
+      "meaning": "kondisi kerja",
+      "kr": "근로조건"
+    },
+    {
+      "meaning": "jam kerja",
+      "kr": "근무시간"
+    },
+    {
+      "meaning": "tempat kerja",
+      "kr": "근무지"
+    },
+    {
+      "meaning": "bekerja",
+      "kr": "근무하다"
+    },
+    {
+      "meaning": "Dilarang merokok",
+      "kr": "금연"
+    },
+    {
+      "meaning": "pendidikan keuangan",
+      "kr": "금융 교육"
+    },
+    {
+      "meaning": "Peringatan: sangat beracun",
+      "kr": "급성독 물질 경고"
+    },
+    {
+      "meaning": "rincian gaji",
+      "kr": "급여 내역"
+    },
+    {
+      "meaning": "slip gaji",
+      "kr": "급여 명세서"
+    },
+    {
+      "meaning": "terjebak di mesin",
+      "kr": "기계에 감기다"
+    },
+    {
+      "meaning": "lembaga",
+      "kr": "기관"
+    },
+    {
+      "meaning": "membeli suvenir",
+      "kr": "기념품을 사다"
+    },
+    {
+      "meaning": "merayakan",
+      "kr": "기념하다"
+    },
+    {
+      "meaning": "menunggu",
+      "kr": "기다리다"
+    },
+    {
+      "meaning": "berdoa",
+      "kr": "기도하다"
+    },
+    {
+      "meaning": "Kristen (Protestan)",
+      "kr": "기독교"
+    },
+    {
+      "meaning": "mencatat",
+      "kr": "기록하다"
+    },
+    {
+      "meaning": "menanam/memelihara",
+      "kr": "기르다"
+    },
+    {
+      "meaning": "gaji pokok",
+      "kr": "기본급"
+    },
+    {
+      "meaning": "menyegarkan diri",
+      "kr": "기분 전환을 하다"
+    },
+    {
+      "meaning": "merasa tidak enak/tidak nyaman",
+      "kr": "기분이 나쁘다"
+    },
+    {
+      "meaning": "merasa senang",
+      "kr": "기분이 좋다"
+    },
+    {
+      "meaning": "senang",
+      "kr": "기쁘다"
+    },
+    {
+      "meaning": "asrama",
+      "kr": "기숙사"
+    },
+    {
+      "meaning": "teknisi",
+      "kr": "기술자"
+    },
+    {
+      "meaning": "mengingat",
+      "kr": "기억하다"
+    },
+    {
+      "meaning": "suhu",
+      "kr": "기온"
+    },
+    {
+      "meaning": "suhu rendah",
+      "kr": "기온이 낮다"
+    },
+    {
+      "meaning": "suhu turun",
+      "kr": "기온이 내려가다"
+    },
+    {
+      "meaning": "suhu tinggi",
+      "kr": "기온이 높다"
+    },
+    {
+      "meaning": "suhu naik",
+      "kr": "기온이 올라가다"
+    },
+    {
+      "meaning": "kereta api",
+      "kr": "기차"
+    },
+    {
+      "meaning": "stasiun kereta api",
+      "kr": "기차역"
+    },
+    {
+      "meaning": "contoh pertanyaan dari ujian sebelumnya",
+      "kr": "기출문제"
+    },
+    {
+      "meaning": "batuk",
+      "kr": "기침을 하다"
+    },
+    {
+      "meaning": "bencana lainnya",
+      "kr": "기타 재해"
+    },
+    {
+      "meaning": "bermain gitar",
+      "kr": "기타를 치다"
+    },
+    {
+      "meaning": "jalan",
+      "kr": "길"
+    },
+    {
+      "meaning": "memakai gips",
+      "kr": "깁스를 하다"
+    },
+    {
+      "meaning": "rumit",
+      "kr": "까다롭다"
+    },
+    {
+      "meaning": "burung murai",
+      "kr": "까치"
+    },
+    {
+      "meaning": "memotong/mencukur",
+      "kr": "깎다"
+    },
+    {
+      "meaning": "rapi",
+      "kr": "깔끔하다"
+    },
+    {
+      "meaning": "lupa sejenak",
+      "kr": "깜빡하다"
+    },
+    {
+      "meaning": "terkejut",
+      "kr": "깜짝 놀라다"
+    },
+    {
+      "meaning": "bersih",
+      "kr": "깨끗하다"
+    },
+    {
+      "meaning": "teliti",
+      "kr": "꼼꼼히"
+    },
+    {
+      "meaning": "menyematkan/menancapkan",
+      "kr": "꽂다"
+    },
+    {
+      "meaning": "bunga",
+      "kr": "꽃"
+    },
+    {
+      "meaning": "memotong/berhenti",
+      "kr": "끊다"
+    },
+    {
+      "meaning": "merebus",
+      "kr": "끓이다"
+    },
+    {
+      "meaning": "memasukkan/memasang",
+      "kr": "끼우다"
+    },
+    {
+      "meaning": "bencana terjepit",
+      "kr": "끼임재해"
+    }
+  ]
+}

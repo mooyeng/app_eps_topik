@@ -1,0 +1,664 @@
+{
+  "Dic": [
+    {
+      "meaning": "mobil",
+      "kr": "자 동차"
+    },
+    {
+      "meaning": "mengubah status (visa)",
+      "kr": "자격을 변경하다"
+    },
+    {
+      "meaning": "memberikan status tinggal",
+      "kr": "자격을 부여하다"
+    },
+    {
+      "meaning": "memperoleh status tinggal",
+      "kr": "자격을 획득하다"
+    },
+    {
+      "meaning": "memenuhi syarat",
+      "kr": "자격이 주어지다"
+    },
+    {
+      "meaning": "sertifikat/lisensi",
+      "kr": "자격증"
+    },
+    {
+      "meaning": "tidur",
+      "kr": "자다"
+    },
+    {
+      "meaning": "secara otomatis",
+      "kr": "자동으로"
+    },
+    {
+      "meaning": "memotong",
+      "kr": "자르다"
+    },
+    {
+      "meaning": "kursi tidak tersedia/penuh",
+      "kr": "자리가 없다"
+    },
+    {
+      "meaning": "kursi tersedia/kosong",
+      "kr": "자리가 있다"
+    },
+    {
+      "meaning": "memberikan tempat duduk kepada orang lain",
+      "kr": "자리를 양보하다"
+    },
+    {
+      "meaning": "mengambil tempat",
+      "kr": "자리를 차지하다"
+    },
+    {
+      "meaning": "menjadi sukarelawan",
+      "kr": "자원 봉사를 하다"
+    },
+    {
+      "meaning": "bebas/lincah",
+      "kr": "자유롭다"
+    },
+    {
+      "meaning": "mengendarai sepeda",
+      "kr": "자전거를 타다"
+    },
+    {
+      "meaning": "sering",
+      "kr": "자주"
+    },
+    {
+      "meaning": "formulir keberangkatan sukarela",
+      "kr": "자진 출국 각서"
+    },
+    {
+      "meaning": "berangkat secara sukarela",
+      "kr": "자진 출국하다"
+    },
+    {
+      "meaning": "tahun lalu",
+      "kr": "작년"
+    },
+    {
+      "meaning": "mengoperasikan",
+      "kr": "작동하다"
+    },
+    {
+      "meaning": "pakaian kerja",
+      "kr": "작업복"
+    },
+    {
+      "meaning": "ditempatkan di bengkel",
+      "kr": "작업장에 배치되다"
+    },
+    {
+      "meaning": "bekerja",
+      "kr": "작업하다"
+    },
+    {
+      "meaning": "cek saldo",
+      "kr": "잔액 조회"
+    },
+    {
+      "meaning": "jaket",
+      "kr": "잠바"
+    },
+    {
+      "meaning": "makan (bentuk hormat)",
+      "kr": "잡수시다/드시다"
+    },
+    {
+      "meaning": "mencabut rumput liar",
+      "kr": "잡초를 뽑다"
+    },
+    {
+      "meaning": "sarung tangan",
+      "kr": "장갑"
+    },
+    {
+      "meaning": "berbelanja kebutuhan sehari-hari",
+      "kr": "장을 보다"
+    },
+    {
+      "meaning": "disabilitas/cacat",
+      "kr": "장해"
+    },
+    {
+      "meaning": "kompensasi disabilitas",
+      "kr": "장해 보상금"
+    },
+    {
+      "meaning": "sepatu bot hujan",
+      "kr": "장화"
+    },
+    {
+      "meaning": "memeriksa inventaris/stok",
+      "kr": "재고를 파악하다"
+    },
+    {
+      "meaning": "mengukur",
+      "kr": "재다"
+    },
+    {
+      "meaning": "membudidayakan/menanam",
+      "kr": "재배하다"
+    },
+    {
+      "meaning": "aplikasi izin masuk kembali",
+      "kr": "재입국 허가 신청서"
+    },
+    {
+      "meaning": "masuk kembali",
+      "kr": "재입국하다"
+    },
+    {
+      "meaning": "di sana (untuk memanggil)",
+      "kr": "저기"
+    },
+    {
+      "meaning": "sore/malam",
+      "kr": "저녁"
+    },
+    {
+      "meaning": "makan malam",
+      "kr": "저녁을 먹다"
+    },
+    {
+      "meaning": "Peringatan: suhu rendah",
+      "kr": "저온 경고"
+    },
+    {
+      "meaning": "meletakkan (sesuatu) di timbangan",
+      "kr": "저울에 올려놓다"
+    },
+    {
+      "meaning": "menyimpan",
+      "kr": "저장하다"
+    },
+    {
+      "meaning": "memuat/mengisi",
+      "kr": "적재하다"
+    },
+    {
+      "meaning": "bor listrik",
+      "kr": "전기 드릴"
+    },
+    {
+      "meaning": "mesin las listrik",
+      "kr": "전기 용접기"
+    },
+    {
+      "meaning": "mesin potong listrik",
+      "kr": "전기 절단기"
+    },
+    {
+      "meaning": "pemanas listrik",
+      "kr": "전기난로"
+    },
+    {
+      "meaning": "selimut listrik",
+      "kr": "전기장판"
+    },
+    {
+      "meaning": "gulungan kabel",
+      "kr": "전선 릴"
+    },
+    {
+      "meaning": "permainan tradisional Korea",
+      "kr": "전통 놀이"
+    },
+    {
+      "meaning": "pernikahan tradisional Korea",
+      "kr": "전통 혼례"
+    },
+    {
+      "meaning": "telepon",
+      "kr": "전화"
+    },
+    {
+      "meaning": "telepon berdering",
+      "kr": "전화가 오다"
+    },
+    {
+      "meaning": "menelepon",
+      "kr": "전화를 걸다"
+    },
+    {
+      "meaning": "menutup telepon",
+      "kr": "전화를 끊다"
+    },
+    {
+      "meaning": "menyambungkan ke (orang lain)",
+      "kr": "전화를 바꾸다"
+    },
+    {
+      "meaning": "menerima telepon",
+      "kr": "전화를 받다"
+    },
+    {
+      "meaning": "salah sambung",
+      "kr": "전화를 잘못 걸다"
+    },
+    {
+      "meaning": "menelepon",
+      "kr": "전화하다"
+    },
+    {
+      "meaning": "kuil Buddha",
+      "kr": "절"
+    },
+    {
+      "meaning": "memotong",
+      "kr": "절단하다"
+    },
+    {
+      "meaning": "membungkuk hormat",
+      "kr": "절하다"
+    },
+    {
+      "meaning": "memeriksa",
+      "kr": "점검하다"
+    },
+    {
+      "meaning": "siang",
+      "kr": "점심"
+    },
+    {
+      "meaning": "makan siang",
+      "kr": "점심을 먹다"
+    },
+    {
+      "meaning": "pelayan toko",
+      "kr": "점원"
+    },
+    {
+      "meaning": "Dilarang mendekat",
+      "kr": "접근 금지"
+    },
+    {
+      "meaning": "melipat",
+      "kr": "접다"
+    },
+    {
+      "meaning": "bukti aplikasi/tanda terima",
+      "kr": "접수증"
+    },
+    {
+      "meaning": "sumpit",
+      "kr": "젓가락"
+    },
+    {
+      "meaning": "tertata dengan baik",
+      "kr": "정돈되어 있다"
+    },
+    {
+      "meaning": "tertata dengan baik",
+      "kr": "정리가 잘 되어 있다"
+    },
+    {
+      "meaning": "merapikan/membersihkan",
+      "kr": "정리하다"
+    },
+    {
+      "meaning": "sungguh/benar-benar",
+      "kr": "정말"
+    },
+    {
+      "meaning": "memelihara/memperbaiki",
+      "kr": "정비하다"
+    },
+    {
+      "meaning": "menjadi akrab/sayang",
+      "kr": "정이 들다"
+    },
+    {
+      "meaning": "setelan jas/pakaian formal",
+      "kr": "정장"
+    },
+    {
+      "meaning": "kantor ortopedi",
+      "kr": "정형외과"
+    },
+    {
+      "meaning": "menawarkan/menyediakan",
+      "kr": "제공하다"
+    },
+    {
+      "meaning": "tepat waktu",
+      "kr": "제때"
+    },
+    {
+      "meaning": "yang paling/terbaik",
+      "kr": "제일"
+    },
+    {
+      "meaning": "membuat/memproduksi",
+      "kr": "제작하다"
+    },
+    {
+      "meaning": "industri manufaktur",
+      "kr": "제조업"
+    },
+    {
+      "meaning": "sedikit",
+      "kr": "조금"
+    },
+    {
+      "meaning": "pulang ke negara asal lebih awal",
+      "kr": "조기 귀국하다"
+    },
+    {
+      "meaning": "peralatan memasak",
+      "kr": "조리 기구"
+    },
+    {
+      "meaning": "merakit/menyusun",
+      "kr": "조립하다"
+    },
+    {
+      "meaning": "sunyi/tenang",
+      "kr": "조용하다"
+    },
+    {
+      "meaning": "mengencangkan/mengecilkan",
+      "kr": "조이다"
+    },
+    {
+      "meaning": "menyesuaikan",
+      "kr": "조절하다"
+    },
+    {
+      "meaning": "(Pekerjaan pasangan bata dan plesteran (pengampelasan))",
+      "kr": "조정 및 미장(견출) 작업"
+    },
+    {
+      "meaning": "mengambil tindakan",
+      "kr": "조치를 취하다"
+    },
+    {
+      "meaning": "pulang lebih awal",
+      "kr": "조퇴하다"
+    },
+    {
+      "meaning": "menggunakan bahasa hormat",
+      "kr": "존댓말을 하다"
+    },
+    {
+      "meaning": "menghormati",
+      "kr": "존중하다"
+    },
+    {
+      "meaning": "mengantuk",
+      "kr": "졸리다"
+    },
+    {
+      "meaning": "akhir semester",
+      "kr": "종강"
+    },
+    {
+      "meaning": "agama",
+      "kr": "종교"
+    },
+    {
+      "meaning": "bagus/baik",
+      "kr": "좋다"
+    },
+    {
+      "meaning": "pemimpin upacara/penghulu",
+      "kr": "주례"
+    },
+    {
+      "meaning": "kebanyakan/umumnya",
+      "kr": "주로"
+    },
+    {
+      "meaning": "memijat",
+      "kr": "주무르다"
+    },
+    {
+      "meaning": "tidur (bentuk hormat)",
+      "kr": "주무시다"
+    },
+    {
+      "meaning": "formulir pemesanan",
+      "kr": "주문서"
+    },
+    {
+      "meaning": "memesan",
+      "kr": "주문하다"
+    },
+    {
+      "meaning": "pusat layanan masyarakat",
+      "kr": "주민센터"
+    },
+    {
+      "meaning": "deterjen pencuci piring",
+      "kr": "주방 세제"
+    },
+    {
+      "meaning": "ibu rumah tangga",
+      "kr": "주부"
+    },
+    {
+      "meaning": "disuntik",
+      "kr": "주사를 맞다"
+    },
+    {
+      "meaning": "alamat",
+      "kr": "주소"
+    },
+    {
+      "meaning": "jus",
+      "kr": "주스"
+    },
+    {
+      "meaning": "memperhatikan/waspada",
+      "kr": "주의하다"
+    },
+    {
+      "meaning": "hari kerja (Senin-Jumat)",
+      "kr": "주중"
+    },
+    {
+      "meaning": "Dilarang parkir",
+      "kr": "주차 금지"
+    },
+    {
+      "meaning": "pita ukur/meteran",
+      "kr": "줄자"
+    },
+    {
+      "meaning": "Cina",
+      "kr": "중 국"
+    },
+    {
+      "meaning": "di tengah/pertengahan",
+      "kr": "중간"
+    },
+    {
+      "meaning": "ukuran sedang",
+      "kr": "중자"
+    },
+    {
+      "meaning": "segera",
+      "kr": "즉시"
+    },
+    {
+      "meaning": "menyenangkan",
+      "kr": "즐겁다"
+    },
+    {
+      "meaning": "bukti",
+      "kr": "증거"
+    },
+    {
+      "meaning": "mengamankan bukti",
+      "kr": "증거를 확보하다"
+    },
+    {
+      "meaning": "foto identitas",
+      "kr": "증명사진"
+    },
+    {
+      "meaning": "saksi",
+      "kr": "증인"
+    },
+    {
+      "meaning": "dompet",
+      "kr": "지갑"
+    },
+    {
+      "meaning": "sekarang",
+      "kr": "지금"
+    },
+    {
+      "meaning": "pilihan metode pembayaran upah",
+      "kr": "지급 방법"
+    },
+    {
+      "meaning": "melalui pemeriksaan pembayaran",
+      "kr": "지급 심사를 받다"
+    },
+    {
+      "meaning": "tanggal pembayaran/gajian",
+      "kr": "지급일"
+    },
+    {
+      "meaning": "berlalu/melewati",
+      "kr": "지나다"
+    },
+    {
+      "meaning": "bulan lalu",
+      "kr": "지난달"
+    },
+    {
+      "meaning": "minggu lalu",
+      "kr": "지난주"
+    },
+    {
+      "meaning": "mendaftarkan sidik jari",
+      "kr": "지문을 등록하다"
+    },
+    {
+      "meaning": "penghapus",
+      "kr": "지우개"
+    },
+    {
+      "meaning": "menurunkan ritsleting",
+      "kr": "지퍼를 내리다"
+    },
+    {
+      "meaning": "menaikkan ritsleting",
+      "kr": "지퍼를 올리다"
+    },
+    {
+      "meaning": "uang kertas",
+      "kr": "지폐"
+    },
+    {
+      "meaning": "basement 1",
+      "kr": "지하 1층"
+    },
+    {
+      "meaning": "kereta bawah tanah/subway",
+      "kr": "지하 철"
+    },
+    {
+      "meaning": "stasiun kereta bawah tanah/subway",
+      "kr": "지하 철역"
+    },
+    {
+      "meaning": "siku-siku baja",
+      "kr": "직각자"
+    },
+    {
+      "meaning": "jabatan",
+      "kr": "직위"
+    },
+    {
+      "meaning": "mencari tahu sendiri",
+      "kr": "직접 알아보다"
+    },
+    {
+      "meaning": "surat keterangan medis",
+      "kr": "진단서"
+    },
+    {
+      "meaning": "catatan medis",
+      "kr": "진료 기록"
+    },
+    {
+      "meaning": "kesaksian/pernyataan",
+      "kr": "진술"
+    },
+    {
+      "meaning": "menenangkan diri",
+      "kr": "진정하다"
+    },
+    {
+      "meaning": "benar-benar/asli",
+      "kr": "진짜"
+    },
+    {
+      "meaning": "obat pereda nyeri",
+      "kr": "진통제"
+    },
+    {
+      "meaning": "penyakit",
+      "kr": "질병"
+    },
+    {
+      "meaning": "mengemas barang",
+      "kr": "짐을 싸다"
+    },
+    {
+      "meaning": "membongkar barang",
+      "kr": "짐을 풀다"
+    },
+    {
+      "meaning": "rumah",
+      "kr": "집"
+    },
+    {
+      "meaning": "pesta syukuran rumah baru",
+      "kr": "집들이"
+    },
+    {
+      "meaning": "keadaan keluarga",
+      "kr": "집안 사정"
+    },
+    {
+      "meaning": "lampu pemikat ikan",
+      "kr": "집어등"
+    },
+    {
+      "meaning": "mencari rumah",
+      "kr": "집을 찾다"
+    },
+    {
+      "meaning": "asin",
+      "kr": "짜다"
+    },
+    {
+      "meaning": "merasa kesal/jengkel",
+      "kr": "짜증을 내다"
+    },
+    {
+      "meaning": "jjigae (rebusan/sup)",
+      "kr": "찌개"
+    },
+    {
+      "meaning": "mencetak/mengecap",
+      "kr": "찍어 내다"
+    },
+    {
+      "meaning": "bakpao kukus dengan isian kacang merah",
+      "kr": "찐빵"
+    },
+    {
+      "meaning": "mengompres es/berendam air dingin",
+      "kr": "찜질을 하다"
+    }
+  ]
+}
