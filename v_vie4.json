@@ -1,23 +1,23 @@
 {
   "Dic": [
     {
-      "vi": "mì ăn liền",
+      "meaning": "mì ăn liền",
       "kr": "라면"
     },
     {
-      "vi": "đăng nhập",
+      "meaning": "đăng nhập",
       "kr": "로 그인"
     },
     {
-      "vi": "đăng xuất",
+      "meaning": "đăng xuất",
       "kr": "로그아웃"
     },
     {
-      "vi": "bạn cùng phòng",
+      "meaning": "bạn cùng phòng",
       "kr": "룸메이트"
     },
     {
-      "vi": "dầu xả",
+      "meaning": "dầu xả",
       "kr": "린스"
     }
   ]

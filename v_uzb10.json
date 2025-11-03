@@ -1,383 +1,383 @@
 {
   "Dic": [
     {
-      "uz": "tirbandlik",
+      "meaning": "tirbandlik",
       "kr": "차가 막히다"
     },
     {
-      "uz": "sovuq",
+      "meaning": "sovuq",
       "kr": "차다/차갑다"
     },
     {
-      "uz": "ajdodlar uchun marosim o'tkazish",
+      "meaning": "ajdodlar uchun marosim o'tkazish",
       "kr": "차례를 지내다"
     },
     {
-      "uz": "kiyish",
+      "meaning": "kiyish",
       "kr": "착용하다"
     },
     {
-      "uz": "budda madhiyasi/xristian madhiyasi kuylash",
+      "meaning": "budda madhiyasi/xristian madhiyasi kuylash",
       "kr": "찬불가/성가를 부르다"
     },
     {
-      "uz": "tirnalish",
+      "meaning": "tirnalish",
       "kr": "찰과상을 입다"
     },
     {
-      "uz": "ishtirok etish",
+      "meaning": "ishtirok etish",
       "kr": "참석하다"
     },
     {
-      "uz": "ombor",
+      "meaning": "ombor",
       "kr": "창고"
     },
     {
-      "uz": "kassa / xizmat ko'rsatish joyi",
+      "meaning": "kassa / xizmat ko'rsatish joyi",
       "kr": "창구"
     },
     {
-      "uz": "deraza",
+      "meaning": "deraza",
       "kr": "창문"
     },
     {
-      "uz": "sabzavot",
+      "meaning": "sabzavot",
       "kr": "채소"
     },
     {
-      "uz": "kitob",
+      "meaning": "kitob",
       "kr": "책"
     },
     {
-      "uz": "stol",
+      "meaning": "stol",
       "kr": "책상"
     },
     {
-      "uz": "kitob o'qish",
+      "meaning": "kitob o'qish",
       "kr": "책을 읽다"
     },
     {
-      "uz": "olib yurish / g'amxo'rlik qilish",
+      "meaning": "olib yurish / g'amxo'rlik qilish",
       "kr": "챙기다"
     },
     {
-      "uz": "yo'q qilish / hal qilish",
+      "meaning": "yo'q qilish / hal qilish",
       "kr": "처리하다"
     },
     {
-      "uz": "dori yozish",
+      "meaning": "dori yozish",
       "kr": "처방하다"
     },
     {
-      "uz": "katoliklik",
+      "meaning": "katoliklik",
       "kr": "천주교(가톨릭)"
     },
     {
-      "uz": "po'lat ramali ish",
+      "meaning": "po'lat ramali ish",
       "kr": "철골 작업"
     },
     {
-      "uz": "armatura",
+      "meaning": "armatura",
       "kr": "철근"
     },
     {
-      "uz": "armatura ishi",
+      "meaning": "armatura ishi",
       "kr": "철근 작업"
     },
     {
-      "uz": "armaturani yig'ish",
+      "meaning": "armaturani yig'ish",
       "kr": "철근을 조립하다"
     },
     {
-      "uz": "o'zini toza tutish",
+      "meaning": "o'zini toza tutish",
       "kr": "청결을 유지하다"
     },
     {
-      "uz": "hisob-faktura",
+      "meaning": "hisob-faktura",
       "kr": "청구서"
     },
     {
-      "uz": "tozalash uskunalari",
+      "meaning": "tozalash uskunalari",
       "kr": "청소 도구"
     },
     {
-      "uz": "changyutgichda tozalash",
+      "meaning": "changyutgichda tozalash",
       "kr": "청소기를 돌리다"
     },
     {
-      "uz": "tozalash",
+      "meaning": "tozalash",
       "kr": "청소를 하다"
     },
     {
-      "uz": "to'y taklifnomasi",
+      "meaning": "to'y taklifnomasi",
       "kr": "청첩장"
     },
     {
-      "uz": "ruxsat etilgan qolish muddati",
+      "meaning": "ruxsat etilgan qolish muddati",
       "kr": "체류 가능 기간"
     },
     {
-      "uz": "qolish muddati",
+      "meaning": "qolish muddati",
       "kr": "체류 기간"
     },
     {
-      "uz": "yashash maqomi",
+      "meaning": "yashash maqomi",
       "kr": "체류 자격"
     },
     {
-      "uz": "yashash maqomi bilan ruxsat etilmagan faoliyatlar",
+      "meaning": "yashash maqomi bilan ruxsat etilmagan faoliyatlar",
       "kr": "체류 자격 외 활동"
     },
     {
-      "uz": "yashash joyini tasdiqlovchi hujjat",
+      "meaning": "yashash joyini tasdiqlovchi hujjat",
       "kr": "체류지 입증 서류"
     },
     {
-      "uz": "qolish",
+      "meaning": "qolish",
       "kr": "체류하다"
     },
     {
-      "uz": "sport musobaqasi",
+      "meaning": "sport musobaqasi",
       "kr": "체육대회"
     },
     {
-      "uz": "chek karta",
+      "meaning": "chek karta",
       "kr": "체크카드"
     },
     {
-      "uz": "taklif qilinish",
+      "meaning": "taklif qilinish",
       "kr": "초대를 받다"
     },
     {
-      "uz": "taklif qilish",
+      "meaning": "taklif qilish",
       "kr": "초대하다"
     },
     {
-      "uz": "shokolad",
+      "meaning": "shokolad",
       "kr": "초콜릿"
     },
     {
-      "uz": "yalpi ish haqi",
+      "meaning": "yalpi ish haqi",
       "kr": "총액"
     },
     {
-      "uz": "eng yuqori harorat",
+      "meaning": "eng yuqori harorat",
       "kr": "최고기온"
     },
     {
-      "uz": "eng past harorat",
+      "meaning": "eng past harorat",
       "kr": "최저기온"
     },
     {
-      "uz": "eng kam ish haqi",
+      "meaning": "eng kam ish haqi",
       "kr": "최저임금"
     },
     {
-      "uz": "birinchi",
+      "meaning": "birinchi",
       "kr": "최초"
     },
     {
-      "uz": "balandlikdan yiqilish",
+      "meaning": "balandlikdan yiqilish",
       "kr": "추락하다"
     },
     {
-      "uz": "deportatsiya qilinish",
+      "meaning": "deportatsiya qilinish",
       "kr": "추방되다"
     },
     {
-      "uz": "Chuseok / Koreya Mincetish bayrami",
+      "meaning": "Chuseok / Koreya Mincetish bayrami",
       "kr": "추석"
     },
     {
-      "uz": "tavsiya qilish",
+      "meaning": "tavsiya qilish",
       "kr": "추천하다"
     },
     {
-      "uz": "futbol klubi",
+      "meaning": "futbol klubi",
       "kr": "축구 동호회"
     },
     {
-      "uz": "futbol o'ynash",
+      "meaning": "futbol o'ynash",
       "kr": "축구하다"
     },
     {
-      "uz": "molxona / cho'chqaxona",
+      "meaning": "molxona / cho'chqaxona",
       "kr": "축사"
     },
     {
-      "uz": "go'sht va sut sanoati",
+      "meaning": "go'sht va sut sanoati",
       "kr": "축산업"
     },
     {
-      "uz": "tabrik puli",
+      "meaning": "tabrik puli",
       "kr": "축의금"
     },
     {
-      "uz": "festivalni tomosha qilish",
+      "meaning": "festivalni tomosha qilish",
       "kr": "축제를 구경하다"
     },
     {
-      "uz": "tabriklash",
+      "meaning": "tabriklash",
       "kr": "축하하다"
     },
     {
-      "uz": "tashqariga chiqarish (ombor/zavoddan)",
+      "meaning": "tashqariga chiqarish (ombor/zavoddan)",
       "kr": "출고하다"
     },
     {
-      "uz": "ketish arizasi",
+      "meaning": "ketish arizasi",
       "kr": "출국 예정 신고서"
     },
     {
-      "uz": "ishga kelish vaqti",
+      "meaning": "ishga kelish vaqti",
       "kr": "출근 시간"
     },
     {
-      "uz": "pul yechish",
+      "meaning": "pul yechish",
       "kr": "출금하다"
     },
     {
-      "uz": "jo'nab ketish",
+      "meaning": "jo'nab ketish",
       "kr": "출발하다"
     },
     {
-      "uz": "tug'ish ta'tili",
+      "meaning": "tug'ish ta'tili",
       "kr": "출산 휴가"
     },
     {
-      "uz": "Kirish taqiqlanadi",
+      "meaning": "Kirish taqiqlanadi",
       "kr": "출입 금지"
     },
     {
-      "uz": "Immigratsiya xizmati idorasi",
+      "meaning": "Immigratsiya xizmati idorasi",
       "kr": "출입국 관리소"
     },
     {
-      "uz": "immigratsiya idorasi",
+      "meaning": "immigratsiya idorasi",
       "kr": "출입국관리사무소"
     },
     {
-      "uz": "Kirish taqiqlanadi",
+      "meaning": "Kirish taqiqlanadi",
       "kr": "출입금지"
     },
     {
-      "uz": "kirish eshigi",
+      "meaning": "kirish eshigi",
       "kr": "출입문"
     },
     {
-      "uz": "shoshilinch soatlar (ishga borish/kelish)",
+      "meaning": "shoshilinch soatlar (ishga borish/kelish)",
       "kr": "출퇴근 시간"
     },
     {
-      "uz": "mollarni jo'natish",
+      "meaning": "mollarni jo'natish",
       "kr": "출하하다"
     },
     {
-      "uz": "raqqosa",
+      "meaning": "raqqosa",
       "kr": "춤을 추다"
     },
     {
-      "uz": "sovuq",
+      "meaning": "sovuq",
       "kr": "춥다"
     },
     {
-      "uz": "to'qnashuv",
+      "meaning": "to'qnashuv",
       "kr": "충돌하다"
     },
     {
-      "uz": "yetarli bo'lish",
+      "meaning": "yetarli bo'lish",
       "kr": "충분하다"
     },
     {
-      "uz": "ishga joylashish uchun ta'lim olish",
+      "meaning": "ishga joylashish uchun ta'lim olish",
       "kr": "취업 교육을 받다"
     },
     {
-      "uz": "ish davri",
+      "meaning": "ish davri",
       "kr": "취업 기간"
     },
     {
-      "uz": "ish davrini uzaytirish uchun ariza",
+      "meaning": "ish davrini uzaytirish uchun ariza",
       "kr": "취업 활동 기간 연장 신청서"
     },
     {
-      "uz": "xodim",
+      "meaning": "xodim",
       "kr": "취업자"
     },
     {
-      "uz": "ishga joylashish",
+      "meaning": "ishga joylashish",
       "kr": "취업하다"
     },
     {
-      "uz": "stomatologiya",
+      "meaning": "stomatologiya",
       "kr": "치과"
     },
     {
-      "uz": "davolash",
+      "meaning": "davolash",
       "kr": "치료를 하다"
     },
     {
-      "uz": "davolash xarajatlari",
+      "meaning": "davolash xarajatlari",
       "kr": "치료비"
     },
     {
-      "uz": "yubka",
+      "meaning": "yubka",
       "kr": "치마"
     },
     {
-      "uz": "Chi-mek (tovuq va pivo)",
+      "meaning": "Chi-mek (tovuq va pivo)",
       "kr": "치맥"
     },
     {
-      "uz": "tish pastasi",
+      "meaning": "tish pastasi",
       "kr": "치약"
     },
     {
-      "uz": "tozalash / olib tashlash",
+      "meaning": "tozalash / olib tashlash",
       "kr": "치우다"
     },
     {
-      "uz": "tovuq (odatda qovurilgan tovuq)",
+      "meaning": "tovuq (odatda qovurilgan tovuq)",
       "kr": "치킨"
     },
     {
-      "uz": "do'st",
+      "meaning": "do'st",
       "kr": "친구"
     },
     {
-      "uz": "do'st bilan uchrashish",
+      "meaning": "do'st bilan uchrashish",
       "kr": "친구를 만나다"
     },
     {
-      "uz": "mehribon / yaxshi",
+      "meaning": "mehribon / yaxshi",
       "kr": "친절하다"
     },
     {
-      "uz": "qarindoshlar uyiga borish",
+      "meaning": "qarindoshlar uyiga borish",
       "kr": "친척집에 가다"
     },
     {
-      "uz": "yaqin bo'lib qolish",
+      "meaning": "yaqin bo'lib qolish",
       "kr": "친해지다"
     },
     {
-      "uz": "70 yoshlik tug'ilgan kun",
+      "meaning": "70 yoshlik tug'ilgan kun",
       "kr": "칠순"
     },
     {
-      "uz": "doska",
+      "meaning": "doska",
       "kr": "칠판"
     },
     {
-      "uz": "tupurish",
+      "meaning": "tupurish",
       "kr": "침을 뱉다"
     },
     {
-      "uz": "tish cho'tkasi",
+      "meaning": "tish cho'tkasi",
       "kr": "칫솔"
     },
     {
-      "uz": "maqtash",
+      "meaning": "maqtash",
       "kr": "칭찬하다"
     }
   ]
